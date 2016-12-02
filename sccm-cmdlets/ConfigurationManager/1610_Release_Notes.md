@@ -1,9 +1,9 @@
 ---
-updated_at: 12/1/2016 10:06 PM
-ms.date: 12/1/2016
-content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/1610_Release_Notes.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/1312aee056984b5746a8b0e3c3eaae99f795b2f4/sccm-cmdlets/ConfigurationManager/vlatest/1610_Release_Notes.md
-uid: ConfigurationManager/vlatest/1610_Release_Notes.md
+updated_at: 12/2/2016 11:37 PM
+ms.date: 12/2/2016
+content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/1dd788968246a784bb1a226fb5a6939bdada69a4/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
+uid: ConfigurationManager/1610_Release_Notes.md
 ms.topic: conceptual
 author: shill-ms
 ms.author: v-suhill
