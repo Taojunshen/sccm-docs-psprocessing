@@ -3,7 +3,7 @@
     "content": [
       {
         "files": [
-          "**/*.md", "**/*.yml"
+          "**/*.md","**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -16,7 +16,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "breadcrumb.json"
         ],
         "exclude": [
           "**/obj/**",
@@ -28,9 +29,9 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-	  "breadcrumb_path": "/sccm-cmdlets/breadcrumb.json",
-        "ms.devlang": "",
-        "brand": ""
+	  "breadcrumb_path": "/powershell/sccm/breadcrumb.json",
+       "ms.devlang": "",
+       "brand": ""
 	},
     "fileMetadata": {},
     "template": [],
