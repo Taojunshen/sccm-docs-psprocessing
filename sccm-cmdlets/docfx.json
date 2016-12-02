@@ -3,7 +3,7 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md", "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -27,7 +27,11 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+	  "breadcrumb_path": "/sccm-cmdlets/breadcrumb.json",
+        "ms.devlang": "",
+        "brand": ""
+	},
     "fileMetadata": {},
     "template": [],
     "dest": "sccm-cmdlets"

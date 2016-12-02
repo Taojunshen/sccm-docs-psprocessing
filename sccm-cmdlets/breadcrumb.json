@@ -1,7 +1,23 @@
-[{
-    "toc_title":  "Docs",
-    "href":  "/",
-    "level":  1,
-    "children":  []
-                     
-}]
+[
+   {
+      "toc_title": "Docs",
+      "href": "/",
+      "level": 1,
+      "children": [
+         {
+            "href": "/powershell/sccm/",
+            "homepage": "/powershell/sccm/",
+            "toc_title": "sccm",
+            "level": 2,
+            "children": [
+               {
+                  "href": "/powershell/sccm/sccm-cmdlets/",
+                  "homepage": "/powershell/sccm/sccm-cmdlets/",
+                  "toc_title": "ssccm cmdlets",
+                  "level": 3
+               }
+            ]
+         }
+      ]
+   }
+]
