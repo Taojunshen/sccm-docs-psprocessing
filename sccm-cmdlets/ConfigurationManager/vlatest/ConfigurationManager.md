@@ -1,13 +1,16 @@
 ---
-external help file:
-online version:
-schema:
+Module Name: Configurationmanager
+Module Guid: 
+Download Help Link: Please enter FwLink manually
+Help Version: 1.0.0.0
+Locale: en-US
 ms.assetid: 0ADD6D91-97E0-4F79-ABE3-0174AA0C4750
-updated_at: 12/1/2016 10:06 PM
-ms.date: 12/1/2016
+updated_at: 12/2/2016 6:06 AM
+ms.date: 12/2/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/1312aee056984b5746a8b0e3c3eaae99f795b2f4/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
-ms.topic: reference
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c605faada91be8b5b8b25b6b807a4a30c2f3827e/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
+uid: ConfigurationManager/vlatest/ConfigurationManager.md
+ms.topic: conceptual
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet

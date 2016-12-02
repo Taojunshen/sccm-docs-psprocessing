@@ -1,6 +1,7 @@
 - name: ConfigurationManager
   items:
     - name: vlatest
+      href: ../ConfigurationManager/vlatest/ConfigurationManager.md
       items:
         - name: 1610_Release_Notes
           href: ../ConfigurationManager/vlatest/1610_Release_Notes.md
@@ -136,8 +137,6 @@
           href: ../ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
         - name: Clear-CMSiteStatusMessageCount
           href: ../ConfigurationManager/vlatest/Clear-CMSiteStatusMessageCount.md
-        - name: ConfigurationManager
-          href: ../ConfigurationManager/vlatest/ConfigurationManager.md
         - name: Convert-CMApplication
           href: ../ConfigurationManager/vlatest/Convert-CMApplication.md
         - name: Convert-CMSchedule
