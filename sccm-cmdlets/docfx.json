@@ -7,7 +7,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "sccm-cmdlets/**",
+          "sccm/**",
           "**/includes/**"
         ]
       }
@@ -21,7 +21,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "sccm-cmdlets/**",
+          "sccm/**",
           "**/includes/**"
         ]
       }
@@ -29,12 +29,12 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-	  "breadcrumb_path": "/powershell/sccm/breadcrumb.json",
-       "ms.devlang": "",
-       "brand": ""
-	},
+        "breadcrumb_path": "/powershell/sccm/breadcrumb.json",
+        "ms.devlang": "",
+        "brand": ""
+    },
     "fileMetadata": {},
     "template": [],
-    "dest": "sccm-cmdlets"
+    "dest": "sccm"
   }
 }
