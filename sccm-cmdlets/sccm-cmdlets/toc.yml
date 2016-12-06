@@ -6,8 +6,6 @@
     - name: vlatest
       href: ../ConfigurationManager/vlatest/ConfigurationManager.md
       items:
-        - name: 1610_Release_Notes
-          href: ../ConfigurationManager/vlatest/1610_Release_Notes.md
         - name: about_ConfigurationManager_Cmdlets
           href: ../ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
         - name: Add-CMAndroidDeploymentType
