@@ -9,7 +9,7 @@ author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: True
+open_to_public_contributors: true
 ms.service: configuration-manager
 ---
 # ConfigurationManager_Cmdlets
