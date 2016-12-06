@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833894
 schema: 2.0.0
 ms.assetid: B62E719D-4285-49C7-803B-E5E4CEFECB45
-updated_at: 12/1/2016 10:06 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 10:17 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionPassportForWorkProperty.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/1312aee056984b5746a8b0e3c3eaae99f795b2f4/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionPassportForWorkProperty.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/ff81042c3df9225a18e774033a7586e1415f013f/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionPassportForWorkProperty.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -34,8 +34,7 @@ Set-CMIntuneSubscriptionPassportForWorkProperty [-Enable <Boolean>] [-RequireTpm
 ## DESCRIPTION
 The **Set-CMIntuneSubscriptionPassportForWorkProperty** updates the settings of a Microsoft Intune subscription to enable Windows Hello for business for enrolled devices.
 
-> [!NOTE]
->  Windows Hello for Business was previously known as Microsoft Passport for Work.
+NOTE: Windows Hello for Business was previously known as Microsoft Passport for Work.
 
 ## EXAMPLES
 

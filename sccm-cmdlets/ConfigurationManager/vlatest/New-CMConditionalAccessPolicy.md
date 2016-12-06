@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833600
 schema: 2.0.0
 ms.assetid: D7E96763-967E-4FAA-BF63-F5D1DC4AEC2D
-updated_at: 12/1/2016 10:06 PM
-ms.date: 12/1/2016
+updated_at: 12/5/2016 8:57 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/1312aee056984b5746a8b0e3c3eaae99f795b2f4/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/9093552499530337eb61fcf31fcda8391c7d39ef/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -47,8 +47,7 @@ New-CMConditionalAccessPolicy [-DefaultRuleOverride] -TargetedCollectionName <St
 ## DESCRIPTION
 The **New-CMConditionalAccessPolicy** cmdlet creates a conditional access policy.
 
-    > [!NOTE]
-    > Ensure that the Administrator has set the notification email address for the Exchange connector before running this cmdlet.
+NOTE: Ensure that the Administrator has set the notification email address for the Exchange connector before running this cmdlet.
 
 ## EXAMPLES
 
