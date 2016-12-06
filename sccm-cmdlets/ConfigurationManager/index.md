@@ -6,10 +6,10 @@ ms.service:
 author: "shill-ms"
 ms.author: "v-suhill"
 ms.manager: "mbaldwin"
-updated_at: 12/5/2016 10:17 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:34 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/index.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/ff81042c3df9225a18e774033a7586e1415f013f/sccm-cmdlets/ConfigurationManager/index.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/22de5484b27de027abe30c49229bc62cf2bb6fd4/sccm-cmdlets/ConfigurationManager/index.md
 ms.topic: reference
 keywords: powershell, cmdlet
 manager: mbaldwin
@@ -27,7 +27,7 @@ You can run Configuration Manager cmdlets and scripts by using the Configuration
 ### Load Windows PowerShell from the Configuration Manager Console
 The easiest method to load Windows PowerShell is directly from the Configuration Manager console.  
 
-1.  Start by launching the Configuration Manager console. In the upper left corner, there’s a blue rectangle. Click the white arrow in the blue rectangle, and choose Connect via Windows PowerShell.
+1.  Start by launching the Configuration Manager console. In the upper left corner, there’s a blue rectangle. Click the white arrow in the blue rectangle, and choose **Connect via Windows PowerShell**.
 
 2.  After Windows PowerShell loads, you’ll see a prompt that contains your site code. For example, if the site code is "ABC", the prompt looks like:
 
