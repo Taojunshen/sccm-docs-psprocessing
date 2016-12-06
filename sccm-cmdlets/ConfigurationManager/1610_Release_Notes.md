@@ -1,8 +1,8 @@
 ---
-updated_at: 12/6/2016 9:30 PM
+updated_at: 12/6/2016 9:46 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/5390c18cead146fb3adaad446ec4fd0cafa2a42c/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/391bf7401827e4350097e052db7d917d94518793/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
 uid: ConfigurationManager/1610_Release_Notes.md
 ms.topic: conceptual
 author: shill-ms
@@ -12,9 +12,6 @@ manager: mbaldwin
 open_to_public_contributors: true
 ms.service: configuration-manager
 ---
-# ConfigurationManager_Cmdlets
-## 1610_release_notes
-
 # System Center Configuration Manager Cmdlet Library changes for Current Branch 1610
 
  >[!NOTE]
