@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833941
 schema: 2.0.0
 ms.assetid: 1A28C432-B26B-43EE-8C1D-856F16DDB25E
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMCategory.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMCategory.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMCategory.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,7 +62,15 @@ This command removes the category named NewLaptopDriverSet from DriversCategorie
 ## PARAMETERS
 
 ### -CategoryType
+Specifies a category type.
+Valid values are: 
 
+-- UserCategories
+-- BaselineCategories
+-- DriverCategories
+-- AppCategories
+-- GlobalCondition
+-- CatalogCategories
 
 ```yaml
 Type: CategoryType
@@ -151,7 +159,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-
+Specifies an array of IDs of configuration categories.
 
 ```yaml
 Type: String[]
@@ -181,7 +189,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies an array of names of configuration categories.
 
 ```yaml
 Type: String[]

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833762
 schema: 2.0.0
 ms.assetid: 3C642D15-E6BF-4416-99F6-98BDBC2A5D36
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMStateMigrationPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMStateMigrationPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMStateMigrationPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,7 +65,7 @@ The third command adds a state migration point.
 ## PARAMETERS
 
 ### -AllowFallbackSourceLocationForContent
-
+Indicates whether a fallback source location is available.
 
 ```yaml
 Type: Boolean
@@ -80,7 +80,8 @@ Accept wildcard characters: False
 ```
 
 ### -BoundaryGroupName
-
+Specifies an array of names of boundary groups.
+You can get a boundary group name by using the Get-CMBoundaryGroup cmdlet.
 
 ```yaml
 Type: String[]
@@ -110,7 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeleteImmediately
-
+Indicates that Configuration Manager deletes client data immediately after the target computer downloads the data.
 
 ```yaml
 Type: SwitchParameter
@@ -140,7 +141,8 @@ Accept wildcard characters: False
 ```
 
 ### -EnableRestoreOnlyMode
-
+Indicates whether to enable restore only mode.
+If this mode is enabled, Configuration Manager refuses new requests to store client data.
 
 ```yaml
 Type: Boolean
@@ -185,7 +187,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteCode
-
+Specifies the Configuration Manager site that hosts this site system role.
 
 ```yaml
 Type: String
@@ -200,7 +202,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteSystemServerName
-
+Specifies the name of the site system server in Configuration Manager.
 
 ```yaml
 Type: String
@@ -230,7 +232,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeDeleteAfter
-
+Specifies a time interval to wait before client data is deleted.
 
 ```yaml
 Type: Int32
@@ -245,7 +247,8 @@ Accept wildcard characters: False
 ```
 
 ### -TimeUnit
-
+Specifies the unit of time for the TimeDeleteAfter parameter.
+Valid values are: Days and Hours.
 
 ```yaml
 Type: IntervalType

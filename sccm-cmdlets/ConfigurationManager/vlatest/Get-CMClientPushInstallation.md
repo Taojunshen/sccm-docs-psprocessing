@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834188
 schema: 2.0.0
 ms.assetid: 93625B5F-18C6-48F8-9BB2-6CF6BC0E4590
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientPushInstallation.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientPushInstallation.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientPushInstallation.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteCode
-
+Specifies an array of site codes that identify sites on which Configuration Manager installs the client.
 
 ```yaml
 Type: String
@@ -93,7 +93,8 @@ Accept wildcard characters: False
 ```
 
 ### -SiteSystemServerName
-
+Specifies an array of names of site system servers.
+Site system servers contain roles that define the operations that each site can perform.
 
 ```yaml
 Type: String

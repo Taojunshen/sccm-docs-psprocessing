@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833770
 schema: 2.0.0
 ms.assetid: 1343FB22-DB1A-4CBC-A26B-DFED53CF00A1
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-
+Specifies a description of a software update group.
 
 ```yaml
 Type: String
@@ -122,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies a name of a software update group.
 
 ```yaml
 Type: String
@@ -167,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -UpdateId
-
+Specifies an array of IDs of software updates.
 
 ```yaml
 Type: Int32[]

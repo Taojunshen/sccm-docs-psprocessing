@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833617
 schema: 2.0.0
 ms.assetid: F460F99B-D44F-4B83-94AB-B84BE510AC37
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceCollection.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceCollection.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceCollection.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -68,8 +68,8 @@ For more information about Configuration Manager collections, see [Introduction 
 PS C:\>New-CMDeviceCollection -Name "Windows 7" -LimitingCollectionName "All Systems"
 ```
 
-This command creates a collection for all computers that run WindowsÂ® 7.
-The *LimitingCollectionName* parameter specifies that any device in the All Systems collection can be a member of the WindowsÂ® 7 collection.
+This command creates a collection for all computers that run Windows® 7.
+The *LimitingCollectionName* parameter specifies that any device in the All Systems collection can be a member of the Windows® 7 collection.
 
 ## PARAMETERS
 
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-{{Fill InputObject Description}}
+
 
 ```yaml
 Type: IResultObject

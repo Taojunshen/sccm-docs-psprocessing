@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833745
 schema: 2.0.0
 ms.assetid: 69AC1D24-491C-4095-B924-5D78E948342B
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMManagementPointComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMManagementPointComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMManagementPointComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteCode
-
+Specifies the site code for the management point.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteSystemServerName
-
+Specifies a fully qualified domain name (FQDN) of the server that hosts the site system role.
 
 ```yaml
 Type: String

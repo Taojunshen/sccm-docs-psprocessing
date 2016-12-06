@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Alerts.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834232
 schema: 2.0.0
 ms.assetid: CD9803F0-3DBE-4056-9E85-A834AD91D390
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAlertSubscription.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAlertSubscription.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAlertSubscription.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -46,7 +46,7 @@ Because the command specifies a locale ID of 1033, the subscription uses US Engl
 ## PARAMETERS
 
 ### -AlertId
-
+Specifies an array of alert identifiers for the subscription.
 
 ```yaml
 Type: Int32[]
@@ -91,7 +91,9 @@ Accept wildcard characters: False
 ```
 
 ### -EmailAddress
-
+Specifies an email address where you want to send an alert notification.
+For example, david.chew@contoso.com.
+You can separate multiple email addresses by using a semicolon.
 
 ```yaml
 Type: String[]
@@ -121,7 +123,8 @@ Accept wildcard characters: False
 ```
 
 ### -LocaleId
-
+Specifies a locale for alert messages.
+For more information and a list of locale identifiers, see the Locale IDs Assigned by Microsoft topic at http://go.microsoft.com/fwlink/?LinkId=262651.
 
 ```yaml
 Type: Int32
@@ -136,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies the name of an alert subscription object.
 
 ```yaml
 Type: String

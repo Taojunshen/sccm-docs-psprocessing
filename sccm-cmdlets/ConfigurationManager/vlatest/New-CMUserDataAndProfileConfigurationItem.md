@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833811
 schema: 2.0.0
 ms.assetid: 628F6856-2636-4C39-AEF8-BA670101D08C
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -AddAdminGroupToRupEnabled
-
+Indicates whether to grant the Administrators group access to roaming profile folders.
 
 ```yaml
 Type: Boolean
@@ -984,7 +984,7 @@ Accept wildcard characters: False
 ```
 
 ### -Timeout
-
+Specifies a timeout value.
 
 ```yaml
 Type: Int32

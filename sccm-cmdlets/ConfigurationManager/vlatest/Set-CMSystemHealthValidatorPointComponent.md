@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834123
 schema: 2.0.0
 ms.assetid: 27842BB3-EBB9-41C0-9713-53C515D27E2B
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -95,7 +95,12 @@ Accept wildcard characters: False
 ```
 
 ### -Date
+Specifies a date, as a DateTime object.
+To obtain a DateTime object, use the Get-Date cmdlet.
+For more information, type Get-Help Get-Date.
 
+If you specify a value of $True for the UseDateTime parameter, a client must create a statement of health after the date and time specified by using this parameter and the Time parameter.
+The date and time must be in the past.
 
 ```yaml
 Type: DateTime
@@ -110,7 +115,9 @@ Accept wildcard characters: False
 ```
 
 ### -DesignateActiveDirectoryForest
-
+Indicates whether the site system server and the system health validator points are in different Active Directory forests.
+If the value is $True, specify an Active Directory forest by using the DomainSuffix parameter.
+If no trust relationship exists between the forests, you may need to specify accounts by using the PublishAccount and QueryAccount parameters.
 
 ```yaml
 Type: Boolean
@@ -140,7 +147,8 @@ Accept wildcard characters: False
 ```
 
 ### -DomainSuffix
-
+Specifies a domain suffix for a designated Active Directory forest.
+If no trust relationship exists between this forest and the site system server forest, you may need to specify accounts by using the PublishAccount and QueryAccount parameters.
 
 ```yaml
 Type: String
@@ -201,7 +209,10 @@ Accept wildcard characters: False
 ```
 
 ### -PublishAccount
+Specifies a health state reference publishing account, in the format Domain\User.
+If you do not specify an account, the component uses the site system server account.
 
+You must specify an account if no trust relationship exists between the site server domain and the domain suffix specified in the DomainSuffix parameter or if there is a trust relationship, but the site system server account lacks Full Control permission for the System Management Active Directory container.
 
 ```yaml
 Type: String
@@ -216,7 +227,10 @@ Accept wildcard characters: False
 ```
 
 ### -QueryAccount
+Specifies an account, in the format Domain\User, that the system health validator point uses to query AD DS for state references.
+If you do not specify an account, the component uses the site system server account.
 
+You must specify an account if no trust relationship exists between the site server domain and the domain suffix specified in the DomainSuffix parameter.
 
 ```yaml
 Type: String
@@ -276,7 +290,11 @@ Accept wildcard characters: False
 ```
 
 ### -Time
+Specifies a time, as a DateTime object.
+To obtain a DateTime object, use the Get-Date cmdlet.
 
+If you specify a value of $True for the UseDateTime parameter, a client must create a statement of health after the date and time specified by using this parameter and the Date parameter.
+The date and time must be in the past.
 
 ```yaml
 Type: DateTime
@@ -291,7 +309,10 @@ Accept wildcard characters: False
 ```
 
 ### -UseDateTime
-
+Indicates whether a client must create a statement of health after a specific date and time.
+If you select a value of $True, specify the date and time by using the Date and Time parameters.
+The date and time must be in the past.
+The default value for this parameter is $False.
 
 ```yaml
 Type: Boolean

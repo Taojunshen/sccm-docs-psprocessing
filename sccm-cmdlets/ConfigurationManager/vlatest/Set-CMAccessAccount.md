@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833601
 schema: 2.0.0
 ms.assetid: BB88D28C-3AA8-4F03-B0CF-07DE6769B4A9
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccessAccount.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccessAccount.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccessAccount.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -151,7 +151,8 @@ You must confirm the action before the command performs it.
 ## PARAMETERS
 
 ### -Access
-
+Specifies the access rights that are associated with an access account.
+Valid values are: No Access, Read, Change, and Full Control.
 
 ```yaml
 Type: AccessRight
@@ -167,7 +168,8 @@ Accept wildcard characters: False
 ```
 
 ### -AccountType
-
+Specifies an account type.
+Valid values are: Guest, User, WindowsGroup, and WindowsUser.
 
 ```yaml
 Type: AccessAccountType
@@ -469,7 +471,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserName
-
+Specifies a Windows user account name in domain\user format.
 
 ```yaml
 Type: String

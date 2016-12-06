@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833818
 schema: 2.0.0
 ms.assetid: A04B7F84-3E7F-4D68-A046-A6A4DEE09A98
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -123,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-
+Specifies an array of IDs for distribution point groups.
 
 ```yaml
 Type: String
@@ -138,7 +138,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies a CMDistributionPointGroup object.
+To obtain a CMDistributionPointGroup object, use the Get-CMDistributionPointGroup cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -153,7 +154,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies a name of a distribution point group.
 
 ```yaml
 Type: String

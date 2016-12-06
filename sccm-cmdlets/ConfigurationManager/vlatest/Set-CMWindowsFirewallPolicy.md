@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834164
 schema: 2.0.0
 ms.assetid: 4B32EE03-FD8B-4F78-9F32-258A1C20EB0A
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-
+Specifies a description for the Windows Firewall policy.
 
 ```yaml
 Type: String
@@ -180,7 +180,12 @@ Accept wildcard characters: False
 ```
 
 ### -DomainBlockAllInboundTraffic
+Specifies whether the firewall blocks all incoming traffic for a domain type network location.
+Valid values are: 
 
+-- No
+-- Not Configured
+-- Yes
 
 ```yaml
 Type: SettingType
@@ -212,7 +217,12 @@ Accept wildcard characters: False
 ```
 
 ### -DomainTurnOnFirewall
+Specifies whether to enable Windows Firewall for domain network location.
+Valid values are: 
 
+-- No
+-- Not Configured
+-- Yes
 
 ```yaml
 Type: SettingType
@@ -243,7 +253,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-
+Specifies an array of IDs of firewall policies.
 
 ```yaml
 Type: Int32
@@ -258,7 +268,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies a CMWindowsFirewallPolicy object.
+To obtain a CMWindowsFirewallPolicy object, use the Get-CMWindowsFirewallPolicy cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -273,7 +284,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies an array of firewall policy names.
 
 ```yaml
 Type: String
@@ -288,7 +299,7 @@ Accept wildcard characters: False
 ```
 
 ### -NewName
-
+Specifies a new name for the firewall policy.
 
 ```yaml
 Type: String
@@ -318,7 +329,8 @@ Accept wildcard characters: False
 ```
 
 ### -Priority
-
+Specifies the priority of a firewall policy.
+Valid values are: Increase and Decrease.
 
 ```yaml
 Type: PriorityChangeType
@@ -334,7 +346,12 @@ Accept wildcard characters: False
 ```
 
 ### -PrivateBlockAllInboundTraffic
+Specifies whether the firewall blocks all incoming traffic for a private network location.
+Valid values are: 
 
+-- No
+-- Not Configured
+-- Yes
 
 ```yaml
 Type: SettingType
@@ -366,7 +383,12 @@ Accept wildcard characters: False
 ```
 
 ### -PrivateTurnOnFirewall
+Specifies whether to enable Windows Firewall for a private network location.
+Valid values are: 
 
+-- No
+-- Not Configured
+-- Yes
 
 ```yaml
 Type: SettingType
@@ -382,7 +404,12 @@ Accept wildcard characters: False
 ```
 
 ### -PublicBlockAllInboundTraffic
+Specifies whether the firewall blocks all incoming traffic for a public network location.
+Valid values are: 
 
+-- No
+-- Not Configured
+-- Yes
 
 ```yaml
 Type: SettingType
@@ -414,7 +441,12 @@ Accept wildcard characters: False
 ```
 
 ### -PublicTurnOnFirewall
+Specifies whether to enable Windows Firewall for a public network location.
+Valid values are: 
 
+-- No
+-- Not Configured
+-- Yes
 
 ```yaml
 Type: SettingType

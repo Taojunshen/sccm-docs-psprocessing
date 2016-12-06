@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833690
 schema: 2.0.0
 ms.assetid: 51F673B9-5558-4865-8AF8-B0B67296F729
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -176,7 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-
+Specifies an array of identifiers for one or more boundary groups.
 
 ```yaml
 Type: String
@@ -191,7 +191,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies an input object to this cmdlet.
+You can get the input object by using the Get-CMBoundaryGroup cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -206,7 +207,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies a name for a boundary group.
 
 ```yaml
 Type: String

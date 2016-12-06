@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833861
 schema: 2.0.0
 ms.assetid: D9439146-832E-49E5-A105-B06F9B5B1296
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAccessAccount.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAccessAccount.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAccessAccount.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -148,7 +148,8 @@ No confirmation is required.
 ## PARAMETERS
 
 ### -AccountType
-
+Specifies an account type.
+Valid values are: Guest, User, WindowsGroup, and WindowsUser.
 
 ```yaml
 Type: AccessAccountType
@@ -449,7 +450,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserName
-
+Specifies a Windows user account name in domain\user format.
 
 ```yaml
 Type: String

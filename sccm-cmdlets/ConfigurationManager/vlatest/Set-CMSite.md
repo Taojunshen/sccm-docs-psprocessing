@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834034
 schema: 2.0.0
 ms.assetid: CED257A6-E5DE-4D3D-97FA-861AEA295DE3
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSite.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSite.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSite.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -452,7 +452,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaximumNumberOfSendingWakeupPacketBeforePausing
-
+Specifies the maximum number of wake up packets transmitted by this site server before pausing.
 
 ```yaml
 Type: Int32
@@ -611,7 +611,7 @@ Accept wildcard characters: False
 ```
 
 ### -RetryNumberOfSendingWakeupPacketTransmission
-
+Specifies the number of times a wake up packet is sent to a target computer.
 
 ```yaml
 Type: Int32
@@ -702,7 +702,7 @@ Accept wildcard characters: False
 ```
 
 ### -ThreadNumberOfSendingWakeupPacket
-
+Specifies the number of threads a site server uses when sending wake up packets.
 
 ```yaml
 Type: Int32
@@ -717,7 +717,8 @@ Accept wildcard characters: False
 ```
 
 ### -UseCustomWebsite
-
+Indicates whether to use a custom web site.
+Use a custom web site when you do not want to use the default web site.
 
 ```yaml
 Type: Boolean

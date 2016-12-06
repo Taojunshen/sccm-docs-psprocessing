@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833704
 schema: 2.0.0
 ms.assetid: 4FDCA14B-25A9-4224-AD46-F204C1F525F2
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMManagementPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMManagementPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMManagementPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -82,7 +82,7 @@ This name is also the fully qualified domain name for the SQL Server instance na
 ## PARAMETERS
 
 ### -AllowDevice
-
+Indicates that the management point supports device clients.
 
 ```yaml
 Type: SwitchParameter
@@ -97,7 +97,12 @@ Accept wildcard characters: False
 ```
 
 ### -ClientConnectionType
+Specifies the type of the client connection.
+Valid values are: 
 
+-- Internet
+-- InternetAndIntranet
+-- Intranet
 
 ```yaml
 Type: ClientConnectionTypes
@@ -159,7 +164,7 @@ Accept wildcard characters: False
 ```
 
 ### -DatabaseName
-
+Specifies the name of the site database or site database replica that the management point uses to query for site database information.
 
 ```yaml
 Type: String
@@ -189,7 +194,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableSsl
-
+Indicates that the cmdlet enables SSL for the management point.
 
 ```yaml
 Type: SwitchParameter
@@ -219,7 +224,7 @@ Accept wildcard characters: False
 ```
 
 ### -GenerateAlert
-
+Indicates that Configuration Manager generates an alert when the management point is not healthy.
 
 ```yaml
 Type: SwitchParameter
@@ -249,7 +254,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteCode
-
+Specifies the site code of the Configuration Manager site that hosts the site system role.
 
 ```yaml
 Type: String
@@ -264,7 +269,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteSystemServerName
-
+Specifies the name of the server that hosts the site system role.
 
 ```yaml
 Type: String
@@ -294,7 +299,7 @@ Accept wildcard characters: False
 ```
 
 ### -SqlServerInstanceName
-
+Specifies the name of the SQL Server instance that clients use to communicate with the site system.
 
 ```yaml
 Type: String

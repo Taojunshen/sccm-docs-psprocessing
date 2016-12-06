@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833875
 schema: 2.0.0
 ms.assetid: 9502FE38-91CD-49ED-A267-7F8E74695968
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHierarchySetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHierarchySetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHierarchySetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -47,7 +47,7 @@ The command specifies the value AutomaticallyApproveAllComputers for the *Approv
 ## PARAMETERS
 
 ### -AllowPrestage
-
+Indicates whether to allow prestaging.
 
 ```yaml
 Type: Boolean
@@ -62,7 +62,12 @@ Accept wildcard characters: False
 ```
 
 ### -ApprovalMethod
+Specifies an approval method.
+Valid values are:  
 
+-- AutomaticallyApproveAllComputers
+-- AutomaticallyApproveComputersInTrustedDomains
+-- ManuallyApproveEachComputer
 
 ```yaml
 Type: ApprovalMethodType
@@ -168,7 +173,7 @@ Accept wildcard characters: False
 ```
 
 ### -FallbackSiteCode
-
+Specifies the site code for a fallback site.
 
 ```yaml
 Type: String
@@ -229,7 +234,7 @@ Accept wildcard characters: False
 ```
 
 ### -UseFallbackSite
-
+Indicates whether to use a fallback site.
 
 ```yaml
 Type: Boolean

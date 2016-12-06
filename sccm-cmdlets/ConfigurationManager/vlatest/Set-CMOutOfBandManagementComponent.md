@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833966
 schema: 2.0.0
 ms.assetid: 31071321-3393-445D-8345-B2DF8875EB1D
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -334,7 +334,8 @@ Accept wildcard characters: False
 ```
 
 ### -EnableIdeRedirection
-
+Indicates whether to enable IDE redirection.
+Intel AMT uses IDE redirection to redirect serial and IDE communication from a managed client to a management console.
 
 ```yaml
 Type: Boolean

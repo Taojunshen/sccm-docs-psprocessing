@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834227
 schema: 2.0.0
 ms.assetid: ABE2C372-76D4-46F7-B817-A963A5AA3145
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMSoftwareUpdateDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMSoftwareUpdateDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMSoftwareUpdateDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -153,7 +153,7 @@ Accept wildcard characters: False
 ```
 
 ### -AllowRestart
-
+Indicates whether to allow a restart following installation.
 
 ```yaml
 Type: Boolean
@@ -168,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -AllowUseMeteredNetwork
-
+Indicates whether to allow clients to use a metered network to download updates.
 
 ```yaml
 Type: Boolean
@@ -183,7 +183,8 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionName
-
+Specifies a name of a collection in Configuration Manager.
+A collection is a group of client computers.
 
 ```yaml
 Type: String
@@ -213,7 +214,8 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentAvailableDay
-
+Specifies a day, in MM/DD/YYYY format, when a software update deployment is available.
+By default, the update is available immediately.
 
 ```yaml
 Type: DateTime
@@ -228,7 +230,8 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentAvailableTime
-
+Specifies a time, in HH:MM format, when a software update deployment is available.
+By default, the update is available immediately.
 
 ```yaml
 Type: DateTime
@@ -243,7 +246,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentName
-
+Specifies a name for a software update deployment in Configuration Manager.
 
 ```yaml
 Type: String
@@ -258,7 +261,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentType
-
+Specifies a deployment type in Configuration Manager.
 
 ```yaml
 Type: DeploymentType
@@ -274,7 +277,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-
+Specifies a description for a software update deployment.
 
 ```yaml
 Type: String
@@ -289,7 +292,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisableOperationsManagerAlert
-
+Indicates whether to disable System Center 2012 - Operations Manager alerts during software updates.
 
 ```yaml
 Type: Boolean
@@ -319,7 +322,7 @@ Accept wildcard characters: False
 ```
 
 ### -DownloadFromMicrosoftUpdate
-
+Indicates whether clients download updates directly from Microsoft Update.
 
 ```yaml
 Type: Boolean
@@ -379,7 +382,7 @@ Accept wildcard characters: False
 ```
 
 ### -GenerateOperationsManagerAlert
-
+Indicates whether to generate Operations Manager alerts when a software installation fails.
 
 ```yaml
 Type: Boolean
@@ -394,7 +397,7 @@ Accept wildcard characters: False
 ```
 
 ### -GenerateSuccessAlert
-
+Indicates whether to generate alerts when a software installation succeeds.
 
 ```yaml
 Type: Boolean
@@ -424,7 +427,7 @@ Accept wildcard characters: False
 ```
 
 ### -PercentSuccess
-
+Specifies a percent success.
 
 ```yaml
 Type: Int32
@@ -439,7 +442,7 @@ Accept wildcard characters: False
 ```
 
 ### -PersistOnWriteFilterDevice
-
+Indicates whether to install a software update on the temporary overlay and commit changes later, or commit the changes at an installation deadline or a maintenance window.
 
 ```yaml
 Type: Boolean
@@ -454,7 +457,7 @@ Accept wildcard characters: False
 ```
 
 ### -ProtectedType
-
+Specifies a protected type.
 
 ```yaml
 Type: ProtectedType
@@ -470,7 +473,9 @@ Accept wildcard characters: False
 ```
 
 ### -RestartServer
-
+Indicates whether to allow a server to restart following a software update.
+Setting this value to $True prevents the server from restarting.
+Setting this value to $False allows the server to restart.
 
 ```yaml
 Type: Boolean
@@ -485,7 +490,9 @@ Accept wildcard characters: False
 ```
 
 ### -RestartWorkstation
-
+Indicates whether to allow a workstation to restart following a software update.
+Setting this value to $True prevents the computer from restarting.
+Setting this value to $False allows the computer to restart.
 
 ```yaml
 Type: Boolean
@@ -500,7 +507,10 @@ Accept wildcard characters: False
 ```
 
 ### -SendWakeupPacket
-
+Indicates whether to send a wake up packet to computers before the deployment begins.
+If this value is $True, Configuration Manager wakes a computer from sleep.
+If this value is $False, it does not wake computers from sleep.
+For computers to wake, you must first configure Wake On LAN.
 
 ```yaml
 Type: Boolean
@@ -515,7 +525,7 @@ Accept wildcard characters: False
 ```
 
 ### -SoftwareInstallation
-
+Indicates whether to allow the software update to install, even if the installation occurs outside of a maintenance window.
 
 ```yaml
 Type: Boolean
@@ -591,7 +601,8 @@ Accept wildcard characters: False
 ```
 
 ### -TimeBasedOn
-
+Specifies that client computers use either local or UTC time to determine the availability of a program.
+UTC time makes the software update available at the same time for all computers.
 
 ```yaml
 Type: TimeType
@@ -607,7 +618,13 @@ Accept wildcard characters: False
 ```
 
 ### -TimeUnit
+Specifies the time unit in Configuration Manager.
+Valid values are: 
 
+-- Days 
+-- Hours
+-- Months 
+-- Weeks
 
 ```yaml
 Type: TimeUnitType
@@ -623,7 +640,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeValue
-
+Specifies a time value in the units specified in the TimeUnit parameter.
 
 ```yaml
 Type: Int32
@@ -638,7 +655,7 @@ Accept wildcard characters: False
 ```
 
 ### -UnprotectedType
-
+Specifies an unprotected type.
 
 ```yaml
 Type: UnprotectedType
@@ -654,7 +671,7 @@ Accept wildcard characters: False
 ```
 
 ### -UseBranchCache
-
+Indicates whether to use Branch Cache as a distribution point for updates.
 
 ```yaml
 Type: Boolean
@@ -669,7 +686,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserNotification
-
+Specifies a user notification type.
 
 ```yaml
 Type: UserNotificationType
@@ -685,7 +702,12 @@ Accept wildcard characters: False
 ```
 
 ### -VerbosityLevel
+Specifies verbosity level.
+Valid values are: 
 
+-- AllMessages
+-- OnlyErrorMessages
+-- OnlySuccessAndErrorMessages
 
 ```yaml
 Type: VerbosityLevelType

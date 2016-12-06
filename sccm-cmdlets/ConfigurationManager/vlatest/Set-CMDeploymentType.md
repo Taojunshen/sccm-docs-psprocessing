@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833783
 schema: 2.0.0
 ms.assetid: AB2468DA-0537-401E-A689-523831E85FBE
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -301,7 +301,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdministratorComment
-
+Specifies a description for the deployment type.
 
 ```yaml
 Type: String
@@ -346,7 +346,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationName
-
+Specifies the name of the deployment application that contains the deployment type.
 
 ```yaml
 Type: String
@@ -361,7 +361,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationNameInWindowsStore
-
+Specifies the name of the application in the Windows Store.
 
 ```yaml
 Type: String
@@ -406,7 +406,8 @@ Accept wildcard characters: False
 ```
 
 ### -ContentLocation
-
+Specifies the path of the content.
+The site system server requires permission to read the content files.
 
 ```yaml
 Type: String
@@ -436,7 +437,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentTypeName
-
+Specifies the name of a deployment type.
 
 ```yaml
 Type: String
@@ -511,7 +512,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnablePeerToPeerContentDistribution
-
+Indicates whether clients can distribute content to other clients.
 
 ```yaml
 Type: Boolean
@@ -706,7 +707,7 @@ Accept wildcard characters: False
 ```
 
 ### -Language
-
+Specifies an array of languages that the deployment type supports.
 
 ```yaml
 Type: String[]
@@ -733,7 +734,7 @@ Accept wildcard characters: False
 ```
 
 ### -LoadContentIntoAppVCacheBeforeLaunch
-
+Indicates whether to load the content into the AppV cache when you deploy the application.
 
 ```yaml
 Type: Boolean
@@ -845,7 +846,7 @@ Accept wildcard characters: False
 ```
 
 ### -NewDeploymentTypeName
-
+Specifies the name of a new deployment type.
 
 ```yaml
 Type: String
@@ -979,7 +980,7 @@ Accept wildcard characters: False
 ```
 
 ### -RemoteComputerName
-
+Specifies a remote computer name.
 
 ```yaml
 Type: String
@@ -1071,7 +1072,7 @@ Accept wildcard characters: False
 ```
 
 ### -TriggerVpn
-
+@{Text=}
 
 ```yaml
 Type: Boolean
@@ -1117,7 +1118,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebAppInstaller
-
+@{Text=}
 
 ```yaml
 Type: SwitchParameter

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833851
 schema: 2.0.0
 ms.assetid: 660FDB95-D970-4937-8A63-1EC4219625CA
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMExchangeServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMExchangeServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMExchangeServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -74,7 +74,13 @@ The command specifies application-related settings for a mobile device stored in
 ## PARAMETERS
 
 ### -AccessLevel
+Specifies the type of access for the mobile devices.
+Access level applies to a mobile device that is not managed by a rule.
+Valid values are: 
 
+-- Allow
+-- Block
+-- Quarantine
 
 ```yaml
 Type: AccessLevelType
@@ -105,7 +111,8 @@ Accept wildcard characters: False
 ```
 
 ### -ActiveDirectoryContainer
-
+Specifies an array of names of Active Directory containers.
+When this parameter appears, the Exchange Server connector searches for the device only in the Active Directory containers.
 
 ```yaml
 Type: String[]
@@ -120,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -AllowExternalDeviceManagement
-
+Indicates whether an external device management program can manage the device.
 
 ```yaml
 Type: Boolean
@@ -135,7 +142,9 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationSetting
-
+Specifies application settings, such as allow or deny the installation of applications.
+For each dictionary entry in the array, specify the setting name as the key the configuration as the value.
+Valid values are: AllowUnsignedApplications, AllowUnsignedInstallationPackages, or Block a specific application.
 
 ```yaml
 Type: ExchangeConnectorApplicationSetting
@@ -195,7 +204,7 @@ Accept wildcard characters: False
 ```
 
 ### -EmailAddress
-
+Specifies an array of email addresses.
 
 ```yaml
 Type: String[]
@@ -210,7 +219,8 @@ Accept wildcard characters: False
 ```
 
 ### -EmailManagementSetting
-
+Specifies email management settings, such as synchronization schedule, message format, and size of attachments.
+For each dictionary entry in the array, specify the setting name as the key and the configuration as the value.
 
 ```yaml
 Type: ExchangeConnectorEmailManagementSetting
@@ -225,7 +235,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableAccessRule
-
+Indicates whether to enable an access rule.
 
 ```yaml
 Type: Boolean
@@ -240,7 +250,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExchangeClientAccessServer
-
+Specifies Exchange Client Access servers, as key-value pairs.
 
 ```yaml
 Type: Dictionary`2[]
@@ -255,7 +265,7 @@ Accept wildcard characters: False
 ```
 
 ### -FindAll
-
+Indicates that the discovery process find all mobile devices in an Exchange organization.
 
 ```yaml
 Type: SwitchParameter
@@ -285,7 +295,7 @@ Accept wildcard characters: False
 ```
 
 ### -FullSyncSchedule
-
+Specifies a result object that schedules the full discovery time for an Exchange Server connector.
 
 ```yaml
 Type: IResultObject
@@ -300,7 +310,14 @@ Accept wildcard characters: False
 ```
 
 ### -GeneralSetting
+Specifies general settings for mobile devices that use the Exchange Server Connector.
+Settings you can specify for this parameter include: 
 
+-- RequireManualSyncWhenRoaming
+-- RequireStorageCardEncryption
+-- UnapprovedInROMApplicationList
+-- DevicePolicyRefreshInterval
+-- MaxInactivityTimeDeviceLock
 
 ```yaml
 Type: ExchangeConnectorGeneralSetting
@@ -315,7 +332,7 @@ Accept wildcard characters: False
 ```
 
 ### -IsHosted
-
+Indicates that the Exchange Server connector configuration is for a hosted or on-premise Exchange Server.
 
 ```yaml
 Type: Boolean
@@ -345,7 +362,7 @@ Accept wildcard characters: False
 ```
 
 ### -NewServerAddress
-
+Specifies a new server address for an Exchange server.
 
 ```yaml
 Type: String
@@ -360,7 +377,19 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordSetting
+Specifies general password settings.
+Settings you can specify for this parameter include: 
 
+-- AlphanumericDevicePasswordRequired
+-- DevicePasswordEnabled
+-- DevicePasswordExpiration
+-- DevicePasswordHistory
+-- MaxDevicePasswordFailedAttempts
+-- PasswordRecoveryEnabled
+-- MinDevicePasswordComplexCharacters
+-- MinDevicePasswordLength
+-- AlphanumericDevicePasswordRequired
+-- AllowSimpleDevicePassword
 
 ```yaml
 Type: ExchangeConnectorPasswordSetting
@@ -375,7 +404,20 @@ Accept wildcard characters: False
 ```
 
 ### -SecuritySetting
+Specifies a dictionary of security settings.
+Settings you can specify for this parameter include: 
 
+-- AllowBluetooth
+-- AllowBrowser
+-- AllowCamera
+-- AllowDesktopSync
+-- AllowInternetSharing
+-- AllowIrDA
+-- AllowNonProvisionableDevices
+-- AllowRemoteDesktop
+-- AllowStorageCard
+-- AllowTextMessaging
+-- AllowWiFi
 
 ```yaml
 Type: ExchangeConnectorSecuritySetting
@@ -390,7 +432,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerAddress
-
+Specifies the address of the Exchange Server for which the cmdlet configures the Exchange Server connector.
 
 ```yaml
 Type: String
@@ -405,7 +447,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteCode
-
+Specifies the Exchange Server by using a site code.
 
 ```yaml
 Type: String
@@ -420,7 +462,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserName
-
+Specifies the user name that the connector uses to connect to the Exchange Server.
 
 ```yaml
 Type: String

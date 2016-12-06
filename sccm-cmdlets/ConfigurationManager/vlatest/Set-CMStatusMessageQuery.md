@@ -3,10 +3,10 @@ external help file: AdminUI.PS.SystemStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834111
 schema: 2.0.0
 ms.assetid: DB992DC8-0D2B-4704-AA14-0CD157FFA1C2
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusMessageQuery.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusMessageQuery.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusMessageQuery.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -159,7 +159,7 @@ Accept wildcard characters: False
 ```
 
 ### -Expression
-
+Specifies an expression in WMI Query Language (WQL).
 
 ```yaml
 Type: String
@@ -189,7 +189,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-
+Specifies an ID for a status message query.
 
 ```yaml
 Type: String
@@ -204,7 +204,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies a status message query object.
+To obtain a status message query object, use the Get-CMStatusMessageQuery cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -219,7 +220,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies a name for a status message query.
 
 ```yaml
 Type: String
@@ -234,7 +235,7 @@ Accept wildcard characters: False
 ```
 
 ### -NewName
-
+Specifies a new name for a query.
 
 ```yaml
 Type: String

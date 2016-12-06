@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833850
 schema: 2.0.0
 ms.assetid: A5700EDF-92D7-48DE-B942-F0C3274E2331
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -93,7 +93,8 @@ Accept wildcard characters: False
 ```
 
 ### -Device
-
+Specifies a device object.
+To obtain a device object, use the Get-CMDevice cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -199,7 +200,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceId
-
+Specifies an array of IDs for resources.
+The cmdlet clears the status of the PXE deployment for these resources.
 
 ```yaml
 Type: Int32[]

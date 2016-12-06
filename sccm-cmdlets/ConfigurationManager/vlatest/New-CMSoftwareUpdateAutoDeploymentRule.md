@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833759
 schema: 2.0.0
 ms.assetid: 1860D065-B2D0-4CDE-A75F-56F44FE40FD6
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -130,7 +130,10 @@ This command specifies values for many parameters.
 ## PARAMETERS
 
 ### -AddToExistingSoftwareUpdateGroup
-
+Indicates whether the rule adds to an existing update group.
+If this value is $True, each time the rule runs and finds new updates, it adds them to an existing update group.
+If this value is $False, it creates a new update group.
+Specify the existing update group or assign a name for the new update group by using the DeploymentPackageName parameter.
 
 ```yaml
 Type: Boolean
@@ -145,7 +148,9 @@ Accept wildcard characters: False
 ```
 
 ### -AlertTime
-
+Specifies an integer offset from an update deployment deadline.
+The rule uses this value to specify when the rule generates alerts.
+Specify a time unit by using the AlertTimeUnit parameter.
 
 ```yaml
 Type: Int32
@@ -160,7 +165,13 @@ Accept wildcard characters: False
 ```
 
 ### -AlertTimeUnit
+Specifies a unit of time for the AlertTime parameter.
+Valid values are: 
 
+-- Days
+-- Hours
+-- Months
+-- Weeks
 
 ```yaml
 Type: TimeUnitType
@@ -176,7 +187,10 @@ Accept wildcard characters: False
 ```
 
 ### -AllowRestart
-
+Indicates whether to allow a computer to restart if the update deployment takes place outside of a maintenance window.
+A maintenance window is a specified period of time used for computer maintenance and updates.
+If this value is $True, Configuration Manager restarts the computer, if necessary, to complete the update.
+If this value is $False, Configuration Manager does not restart the computer.
 
 ```yaml
 Type: Boolean
@@ -191,7 +205,10 @@ Accept wildcard characters: False
 ```
 
 ### -AllowSoftwareInstallationOutsideMaintenanceWindow
-
+Indicates whether the update deployment takes place even if scheduled outside of a maintenance window.
+A maintenance window is a specified period of time used for computer maintenance and updates.
+If this value is $True, Configuration Manager deploys the update even the scheduled time falls outside the service window.
+If this value is $False, Configuration Manager does not deploy the update outside the service window, but Configuration Manager waits until it can deploy in a service window.
 
 ```yaml
 Type: Boolean
@@ -206,7 +223,7 @@ Accept wildcard characters: False
 ```
 
 ### -AllowUseMeteredNetwork
-
+Indicates whether to allow clients to download content over a metered Internet connection after the deadline, which may incur additional expense.
 
 ```yaml
 Type: Boolean
@@ -221,7 +238,8 @@ Accept wildcard characters: False
 ```
 
 ### -ArticleId
-
+Specifies an array of criteria, as strings, for software updates.
+The rule adds software updates that have article IDs that meet specified criteria to the software update group.
 
 ```yaml
 Type: String[]
@@ -236,7 +254,8 @@ Accept wildcard characters: False
 ```
 
 ### -AvailableImmediately
-
+Indicates whether this rule deploys updates as soon as the updates become available.
+If you select a value of $False, use the AvailableTime and AvailableTimeUnit parameters to specify how long after the rule runs to deploy the updates.
 
 ```yaml
 Type: Boolean
@@ -251,7 +270,9 @@ Accept wildcard characters: False
 ```
 
 ### -AvailableTime
-
+Specifies a period of time as an integer.
+Configuration Manager deploys the updates this long after the rule runs.
+Specify a time unit by using the AvailableTimeUnit parameter.
 
 ```yaml
 Type: Int32
@@ -266,7 +287,13 @@ Accept wildcard characters: False
 ```
 
 ### -AvailableTimeUnit
+Specifies a unit of time for the AvailableTime parameter.
+Valid values are: 
 
+-- Days
+-- Hours
+-- Months
+-- Weeks
 
 ```yaml
 Type: TimeUnitType
@@ -282,7 +309,8 @@ Accept wildcard characters: False
 ```
 
 ### -BulletinId
-
+Specifies an array of criteria, as strings, for software updates.
+The rule adds software updates that have bulletin IDs that meet specified criteria to the software update group.
 
 ```yaml
 Type: String[]
@@ -327,7 +355,7 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionName
-
+Specifies the name of device collection or user collection.
 
 ```yaml
 Type: String
@@ -357,7 +385,15 @@ Accept wildcard characters: False
 ```
 
 ### -CustomSeverity
+Specifies an array of custom severity types for software updates.
+The rule adds software updates that have custom severity levels that meet specified criteria to the software update group.
+Valid values are: 
 
+-- Critical
+-- Important
+-- Low
+-- Moderate
+-- None
 
 ```yaml
 Type: SeverityType[]
@@ -373,7 +409,40 @@ Accept wildcard characters: False
 ```
 
 ### -DateReleasedOrRevised
+Specifies a date released or revised for software updates.
+The rule adds software updates that have a date that meets specified criteria to the software update group.
+Valid values are: 
 
+-- Last10months
+-- Last11months
+-- Last12hours
+-- Last14days
+-- Last16hours
+-- Last1day
+-- Last1hour
+-- Last1month
+-- Last1year
+-- Last20hours
+-- Last21days
+-- Last28days
+-- Last2days
+-- Last2hours
+-- Last2months
+-- Last3days
+-- Last3hours
+-- Last3months
+-- Last4days
+-- Last4hours
+-- Last4months
+-- Last5days
+-- Last5months
+-- Last6days
+-- Last6months
+-- Last7days
+-- Last7months
+-- Last8hours
+-- Last8months
+-- Last9months
 
 ```yaml
 Type: DateReleasedOrRevisedType
@@ -389,7 +458,9 @@ Accept wildcard characters: False
 ```
 
 ### -DeadlineImmediately
-
+Indicates whether to impose the deadline is as soon as the rule runs.
+If you specify a value of $False, use the DeadlineTime and DeadlineTimeUnit parameters to specify how long after the rule runs to set the deadline.
+After the deadline, Configuration Manager installs required updates.
 
 ```yaml
 Type: Boolean
@@ -404,7 +475,9 @@ Accept wildcard characters: False
 ```
 
 ### -DeadlineTime
-
+Specifies a period of time as an integer.
+The deadline for updates is this long after the rule runs.
+Specify a time unit by using the DeadlineTimeUnit parameter.
 
 ```yaml
 Type: Int32
@@ -419,7 +492,13 @@ Accept wildcard characters: False
 ```
 
 ### -DeadlineTimeUnit
+Specifies a unit of time for the DeadlineTime parameter.
+Valid values are: 
 
+-- Days
+-- Hours
+-- Months
+-- Weeks
 
 ```yaml
 Type: TimeUnitType
@@ -435,7 +514,9 @@ Accept wildcard characters: False
 ```
 
 ### -DeployWithoutLicense
-
+Indicates whether the rule deploys updates without licenses.
+If you specify a value of $True, Configuration Manager deploys all updates for this rule and approves any license agreements.
+If this value is $False, Configuration Manager deploys only updates that do not include a license or for which the license agreement has been approved.
 
 ```yaml
 Type: Boolean
@@ -465,7 +546,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentPackageName
-
+Specifies the name of a software update deployment package.
 
 ```yaml
 Type: String
@@ -496,7 +577,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-
+Specifies a description for the automatic deployment rule for software updates.
 
 ```yaml
 Type: String
@@ -511,7 +592,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisableOperationManager
-
+Indicates whether to disable System Center 2012 - Operations Manager alerts during software updates.
 
 ```yaml
 Type: Boolean
@@ -541,7 +622,8 @@ Accept wildcard characters: False
 ```
 
 ### -DownloadFromInternet
-
+Indicates whether computers download software updates from the Internet.
+If you specify a value of $False, specify an alternative location where computers can download updates by using the Location parameter.
 
 ```yaml
 Type: Boolean
@@ -556,7 +638,7 @@ Accept wildcard characters: False
 ```
 
 ### -DownloadFromMicrosoftUpdate
-
+Indicates whether computers download content from Microsoft Update if that content is unavailable on a preferred distribution point of remote distribution point.
 
 ```yaml
 Type: Boolean
@@ -586,7 +668,8 @@ Accept wildcard characters: False
 ```
 
 ### -EnabledAfterCreate
-
+Indicates whether to enable software deployment for the associated software update group after this rule runs.
+If this value is $False, deploy the software update group manually.
 
 ```yaml
 Type: Boolean
@@ -616,7 +699,7 @@ Accept wildcard characters: False
 ```
 
 ### -GenerateOperationManagerAlert
-
+Indicates whether to generate Operations Manager alerts during a software update.
 
 ```yaml
 Type: Boolean
@@ -631,7 +714,7 @@ Accept wildcard characters: False
 ```
 
 ### -GenerateSuccessAlert
-
+Indicates whether to generate an alert for successful deployment.
 
 ```yaml
 Type: Boolean
@@ -661,7 +744,8 @@ Accept wildcard characters: False
 ```
 
 ### -Language
-
+Specifies an array of criteria, as strings, for software updates.
+The rule adds software updates that have languages that meet specified criteria to the software update group.
 
 ```yaml
 Type: String[]
@@ -676,7 +760,8 @@ Accept wildcard characters: False
 ```
 
 ### -LanguageSelection
-
+Specifies an array of languages, as strings.
+Computers download software updates available in the specified languages, in addition to non-language-specific updates.
 
 ```yaml
 Type: String[]
@@ -691,7 +776,8 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-
+Specifies a location in your network where computers can download software updates.
+In order to use this location, specify a value of $False for the DownloadFromInternet parameter.
 
 ```yaml
 Type: String
@@ -706,7 +792,7 @@ Accept wildcard characters: False
 ```
 
 ### -MicrosoftAsVendor
-
+Indicates whether the rule includes only updates that have Microsoft as the vendor.
 
 ```yaml
 Type: Boolean
@@ -721,7 +807,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies a name for the automatic deployment rule for software updates.
 
 ```yaml
 Type: String
@@ -736,7 +822,9 @@ Accept wildcard characters: False
 ```
 
 ### -NoInstallOnRemote
-
+Indicates whether to disallow installation of updates on remote systems.
+If you specify a value of $True, if the client is within a slow or unreliable network boundary, or when the client uses a fallback source location for content, then Configuration Manager does not install software updates.
+If you specify a value of $False, installation proceeds.
 
 ```yaml
 Type: Boolean
@@ -751,7 +839,9 @@ Accept wildcard characters: False
 ```
 
 ### -NoInstallOnUnprotected
-
+Indicates whether to disallow installation of updates on unprotected systems.
+If you specify a value of $True, if software updates are not available on any preferred distribution points, Configuration Manager does not download and install software updates.
+If you specify a value of $False, installation proceeds.
 
 ```yaml
 Type: Boolean
@@ -766,7 +856,8 @@ Accept wildcard characters: False
 ```
 
 ### -Product
-
+Specifies an array of criteria, as strings, for software updates.
+The rule adds software updates for products that meet specified criteria to the software update group.
 
 ```yaml
 Type: String[]
@@ -781,7 +872,8 @@ Accept wildcard characters: False
 ```
 
 ### -Required
-
+Specifies an array of criteria, as strings, for software updates.
+The rule adds software updates identified by required that meet specified criteria to the software update group.
 
 ```yaml
 Type: String[]
@@ -796,7 +888,14 @@ Accept wildcard characters: False
 ```
 
 ### -RunType
+Specifies the mode in which an update runs on the client computer.
+Valid values are: 
 
+-- DoNotRunThisRuleAutomatically
+-- RunTheRuleAfterAnySoftwareUpdatePointSynchronization
+-- RunTheRuleOnSchedule
+
+If you specify RunTheRuleOnSchedule, specify a schedule by using the Schedule parameter.
 
 ```yaml
 Type: RunType
@@ -812,7 +911,9 @@ Accept wildcard characters: False
 ```
 
 ### -Schedule
-
+Specifies a schedule object for the deployment.
+To obtain a schedule object, use the New-CMSchedule cmdlet.
+Specify a schedule for this parameter if you specify a value of RunTheRuleOnSchedule for the RunType parameter.
 
 ```yaml
 Type: IResultObject
@@ -827,7 +928,10 @@ Accept wildcard characters: False
 ```
 
 ### -SendWakeupPacket
-
+Indicates whether to send a wake up packet to computers before the deployment begins.
+If this value is $True, Configuration Manager wakes a computer from sleep.
+If this value is $False, it does not wake computers from sleep.
+For computers to wake, you must first configure Wake On LAN.
 
 ```yaml
 Type: Boolean
@@ -842,7 +946,15 @@ Accept wildcard characters: False
 ```
 
 ### -Severity
+Specifies an array of severity levels for software updates.
+The rule adds software updates for specified severity types to the software update group.
+Valid values are: 
 
+-- Critical
+-- Important
+-- Low
+-- Moderate
+-- None
 
 ```yaml
 Type: SeverityType[]
@@ -858,7 +970,8 @@ Accept wildcard characters: False
 ```
 
 ### -SuccessPercentage
-
+Specifies a percentage for client compliance as an integer from 0 to 99.
+If compliance falls below this percentage, Configuration Manager produces optional alerts.
 
 ```yaml
 Type: Int32
@@ -873,7 +986,7 @@ Accept wildcard characters: False
 ```
 
 ### -Superseded
-
+Indicates whether the rule adds updates superseded by other updates.
 
 ```yaml
 Type: Boolean
@@ -888,7 +1001,8 @@ Accept wildcard characters: False
 ```
 
 ### -SuppressRestartServer
-
+Indicates whether to suppress a required update for a server.
+Some software updates require a system restart to complete the installation process.
 
 ```yaml
 Type: Boolean
@@ -903,7 +1017,8 @@ Accept wildcard characters: False
 ```
 
 ### -SuppressRestartWorkstation
-
+Indicates whether to suppress a required update for a workstation.
+Some software updates require a system restart to complete the installation process.
 
 ```yaml
 Type: Boolean
@@ -918,7 +1033,8 @@ Accept wildcard characters: False
 ```
 
 ### -Title
-
+Specifies an array of criteria, as strings, for software updates.
+The rule adds software updates that have titles that meet specified criteria to the software update group.
 
 ```yaml
 Type: String[]
@@ -933,7 +1049,8 @@ Accept wildcard characters: False
 ```
 
 ### -UpdateClassification
-
+Specifies an array of criteria, as strings, for software updates.
+The rule adds software updates that have update classifications that meet specified criteria to the software update group.
 
 ```yaml
 Type: String[]
@@ -963,7 +1080,8 @@ Accept wildcard characters: False
 ```
 
 ### -UpdateDescription
-
+Specifies an array of criteria, as strings, for software updates.
+The rule adds software updates that have update descriptions that meet specified criteria to the software update group.
 
 ```yaml
 Type: String[]
@@ -978,7 +1096,8 @@ Accept wildcard characters: False
 ```
 
 ### -UseBranchCache
-
+Indicates whether to use a branch cache for this update deployment.
+If you specify a value of $True, clients share content on the same subnet.
 
 ```yaml
 Type: Boolean
@@ -993,7 +1112,9 @@ Accept wildcard characters: False
 ```
 
 ### -UseUtc
-
+Indicates whether to use Coordinated Universal Time (UTC), also known as Greenwich Mean Time.
+If this value is $True, Configuration Manager uses UTC for this deployment.
+If this value is $False, Configuration Manager uses local time.
 
 ```yaml
 Type: Boolean
@@ -1008,7 +1129,15 @@ Accept wildcard characters: False
 ```
 
 ### -UserNotification
+Specifies the type of user notification.
+Valid values are: 
 
+-- DisplayAll.
+Display in Software Center and show all notifications.
+-- DisplaySoftwareCenterOnly.
+Display in Software Center, and only show notifications of computer restarts.
+-- HideAll.
+Hide in Software Center and all notifications.
 
 ```yaml
 Type: UserNotificationType
@@ -1024,7 +1153,12 @@ Accept wildcard characters: False
 ```
 
 ### -VerboseLevel
+Specifies the level of detail you want clients to report for deployments that this rule creates.
+Valid values are: 
 
+-- AllMessages
+-- OnlyErrorMessages
+-- OnlySuccessAndErrorMessages
 
 ```yaml
 Type: VerboseLevelType
@@ -1056,7 +1190,10 @@ Accept wildcard characters: False
 ```
 
 ### -WriteFilterHandling
-
+Indicates whether to enable write filters for embedded devices.
+For a value of $True, the device commits changes during a maintenance window.
+This action requires a restart.
+For a value of $False, the device saves changes in an overlay and commits them later.
 
 ```yaml
 Type: Boolean

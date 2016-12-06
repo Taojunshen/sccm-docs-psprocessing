@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833626
 schema: 2.0.0
 ms.assetid: D23CE672-3835-40FA-8907-5C2DB50D1C62
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -242,7 +242,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdministratorComment
-
+Specifies a description for the deployment type.
 
 ```yaml
 Type: String
@@ -302,7 +302,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationName
-
+Specifies the name of the application that is associated with the deployment type.
 
 ```yaml
 Type: String
@@ -317,7 +317,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationNameInWindowsStore
-
+Specifies the name of the application in the Windows Store.
 
 ```yaml
 Type: String
@@ -347,7 +347,7 @@ Accept wildcard characters: False
 ```
 
 ### -AutoIdentifyFromInstallationFile
-
+Indicates that the deployment type extracts information from the content file.
 
 ```yaml
 Type: SwitchParameter
@@ -377,7 +377,8 @@ Accept wildcard characters: False
 ```
 
 ### -ContentLocation
-
+Specifies the path of the content.
+The site system server requires permission to read the content files.
 
 ```yaml
 Type: String
@@ -404,7 +405,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentTypeName
-
+Specifies the name of a deployment type.
 
 ```yaml
 Type: String
@@ -431,7 +432,7 @@ Accept wildcard characters: False
 ```
 
 ### -DetectDeploymentTypeByCustomScript
-
+Indicates that the deployment type uses a custom script to detect the presence of this deployment type.
 
 ```yaml
 Type: SwitchParameter
@@ -551,7 +552,7 @@ Accept wildcard characters: False
 ```
 
 ### -ForceForUnknownPublisher
-
+Indicates whether the deployment type requires file signature verification.
 
 ```yaml
 Type: Boolean
@@ -596,7 +597,12 @@ Accept wildcard characters: False
 ```
 
 ### -InstallationBehaviorType
+Specifies the installation behavior of the deployment type.
+Valid values are: 
 
+-- InstallForSystem
+-- InstallForSystemIfResourceIsDeviceOtherwiseInstallForUser
+-- InstallForUser
 
 ```yaml
 Type: InstallationBehaviorType
@@ -627,7 +633,7 @@ Accept wildcard characters: False
 ```
 
 ### -InstallationProgram
-
+Specifies the command line for the Windows Installer package.
 
 ```yaml
 Type: String
@@ -654,7 +660,13 @@ Accept wildcard characters: False
 ```
 
 ### -InstallationProgramVisibility
+Specifies the mode in which the deployment type runs on client devices.
+Valid values are: 
 
+-- Normal
+-- Minimized
+-- Maximized
+-- Hidden
 
 ```yaml
 Type: UserInteractionMode
@@ -670,7 +682,8 @@ Accept wildcard characters: False
 ```
 
 ### -InstallationStartIn
-
+Specifies the folder that contains the installation program for the deployment type.
+This folder can be an absolute path on the client, or a path to the distribution point folder that contains the installation files.
 
 ```yaml
 Type: String
@@ -700,7 +713,7 @@ Accept wildcard characters: False
 ```
 
 ### -IosInstaller
-
+Indicates that the deployment type detects application information and deployment types from an app package for iOS (.ipa) file.
 
 ```yaml
 Type: SwitchParameter
@@ -715,7 +728,7 @@ Accept wildcard characters: False
 ```
 
 ### -Language
-
+Specifies an array of languages that the deployment type supports.
 
 ```yaml
 Type: String[]
@@ -730,7 +743,12 @@ Accept wildcard characters: False
 ```
 
 ### -LogonRequirementType
+Specifies the logon requirement for the deployment type.
+Valid values are: 
 
+-- OnlyWhenNoUserLoggedOn
+-- OnlyWhenUserLoggedOn
+-- WhereOrNotUserLoggedOn
 
 ```yaml
 Type: LogonRequirementType
@@ -761,7 +779,8 @@ Accept wildcard characters: False
 ```
 
 ### -ManualSpecifyDeploymentType
-
+Do not use.
+Configuration Manager does not currently use this parameter.
 
 ```yaml
 Type: SwitchParameter
@@ -806,7 +825,7 @@ Accept wildcard characters: False
 ```
 
 ### -MsiInstaller
-
+Indicates that the deployment type detects application information and deployment types from a Windows Installer (.msi) file.
 
 ```yaml
 Type: SwitchParameter
@@ -821,7 +840,7 @@ Accept wildcard characters: False
 ```
 
 ### -NokiaInstaller
-
+Indicates that the deployment type detects application information and deployment types from a Nokia Symbian installation (.sis or .sisx) file.
 
 ```yaml
 Type: SwitchParameter
@@ -856,7 +875,12 @@ Accept wildcard characters: False
 ```
 
 ### -OnSlowNetworkMode
+Specifies the installation behavior of the deployment type on a slow network.
+Valid values are: 
 
+-- DoNothing
+-- Download
+-- DownloadContentForStreaming
 
 ```yaml
 Type: ContentHandlingMode
@@ -872,7 +896,7 @@ Accept wildcard characters: False
 ```
 
 ### -PersistContentInClientCache
-
+Indicates whether the deployment type saves content in cache indefinitely on the client computer.
 
 ```yaml
 Type: Boolean
@@ -887,7 +911,7 @@ Accept wildcard characters: False
 ```
 
 ### -PfxFileLocation
-
+Specifies the path of the Personal Information Exchange (PFX) file.
 
 ```yaml
 Type: String
@@ -902,7 +926,7 @@ Accept wildcard characters: False
 ```
 
 ### -PfxFilePassword
-
+Specifies the password, as a secure string, for the PFX file.
 
 ```yaml
 Type: SecureString
@@ -917,7 +941,7 @@ Accept wildcard characters: False
 ```
 
 ### -RemoteComputerName
-
+Specifies a remote computer name.
 
 ```yaml
 Type: String
@@ -947,7 +971,7 @@ Accept wildcard characters: False
 ```
 
 ### -ScriptContent
-
+Specifies the script language that you want to use to detect the deployment type.
 
 ```yaml
 Type: String
@@ -977,7 +1001,7 @@ Accept wildcard characters: False
 ```
 
 ### -ScriptType
-
+Specifies the script language that you want to use to detect the deployment type.
 
 ```yaml
 Type: ScriptLanguage
@@ -993,7 +1017,7 @@ Accept wildcard characters: False
 ```
 
 ### -SignContentFile
-
+Indicates whether the deployment type requires a signed content file.
 
 ```yaml
 Type: Boolean
@@ -1008,7 +1032,7 @@ Accept wildcard characters: False
 ```
 
 ### -SignedContentFileLocation
-
+Specifies the path of the signed content file.
 
 ```yaml
 Type: String
@@ -1023,7 +1047,7 @@ Accept wildcard characters: False
 ```
 
 ### -TriggerVpn
-
+@{Text=}
 
 ```yaml
 Type: Boolean
@@ -1038,7 +1062,7 @@ Accept wildcard characters: False
 ```
 
 ### -UninstallProgram
-
+Specifies the name of the uninstall program and any parameters it requires.
 
 ```yaml
 Type: String
@@ -1053,7 +1077,8 @@ Accept wildcard characters: False
 ```
 
 ### -UninstallStartIn
-
+Specifies the folder that contains the uninstall program for the deployment type.
+This folder can be an absolute path on the client, or a path that is relative to the distribution point folder that contains the package.
 
 ```yaml
 Type: String
@@ -1068,7 +1093,7 @@ Accept wildcard characters: False
 ```
 
 ### -WMInstaller
-
+Indicates that the deployment type detects application information and deployment types from a Windows Mobile cabinet (.cab) file.
 
 ```yaml
 Type: SwitchParameter

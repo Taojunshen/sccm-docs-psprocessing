@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834002
 schema: 2.0.0
 ms.assetid: 7B4B13D3-569E-4121-8210-8E3E045DBCFF
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMRemoteConnectionProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMRemoteConnectionProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMRemoteConnectionProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -172,7 +172,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableNla
-
+Indicates whether to allow connections only from computers that run Remote Desktop by using Network Level Authentication.
 
 ```yaml
 Type: Boolean

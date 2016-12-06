@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834092
 schema: 2.0.0
 ms.assetid: 781F6A2C-9A81-48F4-92EE-171566F550CF
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -63,7 +63,7 @@ This command modifies the name for the site system server for the site code CM1.
 ## PARAMETERS
 
 ### -AnonymousWsusAccess
-
+Indicates that the software update point allows anonymous.
 
 ```yaml
 Type: SwitchParameter
@@ -78,7 +78,14 @@ Accept wildcard characters: False
 ```
 
 ### -ClientConnectionType
+Specifies a connection type.
+Clients can connect to the software update point in several ways.
+You can configure the software update point to handle different types of connections differently by specifying the connection type.
+Valid values are: 
 
+-- Internet 
+-- InternetAndIntranet
+-- Intranet
 
 ```yaml
 Type: ClientConnectionTypes
@@ -184,7 +191,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies a software update point object.
+To obtain a software update point object, use the Get-CMSoftwareUpdatePoint cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -199,7 +207,8 @@ Accept wildcard characters: False
 ```
 
 ### -NlbVirtualIP
-
+Specifies an IP address or host name.
+If this software update point uses load balancing, this is the NLB address.
 
 ```yaml
 Type: String
@@ -229,7 +238,7 @@ Accept wildcard characters: False
 ```
 
 ### -PublicVirtualIP
-
+Specifies a public virtual IP address for a software update point that is connected to over the Internet.
 
 ```yaml
 Type: String
@@ -244,7 +253,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteCode
-
+Specifies a site code for a Configuration Manager site.
 
 ```yaml
 Type: String
@@ -259,7 +268,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteSystemServerName
-
+Specifies the name of the computer that hosts the software update point site system role.
 
 ```yaml
 Type: String
@@ -274,7 +283,7 @@ Accept wildcard characters: False
 ```
 
 ### -UseProxy
-
+Specifies whether a software update point can use a proxy.
 
 ```yaml
 Type: Boolean
@@ -289,7 +298,7 @@ Accept wildcard characters: False
 ```
 
 ### -UseProxyForAutoDeploymentRule
-
+Indicates whether an auto deployment rule can use a proxy.
 
 ```yaml
 Type: Boolean
@@ -320,7 +329,8 @@ Accept wildcard characters: False
 ```
 
 ### -WsusAccessAccount
-
+Specifies an access account.
+Unless a software update point allows anonymous access, use this access account to connect to it.
 
 ```yaml
 Type: String

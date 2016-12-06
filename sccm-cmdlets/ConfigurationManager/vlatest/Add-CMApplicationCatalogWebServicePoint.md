@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833583
 schema: 2.0.0
 ms.assetid: FF20CB6D-729B-409C-A5E5-CBF1B3299EEC
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMApplicationCatalogWebServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMApplicationCatalogWebServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMApplicationCatalogWebServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -60,7 +60,8 @@ The command specifies the site code for the site that the role belongs to, as we
 ## PARAMETERS
 
 ### -CommunicationType
-
+Specifies the communication type.
+Valid values are: HTTP and HTTPS.
 
 ```yaml
 Type: ComputerCommunicationType
@@ -136,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -PortNumber
-
+Specifies the port to use to connect with the web service.
 
 ```yaml
 Type: Int32
@@ -151,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteCode
-
+Specifies the site code for a Configuration Manager site.
 
 ```yaml
 Type: String
@@ -166,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteSystemServerName
-
+Specifies the name of a server that hosts a site system role.
 
 ```yaml
 Type: String
@@ -181,7 +182,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebApplicationName
-
+Specifies the name of the web application used for the application catalog.
 
 ```yaml
 Type: String

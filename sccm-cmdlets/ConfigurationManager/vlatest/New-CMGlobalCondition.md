@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833687
 schema: 2.0.0
 ms.assetid: 69A0D711-0B7F-4877-A2F9-C3CE64CC6698
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMGlobalCondition.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMGlobalCondition.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMGlobalCondition.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -362,7 +362,7 @@ Accept wildcard characters: False
 ```
 
 ### -FilePath
-
+Specifies a file path for the file that the condition assesses for compliance.
 
 ```yaml
 Type: String

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833730
 schema: 2.0.0
 ms.assetid: F2F9DBD4-F429-4913-82E7-E3E160D4A926
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/5/2016 10:55 PM
+ms.date: 12/5/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -84,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-
+Specifies a description for a cloud distribution point.
 
 ```yaml
 Type: String
@@ -145,7 +145,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies a cloud distribution point object.
+To obtain a cloud distribution point object, you can use the Get-CMCloudDistributionPoint cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -175,7 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -NewName
-
+Specifies a new name for the cloud-based distribution point.
 
 ```yaml
 Type: String
@@ -190,7 +191,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageQuotaGB
-
+Specifies the threshold value, in gigabytes, that triggers errors or warnings for total content storage.
 
 ```yaml
 Type: Int32
@@ -205,7 +206,9 @@ Accept wildcard characters: False
 ```
 
 ### -StorageQuotaGrow
-
+Specifies whether the storage quota can grow.
+By default, the amount of stored data cannot exceed the value of the StorageQuotaInGB parameter.
+The default value for this parameter is $False.
 
 ```yaml
 Type: Boolean
@@ -220,7 +223,7 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficOutGB
-
+Specifies the threshold value, in gigabytes, that triggers errors or warnings, for monthly traffic out of Windows Azure Storage Service.
 
 ```yaml
 Type: Int32
@@ -235,7 +238,8 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficOutStopService
-
+Specifies whether Configuration Manager stops data transfers after the distribution point reaches the quota specified in the TrafficOutInGB parameter.
+The default value for this parameter is $False.
 
 ```yaml
 Type: Boolean
