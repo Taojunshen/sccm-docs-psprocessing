@@ -6,10 +6,10 @@ ms.service:
 author: "shill-ms"
 ms.author: "v-suhill"
 ms.manager: "mbaldwin"
-updated_at: 12/6/2016 7:34 PM
+updated_at: 12/6/2016 9:30 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/index.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/22de5484b27de027abe30c49229bc62cf2bb6fd4/sccm-cmdlets/ConfigurationManager/index.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/5390c18cead146fb3adaad446ec4fd0cafa2a42c/sccm-cmdlets/ConfigurationManager/index.md
 ms.topic: reference
 keywords: powershell, cmdlet
 manager: mbaldwin
@@ -40,7 +40,7 @@ The easiest method to load Windows PowerShell is directly from the Configuration
     Go to your Windows PowerShell window, and type in `Get-CMSite`. You should see the following output (with your site information) in your Windows PowerShell window:
 
     ```  
-    PS ABC:\> get-cmsite  
+    PS ABC:\> Get-CMSite  
 
     BuildNumber       : 7958  
     Features          : 0000000000000000000000000000000000000000000000000000000000000000  
