@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834063
 schema: 2.0.0
 ms.assetid: EB3C88E9-0845-4092-928B-79AA6948A073
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdate.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdate.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdate.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -72,7 +72,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -95,7 +94,6 @@ Type: CustomSeverityType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: None, Low, Moderate, Important, Critical
-
 Required: False
 Position: Named
 Default value: None
@@ -110,7 +108,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -125,7 +122,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -140,7 +136,6 @@ Specifies the ID of software updates.
 Type: String
 Parameter Sets: SetById
 Aliases: CIId, CI_ID
-
 Required: True
 Position: Named
 Default value: None
@@ -156,7 +151,6 @@ To obtain a software update object, use the Get-CMSoftwareUpdate cmdlet.
 Type: IResultObject
 Parameter Sets: SetByValue
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -171,7 +165,6 @@ Specifies, in minutes, the maximum amount of time that a software update has to 
 Type: Int32
 Parameter Sets: (All)
 Aliases: MaximumExecutionMinutes
-
 Required: False
 Position: Named
 Default value: None
@@ -186,7 +179,6 @@ Specifies the name of a software update.
 Type: String
 Parameter Sets: SetByName
 Aliases: LocalizedDisplayName
-
 Required: True
 Position: Named
 Default value: None
@@ -202,7 +194,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

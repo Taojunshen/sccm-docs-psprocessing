@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833979
 schema: 2.0.0
 ms.assetid: 6814743B-10B2-4A47-9BCD-7E52B54CC444
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackageDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackageDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackageDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -131,7 +131,6 @@ If this value is $False, clients do not attempt to download from other clients.
 Type: Boolean
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -146,7 +145,6 @@ Specifies the ID of a device or user collection.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -161,7 +159,6 @@ Specifies a comment for the deployment.
 Type: String
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageId, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -173,7 +170,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: SetDeviceProgramDeploymentByPackageValue
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -188,7 +184,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -207,7 +202,6 @@ If you specify a value for the *DeployAvailableTime* parameter in addition to th
 Type: DateTime
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -223,7 +217,6 @@ This is the time at which the deployment becomes available.
 Type: DateTime
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -240,7 +233,6 @@ If you specify a value for the *DeploymentExpireTime* parameter in addition to t
 Type: DateTime
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -256,7 +248,6 @@ This is the time at which the deployment expires.
 Type: DateTime
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -273,7 +264,6 @@ If you specify a value for the *DeploymentStartTime* parameter in addition to th
 Type: DateTime
 Parameter Sets: SetDeviceProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageId, SetDeviceProgramDeploymentByPackageValue
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -289,7 +279,6 @@ This is the time at which the deployment starts.
 Type: DateTime
 Parameter Sets: SetDeviceProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageId, SetDeviceProgramDeploymentByPackageValue
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -304,7 +293,6 @@ Specifies the name of a device program.
 Type: String
 Parameter Sets: SetDeviceProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageId, SetDeviceProgramDeploymentByPackageValue
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -319,7 +307,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -334,7 +321,6 @@ Indicates whether to enable the schedule to expire the deployment.
 Type: Boolean
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -354,7 +340,6 @@ Type: FastNetworkOptionType
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
 Accepted values: RunProgramFromDistributionPoint, DownloadContentFromDistributionPointAndRunLocally
-
 Required: False
 Position: Named
 Default value: None
@@ -369,7 +354,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -385,7 +369,6 @@ To obtain a package object, use the Get-CMPackage cmdlet.
 Type: IResultObject
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetDeviceProgramDeploymentByPackageValue
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -400,7 +383,6 @@ Specifies the ID of a package.
 Type: String
 Parameter Sets: SetDeviceProgramDeploymentByPackageId, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -415,7 +397,6 @@ Specifies the name of a package.
 Type: String
 Parameter Sets: SetStandardProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -433,7 +414,6 @@ For a value of $False, the device saves changes in an overlay and commits them l
 Type: Boolean
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -454,7 +434,6 @@ Type: RecurUnitType
 Parameter Sets: SetDeviceProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageId, SetDeviceProgramDeploymentByPackageValue
 Aliases: 
 Accepted values: Minutes, Hours, Days
-
 Required: False
 Position: Named
 Default value: None
@@ -471,7 +450,6 @@ This value can be between 1 and 23 if the unit is Hours, between 1 and 31 if the
 Type: Int32
 Parameter Sets: SetDeviceProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageId, SetDeviceProgramDeploymentByPackageValue
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -488,7 +466,6 @@ If this value is $False, the deployment does not run again.
 Type: Boolean
 Parameter Sets: SetDeviceProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageId, SetDeviceProgramDeploymentByPackageValue
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -516,7 +493,6 @@ Type: RerunBehaviorType
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
 Accepted values: NeverRerunDeployedProgram, AlwaysRerunProgram, RerunIfFailedPreviousAttempt, RerunIfSucceededOnPreviousAttempt
-
 Required: False
 Position: Named
 Default value: None
@@ -531,7 +507,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: AllowUsersRunIndependently
-
 Required: False
 Position: Named
 Default value: None
@@ -546,7 +521,6 @@ Specifies an array of schedule objects for the deployment.
 Type: IResultObject[]
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -568,7 +542,6 @@ Type: ScheduleEventType[]
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
 Accepted values: AsSoonAsPossible, LogOn, LogOff
-
 Required: False
 Position: Named
 Default value: None
@@ -586,7 +559,6 @@ For computers to wake, you must first configure Wake On LAN.
 Type: Boolean
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -607,7 +579,6 @@ Type: SlowNetworkOptionType
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
 Accepted values: DoNotRunProgram, DownloadContentFromDistributionPointAndLocally, RunProgramFromDistributionPoint
-
 Required: False
 Position: Named
 Default value: None
@@ -625,7 +596,6 @@ If this value is $False, Configuration Manager does not install deployed softwar
 Type: Boolean
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -640,7 +610,6 @@ Specifies a standard program name.
 Type: String
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -658,7 +627,6 @@ If this value is $False, the computer does not restart outside a maintenance win
 Type: Boolean
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -673,7 +641,6 @@ Indicates whether to allow clients to download content over a metered Internet c
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -688,7 +655,6 @@ Indicates whether to use a recurrence pattern.
 Type: Boolean
 Parameter Sets: SetDeviceProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageId, SetDeviceProgramDeploymentByPackageValue
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -705,7 +671,6 @@ If this value is $False, Configuration Manager uses local time.
 Type: Boolean
 Parameter Sets: SetDeviceProgramDeploymentByPackageName, SetDeviceProgramDeploymentByPackageId, SetDeviceProgramDeploymentByPackageValue
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -722,7 +687,6 @@ If this value is $False, Configuration Manager uses local time.
 Type: Boolean
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -739,7 +703,6 @@ If this value is $False, Configuration Manager uses local time.
 Type: Boolean
 Parameter Sets: SetStandardProgramDeploymentByPackageValue, SetStandardProgramDeploymentByPackageName, SetStandardProgramDeploymentByPackageId
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -755,7 +718,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

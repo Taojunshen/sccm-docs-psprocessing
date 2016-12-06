@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833624
 schema: 2.0.0
 ms.assetid: 5DD1E791-012A-468F-A016-8800E7CCE72B
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceVariable.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceVariable.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceVariable.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -66,7 +66,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -81,7 +80,6 @@ Specifies a device ID.
 Type: String
 Parameter Sets: NewByIdMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -97,7 +95,6 @@ You can specify a NetBIOS name or a fully qualified domain name (FQDN).
 Type: String
 Parameter Sets: NewByNameMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -112,7 +109,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -127,7 +123,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -142,7 +137,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: NewByValueMandatory
 Aliases: Device
-
 Required: True
 Position: Named
 Default value: None
@@ -157,7 +151,6 @@ Indicates whether the variable value is displayed in the Configuration Manager c
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -172,7 +165,6 @@ Specifies the name of the device variable.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -187,7 +179,6 @@ Specifies the value of the variable.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -203,7 +194,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

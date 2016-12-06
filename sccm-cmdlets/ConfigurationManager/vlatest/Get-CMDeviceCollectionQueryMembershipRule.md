@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833635
 schema: 2.0.0
 ms.assetid: A250BE6D-1C96-4337-88F5-454CB95B0AA1
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionQueryMembershipRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionQueryMembershipRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionQueryMembershipRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,7 +65,6 @@ This command gets the query membership rule named Remote Users By Domain from de
 Type: String
 Parameter Sets: ById
 Aliases: Id
-
 Required: True
 Position: Named
 Default value: None
@@ -80,7 +79,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: ByName
 Aliases: Name
-
 Required: True
 Position: Named
 Default value: None
@@ -95,7 +93,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: ByValue
 Aliases: Collection
-
 Required: True
 Position: Named
 Default value: None
@@ -110,7 +107,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None

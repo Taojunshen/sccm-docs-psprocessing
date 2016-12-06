@@ -1,8 +1,8 @@
 ---
-updated_at: 12/6/2016 7:34 PM
+updated_at: 12/6/2016 8:23 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/22de5484b27de027abe30c49229bc62cf2bb6fd4/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c8a043e7f52984a4f2fcc812fdd54c1ef0f7d4f4/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
 uid: ConfigurationManager/1610_Release_Notes.md
 ms.topic: conceptual
 author: shill-ms
@@ -94,14 +94,13 @@ New cmdlets have been written to support Azure Active Directory (Azure AD) condi
 *  Set-CMAadConditionalAccessPolicy
 
 ####Example
+```
+PR1:\> Get-CMAadConditionalAccessPolicy -AccountId 752c1e46-ddd2-4ffc-8f15-23623328c823 -ServicePrincipalType ExchangeOnline -UserCredential (Get-Credential)
+```
 
-    ```
-    PR1:\> Get-CMAadConditionalAccessPolicy -AccountId 752c1e46-ddd2-4ffc-8f15-23623328c823 -ServicePrincipalType ExchangeOnline -UserCredential (Get-Credential)
-    ```
-
-    ```
-    PR1:\> Set-CMAadConditionalAccessPolicy -AccountId 752c1e46-ddd2-4ffc-8f15-23623328c823 -ServicePrincipalType ExchangeOnline -Enabled $true -TargetedDevicePlatforms Windows,WindowsPhone -WindowsDeviceState Compliant -IncludedSecurityGroup All_Users -UserCredential (Get-Credential)
-    ```
+```
+PR1:\> Set-CMAadConditionalAccessPolicy -AccountId 752c1e46-ddd2-4ffc-8f15-23623328c823 -ServicePrincipalType ExchangeOnline -Enabled $true -TargetedDevicePlatforms Windows,WindowsPhone -WindowsDeviceState Compliant -IncludedSecurityGroup All_Users -UserCredential (Get-Credential)
+```
 
 ###Copy-CMCollection
 This cmdlet can be used to clone an existing collection to a new one.
@@ -122,9 +121,9 @@ This cmdlet can be used to promote the pre-production client to production statu
 
 ####Example
 
-    ```
-    PR1:\> Invoke-CMPromotePreProductionClient -Force
-    ```
+```
+PR1:\> Invoke-CMPromotePreProductionClient -Force
+```
 
 ###Migration
 New cmdlets for migration jobs:
@@ -136,9 +135,9 @@ This cmdlet can be used to rename a category.
 
 ####Example
 
-    ```
-    PR1:\> Get-CMCategory -Name MyCategoryName | Rename-CMCategory -NewName MyCategoryNewName -CategoryType AppCategories`
-    ```
+```
+PR1:\> Get-CMCategory -Name MyCategoryName | Rename-CMCategory -NewName MyCategoryNewName -CategoryType AppCategories`
+```
 
 ##Cmdlet changes
 The following changes have been made to existing cmdlets for this release. Changes may be new functionality, bug fixes, or deprecations, and may be breaking. If you use one of the cmdlets or feature areas listed in this section, please carefully review the changes to understand how they may affect your use.
@@ -158,9 +157,9 @@ Provider data representing \__GENERIC WMI objects now display more data to the W
 
 ###"Connect via Windows PowerShell ISE" from administrator console
 ####Bugs that were fixed
-The generated script did not run because of an invalid path to the ConfigurationManager module. If an invalid script has already been generated, remove the existing %TEMP%\ISEConnect_sitecode \– sitename.ps1 file and relaunch the ISE from the administrator console.
+The generated script did not run because of an invalid path to the ConfigurationManager module. If an invalid script has already been generated, remove the existing %TEMP%\ISEConnect_sitecode - sitename.ps1 file and relaunch the ISE from the administrator console.
 
-The generated script may be unreadable when an administrator console language pack is installed. If an invalid script has already been generated, remove the existing %TEMP%\ISEConnect_sitecode \– sitename.ps1 file and relaunch ISE from the administrator console.
+The generated script may be unreadable when an administrator console language pack is installed. If an invalid script has already been generated, remove the existing %TEMP%\ISEConnect_sitecode - sitename.ps1 file and relaunch ISE from the administrator console.
 
 An invalid path error may be raised when launching the ISE from the administrator console.
 

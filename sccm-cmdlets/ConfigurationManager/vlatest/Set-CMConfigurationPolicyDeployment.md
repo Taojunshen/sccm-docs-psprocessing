@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833771
 schema: 2.0.0
 ms.assetid: F8D992C0-0F8C-40B7-944A-7BA571735859
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -95,7 +95,6 @@ The deployment applies to this collection.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -110,7 +109,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -125,7 +123,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -141,7 +138,6 @@ During enforcement, a client reports compliance information about a deployment.
 Type: Boolean
 Parameter Sets: SetUSMPolicyDeploymentByNameMandatory, SetUSMPolicyDeploymentByIdMandatory, SetUSMPolicyDeploymentByValueMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -157,7 +153,6 @@ To obtain a **CMWindowsFirewallPolicy** object, use the Get-CMWindowsFirewallPol
 Type: IResultObject
 Parameter Sets: SetFWPolicyDeploymentByValueMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -172,7 +167,6 @@ Specifies the ID of a Windows Firewall policy.
 Type: String
 Parameter Sets: SetFWPolicyDeploymentByIdMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -187,7 +181,6 @@ Specifies the name of a Windows Firewall policy.
 Type: String
 Parameter Sets: SetFWPolicyDeploymentByNameMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -202,7 +195,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -217,7 +209,6 @@ Indicates whether Configuration Manager generates alerts during the deployment.
 Type: Boolean
 Parameter Sets: SetUSMPolicyDeploymentByNameMandatory, SetUSMPolicyDeploymentByIdMandatory, SetUSMPolicyDeploymentByValueMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -232,7 +223,6 @@ Indicates whether System Center 2016 - Operations Manager monitoring criteria ap
 Type: Boolean
 Parameter Sets: SetUSMPolicyDeploymentByNameMandatory, SetUSMPolicyDeploymentByIdMandatory, SetUSMPolicyDeploymentByValueMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -248,7 +238,6 @@ Service windows are periods of time allocated for maintenance.
 Type: Boolean
 Parameter Sets: SetUSMPolicyDeploymentByNameMandatory, SetUSMPolicyDeploymentByIdMandatory, SetUSMPolicyDeploymentByValueMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -264,7 +253,6 @@ Configuration Manager stores the values in XML format.
 Type: Int32
 Parameter Sets: SetUSMPolicyDeploymentByNameMandatory, SetUSMPolicyDeploymentByIdMandatory, SetUSMPolicyDeploymentByValueMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -279,7 +267,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -296,7 +283,6 @@ For more information, type `Get-Help Get-Date`.
 Type: DateTime
 Parameter Sets: SetUSMPolicyDeploymentByNameMandatory, SetUSMPolicyDeploymentByIdMandatory, SetUSMPolicyDeploymentByValueMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -312,7 +298,6 @@ To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 Type: DateTime
 Parameter Sets: SetUSMPolicyDeploymentByNameMandatory, SetUSMPolicyDeploymentByIdMandatory, SetUSMPolicyDeploymentByValueMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -329,7 +314,6 @@ You can use the New-CMSchedule cmdlet to create a schedule token.
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -345,7 +329,6 @@ To obtain a **CMUserDataAndProfileConfigurationItem** object, use the Get-CMUser
 Type: IResultObject
 Parameter Sets: SetUSMPolicyDeploymentByValueMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -360,7 +343,6 @@ Specifies an ID of a user data and profile configuration item.
 Type: String
 Parameter Sets: SetUSMPolicyDeploymentByIdMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -375,7 +357,6 @@ Specifies a name of a user data and profile configuration item.
 Type: String
 Parameter Sets: SetUSMPolicyDeploymentByNameMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -391,7 +372,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

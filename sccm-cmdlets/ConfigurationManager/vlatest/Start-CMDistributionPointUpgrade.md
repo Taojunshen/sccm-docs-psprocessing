@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834218
 schema: 2.0.0
 ms.assetid: E30DA485-2D19-497F-92BA-8BD7F7804602
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -89,7 +89,6 @@ Indicates whether clients can use a fallback source location for content.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -104,7 +103,6 @@ Indicates whether the distribution point can pre-stage contents.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -119,7 +117,6 @@ Indicates whether the distribution point can respond to pre-boot execution envir
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -134,7 +131,6 @@ Specifies the date and time when the certificate expires.
 Type: DateTime
 Parameter Sets: UseSelfSignedCertificate
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -149,7 +145,6 @@ Specifies the password, as a secure string, for the public key infrastructure (P
 Type: SecureString
 Parameter Sets: UseImportCertificate
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -164,7 +159,6 @@ Specifies the import path for the PKI issued certificate that the distribution p
 Type: String
 Parameter Sets: UseImportCertificate
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -180,7 +174,6 @@ Type: ComputerCommunicationType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Http, Https
-
 Required: False
 Position: Named
 Default value: None
@@ -201,7 +194,6 @@ Type: ClientConnectionTypes
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Intranet, Internet, InternetAndIntranet
-
 Required: False
 Position: Named
 Default value: None
@@ -216,7 +208,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -241,7 +232,6 @@ Type: Priority
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Lowest, Low, Medium, High, Highest
-
 Required: False
 Position: Named
 Default value: None
@@ -256,7 +246,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: SiteCode
-
 Required: True
 Position: Named
 Default value: None
@@ -271,7 +260,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -286,7 +274,6 @@ Indicates whether the distribution point permits anonymous connections from Conf
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -305,7 +292,6 @@ After you create the distribution point, Configuration Manager installs a provid
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -321,7 +307,6 @@ Unknown computers are computers that are not managed by Configuration Manager.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -336,7 +321,6 @@ Indicates whether Configuration Manager overwrites a duplicate certificate when 
 Type: Boolean
 Parameter Sets: UseImportCertificate
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -351,7 +335,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -366,7 +349,6 @@ Indicates whether the distribution point initiates the connection with the clien
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -381,7 +363,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: SharedDistributionPoint
-
 Required: True
 Position: Named
 Default value: None
@@ -396,7 +377,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: InstallInternetServer
-
 Required: False
 Position: Named
 Default value: None
@@ -412,7 +392,6 @@ Configuration Manager 2007 Site Component Manager service uses Site System Insta
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -427,7 +406,6 @@ Specifies an array of media access controller (MAC) addresses that the distribut
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -443,7 +421,6 @@ Content files can span multiple drives.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -458,7 +435,6 @@ Specifies the path for a copy of the migrated content.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -479,7 +455,6 @@ Type: DriveType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Automatic, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
-
 Required: False
 Position: Named
 Default value: None
@@ -500,7 +475,6 @@ Type: DriveType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Automatic, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
-
 Required: False
 Position: Named
 Default value: None
@@ -515,7 +489,6 @@ Specifies the fully qualified domain name (FQDN) of the site system server that 
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -530,7 +503,6 @@ Accept wildcard characters: False
 Type: SecureString
 Parameter Sets: (All)
 Aliases: ComputersUsePxePassword
-
 Required: False
 Position: Named
 Default value: None
@@ -545,7 +517,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: PxeServerResponseDelaySeconds
-
 Required: False
 Position: Named
 Default value: None
@@ -565,7 +536,6 @@ Type: DriveType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Automatic, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
-
 Required: False
 Position: Named
 Default value: None
@@ -585,7 +555,6 @@ Type: DriveType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Automatic, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
-
 Required: False
 Position: Named
 Default value: None
@@ -606,7 +575,6 @@ Type: UserDeviceAffinityType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: DoNotUse, AllowWithManualApproval, AllowWithAutomaticApproval
-
 Required: False
 Position: Named
 Default value: None
@@ -623,7 +591,6 @@ To create a CMSchedule object, use the New-CMSchedule cmdlet.
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -639,7 +606,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

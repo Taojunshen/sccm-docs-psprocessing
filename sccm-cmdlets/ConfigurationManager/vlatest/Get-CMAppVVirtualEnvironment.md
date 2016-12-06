@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834106
 schema: 2.0.0
 ms.assetid: 0249609D-987D-4F8C-85AD-B4BFD4970484
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAppVVirtualEnvironment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAppVVirtualEnvironment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAppVVirtualEnvironment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -71,7 +71,6 @@ This command gets an App-V virtual environment that has the ID 16781806.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -86,7 +85,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -101,7 +99,6 @@ Specifies an array of IDs of virtual environments.
 Type: Int32[]
 Parameter Sets: SearchById
 Aliases: CIId, CI_ID
-
 Required: True
 Position: Named
 Default value: None
@@ -117,7 +114,6 @@ You can use a wildcard.
 Type: String
 Parameter Sets: SearchByName
 Aliases: LocalizedDisplayName
-
 Required: False
 Position: Named
 Default value: None

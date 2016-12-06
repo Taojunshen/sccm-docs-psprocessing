@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833706
 schema: 2.0.0
 ms.assetid: 78A69AB1-BD8F-42A4-8A9B-B38810F81BD1
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMFileReplicationRoute.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMFileReplicationRoute.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMFileReplicationRoute.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -61,7 +61,6 @@ Specifies a destination site for data transfers by using a site code.
 Type: String
 Parameter Sets: SearchBySiteCode
 Aliases: DesSiteCode
-
 Required: False
 Position: Named
 Default value: None
@@ -76,7 +75,6 @@ Specifies a destination site for data transfers by using a site name.
 Type: String
 Parameter Sets: SearchBySiteName
 Aliases: DesSiteName
-
 Required: False
 Position: Named
 Default value: None
@@ -91,7 +89,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -106,7 +103,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -121,7 +117,6 @@ Specifies a source site for data transfers by using a site code.
 Type: String
 Parameter Sets: SearchBySiteCode
 Aliases: SiteCode
-
 Required: False
 Position: Named
 Default value: None
@@ -136,7 +131,6 @@ Specifies a destination site for data transfers by using a site name.
 Type: String
 Parameter Sets: SearchBySiteName
 Aliases: SiteName
-
 Required: False
 Position: Named
 Default value: None

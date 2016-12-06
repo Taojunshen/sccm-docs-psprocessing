@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834164
 schema: 2.0.0
 ms.assetid: 4B32EE03-FD8B-4F78-9F32-258A1C20EB0A
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -96,7 +96,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -111,7 +110,6 @@ Specifies a description for the Windows Firewall policy.
 Type: String
 Parameter Sets: (All)
 Aliases: LocalizedDescription
-
 Required: False
 Position: Named
 Default value: None
@@ -126,7 +124,6 @@ Accept wildcard characters: False
 Type: ConfigurationItem
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -141,7 +138,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: DesiredConfigurationDigestPath
-
 Required: False
 Position: Named
 Default value: None
@@ -156,7 +152,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -171,7 +166,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -192,7 +186,6 @@ Type: SettingType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Yes, No, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -208,7 +201,6 @@ Type: SettingType
 Parameter Sets: (All)
 Aliases: DomainNotifications
 Accepted values: Yes, No, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -229,7 +221,6 @@ Type: SettingType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Yes, No, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -244,7 +235,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -259,7 +249,6 @@ Specifies an array of IDs of firewall policies.
 Type: Int32
 Parameter Sets: SetById
 Aliases: CIId, CI_ID
-
 Required: True
 Position: 0
 Default value: None
@@ -275,7 +264,6 @@ To obtain a CMWindowsFirewallPolicy object, use the Get-CMWindowsFirewallPolicy 
 Type: IResultObject
 Parameter Sets: SetByValue
 Aliases: 
-
 Required: True
 Position: 0
 Default value: None
@@ -290,7 +278,6 @@ Specifies an array of firewall policy names.
 Type: String
 Parameter Sets: SetByName
 Aliases: LocalizedDisplayName
-
 Required: True
 Position: 0
 Default value: None
@@ -305,7 +292,6 @@ Specifies a new name for the firewall policy.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -320,7 +306,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -337,7 +322,6 @@ Type: PriorityChangeType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Increase, Decrease
-
 Required: False
 Position: Named
 Default value: None
@@ -358,7 +342,6 @@ Type: SettingType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Yes, No, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -374,7 +357,6 @@ Type: SettingType
 Parameter Sets: (All)
 Aliases: PrivateNotifications
 Accepted values: Yes, No, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -395,7 +377,6 @@ Type: SettingType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Yes, No, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -416,7 +397,6 @@ Type: SettingType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Yes, No, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -432,7 +412,6 @@ Type: SettingType
 Parameter Sets: (All)
 Aliases: PublicNotifications
 Accepted values: Yes, No, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -453,7 +432,6 @@ Type: SettingType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Yes, No, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -469,7 +447,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

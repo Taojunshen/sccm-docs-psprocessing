@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834263
 schema: 2.0.0
 ms.assetid: 9C9C7C89-BEC9-4B9D-838B-250771C23C44
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConditionalAccessPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConditionalAccessPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConditionalAccessPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -70,7 +70,6 @@ This rule overrides the default Exchange access rule, which means that even if y
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -85,7 +84,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -103,7 +101,6 @@ Members of these collections do not have to enroll their devices in Microsoft In
 Type: IResultObject[]
 Parameter Sets: ByValue
 Aliases: ExecludedCollections
-
 Required: False
 Position: Named
 Default value: None
@@ -120,7 +117,6 @@ Members of these collections do not have to enroll their devices in Microsoft In
 Type: String[]
 Parameter Sets: ById
 Aliases: ExecludedCollectionIds
-
 Required: False
 Position: Named
 Default value: None
@@ -137,7 +133,6 @@ Members of these collections do not have to enroll their devices in Microsoft In
 Type: String[]
 Parameter Sets: ByName
 Aliases: ExecludedCollectionNames
-
 Required: False
 Position: Named
 Default value: None
@@ -152,7 +147,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -170,7 +164,6 @@ Members of these collections must enroll their devices in Microsoft Intune and b
 Type: IResultObject[]
 Parameter Sets: ByValue
 Aliases: TargetedCollections
-
 Required: False
 Position: Named
 Default value: None
@@ -187,7 +180,6 @@ Members of these collections must enroll their devices in Microsoft Intune and b
 Type: String[]
 Parameter Sets: ById
 Aliases: TargetedCollectionIds
-
 Required: False
 Position: Named
 Default value: None
@@ -204,7 +196,6 @@ Members of these collections must enroll their devices in Microsoft Intune and b
 Type: String[]
 Parameter Sets: ByName
 Aliases: TargetedCollectionNames
-
 Required: False
 Position: Named
 Default value: None

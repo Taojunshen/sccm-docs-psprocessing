@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834084
 schema: 2.0.0
 ms.assetid: EA722095-C1A2-4454-9936-19EFB7088C47
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeploymentPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeploymentPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeploymentPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -80,7 +80,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -95,7 +94,6 @@ Specifies a description for the deployment package.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -110,7 +108,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -125,7 +122,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -140,7 +136,6 @@ Specifies an array of identifiers for the deployment package.
 Type: String
 Parameter Sets: SetById
 Aliases: PackageId
-
 Required: True
 Position: Named
 Default value: None
@@ -156,7 +151,6 @@ To obtain an CMSoftwareUpdateDeploymentPackage object, use the Get-CMSoftwareUpd
 Type: IResultObject
 Parameter Sets: SetByValueMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -171,7 +165,6 @@ Specifies a name for the deployment package.
 Type: String
 Parameter Sets: SetByName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -186,7 +179,6 @@ Specifies a new name for the deployment package.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -201,7 +193,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -216,7 +207,6 @@ Specifies a package source (URL) for the deployment package.
 Type: String
 Parameter Sets: (All)
 Aliases: PackageSourcePath, PkgSourcePath
-
 Required: False
 Position: Named
 Default value: None
@@ -232,7 +222,6 @@ Type: Priorities
 Parameter Sets: (All)
 Aliases: 
 Accepted values: High, Normal, Low
-
 Required: False
 Position: Named
 Default value: None
@@ -247,7 +236,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: RefreshDistributionPointAfterRemoveSoftwareUpdateFromPackage
-
 Required: False
 Position: Named
 Default value: None
@@ -262,7 +250,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: RemoveDownloadedExpiredSoftwareUpdateFromPackage
-
 Required: False
 Position: Named
 Default value: None
@@ -277,7 +264,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: RemoveDownloadedSupersededSoftwareUpdateFromPackage
-
 Required: False
 Position: Named
 Default value: None
@@ -293,7 +279,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

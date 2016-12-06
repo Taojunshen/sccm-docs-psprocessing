@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833851
 schema: 2.0.0
 ms.assetid: 660FDB95-D970-4937-8A63-1EC4219625CA
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMExchangeServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMExchangeServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMExchangeServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -87,7 +87,6 @@ Type: AccessLevelType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Allow, Block, Quarantine
-
 Required: False
 Position: Named
 Default value: None
@@ -102,7 +101,6 @@ Accept wildcard characters: False
 Type: ExchangeConnectorAccessRule[]
 Parameter Sets: (All)
 Aliases: AccessRules
-
 Required: False
 Position: Named
 Default value: None
@@ -118,7 +116,6 @@ When this parameter appears, the Exchange Server connector searches for the devi
 Type: String[]
 Parameter Sets: (All)
 Aliases: ActiveDirectoryContainers
-
 Required: False
 Position: Named
 Default value: None
@@ -133,7 +130,6 @@ Indicates whether an external device management program can manage the device.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -150,7 +146,6 @@ Valid values are: AllowUnsignedApplications, AllowUnsignedInstallationPackages, 
 Type: ExchangeConnectorApplicationSetting
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -165,7 +160,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -180,7 +174,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: DeltaSyncInterval
-
 Required: False
 Position: Named
 Default value: None
@@ -195,7 +188,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -210,7 +202,6 @@ Specifies an array of email addresses.
 Type: String[]
 Parameter Sets: (All)
 Aliases: EmailAddresses
-
 Required: False
 Position: Named
 Default value: None
@@ -226,7 +217,6 @@ For each dictionary entry in the array, specify the setting name as the key and 
 Type: ExchangeConnectorEmailManagementSetting
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -241,7 +231,6 @@ Indicates whether to enable an access rule.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -256,7 +245,6 @@ Specifies Exchange Client Access servers, as key-value pairs.
 Type: Dictionary`2[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -271,7 +259,6 @@ Indicates that the discovery process find all mobile devices in an Exchange orga
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -286,7 +273,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -301,7 +287,6 @@ Specifies a result object that schedules the full discovery time for an Exchange
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -323,7 +308,6 @@ Settings you can specify for this parameter include:
 Type: ExchangeConnectorGeneralSetting
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -338,7 +322,6 @@ Indicates that the Exchange Server connector configuration is for a hosted or on
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -353,7 +336,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: MaximumInactiveDay
-
 Required: False
 Position: Named
 Default value: None
@@ -368,7 +350,6 @@ Specifies a new server address for an Exchange server.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -395,7 +376,6 @@ Settings you can specify for this parameter include:
 Type: ExchangeConnectorPasswordSetting
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -423,7 +403,6 @@ Settings you can specify for this parameter include:
 Type: ExchangeConnectorSecuritySetting
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -438,7 +417,6 @@ Specifies the address of the Exchange Server for which the cmdlet configures the
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -453,7 +431,6 @@ Specifies the Exchange Server by using a site code.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -468,7 +445,6 @@ Specifies the user name that the connector uses to connect to the Exchange Serve
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -484,7 +460,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

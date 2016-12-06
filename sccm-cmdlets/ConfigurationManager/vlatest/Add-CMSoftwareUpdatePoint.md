@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833756
 schema: 2.0.0
 ms.assetid: 05550BB3-526D-43E5-A48A-B447E5D61EED
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSoftwareUpdatePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSoftwareUpdatePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSoftwareUpdatePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,7 +62,6 @@ Indicates that the software update point allows anonymous WSUS access.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -83,7 +82,6 @@ Type: ClientConnectionTypes
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Intranet, Internet, InternetAndIntranet
-
 Required: False
 Position: Named
 Default value: None
@@ -98,7 +96,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -113,7 +110,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: UserName
-
 Required: False
 Position: Named
 Default value: None
@@ -128,7 +124,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -143,7 +138,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -158,7 +152,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: SumPByValueWithWsus
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -173,7 +166,6 @@ Specifies a site code for the Configuration Manager site that manages the system
 Type: String
 Parameter Sets: SumPWithWsus
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -188,7 +180,6 @@ Specifies the name of a computer that hosts the software update point site syste
 Type: String
 Parameter Sets: SumPWithWsus
 Aliases: Name, ServerName
-
 Required: True
 Position: 0
 Default value: None
@@ -203,7 +194,6 @@ Indicates whether a software update point can use a proxy.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -218,7 +208,6 @@ Indicates whether an auto deployment rule can use a proxy.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -234,7 +223,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False
@@ -249,7 +237,6 @@ Specifies a port to use for unsecured access to the WSUS server.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -264,7 +251,6 @@ Specifies a port to user for secured access to the WSUS server.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -279,7 +265,6 @@ Specifies whether the software update point uses SSL to connect to the WSUS serv
 Type: Boolean
 Parameter Sets: (All)
 Aliases: SslWsus
-
 Required: False
 Position: Named
 Default value: None

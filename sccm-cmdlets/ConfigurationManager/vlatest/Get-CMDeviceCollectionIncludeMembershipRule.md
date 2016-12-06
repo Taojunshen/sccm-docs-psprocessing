@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833631
 schema: 2.0.0
 ms.assetid: 3CB9C62E-6B40-491C-9FB6-4328215AA7E9
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionIncludeMembershipRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionIncludeMembershipRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionIncludeMembershipRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -105,7 +105,6 @@ Specifies the ID of a device collection.
 Type: String
 Parameter Sets: ByIdAndValue, ByIdAndId, ByIdAndName
 Aliases: Id
-
 Required: True
 Position: Named
 Default value: None
@@ -120,7 +119,6 @@ Specifies the name of a device collection.
 Type: String
 Parameter Sets: ByNameAndName, ByNameAndValue, ByNameAndId
 Aliases: Name
-
 Required: True
 Position: Named
 Default value: None
@@ -136,7 +134,6 @@ To obtain a collection object, use the Get-CMCollection cmdlet.
 Type: IResultObject
 Parameter Sets: ByNameAndValue, ByIdAndValue, ByValueAndValue
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -151,7 +148,6 @@ Specifies the ID of a device collection included in a membership rule.
 Type: String
 Parameter Sets: ByNameAndId, ByIdAndId, ByValueAndId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -166,7 +162,6 @@ Specifies the name of a device collection included in a membership rule.
 Type: String
 Parameter Sets: ByNameAndName, ByIdAndName, ByValueAndName
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -181,7 +176,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: ByValueAndValue, ByValueAndId, ByValueAndName
 Aliases: Collection
-
 Required: True
 Position: Named
 Default value: None

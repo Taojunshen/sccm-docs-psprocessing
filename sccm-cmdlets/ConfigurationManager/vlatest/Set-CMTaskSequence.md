@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834128
 schema: 2.0.0
 ms.assetid: DC01ACF9-2683-428D-8DC1-CCD42AAC2581
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequence.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequence.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequence.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -91,7 +91,6 @@ To obtain a supported operating system platform object, use the Get-CMSupportedP
 Type: IResultObject[]
 Parameter Sets: (All)
 Aliases: AddSupportedOperatingSystemPlatforms
-
 Required: False
 Position: Named
 Default value: None
@@ -106,7 +105,6 @@ Specifies the ID of a boot image.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -122,7 +120,6 @@ You can use categories to group task sequences.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -137,7 +134,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -153,7 +149,6 @@ Custom text appears in the progress notification dialog box while the task seque
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -169,7 +164,6 @@ If you specify a value of $True for the *RunAnotherProgram* parameter, the speci
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -184,7 +178,6 @@ Specifies a description for the task sequence.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -199,7 +192,6 @@ Indicates whether to disable this task sequence.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -214,7 +206,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -229,7 +220,6 @@ Indicates whether to enable notifications for this task sequence.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: EnableNotifications
-
 Required: False
 Position: Named
 Default value: None
@@ -244,7 +234,6 @@ Indicates whether to enable this task sequence.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -259,7 +248,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -275,7 +263,6 @@ To obtain a task sequence object, use the Get-CMTaskSequence cmdlet.
 Type: IResultObject
 Parameter Sets: SetByValue
 Aliases: TaskSequence
-
 Required: True
 Position: Named
 Default value: None
@@ -290,7 +277,6 @@ Specifies, in minutes, the maximum running time for the task sequence.
 Type: Int64
 Parameter Sets: (All)
 Aliases: Duration
-
 Required: False
 Position: Named
 Default value: None
@@ -305,7 +291,6 @@ Specifies a new name for the task sequence.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -321,7 +306,6 @@ By default, this cmdlet does not generate any output.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -336,7 +320,6 @@ Specifies the name of a program to run from a Configuration Manager software pac
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -352,7 +335,6 @@ To obtain a supported operating system platform object, use the **Get-CMSupporte
 Type: IResultObject[]
 Parameter Sets: (All)
 Aliases: RemoveSupportedOperatingSystemPlatforms
-
 Required: False
 Position: Named
 Default value: None
@@ -368,7 +350,6 @@ Specify the program by using the *DeploymentPackageId* parameter and the *Progra
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -384,7 +365,6 @@ If you specify a value of $False, the program does not run if it has run success
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -399,7 +379,6 @@ Indicates that the task sequence runs on any operating system platform.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: ClearSupportedOperatingSystemPlatforms
-
 Required: False
 Position: Named
 Default value: None
@@ -414,7 +393,6 @@ Indicates whether to suppress notifications for this task sequence.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -429,7 +407,6 @@ Specifies the ID of a task sequence.
 Type: String
 Parameter Sets: SetById
 Aliases: Id, TaskSequencePackageId
-
 Required: True
 Position: Named
 Default value: None
@@ -444,7 +421,6 @@ Specifies the name of a task sequence.
 Type: String
 Parameter Sets: SetByName
 Aliases: Name
-
 Required: True
 Position: Named
 Default value: None
@@ -459,7 +435,6 @@ Indicates whether the task sequence uses the boot image specified by using the *
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -475,7 +450,6 @@ If you select a value of $False for this parameter, be sure to specify custom te
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -491,7 +465,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833619
 schema: 2.0.0
 ms.assetid: 44F60651-6890-4A51-96C1-D2A835D7E24F
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollection.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollection.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollection.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -70,7 +70,6 @@ This command gets the device collection that has the ID 9990000D.
 Type: IResultObject
 Parameter Sets: ByDPGroup
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -85,7 +84,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: ByDPGroupId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -100,7 +98,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: ByDPGroupName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -115,7 +112,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: ById
 Aliases: CollectionId
-
 Required: True
 Position: Named
 Default value: None
@@ -130,7 +126,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: ByName
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None

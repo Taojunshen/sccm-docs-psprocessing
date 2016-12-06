@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833747
 schema: 2.0.0
 ms.assetid: CAC293F8-F168-4D53-8C74-E33A077BE0D1
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityScopeToAdministrativeUser.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityScopeToAdministrativeUser.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityScopeToAdministrativeUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -111,7 +111,6 @@ To get an administrative user or administrative group object, use the Get-CMAdmi
 Type: IResultObject
 Parameter Sets: AddScopeToAdminById_Object, AddScopeToAdminByName_Object, AddScopeToAdminByObject_Object
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -126,7 +125,6 @@ Specifies an ID of an administrative user or administrative group.
 Type: Int32
 Parameter Sets: AddScopeToAdminById_Id, AddScopeToAdminByName_Id, AddScopeToAdminByObject_Id
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -141,7 +139,6 @@ Specifies a name of an administrative user or administrative group.
 Type: String
 Parameter Sets: AddScopeToAdminByName_Name, AddScopeToAdminById_Name, AddScopeToAdminByObject_Name
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -156,7 +153,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -171,7 +167,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -186,7 +181,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -202,7 +196,6 @@ To obtain a security scope object, use the Get-CMSecurityScope cmdlet.
 Type: IResultObject
 Parameter Sets: AddScopeToAdminByObject_Object, AddScopeToAdminByObject_Id, AddScopeToAdminByObject_Name
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -217,7 +210,6 @@ Specifies the ID of a security scope.
 Type: String
 Parameter Sets: AddScopeToAdminById_Id, AddScopeToAdminById_Name, AddScopeToAdminById_Object
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -233,7 +225,6 @@ A security scope name can be Default or the name of a custom security scope.
 Type: String
 Parameter Sets: AddScopeToAdminByName_Name, AddScopeToAdminByName_Object, AddScopeToAdminByName_Id
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -249,7 +240,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

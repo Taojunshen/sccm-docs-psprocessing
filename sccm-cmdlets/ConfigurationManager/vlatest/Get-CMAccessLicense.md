@@ -3,10 +3,10 @@ external help file: AdminUI.PS.CalTracking.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834053
 schema: 2.0.0
 ms.assetid: F4A560C6-BF3A-423B-B6FB-F779E2863F4F
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAccessLicense.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAccessLicense.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAccessLicense.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -69,7 +69,6 @@ Indicates that the cmdlet returns a count of unique users and devices for the sp
 Type: SwitchParameter
 Parameter Sets: ByCount
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -84,7 +83,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -99,7 +97,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -115,7 +112,6 @@ You can specify the name of the license that is returned for the *LicenseName* p
 Type: SwitchParameter
 Parameter Sets: ByName
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -137,7 +133,6 @@ Type: String
 Parameter Sets: ByValue, ByCount
 Aliases: 
 Accepted values: ConfigMgr_2012_CoreServer, ConfigMgr_2012_CoreClient, ConfigMgr_2012_EndpointClient
-
 Required: True
 Position: Named
 Default value: None

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833811
 schema: 2.0.0
 ms.assetid: 628F6856-2636-4C39-AEF8-BA670101D08C
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -84,7 +84,6 @@ Indicates whether this configuration item manages profile access settings for ro
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -99,7 +98,6 @@ Indicates whether to grant the Administrators group access to roaming profile fo
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -115,7 +113,6 @@ If this value is $False, roaming profiles apply only to the primary device for a
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -130,7 +127,6 @@ Indicates whether to permit user policies to roam across Active Directory forest
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -146,7 +142,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForAppDataRoaming
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -163,7 +158,6 @@ Type: SynchronizationType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Enabled, Disabled, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -178,7 +172,6 @@ Indicates whether the configuration item includes settings for folder redirectio
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -193,7 +186,6 @@ Indicates whether the configuration item includes settings for offline folders.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -208,7 +200,6 @@ Indicates whether the configuration item includes settings for roaming user prof
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -223,7 +214,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -238,7 +228,6 @@ Specifies a connection transfer rate.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -254,7 +243,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForContacts, Contacts
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -270,7 +258,6 @@ A computer deletes an older profile when it restarts.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -286,7 +273,6 @@ The default for this parameter is $False.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -301,7 +287,6 @@ Specifies a description for the configuration item.
 Type: String
 Parameter Sets: (All)
 Aliases: LocalizedDescription
-
 Required: False
 Position: Named
 Default value: None
@@ -317,7 +302,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForDesktop
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -332,7 +316,6 @@ Indicates whether to disable slow link detection.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -356,7 +339,6 @@ Type: DeviceType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: OnAnyDevice, OnlyOnPrimaryDevices, FolderRedirectionOnAnyDeviceCachingOnPrimaryDevicesOnly
-
 Required: False
 Position: Named
 Default value: None
@@ -371,7 +353,6 @@ Indicates whether users can disable the **Make Available Offline** command.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -386,7 +367,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -401,7 +381,6 @@ Indicates whether users can disable the **Work Offline** command.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -417,7 +396,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForDocuments, Documents
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -433,7 +411,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForDownloads, Downloads
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -448,7 +425,6 @@ Indicates whether this configuration item enables use of offline files.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -463,7 +439,6 @@ Indicates whether the configuration enables work with offline files over a slow 
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -478,7 +453,6 @@ Specifies the number of days to wait before the profile creates an error.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -493,7 +467,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: ExcludeList
-
 Required: False
 Position: Named
 Default value: None
@@ -509,7 +482,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForFavorites, Favorites
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -526,7 +498,6 @@ Type: SynchronizationType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Enabled, Disabled, NotConfigured
-
 Required: False
 Position: Named
 Default value: None
@@ -542,7 +513,6 @@ The default value for this parameter is $False.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -557,7 +527,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -572,7 +541,6 @@ Indicates whether to grant the user exclusive permissions to a redirected folder
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -587,7 +555,6 @@ Indicates whether to leave the folder in the redirected location in the event yo
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -602,7 +569,6 @@ Specifies a limit, in megabytes, for the disk space used for offline files.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -618,7 +584,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForLinks, Links
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -639,7 +604,6 @@ Specify values for any of the following parameters:
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -654,7 +618,6 @@ Indicates whether this profile item manages slow links.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -669,7 +632,6 @@ Indicates whether to move the cached folder when the path updates on the server.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -684,7 +646,6 @@ Indicates whether to move the contents of redirected folders to the new location
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -700,7 +661,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForMusic
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -715,7 +675,6 @@ Specifies a name for the configuration item.
 Type: String
 Parameter Sets: (All)
 Aliases: LocalizedDisplayName
-
 Required: True
 Position: Named
 Default value: None
@@ -730,7 +689,6 @@ Specifies an array of Administrative user assigned offline folders, as UNC paths
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -745,7 +703,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: OnlyAllowLocalProfiles
-
 Required: False
 Position: Named
 Default value: None
@@ -760,7 +717,6 @@ Indicates whether the configuration item does not check for ownership of roaming
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -776,7 +732,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForPictures, Pictures
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -791,7 +746,6 @@ Indicates whether to disable uploading of profiles.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -807,7 +761,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForSavedGames, SavedGames
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -823,7 +776,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForSearches, Searches
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -838,7 +790,6 @@ Specifies a value for a slow link.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -853,7 +804,6 @@ Indicates whether to enable user logon prompt to allow profile download when a d
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -868,7 +818,6 @@ Specifies a specified location.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -884,7 +833,6 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 Accepted values: 12:00 AM, 1:00 PM, 2:00 PM, 3:00 PM, 4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM, 8:00 PM, 9:00 PM, 10:00 PM, 11:00 PM, 12:00 PM
-
 Required: False
 Position: Named
 Default value: None
@@ -899,7 +847,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: SpecifyTimeInterval
-
 Required: False
 Position: Named
 Default value: None
@@ -915,7 +862,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForStartMenu
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -930,7 +876,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: SynchronizationList, SyncDirectories
-
 Required: False
 Position: Named
 Default value: None
@@ -945,7 +890,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: SynchronizationInterval
-
 Required: False
 Position: Named
 Default value: None
@@ -960,7 +904,6 @@ Indicates whether to use a synchronization policy.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -975,7 +918,6 @@ Indicates whether to block users from logging on by using a temporary profile.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -990,7 +932,6 @@ Specifies a timeout value.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -1005,7 +946,6 @@ Indicates whether to use common alerts.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -1020,7 +960,6 @@ Indicates whether to use the specified location referred to by the *SpecifiedLoc
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -1036,7 +975,6 @@ Type: FolderRedirectionType
 Parameter Sets: (All)
 Aliases: FolderRedirectionUserConfigurationForVideos, Videos
 Accepted values: RedirectToRemote, RedirectToLocal, DoNotManage
-
 Required: False
 Position: Named
 Default value: None
@@ -1051,7 +989,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: WaitForNetworkInSeconds
-
 Required: False
 Position: Named
 Default value: None
@@ -1066,7 +1003,6 @@ Specifies the number of days to wait before the profile creates a warning.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -1082,7 +1018,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

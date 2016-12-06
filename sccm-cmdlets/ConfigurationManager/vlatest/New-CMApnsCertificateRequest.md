@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834245
 schema: 2.0.0
 ms.assetid: B955A6FD-38A4-4AEA-889D-A4AF76CFCEB0
-updated_at: 12/1/2016 10:06 PM
-ms.date: 12/1/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMApnsCertificateRequest.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/1312aee056984b5746a8b0e3c3eaae99f795b2f4/sccm-cmdlets/ConfigurationManager/vlatest/New-CMApnsCertificateRequest.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMApnsCertificateRequest.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -56,7 +56,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -71,7 +70,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
-
 Required: False
 Position: Named
 Default value: None
@@ -86,7 +84,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
-
 Required: False
 Position: Named
 Default value: None
@@ -101,7 +98,6 @@ Specifies a **PSCredential** object that contains a Microsoft Intune organizatio
 Type: PSCredential
 Parameter Sets: (All)
 Aliases: Credential
-
 Required: True
 Position: Named
 Default value: None
@@ -117,7 +113,6 @@ By default, this cmdlet does not generate any output.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
-
 Required: False
 Position: Named
 Default value: None
@@ -132,7 +127,6 @@ Specifies a location where the cmdlet saves the downloaded certificate signing r
 Type: String
 Parameter Sets: (All)
 Aliases: ApnsCertificateRequestPath
-
 Required: False
 Position: Named
 Default value: None
@@ -148,7 +142,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

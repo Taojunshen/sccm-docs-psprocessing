@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834296
 schema: 2.0.0
 ms.assetid: C24C7EB7-412E-49ED-AC3A-D6C8838D6A87
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Update-CMDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Update-CMDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Update-CMDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -130,7 +130,6 @@ Specifies the name of an application.
 Type: String
 Parameter Sets: UpdateByDeploymentTypeName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -145,7 +144,6 @@ Specifies the ID of a boot image.
 Type: String
 Parameter Sets: SearchByBootImageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -160,7 +158,6 @@ Specifies the name of a boot image.
 Type: String
 Parameter Sets: SearchByBootImageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -175,7 +172,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -190,7 +186,6 @@ Specifies the name of a deployment type.
 Type: String
 Parameter Sets: UpdateByDeploymentTypeName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -205,7 +200,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -220,7 +214,6 @@ Specifies the ID of a driver package.
 Type: String
 Parameter Sets: SearchByDriverPackageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -235,7 +228,6 @@ Specifies the name of a driver package.
 Type: String
 Parameter Sets: SearchByDriverPackageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -250,7 +242,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -266,7 +257,6 @@ To obtain a package object, use the Get-CMPackage cmdlet.
 Type: IResultObject
 Parameter Sets: ByValue
 Aliases: BootImage, DriverPackage, OperatingSystemImage, OperatingSystemInstaller, Package, SoftwareUpdateDeploymentPackage
-
 Required: True
 Position: Named
 Default value: None
@@ -282,7 +272,6 @@ Specify the manifest path if you specify Microsoft Application Virtualization fo
 Type: String
 Parameter Sets: UpdateByDeploymentTypeName
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -297,7 +286,6 @@ Specifies the ID of an operating system image.
 Type: String
 Parameter Sets: SearchByOSImageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -312,7 +300,6 @@ Specifies the name of an operating system image.
 Type: String
 Parameter Sets: SearchByOSImageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -327,7 +314,6 @@ Specifies the ID of an operating system installer.
 Type: String
 Parameter Sets: SearchByOSInstallerId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -342,7 +328,6 @@ Specifies the name of an operating system installer.
 Type: String
 Parameter Sets: SearchByOSInstallerName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -357,7 +342,6 @@ Specifies the ID of a package.
 Type: String
 Parameter Sets: SearchByPackageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -372,7 +356,6 @@ Specifies the name of a package.
 Type: String
 Parameter Sets: SearchByPackageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -387,7 +370,6 @@ Specifies the ID of a software update deployment package.
 Type: String
 Parameter Sets: SearchBySoftwareUpdateDeploymentPackageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -402,7 +384,6 @@ Specifies the name of a software update deployment package.
 Type: String
 Parameter Sets: SearchBySoftwareUpdateDeploymentPackageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -418,7 +399,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

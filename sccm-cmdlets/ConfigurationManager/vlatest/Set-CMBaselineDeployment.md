@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833674
 schema: 2.0.0
 ms.assetid: E9EBE502-8433-4600-8D69-2240C7699282
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -87,7 +87,6 @@ To obtain a baseline object, use the Get-CMBaseline cmdlet.
 Type: IResultObject
 Parameter Sets: SetBaselineDeploymentByValueMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -102,7 +101,6 @@ Specifies the ID of a baseline.
 Type: String
 Parameter Sets: SetBaselineDeploymentByIdMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -117,7 +115,6 @@ Specifies the name of a baseline.
 Type: String
 Parameter Sets: SetBaselineDeploymentByNameMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -133,7 +130,6 @@ The deployment applies to this collection.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -148,7 +144,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -163,7 +158,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -179,7 +173,6 @@ During enforcement, a client reports compliance information about the configurat
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -194,7 +187,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -209,7 +201,6 @@ Specifies whether Configuration Manager generates alerts during the deployment.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -224,7 +215,6 @@ Specifies whether to apply System Center 2016 - Operations Manager monitoring cr
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -240,7 +230,6 @@ Service windows are periods of time allocated for maintenance.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -256,7 +245,6 @@ This is the parameter value.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -274,7 +262,6 @@ This is the date for the deployment if it is postponed.
 Type: DateTime
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -291,7 +278,6 @@ This is the time for the deployment if it is postponed.
 Type: DateTime
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -307,7 +293,6 @@ This is the schedule for deploying a baseline.
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -323,7 +308,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

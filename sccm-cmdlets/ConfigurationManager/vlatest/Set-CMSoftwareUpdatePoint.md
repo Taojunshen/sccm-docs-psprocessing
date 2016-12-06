@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834092
 schema: 2.0.0
 ms.assetid: 781F6A2C-9A81-48F4-92EE-171566F550CF
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -69,7 +69,6 @@ Indicates that the software update point allows anonymous.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -92,7 +91,6 @@ Type: ClientConnectionTypes
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Intranet, Internet, InternetAndIntranet
-
 Required: False
 Position: Named
 Default value: None
@@ -107,7 +105,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -122,7 +119,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -137,7 +133,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: SslWsus, WsusSsl
-
 Required: False
 Position: Named
 Default value: None
@@ -152,7 +147,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -167,7 +161,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: WsusIisPort
-
 Required: False
 Position: Named
 Default value: None
@@ -182,7 +175,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: WsusIisSslPort
-
 Required: False
 Position: Named
 Default value: None
@@ -198,7 +190,6 @@ To obtain a software update point object, use the Get-CMSoftwareUpdatePoint cmdl
 Type: IResultObject
 Parameter Sets: ByValue
 Aliases: SoftwareUpdatePoint
-
 Required: True
 Position: Named
 Default value: None
@@ -214,7 +205,6 @@ If this software update point uses load balancing, this is the NLB address.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -229,7 +219,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -244,7 +233,6 @@ Specifies a public virtual IP address for a software update point that is connec
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -259,7 +247,6 @@ Specifies a site code for a Configuration Manager site.
 Type: String
 Parameter Sets: ByName
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -274,7 +261,6 @@ Specifies the name of the computer that hosts the software update point site sys
 Type: String
 Parameter Sets: ByName
 Aliases: Name, ServerName
-
 Required: True
 Position: 0
 Default value: None
@@ -289,7 +275,6 @@ Specifies whether a software update point can use a proxy.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -304,7 +289,6 @@ Indicates whether an auto deployment rule can use a proxy.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -320,7 +304,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False
@@ -336,7 +319,6 @@ Unless a software update point allows anonymous access, use this access account 
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None

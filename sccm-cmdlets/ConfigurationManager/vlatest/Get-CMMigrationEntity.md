@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Migration.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833758
 schema: 2.0.0
 ms.assetid: D02E7E60-2F2E-4EBE-9EB3-CA8CA9914289
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationEntity.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationEntity.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationEntity.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -75,7 +75,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -90,7 +89,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -105,7 +103,6 @@ Specifies an identifier in Configuration Manager.
 Type: String
 Parameter Sets: SearchById
 Aliases: EntityId
-
 Required: False
 Position: Named
 Default value: None
@@ -120,7 +117,6 @@ Specifies that this migration entity is active.
 Type: String
 Parameter Sets: SearchByOthers
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -135,7 +131,6 @@ Specifies a name in Configuration Manager.
 Type: String
 Parameter Sets: SearchByName
 Aliases: EntityName
-
 Required: False
 Position: Named
 Default value: None
@@ -150,7 +145,6 @@ Specifies a type in Configuration Manager.
 Type: String
 Parameter Sets: SearchByOthers
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None

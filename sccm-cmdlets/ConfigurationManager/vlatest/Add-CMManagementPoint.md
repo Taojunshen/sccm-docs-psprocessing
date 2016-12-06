@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833704
 schema: 2.0.0
 ms.assetid: 4FDCA14B-25A9-4224-AD46-F204C1F525F2
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMManagementPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMManagementPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMManagementPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -88,7 +88,6 @@ Indicates that the management point supports device clients.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -109,7 +108,6 @@ Type: ClientConnectionTypes
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Internet, Intranet, InternetAndIntranet
-
 Required: False
 Position: Named
 Default value: None
@@ -125,7 +123,6 @@ Type: ComputerCommunicationType
 Parameter Sets: (All)
 Aliases: ClientCommunicationType
 Accepted values: Http, Https
-
 Required: False
 Position: Named
 Default value: None
@@ -140,7 +137,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -155,7 +151,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: UserName
-
 Required: False
 Position: Named
 Default value: None
@@ -170,7 +165,6 @@ Specifies the name of the site database or site database replica that the manage
 Type: String
 Parameter Sets: ByNameReplica, ByValueReplica
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -185,7 +179,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -200,7 +193,6 @@ Indicates that the cmdlet enables SSL for the management point.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -215,7 +207,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -230,7 +221,6 @@ Indicates that Configuration Manager generates an alert when the management poin
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -245,7 +235,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: ByValueNoReplica, ByValueReplica
 Aliases: SiteServer
-
 Required: True
 Position: 0
 Default value: None
@@ -260,7 +249,6 @@ Specifies the site code of the Configuration Manager site that hosts the site sy
 Type: String
 Parameter Sets: ByNameNoReplica, ByNameReplica
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -275,7 +263,6 @@ Specifies the name of the server that hosts the site system role.
 Type: String
 Parameter Sets: ByNameNoReplica, ByNameReplica
 Aliases: Name, ServerName
-
 Required: True
 Position: 0
 Default value: None
@@ -290,7 +277,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: ByNameReplica, ByValueReplica
 Aliases: SqlServerFqdnName
-
 Required: True
 Position: Named
 Default value: None
@@ -305,7 +291,6 @@ Specifies the name of the SQL Server instance that clients use to communicate wi
 Type: String
 Parameter Sets: ByNameReplica, ByValueReplica
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -321,7 +306,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

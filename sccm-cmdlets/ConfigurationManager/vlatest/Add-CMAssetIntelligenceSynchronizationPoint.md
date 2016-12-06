@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833598
 schema: 2.0.0
 ms.assetid: B2B9CF97-719D-4F30-87C9-9ED6F3A5A798
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -73,7 +73,6 @@ Specifies the path to a System Center Online authentication certificate (.pfx) f
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -88,7 +87,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -103,7 +101,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -118,7 +115,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -133,7 +129,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: AISyncPointByValue
 Aliases: SiteServer
-
 Required: True
 Position: Named
 Default value: None
@@ -148,7 +143,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: ScheduleToken
-
 Required: False
 Position: Named
 Default value: None
@@ -163,7 +157,6 @@ Specifies an array of fully qualified domain names (FQDN) of the servers that ho
 Type: String
 Parameter Sets: AISyncPoint
 Aliases: Name, ServerName
-
 Required: True
 Position: 0
 Default value: None
@@ -179,7 +172,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

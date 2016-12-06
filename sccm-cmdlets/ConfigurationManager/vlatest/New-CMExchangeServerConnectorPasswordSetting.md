@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833675
 schema: 2.0.0
 ms.assetid: 93A8476A-389C-4F2C-A01F-5316B2DC839F
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorPasswordSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorPasswordSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorPasswordSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -67,7 +67,6 @@ Simple numeric passwords can begin or end with 0 but cannot include values that 
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -82,7 +81,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -97,7 +95,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -112,7 +109,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: MaximumIdleTimeMinutes
-
 Required: False
 Position: Named
 Default value: None
@@ -128,7 +124,6 @@ A complex character is any character that is not a letter.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -147,7 +142,6 @@ If * PasswordEnabled* is $False, default password lengths apply: four characters
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -169,7 +163,6 @@ Type: PasswordComplexityType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Pin, Strong
-
 Required: False
 Position: Named
 Default value: None
@@ -191,7 +184,6 @@ If you do not set a value for the parameter, the password-related settings on th
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -210,7 +202,6 @@ If you do not set a value for *PasswordExpiration*, password expiration settings
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -229,7 +220,6 @@ If you do not set a value for *PasswordExpiration*, password settings on the mob
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -245,7 +235,6 @@ If you do not set a value for this parameter, the password recovery options on t
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -260,7 +249,6 @@ Specifies the number of failed attempts to reset a password before the device wi
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None

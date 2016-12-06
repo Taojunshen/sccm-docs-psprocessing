@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834042
 schema: 2.0.0
 ms.assetid: 20AEB24C-2706-4103-B3D1-808D355C696C
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -68,7 +68,6 @@ Specifies the account name for the site system.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -83,7 +82,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -98,7 +96,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -113,7 +110,6 @@ Indicates whether to enable a proxy server to use when the server synchronizes i
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -128,7 +124,6 @@ Indicates whether the site system server is required to initiate connections to 
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -143,7 +138,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -159,7 +153,6 @@ To obtain a site system server object, use the Get-CMSiteSystemServer cmdlet.
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory
 Aliases: SiteSystemServer
-
 Required: True
 Position: Named
 Default value: None
@@ -175,7 +168,6 @@ By default, this cmdlet does not generate any output.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -191,7 +183,6 @@ Do not use user principal name (UPN) format.
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -207,7 +198,6 @@ Use a fully qualified domain name (FQDN), short name, or IPv4/IPv6 address.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -222,7 +212,6 @@ Specifies the proxy server port number to use when connecting to the Internet.
 Type: UInt32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -237,7 +226,6 @@ Specifies a FQDN for the site system for use on the Internet.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -252,7 +240,6 @@ Specifies the site code of a Configuration Manager site.
 Type: String
 Parameter Sets: SearchByNameMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -267,7 +254,6 @@ Specifies a server name for the site system.
 Type: String
 Parameter Sets: SearchByNameMandatory
 Aliases: Name, ServerName
-
 Required: True
 Position: 0
 Default value: None
@@ -282,7 +268,6 @@ Indicates that the cmdlet uses the site server's computer account to install the
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -298,7 +283,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

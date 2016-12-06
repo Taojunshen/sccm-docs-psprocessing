@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833767
 schema: 2.0.0
 ms.assetid: 51B2F354-3AD4-4A67-B567-E76938D445E5
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -84,7 +84,6 @@ Specifies an array of localized names of the categories to which the configurati
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -99,7 +98,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -114,7 +112,6 @@ Specifies a description for a configuration item.
 Type: String
 Parameter Sets: (All)
 Aliases: LocalizedDescription
-
 Required: False
 Position: Named
 Default value: None
@@ -129,7 +126,6 @@ Accept wildcard characters: False
 Type: ConfigurationItem
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -144,7 +140,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: DesiredConfigurationDigestPath
-
 Required: False
 Position: Named
 Default value: None
@@ -159,7 +154,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -174,7 +168,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -189,7 +182,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -205,7 +197,6 @@ You can use a comma separated list.
 Type: Int32
 Parameter Sets: SetByIdMandatory
 Aliases: CIId, CI_ID
-
 Required: True
 Position: 0
 Default value: None
@@ -221,7 +212,6 @@ To obtain a configuration item object, you can use the Get-CMConfigurationItem c
 Type: IResultObject
 Parameter Sets: SetByValueMandatory
 Aliases: 
-
 Required: True
 Position: 0
 Default value: None
@@ -236,7 +226,6 @@ Specifies an array of names for configuration items.
 Type: String
 Parameter Sets: SetByNameMandatory
 Aliases: LocalizedDisplayName
-
 Required: True
 Position: 0
 Default value: None
@@ -251,7 +240,6 @@ Specifies a new name for a configuration item.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -266,7 +254,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -281,7 +268,6 @@ Specifies an array of localized names of the categories from which to remove the
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -297,7 +283,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

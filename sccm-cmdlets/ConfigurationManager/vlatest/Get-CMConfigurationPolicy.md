@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834279
 schema: 2.0.0
 ms.assetid: 3A8B20A1-F35D-483F-BF47-1ECDC5109034
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -69,7 +69,6 @@ Specifies that the configuration policy is returned in XML format.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -84,7 +83,6 @@ Specifies an array of category instance types.
 Type: String[]
 Parameter Sets: (All)
 Aliases: CategoryInstanceTypes
-
 Required: False
 Position: Named
 Default value: None
@@ -99,7 +97,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -117,7 +114,6 @@ If lazy properties are not used, this parameter should be specified.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -132,7 +128,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -147,7 +142,6 @@ Specifies the CI__ID of a configuration policy.
 Type: Int32
 Parameter Sets: SearchById
 Aliases: CIId, CI_ID
-
 Required: True
 Position: 0
 Default value: None
@@ -162,7 +156,6 @@ Specifies a configuration policy object.
 Type: IResultObject
 Parameter Sets: SearchByValue
 Aliases: 
-
 Required: False
 Position: 0
 Default value: None
@@ -177,7 +170,6 @@ Specifies the name of a configuration policy.
 Type: String
 Parameter Sets: SearchByName
 Aliases: LocalizedDisplayName
-
 Required: False
 Position: 0
 Default value: None

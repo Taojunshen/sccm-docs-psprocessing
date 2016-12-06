@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833862
 schema: 2.0.0
 ms.assetid: 6B31564C-A6FC-4D4D-83D6-12EA9BEFC07A
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGlobalCondition.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGlobalCondition.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGlobalCondition.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -161,7 +161,6 @@ An assembly name must be registered in the global assembly cache.
 Type: String
 Parameter Sets: SetAssembly
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -177,7 +176,6 @@ The query assesses compliance on client computers.
 Type: String
 Parameter Sets: SetWqlQuery
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -192,7 +190,6 @@ Specifies the column name used to assess the compliance of the global condition.
 Type: String
 Parameter Sets: SetSqlQueryDefaultInstance, SetSqlQuerySpecificInstance, SetSqlQueryAllInstances
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -207,7 +204,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -223,7 +219,6 @@ The SQL query runs on this database.
 Type: String
 Parameter Sets: SetSqlQueryDefaultInstance, SetSqlQuerySpecificInstance, SetSqlQueryAllInstances
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -238,7 +233,6 @@ Specifies a description for the global condition.
 Type: String
 Parameter Sets: SetGeneral
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -253,7 +247,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -268,7 +261,6 @@ Specifies the distinguished name of the Active Directory Domain Services (AD DS)
 Type: String
 Parameter Sets: SetADQuery
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -284,7 +276,6 @@ Specify the *IsFolder* parameter to search for a folder.
 Type: String
 Parameter Sets: SetFileSystem
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -299,7 +290,6 @@ Specifies a file path for the file that the condition assesses for compliance.
 Type: String
 Parameter Sets: SetFileSystemFile, SetScript, SetXPathQuery, SetSqlQueryDefaultInstance, SetSqlQuerySpecificInstance, SetSqlQueryAllInstances
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -314,7 +304,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -329,7 +318,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: SetFileSystem, SetFileSystemFile, SetXPathQuery
 Aliases: IncludeSubfolders
-
 Required: False
 Position: Named
 Default value: None
@@ -346,7 +334,6 @@ To search all instances, specify the *UseAllInstances* parameter.
 Type: String
 Parameter Sets: SetSqlQuerySpecificInstance
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -361,7 +348,6 @@ Indicates that the global condition searches the 64-bit system file location in 
 Type: Boolean
 Parameter Sets: SetFileSystem, SetFileSystemFile, SetXPathQuery, SetRegistryValue, SetRegistryKey
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -377,7 +363,6 @@ Use the format key\subkey.
 Type: String
 Parameter Sets: SetRegistryValue, SetRegistryKey
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -392,7 +377,6 @@ Specifies a Lightweight Directory Access Protocol (LDAP) filter to refine the re
 Type: String
 Parameter Sets: SetADQuery
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -408,7 +392,6 @@ The acceptable values for this parameter are: LDAP:// or GC://.
 Type: String
 Parameter Sets: SetADQuery
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -423,7 +406,6 @@ Specifies the path to the metabase file for Internet Information Services (IIS).
 Type: String
 Parameter Sets: SetIisMetabase
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -439,7 +421,6 @@ This value corresponds to the LocalizedDisplayName property of a global conditio
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -455,7 +436,6 @@ The default value is Root\cimv2.
 Type: String
 Parameter Sets: SetWqlQuery
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -470,7 +450,6 @@ Specifies a new name for the global condition.
 Type: String
 Parameter Sets: SetGeneral
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -485,7 +464,6 @@ Specifies a Uniform Resource Indicator (URI) that points to device-specific para
 Type: String
 Parameter Sets: SetOmaUri
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -500,7 +478,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -515,7 +492,6 @@ Specifies the path for an OMA URI.
 Type: String
 Parameter Sets: SetFileSystem
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -530,7 +506,6 @@ Specifies the property of the AD DS object used to assess compliance on client c
 Type: String
 Parameter Sets: SetADQuery, SetWqlQuery
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -545,7 +520,6 @@ Specifies the property of AD DS that Configuration Manager uses to determine cli
 Type: String
 Parameter Sets: SetIisMetabase
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -569,7 +543,6 @@ Type: RegistryRootKey
 Parameter Sets: SetRegistryValue, SetRegistryKey
 Aliases: 
 Accepted values: ClassesRoot, CurrentConfig, CurrentUser, LocalMachine, Users
-
 Required: False
 Position: Named
 Default value: None
@@ -586,7 +559,6 @@ Type: ScriptingLanguage
 Parameter Sets: SetScript
 Aliases: 
 Accepted values: PowerShell, VBScript, JScript, ShellScript
-
 Required: False
 Position: Named
 Default value: None
@@ -603,7 +575,6 @@ Type: SearchScope
 Parameter Sets: SetADQuery
 Aliases: 
 Accepted values: Base, OneLevel, Subtree
-
 Required: False
 Position: Named
 Default value: None
@@ -618,7 +589,6 @@ Indicates that the file or folder is associated with a 64-bit application.
 Type: Boolean
 Parameter Sets: SetScript
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -635,7 +605,6 @@ To search the default instance, specify the *UseDefaultInstance* parameter.
 Type: SwitchParameter
 Parameter Sets: SetSqlQueryAllInstances
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -652,7 +621,6 @@ To search all instances, specify the *UseAllInstances* parameter.
 Type: SwitchParameter
 Parameter Sets: SetSqlQueryDefaultInstance
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -667,7 +635,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: SetScript
 Aliases: UseLoggedOnUserCredentials
-
 Required: False
 Position: Named
 Default value: None
@@ -682,7 +649,6 @@ Specifies the value to be contained in the specified registry key.
 Type: String
 Parameter Sets: SetRegistryValue
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -698,7 +664,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False
@@ -713,7 +678,6 @@ Specifies a WQL query WHERE clause to apply to the specified namespace, class, a
 Type: String
 Parameter Sets: SetWqlQuery
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -728,7 +692,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: SetXPathQuery
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -743,7 +706,6 @@ Specifies a file that contains the XML query to use to assess compliance on clie
 Type: String
 Parameter Sets: SetXPathQuery
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -758,7 +720,6 @@ Specifies an array of valid, full XML path language (XPath) queries to use to as
 Type: String[]
 Parameter Sets: SetXPathQuery
 Aliases: XmlNamespaces
-
 Required: False
 Position: Named
 Default value: None

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833966
 schema: 2.0.0
 ms.assetid: 31071321-3393-445D-8345-B2DF8875EB1D
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -113,7 +113,6 @@ Specifies an array of AMT user accounts to add.
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -128,7 +127,6 @@ Indicates whether to allow ping responses.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -143,7 +141,6 @@ Specifies an organizational unit (OU) for an AMT account.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -158,7 +155,6 @@ Accept wildcard characters: False
 Type: Dictionary`2[]
 Parameter Sets: (All)
 Aliases: AmtProvisioningAccounts
-
 Required: False
 Position: Named
 Default value: None
@@ -173,7 +169,6 @@ Specifies an AMT account.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -188,7 +183,6 @@ Specifies a secure string that contains a password.
 Type: SecureString
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -204,7 +198,6 @@ To obtain an input object, use the New-CMSchedule cmdlet.
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -235,7 +228,6 @@ Type: AuditLogSettingType[]
 Parameter Sets: (All)
 Aliases: AuditLogSettingNames
 Accepted values: SecurityAdministration, RemoteControlOperations, RedirectionManager, FirmwareUpdateManager, SecurityAuditLog, NetworkTime, NetworkAdministration, StorageAdministration, EventManager, CircuitBreakerManager, AgentPresenceManager, WirelessConfiguration, EndpointAccessControl
-
 Required: False
 Position: Named
 Default value: None
@@ -250,7 +242,6 @@ Specifies a certificate template.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -265,7 +256,6 @@ Specifies the name of a certification authority.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -280,7 +270,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -295,7 +284,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -310,7 +298,6 @@ Indicates whether to bypass the BIOS password.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -325,7 +312,6 @@ Indicates whether to enable certificate revocation list (CRL) checking.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -341,7 +327,6 @@ Intel AMT uses IDE redirection to redirect serial and IDE communication from a m
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -356,7 +341,6 @@ Indicates whether to enable the Web interface.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -371,7 +355,6 @@ Indicates whether to enable wired network access.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -386,7 +369,6 @@ Specifies an enrollment point in Configuration Manager.
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -401,7 +383,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -416,7 +397,6 @@ Specifies the issuing certification authority.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -431,7 +411,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: KerberosClockToleranceMinutes
-
 Required: False
 Position: Named
 Default value: None
@@ -447,7 +426,6 @@ The MEBx account provides authenticated access to the AMT firmware on AMT-based 
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -462,7 +440,6 @@ Specifies a secure string that contains the password for the MEBx account.
 Type: SecureString
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -477,7 +454,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -497,7 +473,6 @@ Type: PowerStateType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: HostIsOnS0, AlwaysOnS0S5
-
 Required: False
 Position: Named
 Default value: None
@@ -512,7 +487,6 @@ Specifies an array of AMT user accounts to remove.
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -527,7 +501,6 @@ Specifies a site code in Configuration Manager.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -542,7 +515,6 @@ Specifies the name of a universal security group.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -558,7 +530,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False
@@ -573,7 +544,6 @@ Specifies a wired profile object.
 Type: WiredProfile
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -588,7 +558,6 @@ Specifies an array of wireless profiles.
 Type: WirelessProfile[]
 Parameter Sets: (All)
 Aliases: WirelessProfiles
-
 Required: False
 Position: Named
 Default value: None

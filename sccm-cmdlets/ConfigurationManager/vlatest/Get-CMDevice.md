@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833611
 schema: 2.0.0
 ms.assetid: F43D2D81-0586-4B25-83CA-041B24C9D1DA
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDevice.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDevice.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDevice.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -97,7 +97,6 @@ Specifies a device collection object.To obtain a device collection object, use t
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -112,7 +111,6 @@ Specifies an ID for a device collection.
 Type: String
 Parameter Sets: SearchByIdMandatoryForViewInfectedClients, SearchByValueMandatoryForViewInfectedClients, SearchByNameMandatoryForViewInfectedClients
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -124,7 +122,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: SearchByIdMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -139,7 +136,6 @@ Specifies the name of a device collection.
 Type: String
 Parameter Sets: SearchByNameMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -154,7 +150,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -169,7 +164,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -184,7 +178,6 @@ Specifies an object that represents a threat.
 Type: IResultObject
 Parameter Sets: SearchByValueMandatoryForViewInfectedClients
 Aliases: Threat
-
 Required: True
 Position: Named
 Default value: None
@@ -199,7 +192,6 @@ Specifies the name of a device.
 Type: String
 Parameter Sets: ByName, SearchByNameMandatory, SearchByIdMandatory, SearchByValueMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -214,7 +206,6 @@ Specifies the resource ID of a device.
 Type: Int32
 Parameter Sets: ById
 Aliases: Id, DeviceId
-
 Required: True
 Position: Named
 Default value: None
@@ -229,7 +220,6 @@ Specifies an ID of a threat.
 Type: String
 Parameter Sets: SearchByIdMandatoryForViewInfectedClients
 Aliases: ThreatNameId
-
 Required: True
 Position: Named
 Default value: None
@@ -244,7 +234,6 @@ Specifies a name of a threat.
 Type: String
 Parameter Sets: SearchByNameMandatoryForViewInfectedClients
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None

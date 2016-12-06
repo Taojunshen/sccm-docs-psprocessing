@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833855
 schema: 2.0.0
 ms.assetid: 91C3C2FE-F7DA-4C85-831E-14BB477C020B
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Publish-CMPrestageContent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Publish-CMPrestageContent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Publish-CMPrestageContent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -233,7 +233,6 @@ To obtain an application object, use the Get-CMApplication cmdlet.
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory_Application
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -248,7 +247,6 @@ Specifies an array of IDs of applications.
 Type: String[]
 Parameter Sets: SearchByIdMandatory_Application
 Aliases: ApplicationIds
-
 Required: True
 Position: Named
 Default value: None
@@ -263,7 +261,6 @@ Specifies an array of names of applications.
 Type: String[]
 Parameter Sets: SearchByNameMandatory_Application
 Aliases: ApplicationNames
-
 Required: True
 Position: Named
 Default value: None
@@ -279,7 +276,6 @@ To obtain a boot image object, use the Get-CMBootImage cmdlet.
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory_BootImage
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -294,7 +290,6 @@ Specifies an array of IDs of boot images.
 Type: String[]
 Parameter Sets: SearchByIdMandatory_BootImage
 Aliases: BootImageIds
-
 Required: True
 Position: Named
 Default value: None
@@ -309,7 +304,6 @@ Specifies an array of names of boot images.
 Type: String[]
 Parameter Sets: SearchByNameMandatory_BootImage
 Aliases: BootImageNames
-
 Required: True
 Position: Named
 Default value: None
@@ -324,7 +318,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -340,7 +333,6 @@ To obtain a deployment package object, use the Get-CMDeploymentPackage cmdlet.
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory_DeploymentPackage
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -355,7 +347,6 @@ Specifies an array of IDs of deployment packages.
 Type: String[]
 Parameter Sets: SearchByIdMandatory_DeploymentPackage
 Aliases: DeploymentPackageIds
-
 Required: True
 Position: Named
 Default value: None
@@ -370,7 +361,6 @@ Specifies an array of names of deployment packages.
 Type: String[]
 Parameter Sets: SearchByNameMandatory_DeploymentPackage
 Aliases: DeploymentPackageNames
-
 Required: True
 Position: Named
 Default value: None
@@ -385,7 +375,6 @@ Specifies a description for the content.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -400,7 +389,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: SearchByIdMandatory_Application, SearchByNameMandatory_Application, SearchByValueMandatory_Application
 Aliases: DisableExportAllDependencies
-
 Required: False
 Position: Named
 Default value: None
@@ -415,7 +403,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -430,7 +417,6 @@ Specifies a distribution point for the content.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -446,7 +432,6 @@ To obtain a driver package object, use the Get-CMDriverPackage cmdlet.
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory_DriverPackage
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -461,7 +446,6 @@ Specifies an array of IDs of driver packages.
 Type: String[]
 Parameter Sets: SearchByIdMandatory_DriverPackage
 Aliases: DriverPackageIds
-
 Required: True
 Position: Named
 Default value: None
@@ -476,7 +460,6 @@ Specifies an array of names of driver packages.
 Type: String[]
 Parameter Sets: SearchByNameMandatory_DriverPackage
 Aliases: DriverPackageNames
-
 Required: True
 Position: Named
 Default value: None
@@ -491,7 +474,6 @@ Specifies a file name for a .pkgx file.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -506,7 +488,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -522,7 +503,6 @@ To obtain an operating system image object, use the Get-CMOperatingSystemImage c
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory_OperatingSystemImage
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -537,7 +517,6 @@ Specifies an array of IDs of operating system images.
 Type: String[]
 Parameter Sets: SearchByIdMandatory_OperatingSystemImage
 Aliases: OperatingSystemImageIds
-
 Required: True
 Position: Named
 Default value: None
@@ -552,7 +531,6 @@ Specifies an array of names of operating system images.
 Type: String[]
 Parameter Sets: SearchByNameMandatory_OperatingSystemImage
 Aliases: OperatingSystemImageNames
-
 Required: True
 Position: Named
 Default value: None
@@ -568,7 +546,6 @@ To obtain an operating system installer object, use the Get-CMOperatingSystemIns
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory_OperatingSystemInstaller
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -583,7 +560,6 @@ Specifies an array of IDs of operating system installers.
 Type: String[]
 Parameter Sets: SearchByIdMandatory_OperatingSystemInstaller
 Aliases: OperatingSystemInstallerIds
-
 Required: True
 Position: Named
 Default value: None
@@ -598,7 +574,6 @@ Specifies an array of names of operating system installers.
 Type: String[]
 Parameter Sets: SearchByNameMandatory_OperatingSystemInstaller
 Aliases: OperatingSystemInstallerNames
-
 Required: True
 Position: Named
 Default value: None
@@ -614,7 +589,6 @@ To obtain a package object, use the Get-CMPackage cmdlet.
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory_Package
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -629,7 +603,6 @@ Specifies an array of IDs of packages.
 Type: String[]
 Parameter Sets: SearchByIdMandatory_Package
 Aliases: PackageIds
-
 Required: True
 Position: Named
 Default value: None
@@ -644,7 +617,6 @@ Specifies an array of names of packages.
 Type: String[]
 Parameter Sets: SearchByNameMandatory_Package
 Aliases: PackageNames
-
 Required: True
 Position: Named
 Default value: None
@@ -660,7 +632,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

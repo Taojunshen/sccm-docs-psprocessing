@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833829
 schema: 2.0.0
 ms.assetid: 60B0C10A-9997-40B0-87A3-5E0ABE5D0908
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -87,7 +87,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -102,7 +101,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: CopyToPackageShareOnDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -117,7 +115,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -132,7 +129,6 @@ Specifies a description of a driver package.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -147,7 +143,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -162,7 +157,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: DisconnectUsersFromDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -177,7 +171,6 @@ Accept wildcard characters: False
 Type: UInt32
 Parameter Sets: (All)
 Aliases: DisconnectUsersFromDistributionPointsMinutes
-
 Required: False
 Position: Named
 Default value: None
@@ -192,7 +185,6 @@ Accept wildcard characters: False
 Type: UInt32
 Parameter Sets: (All)
 Aliases: DisconnectUsersFromDistributionPointsRetries
-
 Required: False
 Position: Named
 Default value: None
@@ -207,7 +199,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -222,7 +213,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -237,7 +227,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -252,7 +241,6 @@ Specifies an array of identifiers for a driver package.
 Type: String
 Parameter Sets: SetById
 Aliases: PackageId
-
 Required: True
 Position: Named
 Default value: None
@@ -268,7 +256,6 @@ To obtain a driver package object, use the Get-CMDriverPackage cmdlet.
 Type: IResultObject
 Parameter Sets: SetByValueMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -283,7 +270,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -298,7 +284,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -313,7 +298,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -328,7 +312,6 @@ Specifies a name of a driver package.
 Type: String
 Parameter Sets: SetByName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -343,7 +326,6 @@ Specifies a new name of a driver package.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -358,7 +340,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -374,7 +355,6 @@ Type: PrestageBehavior
 Parameter Sets: (All)
 Aliases: 
 Accepted values: ManualCopy, DownloadDelta, OnDemand
-
 Required: False
 Position: Named
 Default value: None
@@ -390,7 +370,6 @@ Type: Priority
 Parameter Sets: (All)
 Aliases: 
 Accepted values: High, Medium, Low
-
 Required: False
 Position: Named
 Default value: None
@@ -405,7 +384,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: SendToPreferredDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -420,7 +398,6 @@ Specifies the version of a security scope.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -436,7 +413,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

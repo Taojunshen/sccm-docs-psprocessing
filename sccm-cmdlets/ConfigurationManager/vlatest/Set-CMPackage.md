@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833976
 schema: 2.0.0
 ms.assetid: 524F059C-88B7-4675-884C-3F9D75A26A48
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -107,7 +107,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -122,7 +121,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: ShareContent, CopyToPackageShareOnDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -137,7 +135,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: ShareName
-
 Required: False
 Position: Named
 Default value: None
@@ -153,7 +150,6 @@ You can use a maximum of 128 characters.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -168,7 +164,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -183,7 +178,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: ForceDisconnectEnabled, DisconnectUsersFromDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -198,7 +192,6 @@ Accept wildcard characters: False
 Type: UInt32
 Parameter Sets: (All)
 Aliases: ForcedDisconnectDelay, DisconnectUsersFromDistributionPointsMinutes, DisconnectUserFromDistributionPointsMins, DisconnectUserFromDistributionPointsMinutes
-
 Required: False
 Position: Named
 Default value: None
@@ -213,7 +206,6 @@ Accept wildcard characters: False
 Type: UInt32
 Parameter Sets: (All)
 Aliases: ForceDisconnectNumRetries, DisconnectUsersFromDistributionPointsRetries
-
 Required: False
 Position: Named
 Default value: None
@@ -228,7 +220,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -243,7 +234,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -258,7 +248,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -273,7 +262,6 @@ Specifies an array of package IDs.
 Type: String
 Parameter Sets: SetById
 Aliases: PackageId
-
 Required: True
 Position: Named
 Default value: None
@@ -289,7 +277,6 @@ To obtain a **CMPackage** object, use the Get-CMPackage cmdlet.
 Type: IResultObject
 Parameter Sets: SetByValue
 Aliases: 
-
 Required: True
 Position: 0
 Default value: None
@@ -307,7 +294,6 @@ For example, you can have an English version and a German version of the same pa
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -323,7 +309,6 @@ You can use a maximum of 32 characters.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -338,7 +323,6 @@ Specifies the name of the MIF file that contains the package status.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -354,7 +338,6 @@ The file name extension must be .mif.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -369,7 +352,6 @@ Specifies the name of the software publisher of the package.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -384,7 +366,6 @@ Specifies the version number of the MIF file.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -399,7 +380,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -414,7 +394,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -429,7 +408,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -444,7 +422,6 @@ Specifies a package name.
 Type: String
 Parameter Sets: SetByName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -459,7 +436,6 @@ Specifies a new name for the package.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -474,7 +450,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -492,7 +467,6 @@ Make sure that this location contains all the files and subdirectories that the 
 Type: String
 Parameter Sets: (All)
 Aliases: PackageSourcePath
-
 Required: False
 Position: Named
 Default value: None
@@ -507,7 +481,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -523,7 +496,6 @@ Type: PrestageBehavior
 Parameter Sets: (All)
 Aliases: 
 Accepted values: ManualCopy, DownloadDelta, OnDemand
-
 Required: False
 Position: Named
 Default value: None
@@ -539,7 +511,6 @@ Type: Priorities
 Parameter Sets: (All)
 Aliases: DistributionPriority
 Accepted values: High, Normal, Low
-
 Required: False
 Position: Named
 Default value: None
@@ -554,7 +525,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: SendToPreferredDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -569,7 +539,6 @@ Specifies a version number for the package.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -585,7 +554,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

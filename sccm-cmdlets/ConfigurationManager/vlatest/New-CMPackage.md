@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833718
 schema: 2.0.0
 ms.assetid: 963070B3-F0C7-4B2F-8D4A-3D1250CCCE75
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -85,7 +85,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -101,7 +100,6 @@ You can use a maximum of 128 characters.
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -116,7 +114,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -131,7 +128,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -146,7 +142,6 @@ Indicates that Configuration Manager creates the package from a package definiti
 Type: SwitchParameter
 Parameter Sets: NewPackageByDefinitionNoSourceFileWithExisted, NewPackageByDefinitionSourceFileWithExisted, NewPackageByDefinitionNoSourceFileWithNew, NewPackageByDefinitionSourceFileWithNew
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -164,7 +159,6 @@ For example, you can have an English version and a German version of the same pa
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -180,7 +174,6 @@ You can use a maximum of 32 characters.
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -195,7 +188,6 @@ Specifies a name for the package.
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -210,7 +202,6 @@ Specifies the name of a package definition file.
 Type: String
 Parameter Sets: NewPackageByDefinitionNoSourceFileWithExisted, NewPackageByDefinitionSourceFileWithExisted
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -225,7 +216,6 @@ Indicates that the package does not require source files to be present on client
 Type: SwitchParameter
 Parameter Sets: NewPackageByDefinitionNoSourceFileWithExisted, NewPackageByDefinitionNoSourceFileWithNew
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -240,7 +230,6 @@ Specifies a share name or path that Configuration Manager creates for the packag
 Type: String
 Parameter Sets: NewPackageByDefinitionNoSourceFileWithNew, NewPackageByDefinitionSourceFileWithNew
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -258,7 +247,6 @@ Make sure that this location contains all the files and subdirectories that the 
 Type: String
 Parameter Sets: New
 Aliases: PackageSourcePath
-
 Required: False
 Position: Named
 Default value: None
@@ -278,7 +266,6 @@ Type: SourceFileType
 Parameter Sets: NewPackageByDefinitionSourceFileWithExisted, NewPackageByDefinitionSourceFileWithNew
 Aliases: 
 Accepted values: AlwaysObtainSourceFile, CreateCompressedVersionOfSourceFile
-
 Required: True
 Position: Named
 Default value: None
@@ -293,7 +280,6 @@ Specifies the location of the source files for the package.
 Type: String
 Parameter Sets: NewPackageByDefinitionSourceFileWithExisted, NewPackageByDefinitionSourceFileWithNew
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -313,7 +299,6 @@ Type: SourceFolderPathType
 Parameter Sets: NewPackageByDefinitionSourceFileWithExisted, NewPackageByDefinitionSourceFileWithNew
 Aliases: 
 Accepted values: UncNetworkPath, LocalFolderOnSiteServer
-
 Required: True
 Position: Named
 Default value: None
@@ -328,7 +313,6 @@ Specifies a version number for the package.
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -344,7 +328,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

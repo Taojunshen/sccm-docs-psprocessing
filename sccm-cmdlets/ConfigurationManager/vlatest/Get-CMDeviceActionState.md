@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833615
 schema: 2.0.0
 ms.assetid: 7B562CA1-B1D1-49AF-A7C2-1E47BF36BBB7
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceActionState.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceActionState.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceActionState.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -77,7 +77,6 @@ Type: DeviceActionType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Lock, PinReset, BypassActivationLock, RequestNewActivationLockCode
-
 Required: False
 Position: 1
 Default value: None
@@ -92,7 +91,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -110,7 +108,6 @@ If lazy properties are not used, this parameter should be specified.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -125,7 +122,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -140,7 +136,6 @@ Specifies the ID of a device.
 Type: Int32
 Parameter Sets: ById
 Aliases: ResourceId
-
 Required: True
 Position: 0
 Default value: None
@@ -156,7 +151,6 @@ To obtain a device object, use the Get-CMDevice cmdlet.
 Type: IResultObject
 Parameter Sets: ByValue
 Aliases: Device
-
 Required: True
 Position: 0
 Default value: None
@@ -171,7 +165,6 @@ Specifies the name of a device.
 Type: String
 Parameter Sets: ByName
 Aliases: 
-
 Required: False
 Position: 0
 Default value: None

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833586
 schema: 2.0.0
 ms.assetid: E45EF36A-ED49-4B86-B635-B299D124D14B
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMApplicationCatalogWebsitePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMApplicationCatalogWebsitePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMApplicationCatalogWebsitePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -111,7 +111,6 @@ The command specifies values for the three colors.
 Type: String
 Parameter Sets: (All)
 Aliases: SiteSystemServerNameConfiguredForApplicationCatalogWebServicePoint
-
 Required: True
 Position: Named
 Default value: None
@@ -132,7 +131,6 @@ Type: ClientConnectionTypes
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Intranet, Internet, InternetAndIntranet
-
 Required: False
 Position: Named
 Default value: None
@@ -147,7 +145,6 @@ Accept wildcard characters: False
 Type: Color
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -163,7 +160,6 @@ Configuration Manager uses custom colors to conform to customer branding.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -179,7 +175,6 @@ Configuration Manager uses custom colors to conform to customer branding.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -195,7 +190,6 @@ Configuration Manager uses custom colors to conform to customer branding.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -211,7 +205,6 @@ Type: ComputerCommunicationType
 Parameter Sets: AppWebSite, AppWebSiteByValue
 Aliases: ClientCommunicationType
 Accepted values: Http, Https
-
 Required: True
 Position: Named
 Default value: None
@@ -226,7 +219,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -241,7 +233,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -256,7 +247,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -271,7 +261,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: AppWebSitePointByValue, AppWebSitePoint
 Aliases: ConfiguredAsHttpConnection
-
 Required: True
 Position: Named
 Default value: None
@@ -286,7 +275,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: AppWebSitePointWithSsl, AppWebSitePointWithSslByValue
 Aliases: ConfiguredAsHttpsConnection
-
 Required: True
 Position: Named
 Default value: None
@@ -301,7 +289,6 @@ Specifies the Internet Information Services (IIS) website installed on the Appli
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -316,7 +303,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: AppWebSitePointByValue, AppWebSitePointWithSslByValue, AppWebSiteByValue
 Aliases: SiteServer
-
 Required: True
 Position: Named
 Default value: None
@@ -331,7 +317,6 @@ Specifies the NetBIOS name of the server that hosts the Application Catalog webs
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -347,7 +332,6 @@ This name appears to users who access the Application Catalog.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -362,7 +346,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: (All)
 Aliases: PortForHttpConnection, PortForHttpsConnection
-
 Required: False
 Position: Named
 Default value: None
@@ -377,7 +360,6 @@ Specifies the site code for a Configuration Manager site.
 Type: String
 Parameter Sets: AppWebSitePointWithSsl, AppWebSite, AppWebSitePoint
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -392,7 +374,6 @@ Specifies the name of a server that hosts a site system role.
 Type: String
 Parameter Sets: AppWebSitePointWithSsl, AppWebSite, AppWebSitePoint
 Aliases: Name, ServerName
-
 Required: True
 Position: 0
 Default value: None
@@ -407,7 +388,6 @@ Specifies the name of the web application used for the application catalog.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -423,7 +403,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

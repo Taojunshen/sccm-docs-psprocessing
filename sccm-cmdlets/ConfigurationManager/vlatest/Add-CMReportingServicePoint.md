@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833735
 schema: 2.0.0
 ms.assetid: E05F73D3-A82F-43B2-AD2A-BC6555936C41
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMReportingServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMReportingServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMReportingServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -60,7 +60,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -75,7 +74,6 @@ Specifies the name of the Configuration Manager database that you want to use as
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -91,7 +89,6 @@ To specify a database instance, use the format \<Server Name\>\\\<Instance Name\
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -106,7 +103,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -121,7 +117,6 @@ Specifies the name of the report folder on the report server.
 Type: String
 Parameter Sets: ReportingServicePoint
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -136,7 +131,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -151,7 +145,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: ReportingServicePointByValue
 Aliases: SiteServer
-
 Required: True
 Position: Named
 Default value: None
@@ -166,7 +159,6 @@ Specifies the name of an instance of Microsoft SQL Server Reporting Services.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -181,7 +173,6 @@ Specifies a site code of a Configuration Manager site that hosts this site syste
 Type: String
 Parameter Sets: ReportingServicePoint
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -196,7 +187,6 @@ Specifies a fully qualified domain name (FQDN) of the server that hosts the site
 Type: String
 Parameter Sets: ReportingServicePoint
 Aliases: Name, ServerName
-
 Required: True
 Position: 0
 Default value: None
@@ -211,7 +201,6 @@ Specifies a user name for an account that Configuration Manager uses to connect 
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -227,7 +216,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

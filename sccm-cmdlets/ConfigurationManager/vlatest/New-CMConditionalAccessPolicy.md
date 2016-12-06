@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833600
 schema: 2.0.0
 ms.assetid: D7E96763-967E-4FAA-BF63-F5D1DC4AEC2D
-updated_at: 12/5/2016 8:57 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/9093552499530337eb61fcf31fcda8391c7d39ef/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -84,7 +84,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -100,7 +99,6 @@ This rule overrides the default Exchange access rule, which means that even if y
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
-
 Required: False
 Position: Named
 Default value: None
@@ -115,7 +113,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
-
 Required: False
 Position: Named
 Default value: None
@@ -133,7 +130,6 @@ Members of these collections do not have to enroll their devices in Microsoft In
 Type: IResultObject[]
 Parameter Sets: ByValue
 Aliases: ExcludedCollections
-
 Required: False
 Position: Named
 Default value: None
@@ -150,7 +146,6 @@ Members of these collections do not have to enroll their devices in Microsoft In
 Type: String[]
 Parameter Sets: ById
 Aliases: ExcludedCollectionIds
-
 Required: False
 Position: Named
 Default value: None
@@ -167,7 +162,6 @@ Members of these collections do not have to enroll their devices in Microsoft In
 Type: String[]
 Parameter Sets: ByName
 Aliases: ExcludedCollectionNames
-
 Required: False
 Position: Named
 Default value: None
@@ -182,7 +176,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
-
 Required: False
 Position: Named
 Default value: None
@@ -197,7 +190,6 @@ Specifies the text of the email that Exchange sends to users when their device i
 Type: String
 Parameter Sets: (All)
 Aliases:
-
 Required: False
 Position: Named
 Default value: None
@@ -215,7 +207,6 @@ Members of these collections must enroll their devices in Microsoft Intune and b
 Type: IResultObject[]
 Parameter Sets: ByValue
 Aliases: TargetedCollections
-
 Required: True
 Position: Named
 Default value: None
@@ -232,7 +223,6 @@ Members of these collections must enroll their devices in Microsoft Intune and b
 Type: String[]
 Parameter Sets: ById
 Aliases: TargetedCollectionIds
-
 Required: True
 Position: Named
 Default value: None
@@ -249,7 +239,6 @@ Members of these collections must enroll their devices in Microsoft Intune and b
 Type: String[]
 Parameter Sets: ByName
 Aliases: TargetedCollectionNames
-
 Required: True
 Position: Named
 Default value: None
@@ -265,7 +254,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834059
 schema: 2.0.0
 ms.assetid: 3E3C8B28-7093-4BCC-8576-0DB94EEF4367
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriver.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriver.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriver.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -70,7 +70,6 @@ Assign the device drivers to an administrative category for filtering purposes, 
 Type: IResultObject[]
 Parameter Sets: (All)
 Aliases: AdministrativeCategories
-
 Required: False
 Position: Named
 Default value: None
@@ -88,7 +87,6 @@ Use this parameter to specify the boot images that can install the imported devi
 Type: IResultObject[]
 Parameter Sets: (All)
 Aliases: BootImagePackages
-
 Required: False
 Position: Named
 Default value: None
@@ -103,7 +101,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -118,7 +115,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -136,7 +132,6 @@ Use this parameter to specify the driver packages that Configuration Manager use
 Type: IResultObject[]
 Parameter Sets: (All)
 Aliases: DriverPackages
-
 Required: False
 Position: Named
 Default value: None
@@ -152,7 +147,6 @@ Drivers added to the driver package are not affected.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -167,7 +161,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -189,7 +182,6 @@ Type: ImportDuplicateDriverOption
 Parameter Sets: (All)
 Aliases: 
 Accepted values: NotImport, AppendCategory, KeepExistingCategory, OverwriteCategory
-
 Required: False
 Position: Named
 Default value: None
@@ -204,7 +196,6 @@ Indicates that Configuration Manager imports all the device drivers in the impor
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -219,7 +210,6 @@ Specifies a platform object on which the device driver can run.
 Type: IResultObject[]
 Parameter Sets: (All)
 Aliases: SupportedPlatforms
-
 Required: False
 Position: Named
 Default value: None
@@ -234,7 +224,6 @@ Specifies an array of names of platforms on which the device driver can run.
 Type: String[]
 Parameter Sets: (All)
 Aliases: SupportedPlatformNames
-
 Required: False
 Position: Named
 Default value: None
@@ -253,7 +242,6 @@ To import a specific driver from a folder, specify the network path (UNC) to the
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -268,7 +256,6 @@ Indicates whether Configuration Manager updates boot images on their distributio
 Type: Boolean
 Parameter Sets: (All)
 Aliases: UpdateDistributionPointsForBootImagePackage, UpdateBootImageDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -283,7 +270,6 @@ Indicates whether Configuration Manager adds the drivers to packages and deploys
 Type: Boolean
 Parameter Sets: (All)
 Aliases: UpdateDistributionPointsforDriverPackage
-
 Required: False
 Position: Named
 Default value: None
@@ -299,7 +285,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

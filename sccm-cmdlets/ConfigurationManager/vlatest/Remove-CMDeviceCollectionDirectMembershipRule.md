@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834044
 schema: 2.0.0
 ms.assetid: 26DED564-E45B-4654-84F5-05707F1080A8
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceCollectionDirectMembershipRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceCollectionDirectMembershipRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceCollectionDirectMembershipRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -107,7 +107,6 @@ Specifies the ID of a device collection.
 Type: String
 Parameter Sets: ByIdAndValue, ByIdAndId, ByIdAndName
 Aliases: Id
-
 Required: True
 Position: Named
 Default value: None
@@ -122,7 +121,6 @@ Specifies the name of a device collection.
 Type: String
 Parameter Sets: ByNameAndName, ByNameAndValue, ByNameAndId
 Aliases: Name
-
 Required: True
 Position: Named
 Default value: None
@@ -137,7 +135,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -152,7 +149,6 @@ Forces the command to run without asking for user confirmation.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -167,7 +163,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: ByValueAndValue, ByValueAndId, ByValueAndName
 Aliases: Collection
-
 Required: True
 Position: Named
 Default value: None
@@ -183,7 +178,6 @@ To obtain a resource object, use the **Get-CMResource** cmdlet.
 Type: IResultObject
 Parameter Sets: ByNameAndValue, ByIdAndValue, ByValueAndValue
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -198,7 +192,6 @@ Specifies the ID of a resource.
 Type: String
 Parameter Sets: ByNameAndId, ByIdAndId, ByValueAndId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -213,7 +206,6 @@ Specifies the name of a resource.
 Type: String
 Parameter Sets: ByNameAndName, ByIdAndName, ByValueAndName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -229,7 +221,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

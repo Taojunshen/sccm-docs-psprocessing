@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833682
 schema: 2.0.0
 ms.assetid: 1FF11796-0904-4BED-91C8-05DCC05CDDA3
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBootImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBootImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBootImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -106,7 +106,6 @@ Depending on replication issues, this modification can take a long time to displ
 Type: IResultObject[]
 Parameter Sets: (All)
 Aliases: AddOptionalComponents
-
 Required: False
 Position: Named
 Default value: None
@@ -121,7 +120,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -136,7 +134,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -151,7 +148,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: CopyToPackageShareOnDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -166,7 +162,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -181,7 +176,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -196,7 +190,6 @@ Describes the contents of a boot image.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -211,7 +204,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -226,7 +218,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: DisconnectUsersFromDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -241,7 +232,6 @@ Accept wildcard characters: False
 Type: UInt32
 Parameter Sets: (All)
 Aliases: DisconnectUsersFromDistributionPointsMinutes
-
 Required: False
 Position: Named
 Default value: None
@@ -256,7 +246,6 @@ Accept wildcard characters: False
 Type: UInt32
 Parameter Sets: (All)
 Aliases: DisconnectUsersFromDistributionPointsRetries
-
 Required: False
 Position: Named
 Default value: None
@@ -271,7 +260,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -286,7 +274,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -301,7 +288,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -316,7 +302,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -331,7 +316,6 @@ Forces the command to run without asking for user confirmation.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -346,7 +330,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -361,7 +344,6 @@ Specifies an array of boot image identifiers.
 Type: String
 Parameter Sets: SetById
 Aliases: PackageId
-
 Required: True
 Position: Named
 Default value: None
@@ -376,7 +358,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -391,7 +372,6 @@ Specifies a boot image object.
 Type: IResultObject
 Parameter Sets: SetByValueMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -406,7 +386,6 @@ Specifies a name of a boot image.
 Type: String
 Parameter Sets: SetByName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -421,7 +400,6 @@ Specifies a new name for the boot image.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -436,7 +414,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -451,7 +428,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: ImagePath
-
 Required: False
 Position: Named
 Default value: None
@@ -466,7 +442,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -482,7 +457,6 @@ Type: PrestageBehavior
 Parameter Sets: (All)
 Aliases: 
 Accepted values: ManualCopy, DownloadDelta, OnDemand
-
 Required: False
 Position: Named
 Default value: None
@@ -497,7 +471,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: CommandLine
-
 Required: False
 Position: Named
 Default value: None
@@ -512,7 +485,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -528,7 +500,6 @@ Type: Priority
 Parameter Sets: (All)
 Aliases: 
 Accepted values: High, Medium, Low
-
 Required: False
 Position: Named
 Default value: None
@@ -543,7 +514,6 @@ Accept wildcard characters: False
 Type: IResultObject[]
 Parameter Sets: (All)
 Aliases: RemoveOptionalComponents
-
 Required: False
 Position: Named
 Default value: None
@@ -559,7 +529,6 @@ Type: UInt32
 Parameter Sets: (All)
 Aliases: 
 Accepted values: 32, 64, 128, 256, 512
-
 Required: False
 Position: Named
 Default value: None
@@ -574,7 +543,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: SendToPreferredDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -589,7 +557,6 @@ Specifies the version of the boot image.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -605,7 +572,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

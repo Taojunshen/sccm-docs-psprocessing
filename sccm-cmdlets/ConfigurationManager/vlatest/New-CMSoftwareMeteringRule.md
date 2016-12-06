@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833755
 schema: 2.0.0
 ms.assetid: 13FECF2C-1A82-4A61-B717-F91AE4C9F94D
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareMeteringRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareMeteringRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareMeteringRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -78,7 +78,6 @@ Specifies a comment for a software metering rule.
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -93,7 +92,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -108,7 +106,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -123,7 +120,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -138,7 +134,6 @@ Specifies a version of the software that a rule meters.
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -153,7 +148,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -169,7 +163,6 @@ For more information and a list of locale identifiers, see the Locale IDs Assign
 Type: Int32
 Parameter Sets: New
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -185,7 +178,6 @@ This parameter can differ from the *Path* parameter if a user changed the name.
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -200,7 +192,6 @@ Specifies a file path of the software that a rule meters.
 Type: String
 Parameter Sets: NewFromPath
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -215,7 +206,6 @@ Specifies a name for a product that a rule meters.
 Type: String
 Parameter Sets: New
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -227,7 +217,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: NewFromPath
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -242,7 +231,6 @@ Specifies a site code for a Configuration Manager site.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -258,7 +246,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834096
 schema: 2.0.0
 ms.assetid: 06300983-C58D-4402-A33C-E37968FF9FD2
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePointComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePointComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePointComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -95,7 +95,6 @@ The second command modifies the software update point component in **$CIObj**.
 Type: String[]
 Parameter Sets: (All)
 Aliases: AddCompanies
-
 Required: False
 Position: Named
 Default value: None
@@ -110,7 +109,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: AddLanguageSummaryDetails
-
 Required: False
 Position: Named
 Default value: None
@@ -126,7 +124,6 @@ The cmdlet adds these languages to the languages supported for software updates 
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -141,7 +138,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: AddProducts
-
 Required: False
 Position: Named
 Default value: None
@@ -156,7 +152,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: AddProductFamilies
-
 Required: False
 Position: Named
 Default value: None
@@ -173,7 +168,6 @@ Type: String[]
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Critical Updates, Definition Updates, Feature Packs, Security Updates, Service Packs, Tools, Update Rollups, Updates, Upgrades
-
 Required: False
 Position: Named
 Default value: None
@@ -188,7 +182,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -203,7 +196,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -218,7 +210,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -233,7 +224,6 @@ Accept wildcard characters: False
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -248,7 +238,6 @@ Indicates whether Configuration Manager creates an alert when synchronization fa
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -264,7 +253,6 @@ Specify a schedule by using the *Schedule* parameter.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -279,7 +267,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -297,7 +284,6 @@ System Center 2016 Endpoint Protection definition updates and software updates t
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -313,7 +299,6 @@ To obtain a software update point component object, use the **Get-CMSoftwareUpda
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory
 Aliases: Site, SiteComponent
-
 Required: True
 Position: Named
 Default value: None
@@ -328,7 +313,6 @@ Specifies a name of a site system server in Configuration Manager.
 Type: String
 Parameter Sets: SearchByNameMandatory
 Aliases: SiteName
-
 Required: True
 Position: Named
 Default value: None
@@ -343,7 +327,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: RemoveCompanies
-
 Required: False
 Position: Named
 Default value: None
@@ -358,7 +341,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: RemoveLanguageSummaryDetails
-
 Required: False
 Position: Named
 Default value: None
@@ -374,7 +356,6 @@ The cmdlet removes these languages from the languages supported for software upd
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -389,7 +370,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: RemoveProducts
-
 Required: False
 Position: Named
 Default value: None
@@ -404,7 +384,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: RemoveProductFamilies
-
 Required: False
 Position: Named
 Default value: None
@@ -421,7 +400,6 @@ Type: String[]
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Critical Updates, Definition Updates, Feature Packs, Security Updates, Service Packs, Tools, Update Rollups, Updates, Upgrades
-
 Required: False
 Position: Named
 Default value: None
@@ -442,7 +420,6 @@ Type: ReportingEventType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: DoNotCreateWsusReportingEvents, CreateOnlyWsusStatusReportingEvents, CreateAllWsusReportingEvents
-
 Required: False
 Position: Named
 Default value: None
@@ -459,7 +436,6 @@ To obtain a **Schedule** object, use the New-CMSchedule cmdlet.
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -474,7 +450,6 @@ Specifies a site code in Configuration Manager.
 Type: String
 Parameter Sets: SearchBySiteCodeMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -497,7 +472,6 @@ Type: SynchronizeActionType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: SynchronizeFromMicrosoftUpdate, SynchronizeFromAnUpstreamDataSourceLocation, DoNotSynchronizeFromMicrosoftUpdateOrUpstreamDataSource
-
 Required: False
 Position: Named
 Default value: None
@@ -513,7 +487,6 @@ To use this location, specify a value of SynchronizeFromAnUpstreamDataSourceLoca
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -531,7 +504,6 @@ Endpoint Protection definition updates and software updates that Service Packs s
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -547,7 +519,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

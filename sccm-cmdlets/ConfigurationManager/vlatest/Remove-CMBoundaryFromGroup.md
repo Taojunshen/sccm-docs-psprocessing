@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833932
 schema: 2.0.0
 ms.assetid: 478AB135-42CF-4D2E-9D7B-B6A8C5A1ECCF
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBoundaryFromGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBoundaryFromGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBoundaryFromGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -112,7 +112,6 @@ Specifies an ID for the boundary group from which you remove a boundary.
 Type: Int32
 Parameter Sets: RemoveBoundaryFromGroupById_Id, RemoveBoundaryFromGroupByName_Id, RemoveBoundaryFromGroupByObject_Id
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -127,7 +126,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: RemoveBoundaryFromGroupById_Object, RemoveBoundaryFromGroupByName_Object, RemoveBoundaryFromGroupByObject_Object
 Aliases: BoundaryGroup
-
 Required: True
 Position: Named
 Default value: None
@@ -142,7 +140,6 @@ Specifies a name for the boundary group from which you remove a boundary.
 Type: String
 Parameter Sets: RemoveBoundaryFromGroupById_Name, RemoveBoundaryFromGroupByName_Name, RemoveBoundaryFromGroupByObject_Name
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -157,7 +154,6 @@ Specifies an ID for the boundary that this cmdlet removes.
 Type: Int32
 Parameter Sets: RemoveBoundaryFromGroupById_Id, RemoveBoundaryFromGroupById_Name, RemoveBoundaryFromGroupById_Object
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -172,7 +168,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: RemoveBoundaryFromGroupByObject_Id, RemoveBoundaryFromGroupByObject_Object, RemoveBoundaryFromGroupByObject_Name
 Aliases: Boundary
-
 Required: True
 Position: Named
 Default value: None
@@ -187,7 +182,6 @@ Specifies a name for the boundary that this cmdlet removes.
 Type: String
 Parameter Sets: RemoveBoundaryFromGroupByName_Name, RemoveBoundaryFromGroupByName_Id, RemoveBoundaryFromGroupByName_Object
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -202,7 +196,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -217,7 +210,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -232,7 +224,6 @@ Forces the command to run without asking for user confirmation.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -247,7 +238,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -263,7 +253,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

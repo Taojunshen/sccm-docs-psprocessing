@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833593
 schema: 2.0.0
 ms.assetid: F407970C-75BC-43D7-B7A9-E7D44EF71ED7
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Send-CMAssetIntelligenceCatalogUpdateRequest.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Send-CMAssetIntelligenceCatalogUpdateRequest.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Send-CMAssetIntelligenceCatalogUpdateRequest.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -59,7 +59,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -74,7 +73,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -89,7 +87,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -104,7 +101,6 @@ Specifies an array of IDs of Asset Intelligence catalog items.
 Type: String
 Parameter Sets: SearchByIdMandatory
 Aliases: SoftwareKey
-
 Required: True
 Position: Named
 Default value: None
@@ -119,7 +115,6 @@ Specifies an array of names of software categories in the Asset Intelligence cat
 Type: String
 Parameter Sets: SearchByNameMandatory
 Aliases: CommonName
-
 Required: True
 Position: Named
 Default value: None
@@ -135,7 +130,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

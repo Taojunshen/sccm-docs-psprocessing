@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833685
 schema: 2.0.0
 ms.assetid: C189CD71-8ECE-4C39-8DB4-3C092ACBE23E
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMGooglePlayDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMGooglePlayDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMGooglePlayDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -81,7 +81,6 @@ For more information about the CultureInfo.Name Property, see [https://msdn.micr
 Type: String[]
 Parameter Sets: (All)
 Aliases: AddLanguages, Languages, Language
-
 Required: False
 Position: Named
 Default value: None
@@ -96,7 +95,6 @@ Adds an array of requirements for this deployment type.
 Type: Rule[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -111,7 +109,6 @@ Specifies the ID of the application that is associated with this deployment type
 Type: Int32
 Parameter Sets: ByAppId
 Aliases: CI_ID, CIId
-
 Required: True
 Position: Named
 Default value: None
@@ -126,7 +123,6 @@ Specifies the name of the application that is associated with this deployment ty
 Type: String
 Parameter Sets: ByAppName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -141,7 +137,6 @@ Specifies a description for this deployment type.
 Type: String
 Parameter Sets: (All)
 Aliases: AdministratorComment
-
 Required: False
 Position: Named
 Default value: None
@@ -156,7 +151,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -171,7 +165,6 @@ Specifies a display name for this deployment type.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -186,7 +179,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -201,7 +193,6 @@ Forces the command to run without asking for user confirmation.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: ForceForUnknownPublisher
-
 Required: False
 Position: Named
 Default value: None
@@ -216,7 +207,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -232,7 +222,6 @@ To obtain an application object, use the Get-CMApplication cmdlet.
 Type: IResultObject
 Parameter Sets: ByAppValue
 Aliases: Application
-
 Required: True
 Position: Named
 Default value: None
@@ -248,7 +237,6 @@ Provide the languages in the "languagecode2-country" or "languagecode2" format, 
 Type: String[]
 Parameter Sets: (All)
 Aliases: RemoveLanguages
-
 Required: False
 Position: Named
 Default value: None
@@ -263,7 +251,6 @@ Removes the existing installation requirements from this deployment type.
 Type: Rule[]
 Parameter Sets: (All)
 Aliases: RemoveRequirements
-
 Required: False
 Position: Named
 Default value: None
@@ -278,7 +265,6 @@ Specifies the URL of an application in Google Play.
 Type: String
 Parameter Sets: (All)
 Aliases: ContentLocation
-
 Required: True
 Position: Named
 Default value: None
@@ -294,7 +280,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

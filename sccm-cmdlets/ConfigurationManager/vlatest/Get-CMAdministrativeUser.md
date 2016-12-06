@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834069
 schema: 2.0.0
 ms.assetid: E10E2966-E438-49C0-A115-868CEDE6D8BB
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAdministrativeUser.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAdministrativeUser.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAdministrativeUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -64,7 +64,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -79,7 +78,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -94,7 +92,6 @@ Specifies the ID of an administrative user.
 Type: String
 Parameter Sets: SearchByIdMandatory
 Aliases: AdminId
-
 Required: True
 Position: Named
 Default value: None
@@ -109,7 +106,6 @@ Specifies the name of the administrative user in the form \<domain\>\\\<user\>.
 Type: String
 Parameter Sets: SearchByName
 Aliases: DisplayName, LogonName, UserName
-
 Required: False
 Position: Named
 Default value: None
@@ -142,7 +138,6 @@ Valid values are:
 Type: String[]
 Parameter Sets: (All)
 Aliases: RoleNames
-
 Required: False
 Position: Named
 Default value: None

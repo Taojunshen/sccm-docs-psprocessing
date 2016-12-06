@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833782
 schema: 2.0.0
 ms.assetid: C8F0AA23-CCFA-4D78-AABC-BE8664546C2C
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStatusFilterRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStatusFilterRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStatusFilterRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -55,7 +55,6 @@ This command creates a status filter rule.
 Type: Int32
 Parameter Sets: (All)
 Aliases: AllowUserDeleteMessagesAfterThresholdDays
-
 Required: False
 Position: Named
 Default value: None
@@ -70,7 +69,6 @@ Specifies the Configuration Manager component that corresponds to the status mes
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -85,7 +83,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -100,7 +97,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -115,7 +111,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -130,7 +125,6 @@ Indicates whether to forward to the status summarizer.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -145,7 +139,6 @@ Specifies a message ID in Configuration Manager.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -167,7 +160,6 @@ Type: MessageType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: None, Milestone, Detail, Audit
-
 Required: False
 Position: Named
 Default value: None
@@ -182,7 +174,6 @@ Specifies a name for the status filter rule.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -197,7 +188,6 @@ Indicates whether to process a lower priority rule, which prevents further rule 
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -212,7 +202,6 @@ Specifies a path to a program that runs when a status message matches the status
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -227,7 +216,6 @@ Specifies a property ID in Configuration Manager.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -242,7 +230,6 @@ Specifies a value for the corresponding *PropertyId* parameter.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -257,7 +244,6 @@ Indicates whether to pass a message to the parent site.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -274,7 +260,6 @@ Type: ReplicationPriority
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Low, Medium, High
-
 Required: False
 Position: Named
 Default value: None
@@ -289,7 +274,6 @@ Indicates whether to report an event in the Windows event log.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -304,7 +288,6 @@ Indicates whether to run a program when a status message matches a filter rule.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -326,7 +309,6 @@ Type: SeverityType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: None, Informational, Warning, Error
-
 Required: False
 Position: Named
 Default value: None
@@ -341,7 +323,6 @@ Specifies a System Center Configuration Manager site code that defines the statu
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -356,7 +337,6 @@ Specifies a name of the site system server.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -371,7 +351,6 @@ Specifies the status message source to match.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -386,7 +365,6 @@ Specifies a site code for the status filter rule.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -402,7 +380,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False
@@ -418,7 +395,6 @@ Must be set to enable the *AllowUserDeleteMessagesAfterThresholdDays* parameter.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833670
 schema: 2.0.0
 ms.assetid: CE108590-60AB-451C-87E8-58D99B551D0C
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorEmailManagementSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorEmailManagementSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorEmailManagementSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -60,7 +60,6 @@ Indicates whether the mobile devices use HTML for e-mail messages.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -75,7 +74,6 @@ Indicates whether to allow consumer email through the connector.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -90,7 +88,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -105,7 +102,6 @@ Indicates whether the policy allows email attachments.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -120,7 +116,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -136,7 +131,6 @@ Type: MaxCalendarAgeType
 Parameter Sets: (All)
 Aliases: MaximumCalenderAge
 Accepted values: All, TwoWeeks, OneMonth, ThreeMonths, SixMonths
-
 Required: False
 Position: Named
 Default value: None
@@ -159,7 +153,6 @@ Type: MaxEmailAgeType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: All, OneDay, ThreeDays, OneWeek, TwoWeeks, OneMonth
-
 Required: False
 Position: Named
 Default value: None
@@ -174,7 +167,6 @@ Specifies the maximum size, in kilobytes (KB), for email attachments.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -189,7 +181,6 @@ Specifies the maximum size, in kilobytes, for HTML-formatted email.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -204,7 +195,6 @@ Specifies the maximum size, in kilobytes, for text-formatted email.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -219,7 +209,6 @@ Indicates whether to push email to roaming clients.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None

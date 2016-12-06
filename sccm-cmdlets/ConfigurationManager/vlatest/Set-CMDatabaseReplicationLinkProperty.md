@@ -3,10 +3,10 @@ external help file: AdminUI.PS.DatabaseReplication.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833779
 schema: 2.0.0
 ms.assetid: C3D5A011-7F5C-4151-BB10-112E9A0E78CA
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDatabaseReplicationLinkProperty.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDatabaseReplicationLinkProperty.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDatabaseReplicationLinkProperty.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -85,7 +85,6 @@ Type: InvAvailabilityLevel
 Parameter Sets: SetScheduleBySiteCodeMandatory
 Aliases: 
 Accepted values: Closed, HINV, SINV, HINVSINV, StatMSG, HINVStatMSG, SINVStatMSG, HINVSINVStatMSG
-
 Required: True
 Position: Named
 Default value: None
@@ -101,7 +100,6 @@ This parameter refers to the child site.
 Type: String
 Parameter Sets: (All)
 Aliases: Site2
-
 Required: True
 Position: Named
 Default value: None
@@ -116,7 +114,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -141,7 +138,6 @@ Type: DaysOfWeek[]
 Parameter Sets: SetScheduleBySiteCodeMandatory
 Aliases: 
 Accepted values: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
-
 Required: True
 Position: Named
 Default value: None
@@ -156,7 +152,6 @@ Specifies a retry count when a replication group or object is delayed due to deg
 Type: Int32
 Parameter Sets: SetBySiteCodeMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -171,7 +166,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -186,7 +180,6 @@ Indicates whether Configuration Manager configures the SQL Server distributed pa
 Type: Boolean
 Parameter Sets: SetBySiteCodeMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -201,7 +194,6 @@ Indicates whether Configuration Manager configures the SQL Server distributed pa
 Type: Boolean
 Parameter Sets: SetBySiteCodeMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -216,7 +208,6 @@ Indicates whether Configuration Manager configures the SQL Server distributed pa
 Type: Boolean
 Parameter Sets: SetBySiteCodeMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -231,7 +222,6 @@ Specifies a retry count when a replication group or object is delayed by failed 
 Type: Int32
 Parameter Sets: SetBySiteCodeMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -246,7 +236,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -261,7 +250,6 @@ Indicates whether to generate a replication down alert.
 Type: Boolean
 Parameter Sets: SetBySiteCodeMandatory
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -277,7 +265,6 @@ This parameter refers to the parent site.
 Type: String
 Parameter Sets: (All)
 Aliases: Site1
-
 Required: True
 Position: Named
 Default value: None
@@ -292,7 +279,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: SetBySiteCodeMandatory
 Aliases: ReplicationDataTrafficSummarizationIntervalMinutes
-
 Required: False
 Position: Named
 Default value: None
@@ -307,7 +293,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: SetBySiteCodeMandatory
 Aliases: ReplicationDownAlertThresholdMinutes
-
 Required: False
 Position: Named
 Default value: None
@@ -322,7 +307,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: SetScheduleBySiteCodeMandatory
 Aliases: TimePeriodEnd, ReplicationEndHour
-
 Required: True
 Position: Named
 Default value: None
@@ -337,7 +321,6 @@ Accept wildcard characters: False
 Type: Int32
 Parameter Sets: SetScheduleBySiteCodeMandatory
 Aliases: TimePeriodStart, ReplicationStartHour
-
 Required: True
 Position: Named
 Default value: None
@@ -353,7 +336,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

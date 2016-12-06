@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833848
 schema: 2.0.0
 ms.assetid: 8C35E121-7077-4ECB-804C-C1BFC7195761
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMWirelessProfileObject.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMWirelessProfileObject.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMWirelessProfileObject.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -68,7 +68,6 @@ Type: ClientAuthenticationMethodType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: EapTls, EapTtlsMschapv2, Peapv0EapMschapv2
-
 Required: True
 Position: Named
 Default value: None
@@ -83,7 +82,6 @@ Specifies a client certificate template.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -98,7 +96,6 @@ Specifies a certification authority for the client.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -113,7 +110,6 @@ Specifies an issuing certification authority for the client.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -128,7 +124,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -143,7 +138,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -162,7 +156,6 @@ Type: EncryptionType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Tkip, Aes
-
 Required: True
 Position: Named
 Default value: None
@@ -177,7 +170,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -193,7 +185,6 @@ This name cannot exceed 32 characters.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -209,7 +200,6 @@ Use alphanumeric characters only, start the name with a letter, and do not excee
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -227,7 +217,6 @@ Type: WirelessProfileSecurityType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: WpaEnterprise, Wpa2Enterprise
-
 Required: True
 Position: Named
 Default value: None
@@ -242,7 +231,6 @@ Specifies the trusted root certificate that the RADIUS server uses as its server
 Type: X509Certificate2
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -258,7 +246,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

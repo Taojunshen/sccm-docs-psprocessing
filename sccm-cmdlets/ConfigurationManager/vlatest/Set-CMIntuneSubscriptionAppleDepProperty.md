@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833885
 schema: 2.0.0
 ms.assetid: 7E3BFA62-110D-4451-9135-02D955B057F8
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -57,7 +57,6 @@ Specifies an Apple ID.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -72,7 +71,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -87,7 +85,6 @@ Specifies the path to the Device Enrollment program (DEP) token.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -102,7 +99,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -117,7 +113,6 @@ Indicates whether the Apple Device Enrollment program is enabled.
 Type: Boolean
 Parameter Sets: (All)
 Aliases: EnableDep, Enabled
-
 Required: False
 Position: Named
 Default value: None
@@ -132,7 +127,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -147,7 +141,6 @@ Specifies, as a **PSCredential** object, a Microsoft Intune organizational accou
 Type: PSCredential
 Parameter Sets: (All)
 Aliases: Credentials, Credential
-
 Required: False
 Position: Named
 Default value: None
@@ -163,7 +156,6 @@ By default, this cmdlet does not generate any output.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -179,7 +171,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

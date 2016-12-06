@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833807
 schema: 2.0.0
 ms.assetid: 1543ACE3-2915-4522-9A1D-04902FB557DF
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserCollection.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserCollection.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserCollection.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -80,7 +80,6 @@ Specifying All Users for the *LimitingCollectionName* parameter indicates that t
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -95,7 +94,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -110,7 +108,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: ByValue
 Aliases: LimitingCollection
-
 Required: True
 Position: Named
 Default value: None
@@ -125,7 +122,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: ById
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -140,7 +136,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: ByName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -155,7 +150,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -170,7 +164,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -186,7 +179,6 @@ Type: CollectionRefreshType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: None, Manual, Periodic, Continuous, Both
-
 Required: False
 Position: Named
 Default value: None
@@ -202,7 +194,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833671
 schema: 2.0.0
 ms.assetid: 2DFC0BFA-2097-4838-949D-94AB419A2BD7
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaseline.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaseline.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaseline.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -78,7 +78,6 @@ Specifies an array of names of configuration categories to add to the configurat
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -93,7 +92,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: AddOSConfigurationItems
-
 Required: False
 Position: Named
 Default value: None
@@ -108,7 +106,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: AddOptionalConfigurationItems
-
 Required: False
 Position: Named
 Default value: None
@@ -123,7 +120,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: AddProhibitedConfigurationItems
-
 Required: False
 Position: Named
 Default value: None
@@ -138,7 +134,6 @@ Accept wildcard characters: False
 Type: String[]
 Parameter Sets: (All)
 Aliases: AddRequiredConfigurationItems
-
 Required: False
 Position: Named
 Default value: None
@@ -153,7 +148,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -168,7 +162,6 @@ Specifies a description of the configuration baseline.
 Type: String
 Parameter Sets: (All)
 Aliases: LocalizedDescription
-
 Required: False
 Position: Named
 Default value: None
@@ -183,7 +176,6 @@ Specifies a path to the configuration data stored as a digest.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -198,7 +190,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -213,7 +204,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -228,7 +218,6 @@ Specifies an array of IDs of configuration baselines.
 Type: Int32
 Parameter Sets: SetByIdMandatory
 Aliases: CIId, CI_ID
-
 Required: True
 Position: Named
 Default value: None
@@ -244,7 +233,6 @@ To obtain a CMBaseline object, use the Get-CMBaseline cmdlet.
 Type: IResultObject
 Parameter Sets: SetByValueMandatory
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -259,7 +247,6 @@ Specifies an array of names of configuration baselines.
 Type: String
 Parameter Sets: SetByNameMandatory
 Aliases: LocalizedDisplayName
-
 Required: True
 Position: Named
 Default value: None
@@ -274,7 +261,6 @@ Specifies a new name for the configuration baseline.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -289,7 +275,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -304,7 +289,6 @@ Specifies an array of names of configuration categories to remove from the confi
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -320,7 +304,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

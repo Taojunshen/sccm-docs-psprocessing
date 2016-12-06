@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833647
 schema: 2.0.0
 ms.assetid: 8AB81212-FC73-4DA4-A8CB-F9090B6BFE91
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAppVVirtualEnvironment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAppVVirtualEnvironment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAppVVirtualEnvironment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -67,7 +67,6 @@ Application groups contain multiple App-V deployment types that run in the same 
 Type: VirtualEnvironmentGroup[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -82,7 +81,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -97,7 +95,6 @@ Specifies a description for the App-V virtual environment.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -112,7 +109,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -127,7 +123,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -142,7 +137,6 @@ Specifies an array of IDs of virtual environments.
 Type: Int32[]
 Parameter Sets: SetById
 Aliases: CIId, CI_ID
-
 Required: True
 Position: 0
 Default value: None
@@ -158,7 +152,6 @@ To obtain a virtual environment object, use the Get-CMAppVVirtualEnvironment cmd
 Type: IResultObject
 Parameter Sets: SetByValue
 Aliases: 
-
 Required: True
 Position: 0
 Default value: None
@@ -173,7 +166,6 @@ Specifies an array of names of virtual environments.
 Type: String
 Parameter Sets: SetByName
 Aliases: LocalizedDisplayName
-
 Required: True
 Position: 0
 Default value: None
@@ -188,7 +180,6 @@ Specifies a new name for a virtual environment.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -203,7 +194,6 @@ Accept wildcard characters: False
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -219,7 +209,6 @@ Application groups contain multiple App-V deployment types that run in the same 
 Type: VirtualEnvironmentGroup[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -235,7 +224,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

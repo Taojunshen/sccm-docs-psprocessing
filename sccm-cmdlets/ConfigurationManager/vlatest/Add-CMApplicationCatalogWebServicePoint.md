@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833583
 schema: 2.0.0
 ms.assetid: FF20CB6D-729B-409C-A5E5-CBF1B3299EEC
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMApplicationCatalogWebServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMApplicationCatalogWebServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMApplicationCatalogWebServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -68,7 +68,6 @@ Type: ComputerCommunicationType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Http, Https
-
 Required: False
 Position: Named
 Default value: None
@@ -83,7 +82,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -98,7 +96,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -113,7 +110,6 @@ Indicates that the cmdlet forces wild card handling.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -128,7 +124,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: WebServicePointByValue
 Aliases: SiteServer
-
 Required: True
 Position: Named
 Default value: None
@@ -143,7 +138,6 @@ Specifies the port to use to connect with the web service.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -158,7 +152,6 @@ Specifies the site code for a Configuration Manager site.
 Type: String
 Parameter Sets: WebServicePointByName
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -173,7 +166,6 @@ Specifies the name of a server that hosts a site system role.
 Type: String
 Parameter Sets: WebServicePointByName
 Aliases: Name, ServerName
-
 Required: True
 Position: 0
 Default value: None
@@ -188,7 +180,6 @@ Specifies the name of the web application used for the application catalog.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -203,7 +194,6 @@ Accept wildcard characters: False
 Type: String
 Parameter Sets: (All)
 Aliases: IISWebSite
-
 Required: False
 Position: Named
 Default value: None
@@ -219,7 +209,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

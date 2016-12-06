@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833743
 schema: 2.0.0
 ms.assetid: B521723C-DE6D-4EE3-9742-8BB6F8F44E72
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -114,7 +114,6 @@ To obtain an administrative user or administrative group object, use the Get-CMA
 Type: IResultObject
 Parameter Sets: AddRoleToAdminById_Object, AddRoleToAdminByName_Object, AddRoleToAdminByObject_Object
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -129,7 +128,6 @@ Specifies an ID of an administrative user or administrative group.
 Type: Int32
 Parameter Sets: AddRoleToAdminById_Id, AddRoleToAdminByName_Id, AddRoleToAdminByObject_Id
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -144,7 +142,6 @@ Specifies a name of an administrative user or administrative group.
 Type: String
 Parameter Sets: AddRoleToAdminByName_Name, AddRoleToAdminById_Name, AddRoleToAdminByObject_Name
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -159,7 +156,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -174,7 +170,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -189,7 +184,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -204,7 +198,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: AddRoleToAdminByObject_Id, AddRoleToAdminByObject_Name, AddRoleToAdminByObject_Object
 Aliases: Role
-
 Required: True
 Position: Named
 Default value: None
@@ -220,7 +213,6 @@ A role represents Configuration Manager permissions granted to a user.
 Type: String
 Parameter Sets: AddRoleToAdminById_Id, AddRoleToAdminById_Object, AddRoleToAdminById_Name
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -236,7 +228,6 @@ A role represents Configuration Manager permissions granted to a user.
 Type: String
 Parameter Sets: AddRoleToAdminByName_Name, AddRoleToAdminByName_Object, AddRoleToAdminByName_Id
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -252,7 +243,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

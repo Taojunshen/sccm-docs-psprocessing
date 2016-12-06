@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834211
 schema: 2.0.0
 ms.assetid: BAAFB5BA-EC7B-48DE-B029-4AA132BD9AEE
-updated_at: 12/5/2016 10:55 PM
-ms.date: 12/5/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAccessAccount.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f95cf139be40af870257194c70c82183d89f7a0c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAccessAccount.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAccessAccount.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -158,7 +158,6 @@ Type: AccessRight
 Parameter Sets: (All)
 Aliases: 
 Accepted values: NoAccess, Read, Change, FullControl
-
 Required: True
 Position: Named
 Default value: None
@@ -175,7 +174,6 @@ Type: AccessAccountType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: User, Guest, Administrator, WindowsUser, WindowsGroup
-
 Required: True
 Position: Named
 Default value: None
@@ -190,7 +188,6 @@ Specifies the ID of an application.
 Type: String
 Parameter Sets: SearchByApplicationId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -205,7 +202,6 @@ Specifies the name of an application.
 Type: String
 Parameter Sets: SearchByApplicationName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -220,7 +216,6 @@ Specifies the ID of a boot image.
 Type: String
 Parameter Sets: SearchByBootImageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -235,7 +230,6 @@ Specifies the name of a boot image.
 Type: String
 Parameter Sets: SearchByBootImageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -250,7 +244,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -265,7 +258,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -280,7 +272,6 @@ Specifies the ID of a driver package.
 Type: String
 Parameter Sets: SearchByDriverPackageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -295,7 +286,6 @@ Specifies the name of a driver package.
 Type: String
 Parameter Sets: SearchByDriverPackageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -310,7 +300,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -325,7 +314,6 @@ Accept wildcard characters: False
 Type: IResultObject
 Parameter Sets: SearchByValue
 Aliases: Application, BootImage, DriverPackage, OperatingSystemImage, OperatingSystemInstaller, Package, SoftwareUpdateDeploymentPackage
-
 Required: True
 Position: 0
 Default value: None
@@ -340,7 +328,6 @@ Specifies the ID of an operating system image.
 Type: String
 Parameter Sets: SearchByOSImageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -355,7 +342,6 @@ Specifies the name of an operating system image.
 Type: String
 Parameter Sets: SearchByOSImageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -370,7 +356,6 @@ Specifies the ID of an operating system installer.
 Type: String
 Parameter Sets: SearchByOSInstallerId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -385,7 +370,6 @@ Specifies the name of an operating system installer.
 Type: String
 Parameter Sets: SearchByOSInstallerName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -400,7 +384,6 @@ Specifies the ID of a deployed software script or program.
 Type: String
 Parameter Sets: SearchByPackageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -415,7 +398,6 @@ Specifies the name of a deployed software script or program.
 Type: String
 Parameter Sets: SearchByPackageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -430,7 +412,6 @@ Specifies the ID of a deployed software update.
 Type: String
 Parameter Sets: SearchBySoftwareUpdateDeploymentPackageId
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -445,7 +426,6 @@ Specifies the name of a deployed software update.
 Type: String
 Parameter Sets: SearchBySoftwareUpdateDeploymentPackageName
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -460,7 +440,6 @@ Specifies a Windows user account name in domain\user format.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -476,7 +455,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

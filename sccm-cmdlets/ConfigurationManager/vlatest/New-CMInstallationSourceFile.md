@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833695
 schema: 2.0.0
 ms.assetid: F3A129C9-055F-493E-A96D-8FC71ED5E233
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMInstallationSourceFile.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/New-CMInstallationSourceFile.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMInstallationSourceFile.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,7 +65,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -80,7 +79,6 @@ Indicates that Configuration Manager copies the installation files for a seconda
 Type: SwitchParameter
 Parameter Sets: NewInstallationSourceFilesByNetworkLocation
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -95,7 +93,6 @@ Indicates that Configuration Manager copies the installation files for a seconda
 Type: SwitchParameter
 Parameter Sets: NewInstallationSourceFilesByParent
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -110,7 +107,6 @@ Indicates that the installation files for a secondary site installation reside o
 Type: SwitchParameter
 Parameter Sets: NewInstallationSourceFilesBySecondaryLocation
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -125,7 +121,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -140,7 +135,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -155,7 +149,6 @@ Specifies a path to source files in the local file system of the secondary site 
 Type: String
 Parameter Sets: NewInstallationSourceFilesBySecondaryLocation
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -170,7 +163,6 @@ Specifies a UNC path to source files in the local file system of the secondary s
 Type: String
 Parameter Sets: NewInstallationSourceFilesByNetworkLocation
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -186,7 +178,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False

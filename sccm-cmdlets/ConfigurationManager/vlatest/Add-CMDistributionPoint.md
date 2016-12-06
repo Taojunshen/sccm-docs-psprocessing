@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833657
 schema: 2.0.0
 ms.assetid: C01B52A1-0E55-4A7E-90C6-F071D8F76CF2
-updated_at: 11/29/2016 3:46 PM
-ms.date: 11/29/2016
+updated_at: 12/6/2016 7:33 PM
+ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/be9723fe908914c0e1ed2689b3ffaa3b56f1b53b/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -136,7 +136,6 @@ Indicates that clients outside of the boundary groups associated with a site sys
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -151,7 +150,6 @@ Indicates that the distribution point can pre-stage contents.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -166,7 +164,6 @@ Indicates that the distribution point can respond to PXE requests.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: AllowRespondIncomingPxeRequest
-
 Required: False
 Position: Named
 Default value: None
@@ -181,7 +178,6 @@ Specifies, in UTC format, the date and time when the certificate expires.
 Type: DateTime
 Parameter Sets: DistributionPointWithSelfCertByValue, DistributionPointWithSelfCert
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -196,7 +192,6 @@ Specifies, as a secure string, the password for a PKI client certificate.
 Type: SecureString
 Parameter Sets: DistributionPointwithUserSpecifiedCertByValue, DistributionPointwithUserSpecifiedCert
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -211,7 +206,6 @@ Specifies the import path for a PKI client certificate.
 Type: String
 Parameter Sets: DistributionPointwithUserSpecifiedCertByValue, DistributionPointwithUserSpecifiedCert
 Aliases: 
-
 Required: True
 Position: Named
 Default value: None
@@ -232,7 +226,6 @@ Type: ClientConnectionTypes
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Intranet, Internet, InternetAndIntranet
-
 Required: False
 Position: Named
 Default value: None
@@ -247,7 +240,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
 Required: False
 Position: Named
 Default value: False
@@ -270,7 +262,6 @@ Type: Priority
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Lowest, Low, Medium, High, Highest
-
 Required: False
 Position: Named
 Default value: None
@@ -286,7 +277,6 @@ To create a schedule token object, use the New-CMSchedule cmdlet.
 Type: IResultObject
 Parameter Sets: (All)
 Aliases: ValidateContentSchedule
-
 Required: False
 Position: Named
 Default value: None
@@ -301,7 +291,6 @@ Specifies a description for the distribution point.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -316,7 +305,6 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -331,7 +319,6 @@ Indicates that the distribution point permits anonymous connections from Configu
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -346,7 +333,6 @@ Indicates that the cmdlet enables and configures BranchCache for the distributio
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -361,7 +347,6 @@ Indicates that content validation is enabled for this distribution point.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: EnableValidateContent
-
 Required: False
 Position: Named
 Default value: None
@@ -376,7 +361,6 @@ Indicates that multicast is enabled for this distribution point.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -391,7 +375,6 @@ Enables the distribution point to pull content from other distribution points.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -410,7 +393,6 @@ After you create the distribution point, Configuration Manager installs a provid
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: EnablePxeSupport
-
 Required: False
 Position: Named
 Default value: None
@@ -425,7 +407,6 @@ Indicates whether you can schedule when Configuration Manager deploys the operat
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -440,7 +421,6 @@ Indicates that SSL is enabled on this distribution point.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -456,7 +436,6 @@ Unknown computers are computers that are not managed by Configuration Manager.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -471,7 +450,6 @@ Specifies the ending IP address in a range of multicast addresses that Configura
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -486,7 +464,6 @@ Specifies the ending UDP port in a range of multicast UDP ports that Configurati
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -501,7 +478,6 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -517,7 +493,6 @@ To obtain a site system server object, use the Get-CMSiteSystemServer cmdlet.
 Type: IResultObject
 Parameter Sets: DistributionPointWithSelfCertByValue, DistributionPointwithUserSpecifiedCertByValue
 Aliases: SiteServer
-
 Required: True
 Position: Named
 Default value: None
@@ -533,7 +508,6 @@ IIS must be installed on all distribution points.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -548,7 +522,6 @@ Specifies an array of MAC addresses that the distribution point uses to respond 
 Type: String[]
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -565,7 +538,6 @@ Content files can span multiple drives.
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -580,7 +552,6 @@ Specifies how many client requests must be received before a scheduled multicast
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -595,7 +566,6 @@ Specifies the maximum number of clients that can download the operating system f
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -616,7 +586,6 @@ Type: DriveType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Automatic, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
-
 Required: False
 Position: Named
 Default value: None
@@ -637,7 +606,6 @@ Type: DriveType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Automatic, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
-
 Required: False
 Position: Named
 Default value: None
@@ -652,7 +620,6 @@ Specifies, as a secure string, the PXE password.
 Type: SecureString
 Parameter Sets: (All)
 Aliases: ComputersUsePxePassword
-
 Required: False
 Position: Named
 Default value: None
@@ -668,7 +635,6 @@ By default, the Configuration Manager PXE service point responds first to networ
 Type: Int32
 Parameter Sets: (All)
 Aliases: PxeServerResponseDelaySeconds
-
 Required: False
 Position: Named
 Default value: None
@@ -688,7 +654,6 @@ Type: DriveType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Automatic, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
-
 Required: False
 Position: Named
 Default value: None
@@ -708,7 +673,6 @@ Type: DriveType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: Automatic, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
-
 Required: False
 Position: Named
 Default value: None
@@ -723,7 +687,6 @@ Specifies the number of minutes that Configuration Manager waits before it respo
 Type: Int32
 Parameter Sets: (All)
 Aliases: SessionStartDelayMinutes
-
 Required: False
 Position: Named
 Default value: None
@@ -738,7 +701,6 @@ Specifies the site code for the Configuration Manager site that hosts this site 
 Type: String
 Parameter Sets: DistributionPointWithSelfCert, DistributionPointwithUserSpecifiedCert
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -753,7 +715,6 @@ Specifies the name of a server to host a site system role.
 Type: String
 Parameter Sets: DistributionPointWithSelfCert, DistributionPointwithUserSpecifiedCert
 Aliases: Name, ServerName
-
 Required: True
 Position: 0
 Default value: None
@@ -769,7 +730,6 @@ Source distribution points with the same priority are randomly selected.
 Type: Int32[]
 Parameter Sets: (All)
 Aliases: SourceDPRanks
-
 Required: False
 Position: Named
 Default value: None
@@ -784,7 +744,6 @@ Specifies an array of distribution point sources from which this distribution po
 Type: String[]
 Parameter Sets: (All)
 Aliases: SourceDistributionPoints
-
 Required: False
 Position: Named
 Default value: None
@@ -799,7 +758,6 @@ Specifies the starting IP address in a range of multicast addresses that Configu
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -814,7 +772,6 @@ Specifies the starting UDP port in a range of multicast UDP ports that Configura
 Type: Int32
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -835,7 +792,6 @@ Type: UserDeviceAffinityType
 Parameter Sets: (All)
 Aliases: 
 Accepted values: DoNotUse, AllowWithManualApproval, AllowWithAutomaticApproval
-
 Required: False
 Position: Named
 Default value: None
@@ -851,7 +807,6 @@ Use the format domain\username.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
 Required: False
 Position: Named
 Default value: None
@@ -867,7 +822,6 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
 Required: False
 Position: Named
 Default value: False
