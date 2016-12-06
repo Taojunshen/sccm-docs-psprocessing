@@ -12,6 +12,7 @@ content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/s
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f108375bd12e04c1f5b5f86fcd676c305858edaf/sccm-cmdlets/ConfigurationManager/index.md
 ms.topic: reference
 keywords: powershell, cmdlet
+manager: mbaldwin
 open_to_public_contributors: True
 ---
 
