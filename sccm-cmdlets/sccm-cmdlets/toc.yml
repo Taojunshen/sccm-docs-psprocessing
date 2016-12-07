@@ -1,0 +1,1206 @@
+- name: ConfigurationManager
+  href: ../ConfigurationManager/index.md
+  items:
+    - name: 1610_Release_Notes
+      href: ../ConfigurationManager/1610_Release_Notes.md
+    - name: vlatest
+      href: ../ConfigurationManager/vlatest/ConfigurationManager.md
+      items:
+        - name: about_ConfigurationManager_Cmdlets
+          href: ../ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
+        - name: Add-CMAndroidDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMAndroidDeploymentType.md
+        - name: Add-CMApplicationCatalogWebServicePoint
+          href: ../ConfigurationManager/vlatest/Add-CMApplicationCatalogWebServicePoint.md
+        - name: Add-CMApplicationCatalogWebsitePoint
+          href: ../ConfigurationManager/vlatest/Add-CMApplicationCatalogWebsitePoint.md
+        - name: Add-CMAppv5XDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMAppv5XDeploymentType.md
+        - name: Add-CMAppvDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMAppvDeploymentType.md
+        - name: Add-CMAssetIntelligenceSynchronizationPoint
+          href: ../ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
+        - name: Add-CMBoundaryToGroup
+          href: ../ConfigurationManager/vlatest/Add-CMBoundaryToGroup.md
+        - name: Add-CMDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMDeploymentType.md
+        - name: Add-CMDeviceAffinityToUser
+          href: ../ConfigurationManager/vlatest/Add-CMDeviceAffinityToUser.md
+        - name: Add-CMDeviceCollectionDirectMembershipRule
+          href: ../ConfigurationManager/vlatest/Add-CMDeviceCollectionDirectMembershipRule.md
+        - name: Add-CMDeviceCollectionExcludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Add-CMDeviceCollectionExcludeMembershipRule.md
+        - name: Add-CMDeviceCollectionIncludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Add-CMDeviceCollectionIncludeMembershipRule.md
+        - name: Add-CMDeviceCollectionQueryMembershipRule
+          href: ../ConfigurationManager/vlatest/Add-CMDeviceCollectionQueryMembershipRule.md
+        - name: Add-CMDistributionPoint
+          href: ../ConfigurationManager/vlatest/Add-CMDistributionPoint.md
+        - name: Add-CMDistributionPointToGroup
+          href: ../ConfigurationManager/vlatest/Add-CMDistributionPointToGroup.md
+        - name: Add-CMDriverToDriverPackage
+          href: ../ConfigurationManager/vlatest/Add-CMDriverToDriverPackage.md
+        - name: Add-CMEndpointProtectionPoint
+          href: ../ConfigurationManager/vlatest/Add-CMEndpointProtectionPoint.md
+        - name: Add-CMEnrollmentPoint
+          href: ../ConfigurationManager/vlatest/Add-CMEnrollmentPoint.md
+        - name: Add-CMEnrollmentProxyPoint
+          href: ../ConfigurationManager/vlatest/Add-CMEnrollmentProxyPoint.md
+        - name: Add-CMFallbackStatusPoint
+          href: ../ConfigurationManager/vlatest/Add-CMFallbackStatusPoint.md
+        - name: Add-CMGooglePlayDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMGooglePlayDeploymentType.md
+        - name: Add-CMIntuneSubscription
+          href: ../ConfigurationManager/vlatest/Add-CMIntuneSubscription.md
+        - name: Add-CMIosAppStoreDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMIosAppStoreDeploymentType.md
+        - name: Add-CMIosDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMIosDeploymentType.md
+        - name: Add-CMMacDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMMacDeploymentType.md
+        - name: Add-CMManagementPoint
+          href: ../ConfigurationManager/vlatest/Add-CMManagementPoint.md
+        - name: Add-CMMdmEnrollmentManager
+          href: ../ConfigurationManager/vlatest/Add-CMMdmEnrollmentManager.md
+        - name: Add-CMMobileMsiDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMMobileMsiDeploymentType.md
+        - name: Add-CMMsiDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMMsiDeploymentType.md
+        - name: Add-CMMulticastServicePoint
+          href: ../ConfigurationManager/vlatest/Add-CMMulticastServicePoint.md
+        - name: Add-CMNokiaDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMNokiaDeploymentType.md
+        - name: Add-CMObjectSecurityScope
+          href: ../ConfigurationManager/vlatest/Add-CMObjectSecurityScope.md
+        - name: Add-CMOutOfBandServicePoint
+          href: ../ConfigurationManager/vlatest/Add-CMOutOfBandServicePoint.md
+        - name: Add-CMReportingServicePoint
+          href: ../ConfigurationManager/vlatest/Add-CMReportingServicePoint.md
+        - name: Add-CMScriptDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMScriptDeploymentType.md
+        - name: Add-CMSecurityRoleToAdministrativeUser
+          href: ../ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
+        - name: Add-CMSecurityScopeToAdministrativeUser
+          href: ../ConfigurationManager/vlatest/Add-CMSecurityScopeToAdministrativeUser.md
+        - name: Add-CMSoftwareUpdatePoint
+          href: ../ConfigurationManager/vlatest/Add-CMSoftwareUpdatePoint.md
+        - name: Add-CMSoftwareUpdateToGroup
+          href: ../ConfigurationManager/vlatest/Add-CMSoftwareUpdateToGroup.md
+        - name: Add-CMStateMigrationPoint
+          href: ../ConfigurationManager/vlatest/Add-CMStateMigrationPoint.md
+        - name: Add-CMSystemHealthValidatorPoint
+          href: ../ConfigurationManager/vlatest/Add-CMSystemHealthValidatorPoint.md
+        - name: Add-CMUserAffinityToDevice
+          href: ../ConfigurationManager/vlatest/Add-CMUserAffinityToDevice.md
+        - name: Add-CMUserCollectionDirectMembershipRule
+          href: ../ConfigurationManager/vlatest/Add-CMUserCollectionDirectMembershipRule.md
+        - name: Add-CMUserCollectionExcludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Add-CMUserCollectionExcludeMembershipRule.md
+        - name: Add-CMUserCollectionIncludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Add-CMUserCollectionIncludeMembershipRule.md
+        - name: Add-CMUserCollectionQueryMembershipRule
+          href: ../ConfigurationManager/vlatest/Add-CMUserCollectionQueryMembershipRule.md
+        - name: Add-CMWebApplicationDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMWebApplicationDeploymentType.md
+        - name: Add-CMWindowsAppxDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMWindowsAppxDeploymentType.md
+        - name: Add-CMWindowsMobileDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMWindowsMobileDeploymentType.md
+        - name: Add-CMWindowsPhoneDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMWindowsPhoneDeploymentType.md
+        - name: Add-CMWindowsPhoneStoreDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMWindowsPhoneStoreDeploymentType.md
+        - name: Add-CMWindowsStoreDeploymentType
+          href: ../ConfigurationManager/vlatest/Add-CMWindowsStoreDeploymentType.md
+        - name: Approve-CMApprovalRequest
+          href: ../ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
+        - name: Approve-CMDevice
+          href: ../ConfigurationManager/vlatest/Approve-CMDevice.md
+        - name: Approve-CMUserDeviceAffinityRequest
+          href: ../ConfigurationManager/vlatest/Approve-CMUserDeviceAffinityRequest.md
+        - name: Block-CMCertificate
+          href: ../ConfigurationManager/vlatest/Block-CMCertificate.md
+        - name: Block-CMConflictingRecord
+          href: ../ConfigurationManager/vlatest/Block-CMConflictingRecord.md
+        - name: Block-CMDevice
+          href: ../ConfigurationManager/vlatest/Block-CMDevice.md
+        - name: Clear-CMAmtAuditLog
+          href: ../ConfigurationManager/vlatest/Clear-CMAmtAuditLog.md
+        - name: Clear-CMClientOperation
+          href: ../ConfigurationManager/vlatest/Clear-CMClientOperation.md
+        - name: Clear-CMComponentStatusMessageCount
+          href: ../ConfigurationManager/vlatest/Clear-CMComponentStatusMessageCount.md
+        - name: Clear-CMMigrationData
+          href: ../ConfigurationManager/vlatest/Clear-CMMigrationData.md
+        - name: Clear-CMOperatingSystemImageUpdateSchedule
+          href: ../ConfigurationManager/vlatest/Clear-CMOperatingSystemImageUpdateSchedule.md
+        - name: Clear-CMPxeDeployment
+          href: ../ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
+        - name: Clear-CMSiteStatusMessageCount
+          href: ../ConfigurationManager/vlatest/Clear-CMSiteStatusMessageCount.md
+        - name: Convert-CMApplication
+          href: ../ConfigurationManager/vlatest/Convert-CMApplication.md
+        - name: Convert-CMSchedule
+          href: ../ConfigurationManager/vlatest/Convert-CMSchedule.md
+        - name: ConvertFrom-CMApplication
+          href: ../ConfigurationManager/vlatest/ConvertFrom-CMApplication.md
+        - name: ConvertTo-CMApplication
+          href: ../ConfigurationManager/vlatest/ConvertTo-CMApplication.md
+        - name: Copy-CMConfigurationPolicy
+          href: ../ConfigurationManager/vlatest/Copy-CMConfigurationPolicy.md
+        - name: Copy-CMSecurityRole
+          href: ../ConfigurationManager/vlatest/Copy-CMSecurityRole.md
+        - name: Deny-CMApprovalRequest
+          href: ../ConfigurationManager/vlatest/Deny-CMApprovalRequest.md
+        - name: Deny-CMUserDeviceAffinityRequest
+          href: ../ConfigurationManager/vlatest/Deny-CMUserDeviceAffinityRequest.md
+        - name: Disable-CMAlert
+          href: ../ConfigurationManager/vlatest/Disable-CMAlert.md
+        - name: Disable-CMAmtAuditLog
+          href: ../ConfigurationManager/vlatest/Disable-CMAmtAuditLog.md
+        - name: Disable-CMBaseline
+          href: ../ConfigurationManager/vlatest/Disable-CMBaseline.md
+        - name: Disable-CMDriver
+          href: ../ConfigurationManager/vlatest/Disable-CMDriver.md
+        - name: Disable-CMProgram
+          href: ../ConfigurationManager/vlatest/Disable-CMProgram.md
+        - name: Disable-CMSoftwareMeteringRule
+          href: ../ConfigurationManager/vlatest/Disable-CMSoftwareMeteringRule.md
+        - name: Disable-CMSoftwareUpdateAutoDeploymentRule
+          href: ../ConfigurationManager/vlatest/Disable-CMSoftwareUpdateAutoDeploymentRule.md
+        - name: Disable-CMStatusFilterRule
+          href: ../ConfigurationManager/vlatest/Disable-CMStatusFilterRule.md
+        - name: Disable-CMTaskSequence
+          href: ../ConfigurationManager/vlatest/Disable-CMTaskSequence.md
+        - name: Enable-CMAlert
+          href: ../ConfigurationManager/vlatest/Enable-CMAlert.md
+        - name: Enable-CMAmtAuditLog
+          href: ../ConfigurationManager/vlatest/Enable-CMAmtAuditLog.md
+        - name: Enable-CMAutomaticAMTProvisioning
+          href: ../ConfigurationManager/vlatest/Enable-CMAutomaticAMTProvisioning.md
+        - name: Enable-CMBaseline
+          href: ../ConfigurationManager/vlatest/Enable-CMBaseline.md
+        - name: Enable-CMDriver
+          href: ../ConfigurationManager/vlatest/Enable-CMDriver.md
+        - name: Enable-CMProgram
+          href: ../ConfigurationManager/vlatest/Enable-CMProgram.md
+        - name: Enable-CMSoftwareMeteringRule
+          href: ../ConfigurationManager/vlatest/Enable-CMSoftwareMeteringRule.md
+        - name: Enable-CMSoftwareUpdateAutoDeploymentRule
+          href: ../ConfigurationManager/vlatest/Enable-CMSoftwareUpdateAutoDeploymentRule.md
+        - name: Enable-CMStatusFilterRule
+          href: ../ConfigurationManager/vlatest/Enable-CMStatusFilterRule.md
+        - name: Enable-CMTaskSequence
+          href: ../ConfigurationManager/vlatest/Enable-CMTaskSequence.md
+        - name: Export-CMAntimalwarePolicy
+          href: ../ConfigurationManager/vlatest/Export-CMAntimalwarePolicy.md
+        - name: Export-CMApplication
+          href: ../ConfigurationManager/vlatest/Export-CMApplication.md
+        - name: Export-CMBaseline
+          href: ../ConfigurationManager/vlatest/Export-CMBaseline.md
+        - name: Export-CMCollection
+          href: ../ConfigurationManager/vlatest/Export-CMCollection.md
+        - name: Export-CMConfigurationItem
+          href: ../ConfigurationManager/vlatest/Export-CMConfigurationItem.md
+        - name: Export-CMDriverPackage
+          href: ../ConfigurationManager/vlatest/Export-CMDriverPackage.md
+        - name: Export-CMPackage
+          href: ../ConfigurationManager/vlatest/Export-CMPackage.md
+        - name: Export-CMSecurityRole
+          href: ../ConfigurationManager/vlatest/Export-CMSecurityRole.md
+        - name: Export-CMTaskSequence
+          href: ../ConfigurationManager/vlatest/Export-CMTaskSequence.md
+        - name: Get-CMAccessAccount
+          href: ../ConfigurationManager/vlatest/Get-CMAccessAccount.md
+        - name: Get-CMAccessLicense
+          href: ../ConfigurationManager/vlatest/Get-CMAccessLicense.md
+        - name: Get-CMAccount
+          href: ../ConfigurationManager/vlatest/Get-CMAccount.md
+        - name: Get-CMActiveDirectoryForest
+          href: ../ConfigurationManager/vlatest/Get-CMActiveDirectoryForest.md
+        - name: Get-CMActiveDirectorySite
+          href: ../ConfigurationManager/vlatest/Get-CMActiveDirectorySite.md
+        - name: Get-CMAdministrativeUser
+          href: ../ConfigurationManager/vlatest/Get-CMAdministrativeUser.md
+        - name: Get-CMAlert
+          href: ../ConfigurationManager/vlatest/Get-CMAlert.md
+        - name: Get-CMAlertSubscription
+          href: ../ConfigurationManager/vlatest/Get-CMAlertSubscription.md
+        - name: Get-CMAntiMalwarePolicy
+          href: ../ConfigurationManager/vlatest/Get-CMAntiMalwarePolicy.md
+        - name: Get-CMApplication
+          href: ../ConfigurationManager/vlatest/Get-CMApplication.md
+        - name: Get-CMApplicationCatalogWebServicePoint
+          href: ../ConfigurationManager/vlatest/Get-CMApplicationCatalogWebServicePoint.md
+        - name: Get-CMApplicationCatalogWebsitePoint
+          href: ../ConfigurationManager/vlatest/Get-CMApplicationCatalogWebsitePoint.md
+        - name: Get-CMApplicationRevisionHistory
+          href: ../ConfigurationManager/vlatest/Get-CMApplicationRevisionHistory.md
+        - name: Get-CMApprovalRequest
+          href: ../ConfigurationManager/vlatest/Get-CMApprovalRequest.md
+        - name: Get-CMAppVVirtualEnvironment
+          href: ../ConfigurationManager/vlatest/Get-CMAppVVirtualEnvironment.md
+        - name: Get-CMAssetIntelligenceCatalogItem
+          href: ../ConfigurationManager/vlatest/Get-CMAssetIntelligenceCatalogItem.md
+        - name: Get-CMAssetIntelligenceSynchronizationPoint
+          href: ../ConfigurationManager/vlatest/Get-CMAssetIntelligenceSynchronizationPoint.md
+        - name: Get-CMAutomaticAmtProvisioningStatus
+          href: ../ConfigurationManager/vlatest/Get-CMAutomaticAmtProvisioningStatus.md
+        - name: Get-CMBaseline
+          href: ../ConfigurationManager/vlatest/Get-CMBaseline.md
+        - name: Get-CMBaselineSummarizationSchedule
+          href: ../ConfigurationManager/vlatest/Get-CMBaselineSummarizationSchedule.md
+        - name: Get-CMBaselineXMLDefinition
+          href: ../ConfigurationManager/vlatest/Get-CMBaselineXMLDefinition.md
+        - name: Get-CMBootImage
+          href: ../ConfigurationManager/vlatest/Get-CMBootImage.md
+        - name: Get-CMBoundary
+          href: ../ConfigurationManager/vlatest/Get-CMBoundary.md
+        - name: Get-CMBoundaryGroup
+          href: ../ConfigurationManager/vlatest/Get-CMBoundaryGroup.md
+        - name: Get-CMCategory
+          href: ../ConfigurationManager/vlatest/Get-CMCategory.md
+        - name: Get-CMClientPushInstallation
+          href: ../ConfigurationManager/vlatest/Get-CMClientPushInstallation.md
+        - name: Get-CMClientSetting
+          href: ../ConfigurationManager/vlatest/Get-CMClientSetting.md
+        - name: Get-CMClientStatusSetting
+          href: ../ConfigurationManager/vlatest/Get-CMClientStatusSetting.md
+        - name: Get-CMClientStatusUpdateSchedule
+          href: ../ConfigurationManager/vlatest/Get-CMClientStatusUpdateSchedule.md
+        - name: Get-CMCloudDistributionPoint
+          href: ../ConfigurationManager/vlatest/Get-CMCloudDistributionPoint.md
+        - name: Get-CMCmdletUpdateCheck
+          href: ../ConfigurationManager/vlatest/Get-CMCmdletUpdateCheck.md
+        - name: Get-CMCollection
+          href: ../ConfigurationManager/vlatest/Get-CMCollection.md
+        - name: Get-CMCollectionMembershipEvaluationComponent
+          href: ../ConfigurationManager/vlatest/Get-CMCollectionMembershipEvaluationComponent.md
+        - name: Get-CMComponentStatusMessage
+          href: ../ConfigurationManager/vlatest/Get-CMComponentStatusMessage.md
+        - name: Get-CMComponentStatusSetting
+          href: ../ConfigurationManager/vlatest/Get-CMComponentStatusSetting.md
+        - name: Get-CMComputerAssociation
+          href: ../ConfigurationManager/vlatest/Get-CMComputerAssociation.md
+        - name: Get-CMConditionalAccessPolicy
+          href: ../ConfigurationManager/vlatest/Get-CMConditionalAccessPolicy.md
+        - name: Get-CMConfigurationItem
+          href: ../ConfigurationManager/vlatest/Get-CMConfigurationItem.md
+        - name: Get-CMConfigurationItemHistory
+          href: ../ConfigurationManager/vlatest/Get-CMConfigurationItemHistory.md
+        - name: Get-CMConfigurationItemXMLDefinition
+          href: ../ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
+        - name: Get-CMConfigurationPolicy
+          href: ../ConfigurationManager/vlatest/Get-CMConfigurationPolicy.md
+        - name: Get-CMConflictingRecord
+          href: ../ConfigurationManager/vlatest/Get-CMConflictingRecord.md
+        - name: Get-CMDatabaseProperty
+          href: ../ConfigurationManager/vlatest/Get-CMDatabaseProperty.md
+        - name: Get-CMDatabaseReplicationLinkProperty
+          href: ../ConfigurationManager/vlatest/Get-CMDatabaseReplicationLinkProperty.md
+        - name: Get-CMDataBaseReplicationStatus
+          href: ../ConfigurationManager/vlatest/Get-CMDataBaseReplicationStatus.md
+        - name: Get-CMDeployment
+          href: ../ConfigurationManager/vlatest/Get-CMDeployment.md
+        - name: Get-CMDeploymentPackage
+          href: ../ConfigurationManager/vlatest/Get-CMDeploymentPackage.md
+        - name: Get-CMDeploymentStatus
+          href: ../ConfigurationManager/vlatest/Get-CMDeploymentStatus.md
+        - name: Get-CMDeploymentType
+          href: ../ConfigurationManager/vlatest/Get-CMDeploymentType.md
+        - name: Get-CMDevice
+          href: ../ConfigurationManager/vlatest/Get-CMDevice.md
+        - name: Get-CMDeviceActionState
+          href: ../ConfigurationManager/vlatest/Get-CMDeviceActionState.md
+        - name: Get-CMDeviceCollection
+          href: ../ConfigurationManager/vlatest/Get-CMDeviceCollection.md
+        - name: Get-CMDeviceCollectionDirectMembershipRule
+          href: ../ConfigurationManager/vlatest/Get-CMDeviceCollectionDirectMembershipRule.md
+        - name: Get-CMDeviceCollectionExcludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Get-CMDeviceCollectionExcludeMembershipRule.md
+        - name: Get-CMDeviceCollectionIncludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Get-CMDeviceCollectionIncludeMembershipRule.md
+        - name: Get-CMDeviceCollectionQueryMembershipRule
+          href: ../ConfigurationManager/vlatest/Get-CMDeviceCollectionQueryMembershipRule.md
+        - name: Get-CMDeviceCollectionVariable
+          href: ../ConfigurationManager/vlatest/Get-CMDeviceCollectionVariable.md
+        - name: Get-CMDeviceVariable
+          href: ../ConfigurationManager/vlatest/Get-CMDeviceVariable.md
+        - name: Get-CMDiscoveryMethod
+          href: ../ConfigurationManager/vlatest/Get-CMDiscoveryMethod.md
+        - name: Get-CMDistributionPoint
+          href: ../ConfigurationManager/vlatest/Get-CMDistributionPoint.md
+        - name: Get-CMDistributionPointGroup
+          href: ../ConfigurationManager/vlatest/Get-CMDistributionPointGroup.md
+        - name: Get-CMDriver
+          href: ../ConfigurationManager/vlatest/Get-CMDriver.md
+        - name: Get-CMDriverPackage
+          href: ../ConfigurationManager/vlatest/Get-CMDriverPackage.md
+        - name: Get-CMEmailNotificationComponent
+          href: ../ConfigurationManager/vlatest/Get-CMEmailNotificationComponent.md
+        - name: Get-CMEndpointProtectionPoint
+          href: ../ConfigurationManager/vlatest/Get-CMEndpointProtectionPoint.md
+        - name: Get-CMEndpointProtectionSummarizationSchedule
+          href: ../ConfigurationManager/vlatest/Get-CMEndpointProtectionSummarizationSchedule.md
+        - name: Get-CMEnrollmentPoint
+          href: ../ConfigurationManager/vlatest/Get-CMEnrollmentPoint.md
+        - name: Get-CMEnrollmentProxyPoint
+          href: ../ConfigurationManager/vlatest/Get-CMEnrollmentProxyPoint.md
+        - name: Get-CMExchangeServer
+          href: ../ConfigurationManager/vlatest/Get-CMExchangeServer.md
+        - name: Get-CMFallbackStatusPoint
+          href: ../ConfigurationManager/vlatest/Get-CMFallbackStatusPoint.md
+        - name: Get-CMFileReplicationRoute
+          href: ../ConfigurationManager/vlatest/Get-CMFileReplicationRoute.md
+        - name: Get-CMGlobalCondition
+          href: ../ConfigurationManager/vlatest/Get-CMGlobalCondition.md
+        - name: Get-CMHardwareRequirement
+          href: ../ConfigurationManager/vlatest/Get-CMHardwareRequirement.md
+        - name: Get-CMInitialModifiableSecuredCategory
+          href: ../ConfigurationManager/vlatest/Get-CMInitialModifiableSecuredCategory.md
+        - name: Get-CMIntuneSubscription
+          href: ../ConfigurationManager/vlatest/Get-CMIntuneSubscription.md
+        - name: Get-CMIPSubnet
+          href: ../ConfigurationManager/vlatest/Get-CMIPSubnet.md
+        - name: Get-CMMaintenanceWindow
+          href: ../ConfigurationManager/vlatest/Get-CMMaintenanceWindow.md
+        - name: Get-CMManagementPoint
+          href: ../ConfigurationManager/vlatest/Get-CMManagementPoint.md
+        - name: Get-CMManagementPointComponent
+          href: ../ConfigurationManager/vlatest/Get-CMManagementPointComponent.md
+        - name: Get-CMMdmEnrollmentManager
+          href: ../ConfigurationManager/vlatest/Get-CMMdmEnrollmentManager.md
+        - name: Get-CMMigrationCollection
+          href: ../ConfigurationManager/vlatest/Get-CMMigrationCollection.md
+        - name: Get-CMMigrationEntity
+          href: ../ConfigurationManager/vlatest/Get-CMMigrationEntity.md
+        - name: Get-CMMigrationEntityDependency
+          href: ../ConfigurationManager/vlatest/Get-CMMigrationEntityDependency.md
+        - name: Get-CMMulticastServicePoint
+          href: ../ConfigurationManager/vlatest/Get-CMMulticastServicePoint.md
+        - name: Get-CMObjectSecurityScope
+          href: ../ConfigurationManager/vlatest/Get-CMObjectSecurityScope.md
+        - name: Get-CMOperatingSystemImage
+          href: ../ConfigurationManager/vlatest/Get-CMOperatingSystemImage.md
+        - name: Get-CMOperatingSystemImageUpdateSchedule
+          href: ../ConfigurationManager/vlatest/Get-CMOperatingSystemImageUpdateSchedule.md
+        - name: Get-CMOperatingSystemInstaller
+          href: ../ConfigurationManager/vlatest/Get-CMOperatingSystemInstaller.md
+        - name: Get-CMOutOfBandManagementComponent
+          href: ../ConfigurationManager/vlatest/Get-CMOutOfBandManagementComponent.md
+        - name: Get-CMOutOfBandServicePoint
+          href: ../ConfigurationManager/vlatest/Get-CMOutOfBandServicePoint.md
+        - name: Get-CMPackage
+          href: ../ConfigurationManager/vlatest/Get-CMPackage.md
+        - name: Get-CMProgram
+          href: ../ConfigurationManager/vlatest/Get-CMProgram.md
+        - name: Get-CMQueryResultMaximum
+          href: ../ConfigurationManager/vlatest/Get-CMQueryResultMaximum.md
+        - name: Get-CMReportingServicePoint
+          href: ../ConfigurationManager/vlatest/Get-CMReportingServicePoint.md
+        - name: Get-CMSecurityRole
+          href: ../ConfigurationManager/vlatest/Get-CMSecurityRole.md
+        - name: Get-CMSecurityScope
+          href: ../ConfigurationManager/vlatest/Get-CMSecurityScope.md
+        - name: Get-CMSite
+          href: ../ConfigurationManager/vlatest/Get-CMSite.md
+        - name: Get-CMSiteInstallStatus
+          href: ../ConfigurationManager/vlatest/Get-CMSiteInstallStatus.md
+        - name: Get-CMSiteMaintenanceTask
+          href: ../ConfigurationManager/vlatest/Get-CMSiteMaintenanceTask.md
+        - name: Get-CMSiteStatusMessage
+          href: ../ConfigurationManager/vlatest/Get-CMSiteStatusMessage.md
+        - name: Get-CMSiteSystemServer
+          href: ../ConfigurationManager/vlatest/Get-CMSiteSystemServer.md
+        - name: Get-CMSoftwareDistributionComponent
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareDistributionComponent.md
+        - name: Get-CMSoftwareInventory
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareInventory.md
+        - name: Get-CMSoftwareMeteringRule
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareMeteringRule.md
+        - name: Get-CMSoftwareMeteringSetting
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareMeteringSetting.md
+        - name: Get-CMSoftwareUpdate
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareUpdate.md
+        - name: Get-CMSoftwareUpdateAutoDeploymentRule
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareUpdateAutoDeploymentRule.md
+        - name: Get-CMSoftwareUpdateBasedClientInstallation
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareUpdateBasedClientInstallation.md
+        - name: Get-CMSoftwareUpdateDeploymentPackage
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareUpdateDeploymentPackage.md
+        - name: Get-CMSoftwareUpdateGroup
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareUpdateGroup.md
+        - name: Get-CMSoftwareUpdateLicense
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareUpdateLicense.md
+        - name: Get-CMSoftwareUpdatePoint
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareUpdatePoint.md
+        - name: Get-CMSoftwareUpdatePointComponent
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareUpdatePointComponent.md
+        - name: Get-CMSoftwareUpdateSummarizationSchedule
+          href: ../ConfigurationManager/vlatest/Get-CMSoftwareUpdateSummarizationSchedule.md
+        - name: Get-CMStateMigrationPoint
+          href: ../ConfigurationManager/vlatest/Get-CMStateMigrationPoint.md
+        - name: Get-CMStatusFilterRule
+          href: ../ConfigurationManager/vlatest/Get-CMStatusFilterRule.md
+        - name: Get-CMStatusMessageQuery
+          href: ../ConfigurationManager/vlatest/Get-CMStatusMessageQuery.md
+        - name: Get-CMStatusReportingComponent
+          href: ../ConfigurationManager/vlatest/Get-CMStatusReportingComponent.md
+        - name: Get-CMStatusSummarizer
+          href: ../ConfigurationManager/vlatest/Get-CMStatusSummarizer.md
+        - name: Get-CMSystemHealthValidatorPoint
+          href: ../ConfigurationManager/vlatest/Get-CMSystemHealthValidatorPoint.md
+        - name: Get-CMSystemHealthValidatorPointComponent
+          href: ../ConfigurationManager/vlatest/Get-CMSystemHealthValidatorPointComponent.md
+        - name: Get-CMTaskSequence
+          href: ../ConfigurationManager/vlatest/Get-CMTaskSequence.md
+        - name: Get-CMTrustedRootCertificate
+          href: ../ConfigurationManager/vlatest/Get-CMTrustedRootCertificate.md
+        - name: Get-CMUser
+          href: ../ConfigurationManager/vlatest/Get-CMUser.md
+        - name: Get-CMUserCollection
+          href: ../ConfigurationManager/vlatest/Get-CMUserCollection.md
+        - name: Get-CMUserCollectionDirectMembershipRule
+          href: ../ConfigurationManager/vlatest/Get-CMUserCollectionDirectMembershipRule.md
+        - name: Get-CMUserCollectionExcludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Get-CMUserCollectionExcludeMembershipRule.md
+        - name: Get-CMUserCollectionIncludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Get-CMUserCollectionIncludeMembershipRule.md
+        - name: Get-CMUserCollectionQueryMembershipRule
+          href: ../ConfigurationManager/vlatest/Get-CMUserCollectionQueryMembershipRule.md
+        - name: Get-CMUserDeviceAffinity
+          href: ../ConfigurationManager/vlatest/Get-CMUserDeviceAffinity.md
+        - name: Get-CMUserDeviceAffinityRequest
+          href: ../ConfigurationManager/vlatest/Get-CMUserDeviceAffinityRequest.md
+        - name: Get-CMVhd
+          href: ../ConfigurationManager/vlatest/Get-CMVhd.md
+        - name: Import-CMAntimalwarePolicy
+          href: ../ConfigurationManager/vlatest/Import-CMAntimalwarePolicy.md
+        - name: Import-CMApplication
+          href: ../ConfigurationManager/vlatest/Import-CMApplication.md
+        - name: Import-CMBaseline
+          href: ../ConfigurationManager/vlatest/Import-CMBaseline.md
+        - name: Import-CMCertificate
+          href: ../ConfigurationManager/vlatest/Import-CMCertificate.md
+        - name: Import-CMCollection
+          href: ../ConfigurationManager/vlatest/Import-CMCollection.md
+        - name: Import-CMComputerInformation
+          href: ../ConfigurationManager/vlatest/Import-CMComputerInformation.md
+        - name: Import-CMConfigurationItem
+          href: ../ConfigurationManager/vlatest/Import-CMConfigurationItem.md
+        - name: Import-CMDriver
+          href: ../ConfigurationManager/vlatest/Import-CMDriver.md
+        - name: Import-CMDriverPackage
+          href: ../ConfigurationManager/vlatest/Import-CMDriverPackage.md
+        - name: Import-CMPackage
+          href: ../ConfigurationManager/vlatest/Import-CMPackage.md
+        - name: Import-CMSecurityRole
+          href: ../ConfigurationManager/vlatest/Import-CMSecurityRole.md
+        - name: Import-CMSoftwareLicense
+          href: ../ConfigurationManager/vlatest/Import-CMSoftwareLicense.md
+        - name: Import-CMTaskSequence
+          href: ../ConfigurationManager/vlatest/Import-CMTaskSequence.md
+        - name: Import-CMUserDeviceAffinity
+          href: ../ConfigurationManager/vlatest/Import-CMUserDeviceAffinity.md
+        - name: Install-CMClient
+          href: ../ConfigurationManager/vlatest/Install-CMClient.md
+        - name: Invoke-CMAmtProvisioningDiscovery
+          href: ../ConfigurationManager/vlatest/Invoke-CMAmtProvisioningDiscovery.md
+        - name: Invoke-CMBaselineSummarization
+          href: ../ConfigurationManager/vlatest/Invoke-CMBaselineSummarization.md
+        - name: Invoke-CMClientNotification
+          href: ../ConfigurationManager/vlatest/Invoke-CMClientNotification.md
+        - name: Invoke-CMClientOperationSummarization
+          href: ../ConfigurationManager/vlatest/Invoke-CMClientOperationSummarization.md
+        - name: Invoke-CMContentValidation
+          href: ../ConfigurationManager/vlatest/Invoke-CMContentValidation.md
+        - name: Invoke-CMDeploymentSummarization
+          href: ../ConfigurationManager/vlatest/Invoke-CMDeploymentSummarization.md
+        - name: Invoke-CMDeviceAction
+          href: ../ConfigurationManager/vlatest/Invoke-CMDeviceAction.md
+        - name: Invoke-CMDeviceRetire
+          href: ../ConfigurationManager/vlatest/Invoke-CMDeviceRetire.md
+        - name: Invoke-CMDeviceWipe
+          href: ../ConfigurationManager/vlatest/Invoke-CMDeviceWipe.md
+        - name: Invoke-CMEndpointProtectionScan
+          href: ../ConfigurationManager/vlatest/Invoke-CMEndpointProtectionScan.md
+        - name: Invoke-CMEndpointProtectionSummarization
+          href: ../ConfigurationManager/vlatest/Invoke-CMEndpointProtectionSummarization.md
+        - name: Invoke-CMForestDiscovery
+          href: ../ConfigurationManager/vlatest/Invoke-CMForestDiscovery.md
+        - name: Invoke-CMRemoteControl
+          href: ../ConfigurationManager/vlatest/Invoke-CMRemoteControl.md
+        - name: Invoke-CMReport
+          href: ../ConfigurationManager/vlatest/Invoke-CMReport.md
+        - name: Invoke-CMSecondarySiteUpgrade
+          href: ../ConfigurationManager/vlatest/Invoke-CMSecondarySiteUpgrade.md
+        - name: Invoke-CMSoftwareUpdateAutoDeploymentRule
+          href: ../ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateAutoDeploymentRule.md
+        - name: Invoke-CMSoftwareUpdateSummarization
+          href: ../ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateSummarization.md
+        - name: Lock-CMObject
+          href: ../ConfigurationManager/vlatest/Lock-CMObject.md
+        - name: Merge-CMAntimalwarePolicy
+          href: ../ConfigurationManager/vlatest/Merge-CMAntimalwarePolicy.md
+        - name: Merge-CMConflictingRecord
+          href: ../ConfigurationManager/vlatest/Merge-CMConflictingRecord.md
+        - name: Move-CMObject
+          href: ../ConfigurationManager/vlatest/Move-CMObject.md
+        - name: New-CMAccessAccount
+          href: ../ConfigurationManager/vlatest/New-CMAccessAccount.md
+        - name: New-CMAccount
+          href: ../ConfigurationManager/vlatest/New-CMAccount.md
+        - name: New-CMActiveDirectoryForest
+          href: ../ConfigurationManager/vlatest/New-CMActiveDirectoryForest.md
+        - name: New-CMAdministrativeUser
+          href: ../ConfigurationManager/vlatest/New-CMAdministrativeUser.md
+        - name: New-CMAlertSubscription
+          href: ../ConfigurationManager/vlatest/New-CMAlertSubscription.md
+        - name: New-CMAmtProvisioningAccount
+          href: ../ConfigurationManager/vlatest/New-CMAmtProvisioningAccount.md
+        - name: New-CMAntimalwarePolicy
+          href: ../ConfigurationManager/vlatest/New-CMAntimalwarePolicy.md
+        - name: New-CMApnsCertificateRequest
+          href: ../ConfigurationManager/vlatest/New-CMApnsCertificateRequest.md
+        - name: New-CMApplication
+          href: ../ConfigurationManager/vlatest/New-CMApplication.md
+        - name: New-CMAppVVirtualEnvironment
+          href: ../ConfigurationManager/vlatest/New-CMAppVVirtualEnvironment.md
+        - name: New-CMAssetIntelligenceCatalogItem
+          href: ../ConfigurationManager/vlatest/New-CMAssetIntelligenceCatalogItem.md
+        - name: New-CMBaseline
+          href: ../ConfigurationManager/vlatest/New-CMBaseline.md
+        - name: New-CMBootableMedia
+          href: ../ConfigurationManager/vlatest/New-CMBootableMedia.md
+        - name: New-CMBootImage
+          href: ../ConfigurationManager/vlatest/New-CMBootImage.md
+        - name: New-CMBoundary
+          href: ../ConfigurationManager/vlatest/New-CMBoundary.md
+        - name: New-CMBoundaryGroup
+          href: ../ConfigurationManager/vlatest/New-CMBoundaryGroup.md
+        - name: New-CMCaptureMedia
+          href: ../ConfigurationManager/vlatest/New-CMCaptureMedia.md
+        - name: New-CMCategory
+          href: ../ConfigurationManager/vlatest/New-CMCategory.md
+        - name: New-CMClientAuthCertificateProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/New-CMClientAuthCertificateProfileConfigurationItem.md
+        - name: New-CMClientSetting
+          href: ../ConfigurationManager/vlatest/New-CMClientSetting.md
+        - name: New-CMCloudDistributionPoint
+          href: ../ConfigurationManager/vlatest/New-CMCloudDistributionPoint.md
+        - name: New-CMCollection
+          href: ../ConfigurationManager/vlatest/New-CMCollection.md
+        - name: New-CMComputerAssociation
+          href: ../ConfigurationManager/vlatest/New-CMComputerAssociation.md
+        - name: New-CMConditionalAccessPolicy
+          href: ../ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
+        - name: New-CMConfigurationItem
+          href: ../ConfigurationManager/vlatest/New-CMConfigurationItem.md
+        - name: New-CMDepTokenRequest
+          href: ../ConfigurationManager/vlatest/New-CMDepTokenRequest.md
+        - name: New-CMDeviceCollection
+          href: ../ConfigurationManager/vlatest/New-CMDeviceCollection.md
+        - name: New-CMDeviceCollectionVariable
+          href: ../ConfigurationManager/vlatest/New-CMDeviceCollectionVariable.md
+        - name: New-CMDeviceVariable
+          href: ../ConfigurationManager/vlatest/New-CMDeviceVariable.md
+        - name: New-CMDistributionPointGroup
+          href: ../ConfigurationManager/vlatest/New-CMDistributionPointGroup.md
+        - name: New-CMDriverPackage
+          href: ../ConfigurationManager/vlatest/New-CMDriverPackage.md
+        - name: New-CMExchangeClientAccessServer
+          href: ../ConfigurationManager/vlatest/New-CMExchangeClientAccessServer.md
+        - name: New-CMExchangeServer
+          href: ../ConfigurationManager/vlatest/New-CMExchangeServer.md
+        - name: New-CMExchangeServerConnectorAccessRule
+          href: ../ConfigurationManager/vlatest/New-CMExchangeServerConnectorAccessRule.md
+        - name: New-CMExchangeServerConnectorApplicationSetting
+          href: ../ConfigurationManager/vlatest/New-CMExchangeServerConnectorApplicationSetting.md
+        - name: New-CMExchangeServerConnectorEmailManagementSetting
+          href: ../ConfigurationManager/vlatest/New-CMExchangeServerConnectorEmailManagementSetting.md
+        - name: New-CMExchangeServerConnectorPasswordSetting
+          href: ../ConfigurationManager/vlatest/New-CMExchangeServerConnectorPasswordSetting.md
+        - name: New-CMExchangeServerConnectorSecuritySetting
+          href: ../ConfigurationManager/vlatest/New-CMExchangeServerConnectorSecuritySetting.md
+        - name: New-CMFileReplicationRoute
+          href: ../ConfigurationManager/vlatest/New-CMFileReplicationRoute.md
+        - name: New-CMGlobalCondition
+          href: ../ConfigurationManager/vlatest/New-CMGlobalCondition.md
+        - name: New-CMHardwareRequirement
+          href: ../ConfigurationManager/vlatest/New-CMHardwareRequirement.md
+        - name: New-CMInstallationSourceFile
+          href: ../ConfigurationManager/vlatest/New-CMInstallationSourceFile.md
+        - name: New-CMMaintenanceWindow
+          href: ../ConfigurationManager/vlatest/New-CMMaintenanceWindow.md
+        - name: New-CMMigrationJob
+          href: ../ConfigurationManager/vlatest/New-CMMigrationJob.md
+        - name: New-CMOperatingSystemImage
+          href: ../ConfigurationManager/vlatest/New-CMOperatingSystemImage.md
+        - name: New-CMOperatingSystemInstaller
+          href: ../ConfigurationManager/vlatest/New-CMOperatingSystemInstaller.md
+        - name: New-CMPackage
+          href: ../ConfigurationManager/vlatest/New-CMPackage.md
+        - name: New-CMPrestagedMedia
+          href: ../ConfigurationManager/vlatest/New-CMPrestagedMedia.md
+        - name: New-CMProgram
+          href: ../ConfigurationManager/vlatest/New-CMProgram.md
+        - name: New-CMRemoteConnectionProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/New-CMRemoteConnectionProfileConfigurationItem.md
+        - name: New-CMSchedule
+          href: ../ConfigurationManager/vlatest/New-CMSchedule.md
+        - name: New-CMSecondarySite
+          href: ../ConfigurationManager/vlatest/New-CMSecondarySite.md
+        - name: New-CMSecurityScope
+          href: ../ConfigurationManager/vlatest/New-CMSecurityScope.md
+        - name: New-CMSiteSystemServer
+          href: ../ConfigurationManager/vlatest/New-CMSiteSystemServer.md
+        - name: New-CMSoftwareMeteringRule
+          href: ../ConfigurationManager/vlatest/New-CMSoftwareMeteringRule.md
+        - name: New-CMSoftwareUpdateAutoDeploymentRule
+          href: ../ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
+        - name: New-CMSoftwareUpdateGroup
+          href: ../ConfigurationManager/vlatest/New-CMSoftwareUpdateGroup.md
+        - name: New-CMSqlServerSetting
+          href: ../ConfigurationManager/vlatest/New-CMSqlServerSetting.md
+        - name: New-CMStandaloneMedia
+          href: ../ConfigurationManager/vlatest/New-CMStandaloneMedia.md
+        - name: New-CMStatusFilterRule
+          href: ../ConfigurationManager/vlatest/New-CMStatusFilterRule.md
+        - name: New-CMStatusMessageQuery
+          href: ../ConfigurationManager/vlatest/New-CMStatusMessageQuery.md
+        - name: New-CMStoragefolder
+          href: ../ConfigurationManager/vlatest/New-CMStoragefolder.md
+        - name: New-CMTaskSequence
+          href: ../ConfigurationManager/vlatest/New-CMTaskSequence.md
+        - name: New-CMTaskSequenceMedia
+          href: ../ConfigurationManager/vlatest/New-CMTaskSequenceMedia.md
+        - name: New-CMTrustedRootCertificateProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/New-CMTrustedRootCertificateProfileConfigurationItem.md
+        - name: New-CMUserCollection
+          href: ../ConfigurationManager/vlatest/New-CMUserCollection.md
+        - name: New-CMUserDataAndProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
+        - name: New-CMVhd
+          href: ../ConfigurationManager/vlatest/New-CMVhd.md
+        - name: New-CMVirtualEnvironmentGroup
+          href: ../ConfigurationManager/vlatest/New-CMVirtualEnvironmentGroup.md
+        - name: New-CMVpnProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/New-CMVpnProfileConfigurationItem.md
+        - name: New-CMWindowsFirewallPolicy
+          href: ../ConfigurationManager/vlatest/New-CMWindowsFirewallPolicy.md
+        - name: New-CMWiredProfileObject
+          href: ../ConfigurationManager/vlatest/New-CMWiredProfileObject.md
+        - name: New-CMWirelessProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/New-CMWirelessProfileConfigurationItem.md
+        - name: New-CMWirelessProfileObject
+          href: ../ConfigurationManager/vlatest/New-CMWirelessProfileObject.md
+        - name: Out-CMSignedWindowsMobileCab
+          href: ../ConfigurationManager/vlatest/Out-CMSignedWindowsMobileCab.md
+        - name: Publish-CMPrestageContent
+          href: ../ConfigurationManager/vlatest/Publish-CMPrestageContent.md
+        - name: Publish-CMPrestageContentTaskSequence
+          href: ../ConfigurationManager/vlatest/Publish-CMPrestageContentTaskSequence.md
+        - name: Remove-CMAccessAccount
+          href: ../ConfigurationManager/vlatest/Remove-CMAccessAccount.md
+        - name: Remove-CMAccount
+          href: ../ConfigurationManager/vlatest/Remove-CMAccount.md
+        - name: Remove-CMActiveDirectoryForest
+          href: ../ConfigurationManager/vlatest/Remove-CMActiveDirectoryForest.md
+        - name: Remove-CMAdministrativeUser
+          href: ../ConfigurationManager/vlatest/Remove-CMAdministrativeUser.md
+        - name: Remove-CMAlert
+          href: ../ConfigurationManager/vlatest/Remove-CMAlert.md
+        - name: Remove-CMAlertSubscription
+          href: ../ConfigurationManager/vlatest/Remove-CMAlertSubscription.md
+        - name: Remove-CMAmtProvisioningData
+          href: ../ConfigurationManager/vlatest/Remove-CMAmtProvisioningData.md
+        - name: Remove-CMAntiMalwarePolicy
+          href: ../ConfigurationManager/vlatest/Remove-CMAntiMalwarePolicy.md
+        - name: Remove-CMApplication
+          href: ../ConfigurationManager/vlatest/Remove-CMApplication.md
+        - name: Remove-CMApplicationCatalogWebServicePoint
+          href: ../ConfigurationManager/vlatest/Remove-CMApplicationCatalogWebServicePoint.md
+        - name: Remove-CMApplicationCatalogWebSitePoint
+          href: ../ConfigurationManager/vlatest/Remove-CMApplicationCatalogWebSitePoint.md
+        - name: Remove-CMApplicationRevisionHistory
+          href: ../ConfigurationManager/vlatest/Remove-CMApplicationRevisionHistory.md
+        - name: Remove-CMAppVVirtualEnvironment
+          href: ../ConfigurationManager/vlatest/Remove-CMAppVVirtualEnvironment.md
+        - name: Remove-CMAssetIntelligenceCatalogItem
+          href: ../ConfigurationManager/vlatest/Remove-CMAssetIntelligenceCatalogItem.md
+        - name: Remove-CMAssetIntelligenceSynchronizationPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMAssetIntelligenceSynchronizationPoint.md
+        - name: Remove-CMBaseline
+          href: ../ConfigurationManager/vlatest/Remove-CMBaseline.md
+        - name: Remove-CMBootImage
+          href: ../ConfigurationManager/vlatest/Remove-CMBootImage.md
+        - name: Remove-CMBoundary
+          href: ../ConfigurationManager/vlatest/Remove-CMBoundary.md
+        - name: Remove-CMBoundaryFromGroup
+          href: ../ConfigurationManager/vlatest/Remove-CMBoundaryFromGroup.md
+        - name: Remove-CMBoundaryGroup
+          href: ../ConfigurationManager/vlatest/Remove-CMBoundaryGroup.md
+        - name: Remove-CMCategory
+          href: ../ConfigurationManager/vlatest/Remove-CMCategory.md
+        - name: Remove-CMClientOperation
+          href: ../ConfigurationManager/vlatest/Remove-CMClientOperation.md
+        - name: Remove-CMClientSetting
+          href: ../ConfigurationManager/vlatest/Remove-CMClientSetting.md
+        - name: Remove-CMCloudDistributionPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMCloudDistributionPoint.md
+        - name: Remove-CMCollection
+          href: ../ConfigurationManager/vlatest/Remove-CMCollection.md
+        - name: Remove-CMComputerAssociation
+          href: ../ConfigurationManager/vlatest/Remove-CMComputerAssociation.md
+        - name: Remove-CMConditionalAccessPolicy
+          href: ../ConfigurationManager/vlatest/Remove-CMConditionalAccessPolicy.md
+        - name: Remove-CMConfigurationItem
+          href: ../ConfigurationManager/vlatest/Remove-CMConfigurationItem.md
+        - name: Remove-CMConfigurationPolicy
+          href: ../ConfigurationManager/vlatest/Remove-CMConfigurationPolicy.md
+        - name: Remove-CMContentDistribution
+          href: ../ConfigurationManager/vlatest/Remove-CMContentDistribution.md
+        - name: Remove-CMDeployment
+          href: ../ConfigurationManager/vlatest/Remove-CMDeployment.md
+        - name: Remove-CMDeploymentType
+          href: ../ConfigurationManager/vlatest/Remove-CMDeploymentType.md
+        - name: Remove-CMDevice
+          href: ../ConfigurationManager/vlatest/Remove-CMDevice.md
+        - name: Remove-CMDeviceAffinityFromUser
+          href: ../ConfigurationManager/vlatest/Remove-CMDeviceAffinityFromUser.md
+        - name: Remove-CMDeviceCollectionDirectMembershipRule
+          href: ../ConfigurationManager/vlatest/Remove-CMDeviceCollectionDirectMembershipRule.md
+        - name: Remove-CMDeviceCollectionExcludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Remove-CMDeviceCollectionExcludeMembershipRule.md
+        - name: Remove-CMDeviceCollectionIncludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Remove-CMDeviceCollectionIncludeMembershipRule.md
+        - name: Remove-CMDeviceCollectionQueryMembershipRule
+          href: ../ConfigurationManager/vlatest/Remove-CMDeviceCollectionQueryMembershipRule.md
+        - name: Remove-CMDeviceCollectionVariable
+          href: ../ConfigurationManager/vlatest/Remove-CMDeviceCollectionVariable.md
+        - name: Remove-CMDeviceVariable
+          href: ../ConfigurationManager/vlatest/Remove-CMDeviceVariable.md
+        - name: Remove-CMDistributionPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMDistributionPoint.md
+        - name: Remove-CMDistributionPointFromGroup
+          href: ../ConfigurationManager/vlatest/Remove-CMDistributionPointFromGroup.md
+        - name: Remove-CMDistributionPointGroup
+          href: ../ConfigurationManager/vlatest/Remove-CMDistributionPointGroup.md
+        - name: Remove-CMDriver
+          href: ../ConfigurationManager/vlatest/Remove-CMDriver.md
+        - name: Remove-CMDriverFromDriverPackage
+          href: ../ConfigurationManager/vlatest/Remove-CMDriverFromDriverPackage.md
+        - name: Remove-CMDriverPackage
+          href: ../ConfigurationManager/vlatest/Remove-CMDriverPackage.md
+        - name: Remove-CMEndpointProtectionPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMEndpointProtectionPoint.md
+        - name: Remove-CMEnrollmentPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMEnrollmentPoint.md
+        - name: Remove-CMEnrollmentProxyPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMEnrollmentProxyPoint.md
+        - name: Remove-CMExchangeServer
+          href: ../ConfigurationManager/vlatest/Remove-CMExchangeServer.md
+        - name: Remove-CMFallbackStatusPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMFallbackStatusPoint.md
+        - name: Remove-CMFileReplicationRoute
+          href: ../ConfigurationManager/vlatest/Remove-CMFileReplicationRoute.md
+        - name: Remove-CMGlobalCondition
+          href: ../ConfigurationManager/vlatest/Remove-CMGlobalCondition.md
+        - name: Remove-CMHardwareRequirement
+          href: ../ConfigurationManager/vlatest/Remove-CMHardwareRequirement.md
+        - name: Remove-CMIntuneSubscription
+          href: ../ConfigurationManager/vlatest/Remove-CMIntuneSubscription.md
+        - name: Remove-CMMaintenanceWindow
+          href: ../ConfigurationManager/vlatest/Remove-CMMaintenanceWindow.md
+        - name: Remove-CMManagementPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMManagementPoint.md
+        - name: Remove-CMMdmEnrollmentManager
+          href: ../ConfigurationManager/vlatest/Remove-CMMdmEnrollmentManager.md
+        - name: Remove-CMMulticastServicePoint
+          href: ../ConfigurationManager/vlatest/Remove-CMMulticastServicePoint.md
+        - name: Remove-CMObjectSecurityScope
+          href: ../ConfigurationManager/vlatest/Remove-CMObjectSecurityScope.md
+        - name: Remove-CMOperatingSystemImage
+          href: ../ConfigurationManager/vlatest/Remove-CMOperatingSystemImage.md
+        - name: Remove-CMOperatingSystemInstaller
+          href: ../ConfigurationManager/vlatest/Remove-CMOperatingSystemInstaller.md
+        - name: Remove-CMOutOfBandServicePoint
+          href: ../ConfigurationManager/vlatest/Remove-CMOutOfBandServicePoint.md
+        - name: Remove-CMPackage
+          href: ../ConfigurationManager/vlatest/Remove-CMPackage.md
+        - name: Remove-CMProgram
+          href: ../ConfigurationManager/vlatest/Remove-CMProgram.md
+        - name: Remove-CMReportingServicePoint
+          href: ../ConfigurationManager/vlatest/Remove-CMReportingServicePoint.md
+        - name: Remove-CMSecondarySite
+          href: ../ConfigurationManager/vlatest/Remove-CMSecondarySite.md
+        - name: Remove-CMSecurityRole
+          href: ../ConfigurationManager/vlatest/Remove-CMSecurityRole.md
+        - name: Remove-CMSecurityRoleFromAdministrativeUser
+          href: ../ConfigurationManager/vlatest/Remove-CMSecurityRoleFromAdministrativeUser.md
+        - name: Remove-CMSecurityScope
+          href: ../ConfigurationManager/vlatest/Remove-CMSecurityScope.md
+        - name: Remove-CMSecurityScopeFromAdministrativeUser
+          href: ../ConfigurationManager/vlatest/Remove-CMSecurityScopeFromAdministrativeUser.md
+        - name: Remove-CMSiteSystemServer
+          href: ../ConfigurationManager/vlatest/Remove-CMSiteSystemServer.md
+        - name: Remove-CMSoftwareMeteringRule
+          href: ../ConfigurationManager/vlatest/Remove-CMSoftwareMeteringRule.md
+        - name: Remove-CMSoftwareUpdateAutoDeploymentRule
+          href: ../ConfigurationManager/vlatest/Remove-CMSoftwareUpdateAutoDeploymentRule.md
+        - name: Remove-CMSoftwareUpdateDeploymentPackage
+          href: ../ConfigurationManager/vlatest/Remove-CMSoftwareUpdateDeploymentPackage.md
+        - name: Remove-CMSoftwareUpdateGroup
+          href: ../ConfigurationManager/vlatest/Remove-CMSoftwareUpdateGroup.md
+        - name: Remove-CMSoftwareUpdatePoint
+          href: ../ConfigurationManager/vlatest/Remove-CMSoftwareUpdatePoint.md
+        - name: Remove-CMStateMigrationPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMStateMigrationPoint.md
+        - name: Remove-CMStatusFilterRule
+          href: ../ConfigurationManager/vlatest/Remove-CMStatusFilterRule.md
+        - name: Remove-CMStatusMessageQuery
+          href: ../ConfigurationManager/vlatest/Remove-CMStatusMessageQuery.md
+        - name: Remove-CMSystemHealthValidatorPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMSystemHealthValidatorPoint.md
+        - name: Remove-CMTaskSequence
+          href: ../ConfigurationManager/vlatest/Remove-CMTaskSequence.md
+        - name: Remove-CMUser
+          href: ../ConfigurationManager/vlatest/Remove-CMUser.md
+        - name: Remove-CMUserAffinityFromDevice
+          href: ../ConfigurationManager/vlatest/Remove-CMUserAffinityFromDevice.md
+        - name: Remove-CMUserCollectionDirectMembershipRule
+          href: ../ConfigurationManager/vlatest/Remove-CMUserCollectionDirectMembershipRule.md
+        - name: Remove-CMUserCollectionExcludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Remove-CMUserCollectionExcludeMembershipRule.md
+        - name: Remove-CMUserCollectionIncludeMembershipRule
+          href: ../ConfigurationManager/vlatest/Remove-CMUserCollectionIncludeMembershipRule.md
+        - name: Remove-CMUserCollectionQueryMembershipRule
+          href: ../ConfigurationManager/vlatest/Remove-CMUserCollectionQueryMembershipRule.md
+        - name: Remove-CMVhd
+          href: ../ConfigurationManager/vlatest/Remove-CMVhd.md
+        - name: Resolve-CMInventoriedSoftwareConflict
+          href: ../ConfigurationManager/vlatest/Resolve-CMInventoriedSoftwareConflict.md
+        - name: Restore-CMApplicationRevisionHistory
+          href: ../ConfigurationManager/vlatest/Restore-CMApplicationRevisionHistory.md
+        - name: Resume-CMApplication
+          href: ../ConfigurationManager/vlatest/Resume-CMApplication.md
+        - name: Save-CMDatabaseReplicationDiagnostic
+          href: ../ConfigurationManager/vlatest/Save-CMDatabaseReplicationDiagnostic.md
+        - name: Save-CMEndpointProtectionDefinition
+          href: ../ConfigurationManager/vlatest/Save-CMEndpointProtectionDefinition.md
+        - name: Save-CMSoftwareUpdate
+          href: ../ConfigurationManager/vlatest/Save-CMSoftwareUpdate.md
+        - name: Send-CMAssetIntelligenceCatalogUpdateRequest
+          href: ../ConfigurationManager/vlatest/Send-CMAssetIntelligenceCatalogUpdateRequest.md
+        - name: Send-CMCmdletUpdateCheck
+          href: ../ConfigurationManager/vlatest/Send-CMCmdletUpdateCheck.md
+        - name: Set-CMAccessAccount
+          href: ../ConfigurationManager/vlatest/Set-CMAccessAccount.md
+        - name: Set-CMAccount
+          href: ../ConfigurationManager/vlatest/Set-CMAccount.md
+        - name: Set-CMActiveDirectoryForest
+          href: ../ConfigurationManager/vlatest/Set-CMActiveDirectoryForest.md
+        - name: Set-CMAlert
+          href: ../ConfigurationManager/vlatest/Set-CMAlert.md
+        - name: Set-CMAlertSubscription
+          href: ../ConfigurationManager/vlatest/Set-CMAlertSubscription.md
+        - name: Set-CMAndroidDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMAndroidDeploymentType.md
+        - name: Set-CMAntiMalwarePolicy
+          href: ../ConfigurationManager/vlatest/Set-CMAntiMalwarePolicy.md
+        - name: Set-CMApplication
+          href: ../ConfigurationManager/vlatest/Set-CMApplication.md
+        - name: Set-CMApplicationCatalogWebsitePoint
+          href: ../ConfigurationManager/vlatest/Set-CMApplicationCatalogWebsitePoint.md
+        - name: Set-CMApplicationDeployment
+          href: ../ConfigurationManager/vlatest/Set-CMApplicationDeployment.md
+        - name: Set-CMAppv5XDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMAppv5XDeploymentType.md
+        - name: Set-CMAppvDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMAppvDeploymentType.md
+        - name: Set-CMAppVVirtualEnvironment
+          href: ../ConfigurationManager/vlatest/Set-CMAppVVirtualEnvironment.md
+        - name: Set-CMAssetIntelligenceCatalogItem
+          href: ../ConfigurationManager/vlatest/Set-CMAssetIntelligenceCatalogItem.md
+        - name: Set-CMAssetIntelligenceClass
+          href: ../ConfigurationManager/vlatest/Set-CMAssetIntelligenceClass.md
+        - name: Set-CMAssetIntelligenceSynchronizationPoint
+          href: ../ConfigurationManager/vlatest/Set-CMAssetIntelligenceSynchronizationPoint.md
+        - name: Set-CMAssignedSite
+          href: ../ConfigurationManager/vlatest/Set-CMAssignedSite.md
+        - name: Set-CMBaseline
+          href: ../ConfigurationManager/vlatest/Set-CMBaseline.md
+        - name: Set-CMBaselineDeployment
+          href: ../ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
+        - name: Set-CMBaselineSummarizationSchedule
+          href: ../ConfigurationManager/vlatest/Set-CMBaselineSummarizationSchedule.md
+        - name: Set-CMBootImage
+          href: ../ConfigurationManager/vlatest/Set-CMBootImage.md
+        - name: Set-CMBoundary
+          href: ../ConfigurationManager/vlatest/Set-CMBoundary.md
+        - name: Set-CMBoundaryGroup
+          href: ../ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
+        - name: Set-CMClientAuthCertificateProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/Set-CMClientAuthCertificateProfileConfigurationItem.md
+        - name: Set-CMClientPushInstallation
+          href: ../ConfigurationManager/vlatest/Set-CMClientPushInstallation.md
+        - name: Set-CMClientSetting
+          href: ../ConfigurationManager/vlatest/Set-CMClientSetting.md
+        - name: Set-CMClientStatusSetting
+          href: ../ConfigurationManager/vlatest/Set-CMClientStatusSetting.md
+        - name: Set-CMClientStatusUpdateSchedule
+          href: ../ConfigurationManager/vlatest/Set-CMClientStatusUpdateSchedule.md
+        - name: Set-CMCloudDistributionPoint
+          href: ../ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
+        - name: Set-CMCmdletUpdateCheck
+          href: ../ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
+        - name: Set-CMCollection
+          href: ../ConfigurationManager/vlatest/Set-CMCollection.md
+        - name: Set-CMCollectionMembershipEvaluationComponent
+          href: ../ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
+        - name: Set-CMComputerAssociation
+          href: ../ConfigurationManager/vlatest/Set-CMComputerAssociation.md
+        - name: Set-CMConditionalAccessPolicy
+          href: ../ConfigurationManager/vlatest/Set-CMConditionalAccessPolicy.md
+        - name: Set-CMConfigurationItem
+          href: ../ConfigurationManager/vlatest/Set-CMConfigurationItem.md
+        - name: Set-CMConfigurationPolicyDeployment
+          href: ../ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
+        - name: Set-CMDatabaseProperty
+          href: ../ConfigurationManager/vlatest/Set-CMDatabaseProperty.md
+        - name: Set-CMDatabaseReplicationLinkProperty
+          href: ../ConfigurationManager/vlatest/Set-CMDatabaseReplicationLinkProperty.md
+        - name: Set-CMDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMDeploymentType.md
+        - name: Set-CMDeviceCollectionVariable
+          href: ../ConfigurationManager/vlatest/Set-CMDeviceCollectionVariable.md
+        - name: Set-CMDeviceOwnership
+          href: ../ConfigurationManager/vlatest/Set-CMDeviceOwnership.md
+        - name: Set-CMDeviceVariable
+          href: ../ConfigurationManager/vlatest/Set-CMDeviceVariable.md
+        - name: Set-CMDiscoveryMethod
+          href: ../ConfigurationManager/vlatest/Set-CMDiscoveryMethod.md
+        - name: Set-CMDistributionPoint
+          href: ../ConfigurationManager/vlatest/Set-CMDistributionPoint.md
+        - name: Set-CMDistributionPointGroup
+          href: ../ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
+        - name: Set-CMDriver
+          href: ../ConfigurationManager/vlatest/Set-CMDriver.md
+        - name: Set-CMDriverBootImage
+          href: ../ConfigurationManager/vlatest/Set-CMDriverBootImage.md
+        - name: Set-CMDriverPackage
+          href: ../ConfigurationManager/vlatest/Set-CMDriverPackage.md
+        - name: Set-CMEmailNotificationComponent
+          href: ../ConfigurationManager/vlatest/Set-CMEmailNotificationComponent.md
+        - name: Set-CMEndpointProtectionPoint
+          href: ../ConfigurationManager/vlatest/Set-CMEndpointProtectionPoint.md
+        - name: Set-CMEndpointProtectionSummarizationSchedule
+          href: ../ConfigurationManager/vlatest/Set-CMEndpointProtectionSummarizationSchedule.md
+        - name: Set-CMEnrollmentPoint
+          href: ../ConfigurationManager/vlatest/Set-CMEnrollmentPoint.md
+        - name: Set-CMExchangeServer
+          href: ../ConfigurationManager/vlatest/Set-CMExchangeServer.md
+        - name: Set-CMFallbackStatusPoint
+          href: ../ConfigurationManager/vlatest/Set-CMFallbackStatusPoint.md
+        - name: Set-CMFileReplicationRoute
+          href: ../ConfigurationManager/vlatest/Set-CMFileReplicationRoute.md
+        - name: Set-CMGlobalCondition
+          href: ../ConfigurationManager/vlatest/Set-CMGlobalCondition.md
+        - name: Set-CMGooglePlayDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMGooglePlayDeploymentType.md
+        - name: Set-CMHardwareRequirement
+          href: ../ConfigurationManager/vlatest/Set-CMHardwareRequirement.md
+        - name: Set-CMHierarchySetting
+          href: ../ConfigurationManager/vlatest/Set-CMHierarchySetting.md
+        - name: Set-CMIntuneSubscription
+          href: ../ConfigurationManager/vlatest/Set-CMIntuneSubscription.md
+        - name: Set-CMIntuneSubscriptionAndroidProperty
+          href: ../ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAndroidProperty.md
+        - name: Set-CMIntuneSubscriptionAppleDepProperty
+          href: ../ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
+        - name: Set-CMIntuneSubscriptionAppleProperty
+          href: ../ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleProperty.md
+        - name: Set-CMIntuneSubscriptionPassportForWorkProperty
+          href: ../ConfigurationManager/vlatest/Set-CMIntuneSubscriptionPassportForWorkProperty.md
+        - name: Set-CMIntuneSubscriptionWindowsPhoneProperty
+          href: ../ConfigurationManager/vlatest/Set-CMIntuneSubscriptionWindowsPhoneProperty.md
+        - name: Set-CMIntuneSubscriptionWindowsProperty
+          href: ../ConfigurationManager/vlatest/Set-CMIntuneSubscriptionWindowsProperty.md
+        - name: Set-CMIosAppStoreDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMIosAppStoreDeploymentType.md
+        - name: Set-CMIosDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMIosDeploymentType.md
+        - name: Set-CMMacDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMMacDeploymentType.md
+        - name: Set-CMMaintenanceWindow
+          href: ../ConfigurationManager/vlatest/Set-CMMaintenanceWindow.md
+        - name: Set-CMManagementPoint
+          href: ../ConfigurationManager/vlatest/Set-CMManagementPoint.md
+        - name: Set-CMManagementPointComponent
+          href: ../ConfigurationManager/vlatest/Set-CMManagementPointComponent.md
+        - name: Set-CMMigrationExclusionList
+          href: ../ConfigurationManager/vlatest/Set-CMMigrationExclusionList.md
+        - name: Set-CMMigrationSource
+          href: ../ConfigurationManager/vlatest/Set-CMMigrationSource.md
+        - name: Set-CMMobileMsiDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMMobileMsiDeploymentType.md
+        - name: Set-CMMsiDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMMsiDeploymentType.md
+        - name: Set-CMMulticastServicePoint
+          href: ../ConfigurationManager/vlatest/Set-CMMulticastServicePoint.md
+        - name: Set-CMNokiaDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMNokiaDeploymentType.md
+        - name: Set-CMObjectSecurityScope
+          href: ../ConfigurationManager/vlatest/Set-CMObjectSecurityScope.md
+        - name: Set-CMOperatingSystemImage
+          href: ../ConfigurationManager/vlatest/Set-CMOperatingSystemImage.md
+        - name: Set-CMOperatingSystemInstaller
+          href: ../ConfigurationManager/vlatest/Set-CMOperatingSystemInstaller.md
+        - name: Set-CMOutOfBandManagementComponent
+          href: ../ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
+        - name: Set-CMOutOfBandServicePoint
+          href: ../ConfigurationManager/vlatest/Set-CMOutOfBandServicePoint.md
+        - name: Set-CMPackage
+          href: ../ConfigurationManager/vlatest/Set-CMPackage.md
+        - name: Set-CMPackageDeployment
+          href: ../ConfigurationManager/vlatest/Set-CMPackageDeployment.md
+        - name: Set-CMPowerControl
+          href: ../ConfigurationManager/vlatest/Set-CMPowerControl.md
+        - name: Set-CMProgram
+          href: ../ConfigurationManager/vlatest/Set-CMProgram.md
+        - name: Set-CMQueryResultMaximum
+          href: ../ConfigurationManager/vlatest/Set-CMQueryResultMaximum.md
+        - name: Set-CMRemoteConnectionProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/Set-CMRemoteConnectionProfileConfigurationItem.md
+        - name: Set-CMReportingServicePoint
+          href: ../ConfigurationManager/vlatest/Set-CMReportingServicePoint.md
+        - name: Set-CMScriptDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMScriptDeploymentType.md
+        - name: Set-CMSecurityRole
+          href: ../ConfigurationManager/vlatest/Set-CMSecurityRole.md
+        - name: Set-CMSecurityScope
+          href: ../ConfigurationManager/vlatest/Set-CMSecurityScope.md
+        - name: Set-CMSite
+          href: ../ConfigurationManager/vlatest/Set-CMSite.md
+        - name: Set-CMSiteMaintenanceTask
+          href: ../ConfigurationManager/vlatest/Set-CMSiteMaintenanceTask.md
+        - name: Set-CMSiteSystemServer
+          href: ../ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
+        - name: Set-CMSoftwareDistributionComponent
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareDistributionComponent.md
+        - name: Set-CMSoftwareInventory
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareInventory.md
+        - name: Set-CMSoftwareMeteringRule
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareMeteringRule.md
+        - name: Set-CMSoftwareMeteringSetting
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareMeteringSetting.md
+        - name: Set-CMSoftwareUpdate
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareUpdate.md
+        - name: Set-CMSoftwareUpdateAutoDeploymentRule
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
+        - name: Set-CMSoftwareUpdateBasedClientInstallation
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareUpdateBasedClientInstallation.md
+        - name: Set-CMSoftwareUpdateDeployment
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeployment.md
+        - name: Set-CMSoftwareUpdateDeploymentPackage
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeploymentPackage.md
+        - name: Set-CMSoftwareUpdateGroup
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareUpdateGroup.md
+        - name: Set-CMSoftwareUpdatePoint
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
+        - name: Set-CMSoftwareUpdatePointComponent
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareUpdatePointComponent.md
+        - name: Set-CMSoftwareUpdateSummarizationSchedule
+          href: ../ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
+        - name: Set-CMStateMigrationPoint
+          href: ../ConfigurationManager/vlatest/Set-CMStateMigrationPoint.md
+        - name: Set-CMStatusFilterRule
+          href: ../ConfigurationManager/vlatest/Set-CMStatusFilterRule.md
+        - name: Set-CMStatusMessageQuery
+          href: ../ConfigurationManager/vlatest/Set-CMStatusMessageQuery.md
+        - name: Set-CMStatusReportingComponent
+          href: ../ConfigurationManager/vlatest/Set-CMStatusReportingComponent.md
+        - name: Set-CMStatusSummarizer
+          href: ../ConfigurationManager/vlatest/Set-CMStatusSummarizer.md
+        - name: Set-CMSystemHealthValidatorPointComponent
+          href: ../ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
+        - name: Set-CMTaskSequence
+          href: ../ConfigurationManager/vlatest/Set-CMTaskSequence.md
+        - name: Set-CMTaskSequenceDeployment
+          href: ../ConfigurationManager/vlatest/Set-CMTaskSequenceDeployment.md
+        - name: Set-CMUserDataAndProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
+        - name: Set-CMVhd
+          href: ../ConfigurationManager/vlatest/Set-CMVhd.md
+        - name: Set-CMVpnProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/Set-CMVpnProfileConfigurationItem.md
+        - name: Set-CMWebApplicationDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMWebApplicationDeploymentType.md
+        - name: Set-CMWindowsAppxDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMWindowsAppxDeploymentType.md
+        - name: Set-CMWindowsFirewallPolicy
+          href: ../ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
+        - name: Set-CMWindowsMobileDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMWindowsMobileDeploymentType.md
+        - name: Set-CMWindowsPhoneDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMWindowsPhoneDeploymentType.md
+        - name: Set-CMWindowsPhoneStoreDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMWindowsPhoneStoreDeploymentType.md
+        - name: Set-CMWindowsStoreDeploymentType
+          href: ../ConfigurationManager/vlatest/Set-CMWindowsStoreDeploymentType.md
+        - name: Set-CMWirelessProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/Set-CMWirelessProfileConfigurationItem.md
+        - name: Start-CMAntimalwarePolicyDeployment
+          href: ../ConfigurationManager/vlatest/Start-CMAntimalwarePolicyDeployment.md
+        - name: Start-CMApplicationDeployment
+          href: ../ConfigurationManager/vlatest/Start-CMApplicationDeployment.md
+        - name: Start-CMApplicationDeploymentSimulation
+          href: ../ConfigurationManager/vlatest/Start-CMApplicationDeploymentSimulation.md
+        - name: Start-CMBaselineDeployment
+          href: ../ConfigurationManager/vlatest/Start-CMBaselineDeployment.md
+        - name: Start-CMClientSettingDeployment
+          href: ../ConfigurationManager/vlatest/Start-CMClientSettingDeployment.md
+        - name: Start-CMCloudDistributionPoint
+          href: ../ConfigurationManager/vlatest/Start-CMCloudDistributionPoint.md
+        - name: Start-CMConfigurationPolicyDeployment
+          href: ../ConfigurationManager/vlatest/Start-CMConfigurationPolicyDeployment.md
+        - name: Start-CMContentDistribution
+          href: ../ConfigurationManager/vlatest/Start-CMContentDistribution.md
+        - name: Start-CMDistributionPointUpgrade
+          href: ../ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
+        - name: Start-CMPackageDeployment
+          href: ../ConfigurationManager/vlatest/Start-CMPackageDeployment.md
+        - name: Start-CMSoftwareUpdateDeployment
+          href: ../ConfigurationManager/vlatest/Start-CMSoftwareUpdateDeployment.md
+        - name: Start-CMTaskSequenceDeployment
+          href: ../ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
+        - name: Stop-CMCloudDistributionPoint
+          href: ../ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
+        - name: Suspend-CMAlert
+          href: ../ConfigurationManager/vlatest/Suspend-CMAlert.md
+        - name: Suspend-CMApplication
+          href: ../ConfigurationManager/vlatest/Suspend-CMApplication.md
+        - name: Sync-CMAssetIntelligenceCatalog
+          href: ../ConfigurationManager/vlatest/Sync-CMAssetIntelligenceCatalog.md
+        - name: Sync-CMExchangeServer
+          href: ../ConfigurationManager/vlatest/Sync-CMExchangeServer.md
+        - name: Sync-CMSoftwareUpdate
+          href: ../ConfigurationManager/vlatest/Sync-CMSoftwareUpdate.md
+        - name: Unblock-CMCertificate
+          href: ../ConfigurationManager/vlatest/Unblock-CMCertificate.md
+        - name: Unblock-CMDevice
+          href: ../ConfigurationManager/vlatest/Unblock-CMDevice.md
+        - name: Undo-CMSoftwareInventory
+          href: ../ConfigurationManager/vlatest/Undo-CMSoftwareInventory.md
+        - name: Unlock-CMObject
+          href: ../ConfigurationManager/vlatest/Unlock-CMObject.md
+        - name: Update-CMAMTProvisioning
+          href: ../ConfigurationManager/vlatest/Update-CMAMTProvisioning.md
+        - name: Update-CMApplicationStatistic
+          href: ../ConfigurationManager/vlatest/Update-CMApplicationStatistic.md
+        - name: Update-CMCertificate
+          href: ../ConfigurationManager/vlatest/Update-CMCertificate.md
+        - name: Update-CMClientStatus
+          href: ../ConfigurationManager/vlatest/Update-CMClientStatus.md
+        - name: Update-CMDistributionPoint
+          href: ../ConfigurationManager/vlatest/Update-CMDistributionPoint.md

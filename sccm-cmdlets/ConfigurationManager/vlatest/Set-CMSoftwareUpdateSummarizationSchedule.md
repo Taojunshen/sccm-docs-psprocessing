@@ -1,0 +1,180 @@
+---
+external help file: AdminUI.PS.Sum.dll-Help.xml
+online version: https://go.microsoft.com/fwlink/?linkid=834100
+schema: 2.0.0
+ms.assetid: 3A9B5B87-2CE5-432B-BB63-D4CA96E35350
+updated_at: 12/6/2016 11:47 PM
+ms.date: 12/6/2016
+content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
+ms.topic: reference
+author: shill-ms
+ms.author: v-suhill
+keywords: powershell, cmdlet
+manager: mbaldwin
+open_to_public_contributors: true
+ms.service: configuration-manager
+---
+
+# Set-CMSoftwareUpdateSummarizationSchedule
+
+## SYNOPSIS
+Sets how often Configuration Manager summarizes the status of updates.
+
+## SYNTAX
+
+```
+Set-CMSoftwareUpdateSummarizationSchedule -Interval <Int32> -Unit <SummarizationScheduleUnit> [-PassThru]
+ [-DisableWildcardHandling] [-ForceWildcardHandling] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+## DESCRIPTION
+The **Set-CMSoftwareUpdateSummarizationSchedule** cmdlet sets how often Microsoft System Center Configuration Manager summarizes the status of software updates for all the System Center Configuration Manager sites.
+You can set the summary to run on an interval defined in days, hours, or minutes.
+You can use the [Invoke-CMSoftwareUpdateSummarization](./Invoke-CMSoftwareUpdateSummarization.md) cmdlet to run the summarization immediately.
+
+## EXAMPLES
+
+### Example 1: Schedule summarization interval and unit
+```
+PS C:\>Set-CMSoftwareUpdateSummarizationSchedule -Interval 5 -Unit Days
+```
+
+This command sets the update summarization schedule to run every five days.
+
+### Example 2: Change schedule interval
+```
+PS C:\>Set-CMSoftwareUpdateSummarizationSchedule -Interval 7
+```
+
+This command changes the interval for the update summarization schedule to seven.
+The command does not change the unit.
+
+## PARAMETERS
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DisableWildcardHandling
+Indicates that wildcard handling is disabled.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ForceWildcardHandling
+Indicates that wildcard handling is enabled.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Interval
+Specifies an amount of time, as an integer.
+This value works with the unit type you specify in the Unit parameter.
+Valid values for this parameter depend on the unit that you select:
+
+- Minutes: 10 through 59.
+- Hours: 1 through 23.
+- Days: 1 through 31.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PassThru
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Unit
+Specifies a unit to use to define an interval for the summarization schedule.
+Valid values are:
+
+-- Days
+-- Hours
+-- Minutes
+
+```yaml
+Type: SummarizationScheduleUnit
+Parameter Sets: (All)
+Aliases:
+Accepted values: Days, Hours, Minutes
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: wi
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
+## INPUTS
+
+## OUTPUTS
+
+## NOTES
+
+## RELATED LINKS
+
+[Get-CMSoftwareUpdateSummarizationSchedule](xref:ConfigurationManager/vlatest/Get-CMSoftwareUpdateSummarizationSchedule.md)
+
+[Invoke-CMSoftwareUpdateSummarization](xref:ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateSummarization.md)
