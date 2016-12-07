@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834245
 schema: 2.0.0
 ms.assetid: B955A6FD-38A4-4AEA-889D-A4AF76CFCEB0
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 8:06 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMApnsCertificateRequest.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMApnsCertificateRequest.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/10685711f6635212825b8da521bf27160c3dd24f/sccm-cmdlets/ConfigurationManager/vlatest/New-CMApnsCertificateRequest.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -29,7 +29,7 @@ New-CMApnsCertificateRequest -IntuneCredential <PSCredential> [-Path <String>] [
 ```
 
 ## DESCRIPTION
-The **New-CMApnsCertificateRequest** cmdlet downloads an Apple Push Notification Service (APNS) certificate signing request. You should upload this request (.csr) file to the Apple Deployment Program portal in order to download an APN certificate. Provide a Microsoft Intune organizational account by using the *IntuneCredential* parameter.
+The **New-CMApnsCertificateRequest** cmdlet downloads an Apple Push Notification Service (APNS) certificate signing request. You should upload this request (.csr) file to the Apple Push Certificates Portal in order to download an APN certificate. Provide a Microsoft Intune organizational account by using the *IntuneCredential* parameter.
 
 ## EXAMPLES
 
