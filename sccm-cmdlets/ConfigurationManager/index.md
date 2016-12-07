@@ -1,15 +1,16 @@
 ---
 ms.assetid:
 ms.title: Get started with SCCM cmdlets | Microsoft Docs
-ms.prod: "configuration-manager"
+ms.prod: configuration-manager
 ms.service:
-author: "shill-ms"
-ms.author: "v-suhill"
-ms.manager: "mbaldwin"
-updated_at: 12/6/2016 9:30 PM
-ms.date: 12/6/2016
+author: shill-ms
+ms.author: v-suhill
+ms.manager: mbaldwin
+ms.assetid: 63712bbf-0f8a-4cdb-8998-e7d41257981e
+updated_at: 12/7/2016 11:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/index.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/5390c18cead146fb3adaad446ec4fd0cafa2a42c/sccm-cmdlets/ConfigurationManager/index.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c0f1eb2bb1026f5b6f8ba8bffbe06a1b693d0754/sccm-cmdlets/ConfigurationManager/index.md
 ms.topic: reference
 keywords: powershell, cmdlet
 manager: mbaldwin
