@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Alerts.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834239
 schema: 2.0.0
 ms.assetid: 128C4EA4-CC60-44F1-8074-17BAEDBF60C1
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Suspend-CMAlert.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Suspend-CMAlert.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Suspend-CMAlert.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 
 ### -Id
 Specifies an alert ID.
-You can obtain the ID of an alert by using the Get-CMAlert cmdlet.
+You can obtain the ID of an alert by using the [Get-CMAlert](./Get-CMAlert.md) cmdlet.
 
 ```yaml
 Type: String
@@ -173,7 +173,7 @@ Accept wildcard characters: False
 ### -SkipUntil
 Specifies a specific date and time to start evaluation of the alert.
 Enter a **DateTime** object or a string that can be converted to a time, such as April 19, 2012 15:00, 12/31/2013 9:00 PM, or 3am.
-To obtain a **DateTime** object, use the Get-Date cmdlet.
+To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 For more information, type `Get-Help Get-Date`.
 
 If you do not specify an element of the **DateTime** object, such as seconds, that element of the job trigger is not changed.
@@ -227,5 +227,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMAlert](xref:ConfigurationManager/vlatest/Set-CMAlert.md)
 
 [Disable-CMAlert](xref:ConfigurationManager/vlatest/Disable-CMAlert.md)
-
-

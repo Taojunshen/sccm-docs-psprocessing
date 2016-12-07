@@ -3,10 +3,10 @@ external help file: AdminUI.PS.ClientSettings.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834203
 schema: 2.0.0
 ms.assetid: 6272F088-F019-471D-A1EC-D4B3383D6931
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMClientSettingDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMClientSettingDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMClientSettingDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -80,7 +80,7 @@ Start-CMClientSettingDeployment -ClientSetting <IResultObject> -Collection <IRes
 ## DESCRIPTION
 The **Start-CMClientSettingDeployment** cmdlet deploys client settings to devices in a Microsoft System Center Configuration Manager collection.
 Specify the client setting object by using its name or ID, or you can use the **Get-CMClientSetting** cmdlet to get a client setting object.
-Specify the collection to apply the settings to by using its name or ID, or you can use the Get-CMDeviceCollection cmdlet to get a device collection.
+Specify the collection to apply the settings to by using its name or ID, or you can use the [Get-CMDeviceCollection](./Get-CMDeviceCollection.md) cmdlet to get a device collection.
 
 For more information about client settings, see [About Client Settings in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=266226) on TechNet.
 
@@ -107,7 +107,7 @@ The second command starts deployment of the client setting object in the $CSID v
 
 ### -ClientSetting
 Specifies a client setting object.
-To obtain a client setting object, use the Get-CMClientSetting cmdlet.
+To obtain a client setting object, use the [Get-CMClientSetting](./Get-CMClientSetting.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 
 ### -Collection
 Specifies a Configuration Manager collection object.
-To obtain a collection object, use the Get-CMDeviceCollection cmdlet.
+To obtain a collection object, use the [Get-CMDeviceCollection](./Get-CMDeviceCollection.md) cmdlet.
 Configuration Manager applies the client settings to the members of this collection.
 
 ```yaml
@@ -265,5 +265,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMClientSetting](xref:ConfigurationManager/vlatest/Get-CMClientSetting.md)
 
 [Get-CMDeviceCollection](xref:ConfigurationManager/vlatest/Get-CMDeviceCollection.md)
-
-

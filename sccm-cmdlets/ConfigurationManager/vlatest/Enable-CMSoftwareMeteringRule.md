@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833991
 schema: 2.0.0
 ms.assetid: BE43AAAD-ABF9-42DD-886C-D3224AAAB175
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMSoftwareMeteringRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMSoftwareMeteringRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMSoftwareMeteringRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,13 +43,13 @@ Enable-CMSoftwareMeteringRule -InputObject <IResultObject> [-DisableWildcardHand
 
 ## DESCRIPTION
 The **Enable-CMSoftwareMeteringRule** cmdlet enables one or more software metering rules in Microsoft System Center Configuration Manager.
-You can enable a rule that you previously disabled by using the Disable-CMSoftwareMeteringRule cmdlet.
+You can enable a rule that you previously disabled by using the [Disable-CMSoftwareMeteringRule](./Disable-CMSoftwareMeteringRule.md) cmdlet.
 When System Center Configuration Manager automatically creates software metering rules, it creates them as disabled.
 
 Software metering monitors and collects software usage data from System Center Configuration Manager clients, such as when clients began using a particular software program and how long users have worked with that software.
 You can create software metering rules that specify which software to monitor.
 
-You can specify rules that enable software metering rules by ID or by product name, or by using the Get-CMSoftwareMeteringRule cmdlet.
+You can specify rules that enable software metering rules by ID or by product name, or by using the [Get-CMSoftwareMeteringRule](./Get-CMSoftwareMeteringRule.md) cmdlet.
 
 For more information about software metering in System Center Configuration Manager, see [Introduction to Software Metering in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=268432) on TechNet.
 
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a software metering rule object.
-To obtain a software metering rule object, use the Get-CMSoftwareMeteringRule cmdlet.
+To obtain a software metering rule object, use the [Get-CMSoftwareMeteringRule](./Get-CMSoftwareMeteringRule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -193,5 +193,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMSoftwareMeteringRule](xref:ConfigurationManager/vlatest/Remove-CMSoftwareMeteringRule.md)
 
 [Set-CMSoftwareMeteringRule](xref:ConfigurationManager/vlatest/Set-CMSoftwareMeteringRule.md)
-
-

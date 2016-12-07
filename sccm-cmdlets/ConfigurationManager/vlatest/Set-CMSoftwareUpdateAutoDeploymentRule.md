@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834066
 schema: 2.0.0
 ms.assetid: 9156F844-66C1-4144-9716-8F5E549923CD
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -94,7 +94,7 @@ Set-CMSoftwareUpdateAutoDeploymentRule -InputObject <IResultObject> [-NewName <S
 
 ## DESCRIPTION
 The **Set-CMSoftwareUpdateAutoDeploymentRule** cmdlet modifies Microsoft System Center Configuration Manager deployment rules for automatic software updates.
-To create a rule, use the Get-CMSoftwareUpdateAutoDeploymentRule cmdlet.
+To create a rule, use the [Get-CMSoftwareUpdateAutoDeploymentRule](./Get-CMSoftwareUpdateAutoDeploymentRule.md) cmdlet.
 
 System Center Configuration Manager uses rules to manage automatic deployment of software updates.
 When a rule runs, System Center Configuration Manager adds updates that qualify for the rule to a software update group.

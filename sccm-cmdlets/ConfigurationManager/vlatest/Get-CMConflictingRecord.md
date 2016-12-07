@@ -3,10 +3,10 @@ external help file: AdminUI.PS.SystemStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834286
 schema: 2.0.0
 ms.assetid: 5B0C478D-55DA-4A57-9176-47B810CEA35B
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConflictingRecord.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConflictingRecord.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConflictingRecord.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,7 +43,7 @@ The previous client record still exists with the same hardware information.
 If you manually resolve conflicts, you have the option to merge the new record with the existing record, create a new record, or create a record as a blocked record.
 You can also configure Configuration Manager to resolve conflicts automatically.
 
-You can use this cmdlet with the Block-CMConflictingRecord cmdlet or the Merge-CMConflictingRecord cmdlet.
+You can use this cmdlet with the [Block-CMConflictingRecord](./Block-CMConflictingRecord.md) cmdlet or the [Merge-CMConflictingRecord](./Merge-CMConflictingRecord.md) cmdlet.
 You can get all the outstanding conflicts for Configuration Manager or specify a conflict by name or by ID.
 
 ## EXAMPLES
@@ -134,5 +134,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Block-CMConflictingRecord](xref:ConfigurationManager/vlatest/Block-CMConflictingRecord.md)
 
 [Merge-CMConflictingRecord](xref:ConfigurationManager/vlatest/Merge-CMConflictingRecord.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.ClientSettings.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833581
 schema: 2.0.0
 ms.assetid: 728F467C-C28D-428E-9C2F-8812F6A4F80F
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMClientSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMClientSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/New-CMClientSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -57,7 +57,7 @@ Type:                1
 UniqueID:            {0CCA6700-AE5E-4949-8FBC-AA6719775CC3}
 ```
 
-This command creates customized device settings for the group of client computers that run WindowsÂ® 8.
+This command creates customized device settings for the group of client computers that run Windows® 8.
 After the new collection of settings is created, the command displays an unpopulated list of setting properties.
 To refresh and view a populated list of properties, use **Get-CMClientSetting**.
 The output for this example shows a populated list.
@@ -183,5 +183,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMClientSetting](xref:ConfigurationManager/vlatest/Remove-CMClientSetting.md)
 
 [Set-CMClientSetting](xref:ConfigurationManager/vlatest/Set-CMClientSetting.md)
-
-

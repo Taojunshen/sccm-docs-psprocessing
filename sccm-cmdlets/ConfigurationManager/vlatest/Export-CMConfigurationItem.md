@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834021
 schema: 2.0.0
 ms.assetid: E3CA1A74-5568-4635-B0FB-68C09ACCE911
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,7 +43,7 @@ Export-CMConfigurationItem [-InputObject] <IResultObject> -Path <String> [-Disab
 
 ## DESCRIPTION
 The **Export-CMConfigurationItem** cmdlet saves a Microsoft System Center Configuration Manager configuration item to a specified .cab file.
-You can specify items by ID, name, or by use of the Get-CMConfigurationItem cmdlet.
+You can specify items by ID, name, or by use of the [Get-CMConfigurationItem](./Get-CMConfigurationItem.md) cmdlet.
 
 Configuration items contain one or more settings, along with compliance rules.
 For more information about configuration items, see [Introduction to Compliance Settings in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=211014) on TechNet.

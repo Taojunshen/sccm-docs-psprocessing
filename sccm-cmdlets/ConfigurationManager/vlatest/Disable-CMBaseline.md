@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833943
 schema: 2.0.0
 ms.assetid: A8CBD6AE-CE6E-4F46-91E1-9E206E798C57
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMBaseline.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMBaseline.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMBaseline.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -114,7 +114,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a **CMBaseline** object.
-To obtain a **CMBaseline** object, use the Get-CMBaseline cmdlet.
+To obtain a **CMBaseline** object, use the [Get-CMBaseline](./Get-CMBaseline.md) cmdlet.
 
 ```yaml
 Type: IResultObject

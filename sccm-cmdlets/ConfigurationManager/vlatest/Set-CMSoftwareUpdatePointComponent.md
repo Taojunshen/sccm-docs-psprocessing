@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834096
 schema: 2.0.0
 ms.assetid: 06300983-C58D-4402-A33C-E37968FF9FD2
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePointComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePointComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePointComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -71,7 +71,7 @@ Set-CMSoftwareUpdatePointComponent [-DefaultWsusServer <String>] [-SynchronizeAc
 The **Set-CMSoftwareUpdatePointComponent** cmdlet modifies a software update point.
 A software update point component interacts with a Windows Server Update Services (WSUS) server to configure update settings, request synchronization to the upstream update source, and synchronize updates from the WSUS database to the site server database on the central site.
 
-You can specify a software update point to modify by name, by site code, or by using the Get-CMSoftwareUpdatePointComponent cmdlet.
+You can specify a software update point to modify by name, by site code, or by using the [Get-CMSoftwareUpdatePointComponent](./Get-CMSoftwareUpdatePointComponent.md) cmdlet.
 
 ## EXAMPLES
 
@@ -166,7 +166,7 @@ This cmdlet adds these classifications to the classifications supported for soft
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Critical Updates, Definition Updates, Feature Packs, Security Updates, Service Packs, Tools, Update Rollups, Updates, Upgrades
 Required: False
 Position: Named
@@ -293,7 +293,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a software update point component object.
-To obtain a software update point component object, use the **Get-CMSoftwareUpdatePointComponent** cmdlet.
+To obtain a software update point component object, use the [Get-CMSoftwareUpdatePointComponent](./Get-CMSoftwareUpdatePointComponent.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -364,7 +364,7 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveProduct
-
+Specifies an array of products, as strings.
 
 ```yaml
 Type: String[]
@@ -378,7 +378,7 @@ Accept wildcard characters: False
 ```
 
 ### -RemoveProductFamily
-
+Specifies an array of product families, as strings.
 
 ```yaml
 Type: String[]
@@ -398,7 +398,7 @@ This cmdlet removes these classifications from the classifications supported for
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Critical Updates, Definition Updates, Feature Packs, Security Updates, Service Packs, Tools, Update Rollups, Updates, Upgrades
 Required: False
 Position: Named
@@ -418,7 +418,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: ReportingEventType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DoNotCreateWsusReportingEvents, CreateOnlyWsusStatusReportingEvents, CreateAllWsusReportingEvents
 Required: False
 Position: Named
@@ -430,7 +430,7 @@ Accept wildcard characters: False
 ### -Schedule
 Specifies a **Schedule** object.
 Configuration Manager can synchronize updates according this schedule if you specify a value of $True for the *EnableSynchronization* parameter.
-To obtain a **Schedule** object, use the New-CMSchedule cmdlet.
+To obtain a **Schedule** object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -463,14 +463,14 @@ The acceptable values for this parameter are:
 
 - DoNotSynchronizeFromMicrosoftUpdateOrUpstreamDataSource
 - SynchronizeFromAnUpstreamDataSourceLocation
----SynchronizeFromMicrosoftUpdate
+- SynchronizeFromMicrosoftUpdate
 
 If you select a value of SynchronizeFromAnUpstreamDataSourceLocation, specify the data source location by using the **UpstreamSourceLocation** parameter.
 
 ```yaml
 Type: SynchronizeActionType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: SynchronizeFromMicrosoftUpdate, SynchronizeFromAnUpstreamDataSourceLocation, DoNotSynchronizeFromMicrosoftUpdateOrUpstreamDataSource
 Required: False
 Position: Named
@@ -552,5 +552,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMStatusReportingComponent](xref:ConfigurationManager/vlatest/Set-CMStatusReportingComponent.md)
 
 [Set-CMSystemHealthValidatorPointComponent](xref:ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md)
-
-

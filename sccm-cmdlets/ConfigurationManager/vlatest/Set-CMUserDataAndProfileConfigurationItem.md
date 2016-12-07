@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834140
 schema: 2.0.0
 ms.assetid: FF47986C-F314-4A29-AD87-24010BF2C92F
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -108,7 +108,7 @@ Set-CMUserDataAndProfileConfigurationItem [-ConfigureFolderRedirection <Boolean>
 ## DESCRIPTION
 The **Set-CMUserDataAndProfileConfigurationItem** cmdlet modifies a user data and profile configuration item that can apply to Windows 8 computers.
 A configuration item can manage folder redirection, offline folders, and roaming user profiles.
-You can create a configuration item by using the New-CMUserDataAndProfileConfigurationItem cmdlet.
+You can create a configuration item by using the [New-CMUserDataAndProfileConfigurationItem](./New-CMUserDataAndProfileConfigurationItem.md) cmdlet.
 
 ## EXAMPLES
 
@@ -196,12 +196,17 @@ Accept wildcard characters: False
 
 ### -BackgroundSynchronization
 Specifies a background synchronization type for file in offline mode.
-The acceptable values for this parameter are: Disabled, Enabled, and NotConfigured.
+
+The acceptable values for this parameter are:
+
+-- Disabled
+-- Enabled
+-- NotConfigured
 
 ```yaml
 Type: SynchronizationType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Enabled, Disabled, NotConfigured
 Required: False
 Position: Named
@@ -396,7 +401,7 @@ Folder redirection and caching on the primary device for a user.
 ```yaml
 Type: DeviceType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: OnAnyDevice, OnlyOnPrimaryDevices, FolderRedirectionOnAnyDeviceCachingOnPrimaryDevicesOnly
 Required: False
 Position: Named
@@ -593,12 +598,16 @@ Accept wildcard characters: False
 
 ### -FileSynchronization
 Specifies a file synchronization type for metered networks for work in offline mode.
-The acceptable values for this parameter are: Disabled, Enabled, and NotConfigured.
+The acceptable values for this parameter are:
+
+-- Disabled
+-- Enabled
+-- NotConfigured
 
 ```yaml
 Type: SynchronizationType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Enabled, Disabled, NotConfigured
 Required: False
 Position: Named
@@ -666,7 +675,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a user data and profile configuration item object.
-To obtain a configuration item object, use the Get-CMUserDataAndProfileConfigurationItem cmdlet.
+To obtain a configuration item object, use the [Get-CMUserDataAndProfileConfigurationItem](./Get-CMUserDataAndProfileConfigurationItem.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -724,7 +733,7 @@ Accept wildcard characters: False
 
 ### -ManageAdvancedSetting
 Indicates whether this configuration item manages advanced settings for folder redirection.
-Specify values for any of the following parameters: 
+Specify values for any of the following parameters:
 
 - *GrantExclusiveRight*
 - *MoveContent*
@@ -870,7 +879,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -990,7 +1000,7 @@ Specifies a time for background upload of the user hive.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: 12:00 AM, 1:00 PM, 2:00 PM, 3:00 PM, 4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM, 8:00 PM, 9:00 PM, 10:00 PM, 11:00 PM, 12:00 PM
 Required: False
 Position: Named
@@ -1197,5 +1207,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [New-CMUserDataAndProfileConfigurationItem](xref:ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md)
-
-

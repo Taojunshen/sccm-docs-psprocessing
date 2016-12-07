@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834018
 schema: 2.0.0
 ms.assetid: 0AE6E561-6C79-48D2-9C0E-EA161C1897C0
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSecurityRole.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSecurityRole.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSecurityRole.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -148,7 +148,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a **CMSecurityRole** object.
-To get a **CMSecurityRole** object, use the Get-CMSecurityRole cmdlet.
+To get a **CMSecurityRole** object, use the [Get-CMSecurityRole](./Get-CMSecurityRole.md) cmdlet.
 
 ```yaml
 Type: IResultObject

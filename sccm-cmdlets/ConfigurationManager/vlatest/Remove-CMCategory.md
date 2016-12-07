@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833941
 schema: 2.0.0
 ms.assetid: 1A28C432-B26B-43EE-8C1D-856F16DDB25E
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMCategory.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMCategory.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMCategory.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,12 +65,12 @@ This command removes the category named NewLaptopDriverSet from DriversCategorie
 Specifies a category type.
 Valid values are: 
 
--- UserCategories
--- BaselineCategories
--- DriverCategories
--- AppCategories
--- GlobalCondition
--- CatalogCategories
+- UserCategories
+- BaselineCategories
+- DriverCategories
+- AppCategories
+- GlobalCondition
+- CatalogCategories
 
 ```yaml
 Type: CategoryType
@@ -223,5 +223,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMCategory](xref:ConfigurationManager/vlatest/Get-CMCategory.md)
 
 [New-CMCategory](xref:ConfigurationManager/vlatest/New-CMCategory.md)
-
-

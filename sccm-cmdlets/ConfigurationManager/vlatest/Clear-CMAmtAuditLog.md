@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Oob.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833831
 schema: 2.0.0
 ms.assetid: 4AF1703D-DBDE-40D7-AEBB-DA96D2BEF98D
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMAmtAuditLog.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMAmtAuditLog.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMAmtAuditLog.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -67,9 +67,9 @@ Depending on your Intel AMT version, when the audit log becomes 85 percent full,
 This cmdlet does not stop audit logging.
 You can use the Disable-CMAmtAuditLog cmdlet to stop logging.
 
-You can specify computers by using the Microsoft System Center Configuration Manager device name or device ID, or you can use the Get-CMDevice cmdlet to get a device object.
+You can specify computers by using the Microsoft System Center Configuration Manager device name or device ID, or you can use the [Get-CMDevice](./Get-CMDevice.md) cmdlet to get a device object.
 You can also clear audit logs for all the devices in a System Center Configuration Manager collection.
-Specify a collection by using the collection name or collection ID, or you can use the Get-CMDeviceCollection cmdlet to get a device collection object.
+Specify a collection by using the collection name or collection ID, or you can use the [Get-CMDeviceCollection](./Get-CMDeviceCollection.md) cmdlet to get a device collection object.
 
 ## EXAMPLES
 

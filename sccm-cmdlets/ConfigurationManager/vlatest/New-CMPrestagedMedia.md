@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833725
 schema: 2.0.0
 ms.assetid: 5BC25D39-D4A1-4878-94AA-B82919AB7854
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPrestagedMedia.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPrestagedMedia.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPrestagedMedia.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 
 ### -Application
 Specifies an array of application objects.
-To obtain an application object, use the Get-CMApplication cmdlet.
+To obtain an application object, use the [Get-CMApplication](./Get-CMApplication.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -263,7 +263,7 @@ Accept wildcard characters: False
 
 ### -DriverPackage
 Specifies an array of driver package objects.
-To obtain driver package object, use the Get-CMDriverPackage cmdlet.
+To obtain driver package object, use the [Get-CMDriverPackage](./Get-CMDriverPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -372,7 +372,7 @@ Accept wildcard characters: False
 
 ### -Package
 Specifies an array of package objects.
-To obtain a package object, use the Get-CMPackage cmdlet.
+To obtain a package object, use the [Get-CMPackage](./Get-CMPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -416,7 +416,7 @@ Accept wildcard characters: False
 
 ### -PrestartPackage
 Specifies the package object that includes files for the prestart command.
-To obtain a package object, use the Get-CMPackage cmdlet.
+To obtain a package object, use the [Get-CMPackage](./Get-CMPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject

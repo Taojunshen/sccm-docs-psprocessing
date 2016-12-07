@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834193
 schema: 2.0.0
 ms.assetid: 651B7552-B84A-4097-A162-BE420A5A1DC0
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMApplicationDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMApplicationDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMApplicationDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -225,16 +225,16 @@ Accept wildcard characters: False
 Specifies an action for a deployment.
 Valid values are:
 
-- Install.
+-- Install.
 Install the application.
- 
-- Uninstall.
+
+-- Uninstall.
 Uninstall the application.
 
 ```yaml
 Type: DeployActionType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Install, Uninstall
 Required: False
 Position: Named
@@ -248,17 +248,17 @@ Specifies the purpose of the deployment.
 
 Valid values are:
 
-- Available.
+-- Available.
 If the target collection is a device collection, the application is available in the software center.
 If the target collection is a user collection, the application is available in the catalog web site.
- 
-- Required.
+
+-- Required.
 Installation occurs when the deadline passes.
 
 ```yaml
 Type: DeployPurposeType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Available, Required
 Required: False
 Position: Named
@@ -394,7 +394,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -530,17 +531,17 @@ Accept wildcard characters: False
 ### -TimeBaseOn
 Specifies the time zone to use.
 
-Valid values are: 
+Valid values are:
 
 - LocalTime.
-Use local time. 
+Use local time.
 - UTC.
 Use Coordinated Universal Time (UTC), also known as Greenwich Mean Time.
 
 ```yaml
 Type: TimeType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: LocalTime, Utc
 Required: False
 Position: Named
@@ -569,19 +570,19 @@ Specifies user notification types.
 
 Valid values are:
 
-- DisplayAll.
+-- DisplayAll.
 Display in Software Center and show all notifications.
- 
-- DisplaySoftwareCenterOnly.
+
+-- DisplaySoftwareCenterOnly.
 Display in Software Center and only show notifications for computer restarts.
- 
-- HideAll.
+
+-- HideAll.
 Do not display in Software Center and do not show notifications.
 
 ```yaml
 Type: UserNotificationType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DisplayAll, DisplaySoftwareCenterOnly, HideAll
 Required: False
 Position: Named
@@ -617,5 +618,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Set-CMApplicationDeployment](xref:ConfigurationManager/vlatest/Set-CMApplicationDeployment.md)
-
-

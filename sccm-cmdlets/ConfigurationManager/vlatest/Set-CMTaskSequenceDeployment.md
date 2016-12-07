@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834132
 schema: 2.0.0
 ms.assetid: BD9CE45B-D225-4A44-9B6F-A819B468CA2E
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequenceDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequenceDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequenceDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -384,7 +384,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: DeploymentOptionType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DownloadContentLocallyWhenNeededByRunningTaskSequence, DownloadAllContentLocallyBeforeStartingTaskSequence, RunFromDistributionPoint
 Required: False
 Position: Named
@@ -422,6 +422,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
+Specifies an task sequence deployment object.
+To obtain a task sequence object, use the [Get-CMTaskSequenceDeployment](./Get-CMTaskSequenceDeployment.md) cmdlet.
 
 
 ```yaml
@@ -461,7 +463,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: MakeAvailableToType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Clients, ClientsMediaAndPxe, MediaAndPxe, MediaAndPxeHidden
 Required: False
 Position: Named
@@ -540,7 +542,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: RerunBehaviorType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: NeverRerunDeployedProgram, AlwaysRerunProgram, RerunIfFailedPreviousAttempt, RerunIfSucceededOnPreviousAttempt
 Required: False
 Position: Named
@@ -552,7 +554,7 @@ Accept wildcard characters: False
 ### -Schedule
 Specifies an array of **CMSchedule** objects.
 A **CMSchedule** object defines the mandatory assignment schedule for a deployment.
-To create a **CMSchedule** object, use the New-CMSchedule cmdlet.
+To create a **CMSchedule** object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -576,7 +578,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: ScheduleEventType[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: AsSoonAsPossible, LogOn, LogOff
 Required: False
 Position: Named
@@ -761,5 +763,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMSchedule](xref:ConfigurationManager/vlatest/New-CMSchedule.md)
 
 [Get-CMTaskSequence](xref:ConfigurationManager/vlatest/Get-CMTaskSequence.md)
-
-

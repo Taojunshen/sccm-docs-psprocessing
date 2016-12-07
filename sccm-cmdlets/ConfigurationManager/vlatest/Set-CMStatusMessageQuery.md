@@ -3,10 +3,10 @@ external help file: AdminUI.PS.SystemStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834111
 schema: 2.0.0
 ms.assetid: DB992DC8-0D2B-4704-AA14-0CD157FFA1C2
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusMessageQuery.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusMessageQuery.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusMessageQuery.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -70,7 +70,7 @@ You can use this cmdlet with the *DeleteMessage* parameter to delete messages th
 This cmdlet can also add or remove a security scope for a message query.
 Every status message query must belong to at least one security scope.
 
-You can specify a name or ID for a query or use the Get-CMStatusMessageQuery cmdlet to obtain a query.
+You can specify a name or ID for a query or use the [Get-CMStatusMessageQuery](./Get-CMStatusMessageQuery.md) cmdlet to obtain a query.
 
 ## EXAMPLES
 
@@ -198,7 +198,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a status message query object.
-To obtain a status message query object, use the Get-CMStatusMessageQuery cmdlet.
+To obtain a status message query object, use the [Get-CMStatusMessageQuery](./Get-CMStatusMessageQuery.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -240,7 +240,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -284,5 +285,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMStatusMessageQuery](xref:ConfigurationManager/vlatest/New-CMStatusMessageQuery.md)
 
 [Remove-CMStatusMessageQuery](xref:ConfigurationManager/vlatest/Remove-CMStatusMessageQuery.md)
-
-

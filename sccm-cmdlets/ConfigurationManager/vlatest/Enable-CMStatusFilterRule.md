@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833999
 schema: 2.0.0
 ms.assetid: D0E060EA-EF7D-47EC-86E9-2C4E027FA54B
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMStatusFilterRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMStatusFilterRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMStatusFilterRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,8 +43,8 @@ Each filter rule contains criteria and actions for status messages.
 You configure status filter rules for each site, not across all sites.
 
 Use the rule name and site code to specify a rule to enable.
-You can use the Disable-CMStatusFilterRule cmdlet to disable a rule.
-To remove a rule permanently, use the Remove-CMStatusFilterRule cmdlet.
+You can use the [Disable-CMStatusFilterRule](./Disable-CMStatusFilterRule.md) cmdlet to disable a rule.
+To remove a rule permanently, use the [Remove-CMStatusFilterRule](./Remove-CMStatusFilterRule.md) cmdlet.
 
 ## EXAMPLES
 
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a status filter rule object to enable.
-To obtain a status filter rule object, use the Get-CMStatusFilterRule cmdlet.
+To obtain a status filter rule object, use the [Get-CMStatusFilterRule](./Get-CMStatusFilterRule.md) cmdlet.
 
 ```yaml
 Type: IResultObject

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834100
 schema: 2.0.0
 ms.assetid: 3A9B5B87-2CE5-432B-BB63-D4CA96E35350
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -31,7 +31,7 @@ Set-CMSoftwareUpdateSummarizationSchedule -Interval <Int32> -Unit <Summarization
 ## DESCRIPTION
 The **Set-CMSoftwareUpdateSummarizationSchedule** cmdlet sets how often Microsoft System Center Configuration Manager summarizes the status of software updates for all the System Center Configuration Manager sites.
 You can set the summary to run on an interval defined in days, hours, or minutes.
-You can use the Invoke-CMSoftwareUpdateSummarization cmdlet to run the summarization immediately.
+You can use the [Invoke-CMSoftwareUpdateSummarization](./Invoke-CMSoftwareUpdateSummarization.md) cmdlet to run the summarization immediately.
 
 ## EXAMPLES
 
@@ -97,11 +97,11 @@ Accept wildcard characters: False
 ### -Interval
 Specifies an amount of time, as an integer.
 This value works with the unit type you specify in the Unit parameter.
-Valid values for this parameter depend on the unit that you select: 
+Valid values for this parameter depend on the unit that you select:
 
--- Minutes: 10 through 59.
--- Hours: 1 through 23.
--- Days: 1 through 31.
+- Minutes: 10 through 59.
+- Hours: 1 through 23.
+- Days: 1 through 31.
 
 ```yaml
 Type: Int32
@@ -115,7 +115,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -130,7 +131,7 @@ Accept wildcard characters: False
 
 ### -Unit
 Specifies a unit to use to define an interval for the summarization schedule.
-Valid values are: 
+Valid values are:
 
 -- Days
 -- Hours
@@ -139,7 +140,7 @@ Valid values are:
 ```yaml
 Type: SummarizationScheduleUnit
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Days, Hours, Minutes
 Required: True
 Position: Named
@@ -177,5 +178,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMSoftwareUpdateSummarizationSchedule](xref:ConfigurationManager/vlatest/Get-CMSoftwareUpdateSummarizationSchedule.md)
 
 [Invoke-CMSoftwareUpdateSummarization](xref:ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateSummarization.md)
-
-

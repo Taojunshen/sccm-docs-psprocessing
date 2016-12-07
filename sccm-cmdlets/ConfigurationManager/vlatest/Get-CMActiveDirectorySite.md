@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834065
 schema: 2.0.0
 ms.assetid: 3087AF87-3AD6-4205-9740-0373A5C5C7DC
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMActiveDirectorySite.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMActiveDirectorySite.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMActiveDirectorySite.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -47,7 +47,7 @@ Get-CMActiveDirectorySite -ForestId <String[]> [-DisableWildcardHandling] [-Forc
 ```
 
 ## DESCRIPTION
-The **Get-CMActiveDirectorySite** cmdlet gets one or more Microsoft System Center Configuration Manager sites that are configured to publish site information to Active DirectoryÂ® Domain Services (AD DS).
+The **Get-CMActiveDirectorySite** cmdlet gets one or more Microsoft System Center Configuration Manager sites that are configured to publish site information to Active Directory® Domain Services (AD DS).
 You can get System Center Configuration Manager sites that publish site data to AD DS by using an identifier or a fully qualified domain name (FQDN).
 
 ## EXAMPLES
@@ -158,5 +158,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-CMActiveDirectoryForest](xref:ConfigurationManager/vlatest/Get-CMActiveDirectoryForest.md)
-
-

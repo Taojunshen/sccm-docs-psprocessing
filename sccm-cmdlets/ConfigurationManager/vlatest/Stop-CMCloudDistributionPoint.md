@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834235
 schema: 2.0.0
 ms.assetid: 4C9E537F-007B-45FE-B82F-CE17CB39B29B
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -46,7 +46,7 @@ The **Stop-CMCloudDistributionPoint** cmdlet stops the cloud distribution point 
 
 If you use the **Stop-CMCloudDistributionPoint** cmdlet, System Center Configuration Manager does not delete content from the distribution point and does not prevent the site server from transferring additional content to the distribution point.
 While the cloud distribution point service is stopped, the cloud distribution point does not distribute content.
-Use the Start-CMCloudDistributionPoint cmdlet to restart distribution.
+Use the [Start-CMCloudDistributionPoint](./Start-CMCloudDistributionPoint.md) cmdlet to restart distribution.
 
 For example, you might want to stop a cloud service when usage reaches a data threshold and then restart it at a later time.
 
@@ -72,7 +72,7 @@ PS C:\>$DistPnt = Get-CMCloudDistributionPoint -Id "16777242"
 PS C:\> Stop-CMCloudDistributionPoint -InputObject $DistPnt
 ```
 
-The first command uses the Get-CMCloudDistributionPoint cmdlet to get the distribution point with the specified identifier, and then stores it in the $DistPnt variable.
+The first command uses the **Get-CMCloudDistributionPoint** cmdlet to get the distribution point with the specified identifier, and then stores it in the $DistPnt variable.
 
 The second command stops the cloud distribution point service for the distribution point stored in $DistPnt.
 
@@ -137,7 +137,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a cloud distribution point object.
-To get a cloud distribution point object, you can use the Get-CMCloudDistributionPoint cmdlet.
+To get a cloud distribution point object, you can use the **Get-CMCloudDistributionPoint** cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -199,5 +199,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMCloudDistributionPoint](xref:ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md)
 
 [Start-CMCloudDistributionPoint](xref:ConfigurationManager/vlatest/Start-CMCloudDistributionPoint.md)
-
-

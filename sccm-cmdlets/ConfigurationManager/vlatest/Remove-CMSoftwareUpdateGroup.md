@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834226
 schema: 2.0.0
 ms.assetid: 0AE20299-BC95-4F7B-9D2C-E57678954D6D
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSoftwareUpdateGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSoftwareUpdateGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSoftwareUpdateGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ Remove-CMSoftwareUpdateGroup -InputObject <IResultObject> [-Force] [-DisableWild
 ## DESCRIPTION
 The **Remove-CMSoftwareUpdateGroup** cmdlet removes software update groups from Microsoft System Center Configuration Manager.
 You can specify each software update group that you are removing by using the group IDs or names.
-If you remove a software update group, you can use the Get-CMSoftwareUpdateGroup cmdlet to return a software update group object and use that object to specify the group that you want to remove.
+If you remove a software update group, you can use the [Get-CMSoftwareUpdateGroup](./Get-CMSoftwareUpdateGroup.md) cmdlet to return a software update group object and use that object to specify the group that you want to remove.
 
 ## EXAMPLES
 

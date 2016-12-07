@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833808
 schema: 2.0.0
 ms.assetid: F1FE1043-7043-4C8A-A5C6-E09BC8F80D49
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ Approve-CMApprovalRequest [-Comment <String>] -Id <String[]> [-DisableWildcardHa
 ## DESCRIPTION
 The **Approve-CMApprovalRequest** cmdlet approves a request from a user to install an application.
 You can specify an approval request by application name, application ID, or by user.
-You can also use the Get-CMApprovalRequest cmdlet to view approval requests.
+You can also use the [Get-CMApprovalRequest](./Get-CMApprovalRequest.md) cmdlet to view approval requests.
 
 ## EXAMPLES
 
@@ -162,7 +162,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an approval request object.
-To obtain an approval request object, use the Get-CMApprovalRequest cmdlet.
+To obtain an approval request object, use the [Get-CMApprovalRequest](./Get-CMApprovalRequest.md) cmdlet.
 
 ```yaml
 Type: IResultObject

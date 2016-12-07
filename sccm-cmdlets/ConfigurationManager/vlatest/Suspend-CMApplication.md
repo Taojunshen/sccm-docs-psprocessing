@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834243
 schema: 2.0.0
 ms.assetid: 1E63FED9-D574-44F1-B056-7AB5BACFEA24
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Suspend-CMApplication.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Suspend-CMApplication.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Suspend-CMApplication.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -46,7 +46,7 @@ The **Suspend-CMApplication** cmdlet suspends an application.
 Until the application is resumed, users cannot modify or deploy the application.
 This action does not affect existing deployments.
 When you suspend an application, its status shows as "Retired" in the Configuration Manager console.
-To resume an application, use the Resume-CMApplication cmdlet.
+To resume an application, use the [Resume-CMApplication](./Resume-CMApplication.md) cmdlet.
 
 ## EXAMPLES
 
@@ -124,7 +124,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an application object.
-To obtain an application object, use the Get-CMApplication cmdlet.
+To obtain an application object, use the [Get-CMApplication](./Get-CMApplication.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -196,5 +196,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Resume-CMApplication](xref:ConfigurationManager/vlatest/Resume-CMApplication.md)
 
 [Set-CMApplication](xref:ConfigurationManager/vlatest/Set-CMApplication.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833851
 schema: 2.0.0
 ms.assetid: 660FDB95-D970-4937-8A63-1EC4219625CA
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMExchangeServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMExchangeServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMExchangeServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -78,9 +78,9 @@ Specifies the type of access for the mobile devices.
 Access level applies to a mobile device that is not managed by a rule.
 Valid values are: 
 
--- Allow
--- Block
--- Quarantine
+- Allow
+- Block
+- Quarantine
 
 ```yaml
 Type: AccessLevelType
@@ -298,11 +298,11 @@ Accept wildcard characters: False
 Specifies general settings for mobile devices that use the Exchange Server Connector.
 Settings you can specify for this parameter include: 
 
--- RequireManualSyncWhenRoaming
--- RequireStorageCardEncryption
--- UnapprovedInROMApplicationList
--- DevicePolicyRefreshInterval
--- MaxInactivityTimeDeviceLock
+- RequireManualSyncWhenRoaming
+- RequireStorageCardEncryption
+- UnapprovedInROMApplicationList
+- DevicePolicyRefreshInterval
+- MaxInactivityTimeDeviceLock
 
 ```yaml
 Type: ExchangeConnectorGeneralSetting
@@ -361,16 +361,16 @@ Accept wildcard characters: False
 Specifies general password settings.
 Settings you can specify for this parameter include: 
 
--- AlphanumericDevicePasswordRequired
--- DevicePasswordEnabled
--- DevicePasswordExpiration
--- DevicePasswordHistory
--- MaxDevicePasswordFailedAttempts
--- PasswordRecoveryEnabled
--- MinDevicePasswordComplexCharacters
--- MinDevicePasswordLength
--- AlphanumericDevicePasswordRequired
--- AllowSimpleDevicePassword
+- AlphanumericDevicePasswordRequired
+- DevicePasswordEnabled
+- DevicePasswordExpiration
+- DevicePasswordHistory
+- MaxDevicePasswordFailedAttempts
+- PasswordRecoveryEnabled
+- MinDevicePasswordComplexCharacters
+- MinDevicePasswordLength
+- AlphanumericDevicePasswordRequired
+- AllowSimpleDevicePassword
 
 ```yaml
 Type: ExchangeConnectorPasswordSetting
@@ -387,17 +387,17 @@ Accept wildcard characters: False
 Specifies a dictionary of security settings.
 Settings you can specify for this parameter include: 
 
--- AllowBluetooth
--- AllowBrowser
--- AllowCamera
--- AllowDesktopSync
--- AllowInternetSharing
--- AllowIrDA
--- AllowNonProvisionableDevices
--- AllowRemoteDesktop
--- AllowStorageCard
--- AllowTextMessaging
--- AllowWiFi
+- AllowBluetooth
+- AllowBrowser
+- AllowCamera
+- AllowDesktopSync
+- AllowInternetSharing
+- AllowIrDA
+- AllowNonProvisionableDevices
+- AllowRemoteDesktop
+- AllowStorageCard
+- AllowTextMessaging
+- AllowWiFi
 
 ```yaml
 Type: ExchangeConnectorSecuritySetting
@@ -491,5 +491,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMExchangeServer](xref:ConfigurationManager/vlatest/Remove-CMExchangeServer.md)
 
 [Sync-CMExchangeServer](xref:ConfigurationManager/vlatest/Sync-CMExchangeServer.md)
-
-

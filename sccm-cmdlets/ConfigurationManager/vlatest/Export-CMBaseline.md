@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834013
 schema: 2.0.0
 ms.assetid: E01D931B-EEB2-4A1E-A206-CCE907238209
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMBaseline.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMBaseline.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMBaseline.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ Export-CMBaseline [-InputObject] <IResultObject> -Path <String> [-DisableWildcar
 ## DESCRIPTION
 The **Export-CMBaseline** cmdlet exports configuration baselines in a cabinet (.cab) file format from a Microsoft System Center Configuration Manager site.
 You can then import it to the same or a different System Center Configuration Manager site.
-Configuration data is converted to desired configuration managementâ€Ž (DCM) Digest.
+Configuration data is converted to desired configuration management (DCM) Digest.
 
 ## EXAMPLES
 
@@ -115,7 +115,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a **CMBaseline** object.
-To obtain a **CMBaseline** object, use the Get-CMBaseline cmdlet.
+To obtain a **CMBaseline** object, use the [Get-CMBaseline](./Get-CMBaseline.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -199,5 +199,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMBaselineXMLDefinition](xref:ConfigurationManager/vlatest/Get-CMBaselineXMLDefinition.md)
 
 [Get-CMBaselineSummarizationSchedule](xref:ConfigurationManager/vlatest/Get-CMBaselineSummarizationSchedule.md)
-
-

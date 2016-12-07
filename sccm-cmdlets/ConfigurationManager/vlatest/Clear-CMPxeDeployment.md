@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833850
 schema: 2.0.0
 ms.assetid: A5700EDF-92D7-48DE-B942-F0C3274E2331
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 
 ### -Device
 Specifies a device object.
-To obtain a device object, use the Get-CMDevice cmdlet.
+To obtain a device object, use the [Get-CMDevice](./Get-CMDevice.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 
 ### -DeviceCollection
 Specifies a device collection object.
-To obtain a device collection object, use the Get-CMDeviceCollection cmdlet.
+To obtain a device collection object, use the [Get-CMDeviceCollection](./Get-CMDeviceCollection.md) cmdlet.
 
 ```yaml
 Type: IResultObject

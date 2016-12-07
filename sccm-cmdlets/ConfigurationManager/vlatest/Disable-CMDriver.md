@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833945
 schema: 2.0.0
 ms.assetid: DC4B2713-2B9D-45B0-A595-00407274F314
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMDriver.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMDriver.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMDriver.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,7 +43,7 @@ Disable-CMDriver -Name <String> [-DisableWildcardHandling] [-ForceWildcardHandli
 
 ## DESCRIPTION
 The **Disable-CMDriver** cmdlet disables a device driver in Microsoft System Center Configuration Manager.
-To enable the driver, use the Enable-CMDriver cmdlet.
+To enable the driver, use the [Enable-CMDriver](./EnableCMDriver.md) cmdlet.
 
 ## EXAMPLES
 
@@ -124,7 +124,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a driver object.
-To obtain a driver object, use the Get-CMDriver cmdlet.
+To obtain a driver object, use the [Get-CMDriver](./Get-CMDriver.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -188,5 +188,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMDriver](xref:ConfigurationManager/vlatest/Set-CMDriver.md)
 
 [Get-CMDriverPackage](xref:ConfigurationManager/vlatest/Get-CMDriverPackage.md)
-
-

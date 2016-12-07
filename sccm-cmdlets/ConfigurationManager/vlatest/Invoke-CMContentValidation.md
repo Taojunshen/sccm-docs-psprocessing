@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834117
 schema: 2.0.0
 ms.assetid: CB1B6D39-7EE5-449E-92A5-357AD8F68922
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMContentValidation.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMContentValidation.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMContentValidation.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -211,7 +211,7 @@ This command validates the package for the application named Dict.app one the di
 
 ### -Application
 Specifies a Configuration Manager application object.
-To get a **CMApplication** object, use the Get-CMApplication cmdlet.
+To get a **CMApplication** object, use the [Get-CMApplication](./Get-CMApplication.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -425,7 +425,7 @@ Accept wildcard characters: False
 
 ### -DriverPackage
 Specifies a driver package object.
-To get a **CMDriverPackage** object, use the Get-CMDriverPackage cmdlet.
+To get a **CMDriverPackage** object, use the [Get-CMDriverPackage](./Get-CMDriverPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -568,7 +568,7 @@ Accept wildcard characters: False
 
 ### -Package
 Specifies a package object.
-To get a **CMPackage** object, use the Get-CMPackage cmdlet.
+To get a **CMPackage** object, use the [Get-CMPackage](./Get-CMPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -611,7 +611,7 @@ Accept wildcard characters: False
 
 ### -TaskSequence
 Specifies a task sequence object.
-To get a **CMTaskSequence** object, use the Get-CMTaskSequence cmdlet.
+To get a **CMTaskSequence** object, use the [Get-CMTaskSequence](./Get-CMTaskSequence.md) cmdlet.
 
 ```yaml
 Type: IResultObject

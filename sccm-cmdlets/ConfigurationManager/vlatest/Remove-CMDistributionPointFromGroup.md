@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834072
 schema: 2.0.0
 ms.assetid: 6633EFD1-D89B-4115-B23E-0A0A71BF5C02
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDistributionPointFromGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDistributionPointFromGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDistributionPointFromGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -88,7 +88,7 @@ The **Remove-CMDistributionPointFromGroup** cmdlet removes a Microsoft System Ce
 Distribution point groups provide a logical grouping of distribution points for content distribution.
 
 To remove a distribution point, specify both the distribution point to remove and the distribution point group.
-You can specify these values by ID or name, or you can use the Get-CMDistributionPoint cmdlet or the Get-CMDistributionPointGroup cmdlet to obtain the relevant object.
+You can specify these values by ID or name, or you can use the Get-CMDistributionPoint cmdlet or the [Get-CMDistributionPointGroup](./Get-CMDistributionPointGroup.md) cmdlet to obtain the relevant object.
 
 ## EXAMPLES
 

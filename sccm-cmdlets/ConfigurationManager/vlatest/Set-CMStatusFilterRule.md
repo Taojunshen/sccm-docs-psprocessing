@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834108
 schema: 2.0.0
 ms.assetid: 3911D73C-E269-4160-8667-732DAFD7AB48
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusFilterRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusFilterRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusFilterRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -156,12 +156,18 @@ Accept wildcard characters: False
 
 ### -MessageType
 Specifies a status message type in Configuration Manager.
-Valid values are: Audit, Detail, Milestone, and None.
+
+Valid values are:
+
+- Audit
+- Detail
+- Milestone
+- None
 
 ```yaml
 Type: MessageType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: None, Milestone, Detail, Audit
 Required: False
 Position: Named
@@ -192,7 +198,7 @@ Valid values are: Decrease and Increase.
 ```yaml
 Type: PriorityChangeType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Increase, Decrease
 Required: False
 Position: Named
@@ -244,7 +250,7 @@ Accept wildcard characters: False
 ```
 
 ### -PropertyValue
-Specifies a value for the corresponding PropertyId parameter.
+Specifies a value for the corresponding *PropertyId* parameter.
 
 ```yaml
 Type: String
@@ -273,12 +279,17 @@ Accept wildcard characters: False
 
 ### -ReplicationPriority
 Specifies a replication priority for sending status messages to the parent site.
-Valid values are: High, Low, and Medium.
+
+Valid values are:
+
+- High
+- Low
+- Medium
 
 ```yaml
 Type: ReplicationPriority
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: High, Medium, Low
 Required: False
 Position: Named
@@ -317,12 +328,18 @@ Accept wildcard characters: False
 
 ### -SeverityType
 Specifies the severity of a status message.
-Valid values are: Error, Informational, None, and Warning.
+
+Valid values are:
+
+- Error
+- Informational
+- None
+- Warning
 
 ```yaml
 Type: SeverityType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: None, Informational, Warning, Error
 Required: False
 Position: Named
@@ -361,11 +378,11 @@ Accept wildcard characters: False
 
 ### -Source
 Specifies the status message source to match.
-The possible sources are the following: 
+The possible sources are the following:
 
--- Client
--- SMS Provider
--- Site Server
+- Client
+- SMS Provider
+- Site Server
 
 ```yaml
 Type: String
@@ -409,7 +426,7 @@ Accept wildcard characters: False
 
 ### -WriteToDatabase
 Indicates whether to write a message to the database.
-Specify a value of $True for this parameter to enable the AllowUserDeleteMessagesAfterThresholdDays parameter.
+Specify a value of $True for this parameter to enable the *AllowUserDeleteMessagesAfterThresholdDays* parameter.
 
 ```yaml
 Type: Boolean
@@ -442,5 +459,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMStatusFilterRule](xref:ConfigurationManager/vlatest/New-CMStatusFilterRule.md)
 
 [Remove-CMStatusFilterRule](xref:ConfigurationManager/vlatest/Remove-CMStatusFilterRule.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833604
 schema: 2.0.0
 ms.assetid: 3F7587DE-C592-49E8-8B14-8A9AA4DF93DC
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -164,7 +164,7 @@ Accept wildcard characters: False
 
 ### -ParentConfigurationItem
 Specifies a parent **CMConfigurationItem** object.
-To obtain a **CMConfigurationItem** object, use the Get-CMConfigurationItem cmdlet.
+To obtain a **CMConfigurationItem** object, use the [Get-CMConfigurationItem](./Get-CMConfigurationItem.md) cmdlet.
 
 ```yaml
 Type: IResultObject

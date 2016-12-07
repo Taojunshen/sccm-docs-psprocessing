@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834275
 schema: 2.0.0
 ms.assetid: 57EC8E6E-2E33-4198-966D-9A5E6A27D397
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,7 +43,7 @@ Get-CMConfigurationItemXMLDefinition [-InputObject] <IResultObject> [-DisableWil
 
 ## DESCRIPTION
 The **Get-CMConfigurationItemXMLDefinition** cmdlet gets an XML definition of a configuration item object as a string.
-You can specify a configuration item with the configuration item ID, the configuration item name, or using the Get-CMConfigurationItem cmdlet.
+You can specify a configuration item with the configuration item ID, the configuration item name, or using the [Get-CMConfigurationItem](./Get-CMConfigurationItem.md) cmdlet.
 
 ## EXAMPLES
 
@@ -67,7 +67,7 @@ PS C:\>$CIObj=Get-CMConfigurationItem -Id "16777568"
 PS C:\> Get-CMConfigurationItemXMLDefinition -InputObject $CIObj
 ```
 
-The first command uses the Get-CMConfigurationItem cmdlet to get a configuration item with the specified ID, and then stores it in the $CIObj variable.
+The first command uses the [Get-CMConfigurationItem](./Get-CMConfigurationItem.md) cmdlet to get a configuration item with the specified ID, and then stores it in the $CIObj variable.
 
 The second command gets a configuration item formatted in XML for the item stored in $CIObj.
 
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a configuration item object.
-To get a configuration item object, use the Get-CMConfigurationItem cmdlet.
+To get a configuration item object, use the [Get-CMConfigurationItem](./Get-CMConfigurationItem.md) cmdlet.
 
 ```yaml
 Type: IResultObject

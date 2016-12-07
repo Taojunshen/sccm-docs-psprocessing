@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834058
 schema: 2.0.0
 ms.assetid: 8969DC7F-BF22-4F9C-860F-CFC807D696BE
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareMeteringSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareMeteringSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareMeteringSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,8 +43,8 @@ If the number of software metering rules exceeds this threshold, System Center C
 
 When System Center Configuration Manager creates a rule automatically, it creates that rule as disabled.
 A disabled rule does not collect information from clients.
-You can use the Enable-CMSoftwareMeteringRule cmdlet to enable a rule.
-You can use the Remove-CMSoftwareMeteringRule cmdlet to remove unwanted rules.
+You can use the [Enable-CMSoftwareMeteringRule](./Enable-CMSoftwareMeteringRule.md) cmdlet to enable a rule.
+You can use the [Remove-CMSoftwareMeteringRule](./Remove-CMSoftwareMeteringRule.md) cmdlet to remove unwanted rules.
 
 ## EXAMPLES
 

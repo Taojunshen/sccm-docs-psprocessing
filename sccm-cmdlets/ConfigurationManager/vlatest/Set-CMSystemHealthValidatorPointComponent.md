@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834123
 schema: 2.0.0
 ms.assetid: 27842BB3-EBB9-41C0-9713-53C515D27E2B
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,7 +50,7 @@ You can specify the accounts that the component uses to publish and query Active
 You can set the validity period for cached statements of health and whether to accept statements of health only after a specific time.
 Any changes you make apply to all system health validator points in the System Center Configuration Manager site.
 
-To specify a system health validator point to modify, specify a site code or name, or you can use the Get-CMSystemHealthValidatorPointComponent cmdlet to get a system health validator point to modify.
+To specify a system health validator point to modify, specify a site code or name, or you can use the [Get-CMSystemHealthValidatorPointComponent](./Get-CMSystemHealthValidatorPointComponent.md) cmdlet to get a system health validator point to modify.
 
 ## EXAMPLES
 
@@ -172,7 +172,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a system health validator point object.
-To obtain a system health validator point, use the **Get-CMSystemHealthValidatorPointComponent** cmdlet.
+To obtain a system health validator point, use the [Get-CMSystemHealthValidatorPointComponent](./Get-CMSystemHealthValidatorPointComponent.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -203,7 +203,7 @@ Accept wildcard characters: False
 Specifies a health state reference publishing account, in the format Domain\User.
 If you do not specify an account, the component uses the site system server account.
 
-You must specify an account if no trust relationship exists between the site server domain and the domain suffix specified in the DomainSuffix parameter or if there is a trust relationship, but the site system server account lacks Full Control permission for the System Management Active Directory container.
+You must specify an account if no trust relationship exists between the site server domain and the domain suffix specified in the *DomainSuffix* parameter or if there is a trust relationship, but the site system server account lacks Full Control permission for the System Management Active Directory container.
 
 ```yaml
 Type: String
@@ -220,7 +220,7 @@ Accept wildcard characters: False
 Specifies an account, in the format Domain\User, that the system health validator point uses to query AD DS for state references.
 If you do not specify an account, the component uses the site system server account.
 
-You must specify an account if no trust relationship exists between the site server domain and the domain suffix specified in the DomainSuffix parameter.
+You must specify an account if no trust relationship exists between the site server domain and the domain suffix specified in the *DomainSuffix* parameter.
 
 ```yaml
 Type: String
@@ -349,5 +349,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMSoftwareUpdatePointComponent](xref:ConfigurationManager/vlatest/Set-CMSoftwareUpdatePointComponent.md)
 
 [Set-CMStatusReportingComponent](xref:ConfigurationManager/vlatest/Set-CMStatusReportingComponent.md)
-
-

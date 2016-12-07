@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834092
 schema: 2.0.0
 ms.assetid: 781F6A2C-9A81-48F4-92EE-171566F550CF
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdatePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -80,16 +80,16 @@ Accept wildcard characters: False
 Specifies a connection type.
 Clients can connect to the software update point in several ways.
 You can configure the software update point to handle different types of connections differently by specifying the connection type.
-Valid values are: 
+Valid values are:
 
--- Internet 
--- InternetAndIntranet
--- Intranet
+- Internet
+- InternetAndIntranet
+- Intranet
 
 ```yaml
 Type: ClientConnectionTypes
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Intranet, Internet, InternetAndIntranet
 Required: False
 Position: Named
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableSsl
-
+Indicates that the cmdlet enables SSL for the update point.
 
 ```yaml
 Type: Boolean
@@ -184,7 +184,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a software update point object.
-To obtain a software update point object, use the Get-CMSoftwareUpdatePoint cmdlet.
+To obtain a software update point object, use the [Get-CMSoftwareUpdatePoint](./Get-CMSoftwareUpdatePoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -213,7 +213,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -342,5 +343,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMSoftwareUpdatePoint](xref:ConfigurationManager/vlatest/Get-CMSoftwareUpdatePoint.md)
 
 [Remove-CMSoftwareUpdatePoint](xref:ConfigurationManager/vlatest/Remove-CMSoftwareUpdatePoint.md)
-
-

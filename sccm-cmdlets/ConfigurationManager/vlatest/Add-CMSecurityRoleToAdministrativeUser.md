@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833743
 schema: 2.0.0
 ms.assetid: B521723C-DE6D-4EE3-9742-8BB6F8F44E72
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -85,8 +85,8 @@ System Center Configuration Manager provides some built-in security roles.
 You can also create custom security roles.
 For more information about security roles, see [Configuring Security for Configuration Manager](http://go.microsoft.com/fwlink/?LinkID=247225) on TechNet.
 
-You can specify an administrative user or group by name or by ID or you can use the use the Get-CMAdministrativeUser cmdlet to obtain a user or group object.
-You can specify a role to add by name or by ID, or you can use the Get-CMSecurityRole cmdlet to obtain a role.
+You can specify an administrative user or group by name or by ID or you can use the use the [Get-CMAdministrativeUser](./Get-CMAdministrativeUser.md) cmdlet to obtain a user or group object.
+You can specify a role to add by name or by ID, or you can use the [Get-CMSecurityRole](./Get-CMSecurityRole.md) cmdlet to obtain a role.
 
 ## EXAMPLES
 
@@ -108,7 +108,7 @@ This command adds a security role that has the specified ID to the administrativ
 
 ### -AdministrativeUser
 Specifies an administrative user or administrative group object.
-To obtain an administrative user or administrative group object, use the Get-CMAdministrativeUser cmdlet.
+To obtain an administrative user or administrative group object, use the [Get-CMAdministrativeUser](./Get-CMAdministrativeUser.md) cmdlet.
 
 ```yaml
 Type: IResultObject

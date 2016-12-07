@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833600
 schema: 2.0.0
 ms.assetid: D7E96763-967E-4FAA-BF63-F5D1DC4AEC2D
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -122,7 +122,7 @@ Accept wildcard characters: False
 
 ### -ExcludedCollection
 Specifies an array of user collection objects.
-To obtain a user collection object, use the Get-CMCollection cmdlet.
+To obtain a user collection object, use the [Get-CMCollection](./Get-CMCollection.md) cmdlet.
 
 Members of these collections do not have to enroll their devices in Microsoft Intune, or be compliant with any deployed compliance policies in order to access Exchange, as long as the default Exchange rules allow access.
 
@@ -199,7 +199,7 @@ Accept wildcard characters: False
 
 ### -TargetedCollection
 Specifies an array of user collection objects.
-To obtain a user collection object, use the Get-CMCollection cmdlet.
+To obtain a user collection object, use the [Get-CMCollection](./Get-CMCollection.md) cmdlet.
 
 Members of these collections must enroll their devices in Microsoft Intune and be compliant with any deployed compliance policies in order to access Exchange.
 

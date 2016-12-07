@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834169
 schema: 2.0.0
 ms.assetid: B5D0F1F5-75B0-42FF-8C3E-9FEB9551C18D
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,9 +48,9 @@ System Center Configuration Manager uses rules to manage automatic deployment of
 When a rule runs, System Center Configuration Manager adds updates that qualify for the rule to a software update group.
 The System Center Configuration Manager server downloads content files and copies them to distribution points, and then updates client computers.
 
-You can specify rules to run by ID or by name, or specify a rule object by using the Get-CMSoftwareUpdateAutoDeploymentRule cmdlet.
+You can specify rules to run by ID or by name, or specify a rule object by using the [Get-CMSoftwareUpdateAutoDeploymentRule](./Get-CMSoftwareUpdateAutoDeploymentRule.md) cmdlet.
 You cannot run a disabled rule.
-You can use the Enable-CMSoftwareUpdateAutoDeploymentRule cmdlet to enable a rule and then run it.
+You can use the [Enable-CMSoftwareUpdateAutoDeploymentRule](./Enable-CMSoftwareUpdateAutoDeploymentRule.md) cmdlet to enable a rule and then run it.
 
 ## EXAMPLES
 

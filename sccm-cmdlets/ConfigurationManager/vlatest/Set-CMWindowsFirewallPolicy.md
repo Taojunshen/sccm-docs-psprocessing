@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834164
 schema: 2.0.0
 ms.assetid: 4B32EE03-FD8B-4F78-9F32-258A1C20EB0A
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -175,7 +175,7 @@ Accept wildcard characters: False
 
 ### -DomainBlockAllInboundTraffic
 Specifies whether the firewall blocks all incoming traffic for a domain type network location.
-Valid values are: 
+Valid values are:
 
 -- No
 -- Not Configured
@@ -184,7 +184,7 @@ Valid values are:
 ```yaml
 Type: SettingType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Yes, No, NotConfigured
 Required: False
 Position: Named
@@ -210,7 +210,7 @@ Accept wildcard characters: False
 
 ### -DomainTurnOnFirewall
 Specifies whether to enable Windows Firewall for domain network location.
-Valid values are: 
+Valid values are:
 
 -- No
 -- Not Configured
@@ -219,7 +219,7 @@ Valid values are:
 ```yaml
 Type: SettingType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Yes, No, NotConfigured
 Required: False
 Position: Named
@@ -258,7 +258,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a CMWindowsFirewallPolicy object.
-To obtain a CMWindowsFirewallPolicy object, use the Get-CMWindowsFirewallPolicy cmdlet.
+To obtain a CMWindowsFirewallPolicy object, use the [Get-CMWindowsFirewallPolicy](./Get-CMWindowsFirewallPolicy.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -300,7 +300,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -320,7 +321,7 @@ Valid values are: Increase and Decrease.
 ```yaml
 Type: PriorityChangeType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Increase, Decrease
 Required: False
 Position: Named
@@ -331,7 +332,7 @@ Accept wildcard characters: False
 
 ### -PrivateBlockAllInboundTraffic
 Specifies whether the firewall blocks all incoming traffic for a private network location.
-Valid values are: 
+Valid values are:
 
 -- No
 -- Not Configured
@@ -340,7 +341,7 @@ Valid values are:
 ```yaml
 Type: SettingType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Yes, No, NotConfigured
 Required: False
 Position: Named
@@ -366,7 +367,7 @@ Accept wildcard characters: False
 
 ### -PrivateTurnOnFirewall
 Specifies whether to enable Windows Firewall for a private network location.
-Valid values are: 
+Valid values are:
 
 -- No
 -- Not Configured
@@ -375,7 +376,7 @@ Valid values are:
 ```yaml
 Type: SettingType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Yes, No, NotConfigured
 Required: False
 Position: Named
@@ -386,7 +387,7 @@ Accept wildcard characters: False
 
 ### -PublicBlockAllInboundTraffic
 Specifies whether the firewall blocks all incoming traffic for a public network location.
-Valid values are: 
+Valid values are:
 
 -- No
 -- Not Configured
@@ -395,7 +396,7 @@ Valid values are:
 ```yaml
 Type: SettingType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Yes, No, NotConfigured
 Required: False
 Position: Named
@@ -421,7 +422,7 @@ Accept wildcard characters: False
 
 ### -PublicTurnOnFirewall
 Specifies whether to enable Windows Firewall for a public network location.
-Valid values are: 
+Valid values are:
 
 -- No
 -- Not Configured
@@ -430,7 +431,7 @@ Valid values are:
 ```yaml
 Type: SettingType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Yes, No, NotConfigured
 Required: False
 Position: Named
@@ -466,5 +467,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [New-CMWindowsFirewallPolicy](xref:ConfigurationManager/vlatest/New-CMWindowsFirewallPolicy.md)
-
-

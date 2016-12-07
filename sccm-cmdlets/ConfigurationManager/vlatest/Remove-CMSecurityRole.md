@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834183
 schema: 2.0.0
 ms.assetid: 2382F219-2290-45C8-905B-E9C2D3BD6CB6
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityRole.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityRole.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityRole.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,7 +43,7 @@ Remove-CMSecurityRole -Id <String> [-Force] [-DisableWildcardHandling] [-ForceWi
 
 ## DESCRIPTION
 The **Remove-CMSecurityRole** cmdlet removes custom security roles from Microsoft System Center Configuration Manager.
-Specify the name or ID of a security role you want to remove or use the Get-CMSecurityRole cmdlet to obtain one.
+Specify the name or ID of a security role you want to remove or use the [Get-CMSecurityRole](./Get-CMSecurityRole.md) cmdlet to obtain one.
 
 Configuration Manager uses security roles, along with security scopes and collections, to define an administrative scope for each administrative user.
 Configuration Manager provides several built-in security roles.
@@ -71,7 +71,7 @@ PS C:\>$Roles = Get-CMSecurityRole -Name *Role
 PS C:\> Remove-CMSecurityRole -SecurityRole $Roles
 ```
 
-The first command uses the Get-CMSecurityRole cmdlet to get each security role that has a name that ends in Role.
+The first command uses the [Get-CMSecurityRole](./Get-CMSecurityRole.md) cmdlet to get each security role that has a name that ends in Role.
 It stores them in the $Roles variable.
 
 The second command removes each security role stored in the $Roles variable.
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a security role object.
-To obtain a security role object, use the Get-CMSecurityRole cmdlet.
+To obtain a security role object, use the [Get-CMSecurityRole](./Get-CMSecurityRole.md) cmdlet.
 
 ```yaml
 Type: IResultObject

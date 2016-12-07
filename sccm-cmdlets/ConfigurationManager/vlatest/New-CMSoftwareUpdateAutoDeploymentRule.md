@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833759
 schema: 2.0.0
 ms.assetid: 1860D065-B2D0-4CDE-A75F-56F44FE40FD6
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -166,10 +166,10 @@ Accept wildcard characters: False
 Specifies a unit of time for the AlertTime parameter.
 Valid values are: 
 
--- Days
--- Hours
--- Months
--- Weeks
+- Days
+- Hours
+- Months
+- Weeks
 
 ```yaml
 Type: TimeUnitType
@@ -281,10 +281,10 @@ Accept wildcard characters: False
 Specifies a unit of time for the AvailableTime parameter.
 Valid values are: 
 
--- Days
--- Hours
--- Months
--- Weeks
+- Days
+- Hours
+- Months
+- Weeks
 
 ```yaml
 Type: TimeUnitType
@@ -374,11 +374,11 @@ Specifies an array of custom severity types for software updates.
 The rule adds software updates that have custom severity levels that meet specified criteria to the software update group.
 Valid values are: 
 
--- Critical
--- Important
--- Low
--- Moderate
--- None
+- Critical
+- Important
+- Low
+- Moderate
+- None
 
 ```yaml
 Type: SeverityType[]
@@ -397,36 +397,36 @@ Specifies a date released or revised for software updates.
 The rule adds software updates that have a date that meets specified criteria to the software update group.
 Valid values are: 
 
--- Last10months
--- Last11months
--- Last12hours
--- Last14days
--- Last16hours
--- Last1day
--- Last1hour
--- Last1month
--- Last1year
--- Last20hours
--- Last21days
--- Last28days
--- Last2days
--- Last2hours
--- Last2months
--- Last3days
--- Last3hours
--- Last3months
--- Last4days
--- Last4hours
--- Last4months
--- Last5days
--- Last5months
--- Last6days
--- Last6months
--- Last7days
--- Last7months
--- Last8hours
--- Last8months
--- Last9months
+- Last10months
+- Last11months
+- Last12hours
+- Last14days
+- Last16hours
+- Last1day
+- Last1hour
+- Last1month
+- Last1year
+- Last20hours
+- Last21days
+- Last28days
+- Last2days
+- Last2hours
+- Last2months
+- Last3days
+- Last3hours
+- Last3months
+- Last4days
+- Last4hours
+- Last4months
+- Last5days
+- Last5months
+- Last6days
+- Last6months
+- Last7days
+- Last7months
+- Last8hours
+- Last8months
+- Last9months
 
 ```yaml
 Type: DateReleasedOrRevisedType
@@ -476,10 +476,10 @@ Accept wildcard characters: False
 Specifies a unit of time for the DeadlineTime parameter.
 Valid values are: 
 
--- Days
--- Hours
--- Months
--- Weeks
+- Days
+- Hours
+- Months
+- Weeks
 
 ```yaml
 Type: TimeUnitType
@@ -847,9 +847,9 @@ Accept wildcard characters: False
 Specifies the mode in which an update runs on the client computer.
 Valid values are: 
 
--- DoNotRunThisRuleAutomatically
--- RunTheRuleAfterAnySoftwareUpdatePointSynchronization
--- RunTheRuleOnSchedule
+- DoNotRunThisRuleAutomatically
+- RunTheRuleAfterAnySoftwareUpdatePointSynchronization
+- RunTheRuleOnSchedule
 
 If you specify RunTheRuleOnSchedule, specify a schedule by using the Schedule parameter.
 
@@ -903,11 +903,11 @@ Specifies an array of severity levels for software updates.
 The rule adds software updates for specified severity types to the software update group.
 Valid values are: 
 
--- Critical
--- Important
--- Low
--- Moderate
--- None
+- Critical
+- Important
+- Low
+- Moderate
+- None
 
 ```yaml
 Type: SeverityType[]
@@ -1074,11 +1074,11 @@ Accept wildcard characters: False
 Specifies the type of user notification.
 Valid values are: 
 
--- DisplayAll.
+- DisplayAll.
 Display in Software Center and show all notifications.
--- DisplaySoftwareCenterOnly.
+- DisplaySoftwareCenterOnly.
 Display in Software Center, and only show notifications of computer restarts.
--- HideAll.
+- HideAll.
 Hide in Software Center and all notifications.
 
 ```yaml
@@ -1097,9 +1097,9 @@ Accept wildcard characters: False
 Specifies the level of detail you want clients to report for deployments that this rule creates.
 Valid values are: 
 
--- AllMessages
--- OnlyErrorMessages
--- OnlySuccessAndErrorMessages
+- AllMessages
+- OnlyErrorMessages
+- OnlySuccessAndErrorMessages
 
 ```yaml
 Type: VerboseLevelType
@@ -1169,5 +1169,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMSoftwareUpdateAutoDeploymentRule](xref:ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md)
 
 [New-CMSchedule](xref:ConfigurationManager/vlatest/New-CMSchedule.md)
-
-

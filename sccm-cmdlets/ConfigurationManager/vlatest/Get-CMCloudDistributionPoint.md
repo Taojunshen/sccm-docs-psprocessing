@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834205
 schema: 2.0.0
 ms.assetid: A636E1DD-49D4-4A9D-94BE-167F3D9A4D5D
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCloudDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCloudDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCloudDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -60,8 +60,8 @@ In Configuration Manager, you can use a cloud service in Azure to host a distrib
 You can send packages and apps to and host packages and apps in cloud distribution points.
 For more information about cloud distribution points, see [Planning for Content Management in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=266223) on TechNet.
 
-You can use the Get-CMCloudDistributionPoint cmdlet to get distribution points to use with other cmdlets.
-For example, you might want to get a distribution point and then use the Stop-CMCloudDistributionPoint cmdlet to suspend it.
+You can use the **Get-CMCloudDistributionPoint** cmdlet to get distribution points to use with other cmdlets.
+For example, you might want to get a distribution point and then use the [Stop-CMCloudDistributionPoint](./Stop-CMCloudDistributionPoint.md) cmdlet to suspend it.
 
 ## EXAMPLES
 
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 
 ### -DistributionPointGroup
 Specifies a **CMDistributionPointGroup** object.
-To get a **CMDistributionPointGroup** object, use the Get-CMDistributionPointGroup cmdlet.
+To get a **CMDistributionPointGroup** object, use the [Get-CMDistributionPointGroup](./Get-CMDistributionPointGroup.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -208,5 +208,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-CMCloudDistributionPoint](xref:ConfigurationManager/vlatest/Start-CMCloudDistributionPoint.md)
 
 [Stop-CMCloudDistributionPoint](xref:ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md)
-
-

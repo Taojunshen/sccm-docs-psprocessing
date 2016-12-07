@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833961
 schema: 2.0.0
 ms.assetid: AF1704A4-0EC9-4228-AEF3-BC4D7434B4CD
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMStatusFilterRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMStatusFilterRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMStatusFilterRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,8 +43,8 @@ Each filter rule contains criteria and actions for status messages.
 You configure status filter rules for each site, not across all sites.
 
 Use the rule name and site code to specify a rule to disable.
-You can use the Enable-CMStatusFilterRule cmdlet to enable a rule.
-To remove a rule permanently, use the Remove-CMStatusFilterRule cmdlet.
+You can use the [Enable-CMStatusFilterRule](./Enable-CMStatusFilterRule.md) cmdlet to enable a rule.
+To remove a rule permanently, use the [Remove-CMStatusFilterRule](./Remove-CMStatusFilterRule.md) cmdlet.
 
 ## EXAMPLES
 
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a status filter rule object to disable.
-To obtain a status filter rule object, use the Get-CMStatusFilterRule cmdlet.
+To obtain a status filter rule object, use the [Get-CMStatusFilterRule](./Get-CMStatusFilterRule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -177,5 +177,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMStatusFilterRule](xref:ConfigurationManager/vlatest/Remove-CMStatusFilterRule.md)
 
 [Set-CMStatusFilterRule](xref:ConfigurationManager/vlatest/Set-CMStatusFilterRule.md)
-
-

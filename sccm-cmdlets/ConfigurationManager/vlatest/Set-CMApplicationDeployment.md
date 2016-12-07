@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833636
 schema: 2.0.0
 ms.assetid: B77A46FA-BA17-4E39-AC41-267AB0D3A353
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMApplicationDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMApplicationDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMApplicationDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -71,7 +71,7 @@ An application deployment installs an application according to schedule for a se
 Application deployments can also allow users to install at a time they choose.
 
 To specify an application deployment to modify, specify the collection name and the application.
-You can specify an application by name or ID, or you can use the Get-CMApplication cmdlet to get an application to modify.
+You can specify an application by name or ID, or you can use the [Get-CMApplication](./Get-CMApplication.md) cmdlet to get an application to modify.
 
 ## EXAMPLES
 

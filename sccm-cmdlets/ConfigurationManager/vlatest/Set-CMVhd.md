@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834144
 schema: 2.0.0
 ms.assetid: F354A3B1-3569-4CC5-962B-5050F0A67DDD
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMVhd.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMVhd.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMVhd.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -141,7 +141,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a VHD image.
-To obtain a VHD image, use the Get-CMVhd cmdlet.
+To obtain a VHD image, use the [Get-CMVhd](./Get-CMVhd.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -284,5 +284,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMVhd](xref:ConfigurationManager/vlatest/New-CMVhd.md)
 
 [Remove-CMVhd](xref:ConfigurationManager/vlatest/Remove-CMVhd.md)
-
-

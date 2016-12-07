@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Oob.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834280
 schema: 2.0.0
 ms.assetid: 4EA61576-93BD-4095-9457-8D894A172115
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Update-CMAMTProvisioning.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Update-CMAMTProvisioning.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Update-CMAMTProvisioning.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -46,7 +46,7 @@ The **Update-CMAMTProvisioning** cmdlet updates provisioning for an Intel Active
 Provisioning is the process of initializing and registering a computer that has Intel AMT technology with Microsoft System Center Configuration Manager for out-of-band management.
 This cmdlet updates provisioning information.
 
-You can specify computers to update by using the System Center Configuration Manager device name or device ID, or you can use the Get-CMDevice cmdlet to get a device object.
+You can specify computers to update by using the System Center Configuration Manager device name or device ID, or you can use the [Get-CMDevice](./Get-CMDevice.md) cmdlet to get a device object.
 
 ## EXAMPLES
 
@@ -192,5 +192,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMAmtProvisioningData](xref:ConfigurationManager/vlatest/Remove-CMAmtProvisioningData.md)
 
 [Get-CMDevice](xref:ConfigurationManager/vlatest/Get-CMDevice.md)
-
-

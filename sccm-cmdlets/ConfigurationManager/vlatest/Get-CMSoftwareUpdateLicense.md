@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833917
 schema: 2.0.0
 ms.assetid: EFF80160-0FF7-4F76-A09A-2C55C29D7972
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateLicense.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateLicense.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateLicense.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,7 +37,7 @@ Get-CMSoftwareUpdateLicense -InputObject <IResultObject> [-EulaAcceptance <EulaA
 
 ## DESCRIPTION
 The **Get-CMSoftwareUpdateLicense** cmdlet gets an End User License Agreement (EULA) or Software License Terms (SLT) for a software update in Microsoft System Center Configuration Manager.
-You can specify a software update by ID or by name or use the Get-CMSoftwareUpdate cmdlet to obtain one.
+You can specify a software update by ID or by name or use the [Get-CMSoftwareUpdate](./Get-CMSoftwareUpdate.md) cmdlet to obtain one.
 If you specify an ID or name, you can further specify a security scope membership.
 
 ## EXAMPLES

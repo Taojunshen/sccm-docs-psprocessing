@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833927
 schema: 2.0.0
 ms.assetid: 4DC33097-C090-407F-A8D8-1542C6A9A952
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Deny-CMApprovalRequest.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Deny-CMApprovalRequest.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Deny-CMApprovalRequest.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ Deny-CMApprovalRequest -ApplicationName <String[]> -User <String> [-Comment <Str
 ## DESCRIPTION
 The **Deny-CMApprovalRequest** cmdlet denies a request from a user to install an application.
 You can specify an approval request by application name, application ID, or by user.
-You can use the Get-CMApprovalRequest cmdlet to view approval requests.
+You can use the [Get-CMApprovalRequest](./Get-CMApprovalRequest.md) cmdlet to view approval requests.
 
 ## EXAMPLES
 
@@ -162,7 +162,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an approval request object.
-To obtain an approval request object, use the Get-CMApprovalRequest cmdlet.
+To obtain an approval request object, use the [Get-CMApprovalRequest](./Get-CMApprovalRequest.md) cmdlet.
 
 ```yaml
 Type: IResultObject

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834128
 schema: 2.0.0
 ms.assetid: DC01ACF9-2683-428D-8DC1-CCD42AAC2581
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequence.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequence.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequence.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -85,7 +85,7 @@ This command gets the task sequence object named TaskSequence02 and uses the pip
 
 ### -AddSupportedOperatingSystemPlatform
 Adds a supported operating system platform object to the task sequence.
-To obtain a supported operating system platform object, use the Get-CMSupportedPlatform cmdlet.
+To obtain a supported operating system platform object, use the [Get-CMSupportedPlatform](./Get-CMSupportedPlatform.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -257,7 +257,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a task sequence object.
-To obtain a task sequence object, use the Get-CMTaskSequence cmdlet.
+To obtain a task sequence object, use the [Get-CMTaskSequence](./Get-CMTaskSequence.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -329,7 +329,7 @@ Accept wildcard characters: False
 
 ### -RemoveSupportedOperatingSystemPlatform
 Removes a supported operating system platform object from the task sequence.
-To obtain a supported operating system platform object, use the **Get-CMSupportedPlatform** cmdlet.
+To obtain a supported operating system platform object, use the [Get-CMSupportedPlatform](./Get-CMSupportedPlatform.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -498,5 +498,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMTaskSequence](xref:ConfigurationManager/vlatest/Remove-CMTaskSequence.md)
 
 [Get-CMSupportedPlatform](xref:ConfigurationManager/vlatest/Get-CMSupportedPlatform.md)
-
-

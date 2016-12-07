@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834214
 schema: 2.0.0
 ms.assetid: CE48C113-8802-4088-AB60-2D9BE09B8EB5
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMContentDistribution.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMContentDistribution.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMContentDistribution.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -269,7 +269,7 @@ The command distributes the operating system installer to the collection named A
 
 ### -Application
 Specifies a Configuration Manager application object.
-To get a **CMApplication** object, use the Get-CMApplication cmdlet.
+To get a **CMApplication** object, use the [Get-CMApplication](./Get-CMApplication.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -482,7 +482,7 @@ Accept wildcard characters: False
 
 ### -DriverPackage
 Specifies a driver package object.
-To get a **CMDriverPackage** object, use the Get-CMDriverPackage cmdlet.
+To get a **CMDriverPackage** object, use the [Get-CMDriverPackage](./Get-CMDriverPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -539,7 +539,7 @@ Accept wildcard characters: False
 
 ### -OperatingSystemImage
 Specifies an operating system image object.
-To get a **CMOperatingSystemImage** object, use the Get-CMOperatingSystemImage cmdlet.
+To get a **CMOperatingSystemImage** object, use the [Get-CMOperatingSystemImage](./Get-CMOperatingSystemImage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -582,7 +582,7 @@ Accept wildcard characters: False
 
 ### -OperatingSystemInstaller
 Specifies an operating system installer object.
-To get a **CMOperatingSystemInstaller** object, use the Get-CMOperatingSystemInstaller cmdlet.
+To get a **CMOperatingSystemInstaller** object, use the [Get-CMOperatingSystemInstaller](./Get-CMOperatingSystemInstaller.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -625,7 +625,7 @@ Accept wildcard characters: False
 
 ### -Package
 Specifies a package object.
-To get a **CMPackage** object, use the Get-CMPackage cmdlet.
+To get a **CMPackage** object, use the [Get-CMPackage](./Get-CMPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -668,7 +668,7 @@ Accept wildcard characters: False
 
 ### -TaskSequence
 Specifies a task sequence object.
-To get a **CMTaskSequence** object, use the Get-CMTaskSequence cmdlet.
+To get a **CMTaskSequence** object, use the [Get-CMTaskSequence](./Get-CMTaskSequence.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -754,5 +754,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMContentDistribution](xref:ConfigurationManager/vlatest/Remove-CMContentDistribution.md)
 
 [Update-CMDistributionPoint](xref:ConfigurationManager/vlatest/Update-CMDistributionPoint.md)
-
-

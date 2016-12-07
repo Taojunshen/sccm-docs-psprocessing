@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833658
 schema: 2.0.0
 ms.assetid: 6A49F9E5-ECD8-438F-9A2D-D0D2615941B3
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -216,11 +216,11 @@ Accept wildcard characters: False
 Specifies general settings.
 Valid values are:
 
--- RequireManualSyncWhenRoaming
--- RequireStorageCardEncryption
--- UnapprovedInROMApplicationList
--- DevicePolicyRefreshInterval
--- MaxInactivityTimeDeviceLock
+- RequireManualSyncWhenRoaming
+- RequireStorageCardEncryption
+- UnapprovedInROMApplicationList
+- DevicePolicyRefreshInterval
+- MaxInactivityTimeDeviceLock
 
 ```yaml
 Type: ExchangeConnectorGeneralSetting
@@ -295,16 +295,16 @@ Accept wildcard characters: False
 Specifies password settings.
 Valid values are:
 
--- AlphanumericDevicePasswordRequired
--- DevicePasswordEnabled
--- DevicePasswordExpiration
--- DevicePasswordHistory
--- MaxDevicePasswordFailedAttempts
--- PasswordRecoveryEnabled
--- MinDevicePasswordComplexCharacters
--- MinDevicePasswordLength
--- AlphanumericDevicePasswordRequired
--- AllowSimpleDevicePassword
+- AlphanumericDevicePasswordRequired
+- DevicePasswordEnabled
+- DevicePasswordExpiration
+- DevicePasswordHistory
+- MaxDevicePasswordFailedAttempts
+- PasswordRecoveryEnabled
+- MinDevicePasswordComplexCharacters
+- MinDevicePasswordLength
+- AlphanumericDevicePasswordRequired
+- AllowSimpleDevicePassword
 
 ```yaml
 Type: ExchangeConnectorPasswordSetting
@@ -321,17 +321,17 @@ Accept wildcard characters: False
 Specifies a dictionary of security settings.
 Valid values are: 
 
--- AllowBluetooth
--- AllowBrowser
--- AllowCamera
--- AllowDesktopSync
--- AllowInternetSharing
--- AllowIrDA
--- AllowNonProvisionableDevices
--- AllowRemoteDesktop
--- AllowStorageCard
--- AllowTextMessaging
--- AllowWiFi
+- AllowBluetooth
+- AllowBrowser
+- AllowCamera
+- AllowDesktopSync
+- AllowInternetSharing
+- AllowIrDA
+- AllowNonProvisionableDevices
+- AllowRemoteDesktop
+- AllowStorageCard
+- AllowTextMessaging
+- AllowWiFi
 
 ```yaml
 Type: ExchangeConnectorSecuritySetting
@@ -430,5 +430,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMExchangeServer](xref:ConfigurationManager/vlatest/Set-CMExchangeServer.md)
 
 [Sync-CMExchangeServer](xref:ConfigurationManager/vlatest/Sync-CMExchangeServer.md)
-
-

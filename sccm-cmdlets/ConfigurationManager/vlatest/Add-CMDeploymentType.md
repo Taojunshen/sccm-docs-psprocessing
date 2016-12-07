@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833626
 schema: 2.0.0
 ms.assetid: D23CE672-3835-40FA-8907-5C2DB50D1C62
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -193,7 +193,7 @@ Add-CMDeploymentType [-AdministratorComment <String>] [-AndroidGooglePlayInstall
 
 ## DESCRIPTION
 This cmdlet is deprecated.
-Use one of the following cmdlets: Add-CMAndroidDeploymentType, Add-CMAppv5XDeploymentType, Add-CMAppvDeploymentType, Add-CMGooglePlayDeploymentType, Add-CMIosAppStoreDeploymentType, Add-CMIosDeploymentType, Add-CMMacDeploymentType, Add-CMMobileMsiDeploymentType, Add-CMMsiDeploymentType, Add-CMNokiaDeploymentType, Add-CMScriptDeploymentType, Add-CMWebApplicationDeploymentType, Add-CMWindowsAppxDeploymentType, Add-CMWindowsMobileDeploymentType, Add-CMWindowsPhoneDeploymentType, Add-CMWindowsPhoneStoreDeploymentType, or Add-CMWindowsStoreDeploymentType.
+Use one of the following cmdlets:  [Add-CMAndroidDeploymentType](./Add-CMAndroidDeploymentType.md),  [Add-CMAppv5XDeploymentType](./Add-CMAppv5XDeploymentType.md),  [Add-CMAppvDeploymentType](./Add-CMAppvDeploymentType.md),  [Add-CMGooglePlayDeploymentType](./Add-CMGooglePlayDeploymentType.md),  [Add-CMIosAppStoreDeploymentType](./Add-CMIosAppStoreDeploymentType.md),  [Add-CMIosDeploymentType](./Add-CMIosDeploymentType.md),  [Add-CMMacDeploymentType](./Add-CMMacDeploymentType.md),  [Add-CMMobileMsiDeploymentType](./Add-CMMobileMsiDeploymentType.md),  [Add-CMMsiDeploymentType](./Add-CMMsiDeploymentType.md),  [Add-CMNokiaDeploymentType](./Add-CMNokiaDeploymentType.md),  [Add-CMScriptDeploymentType](./Add-CMScriptDeploymentType.md),  [Add-CMWebApplicationDeploymentType](./Add-CMWebApplicationDeploymentType.md),  [Add-CMWindowsAppxDeploymentType](./Add-CMWindowsAppxDeploymentType.md),  [Add-CMWindowsMobileDeploymentType](./Add-CMWindowsMobileDeploymentType.md),  [Add-CMWindowsPhoneDeploymentType](./Add-CMWindowsPhoneDeploymentType.md),  [Add-CMWindowsPhoneStoreDeploymentType](./Add-CMWindowsPhoneStoreDeploymentType.md), or  [Add-CMWindowsStoreDeploymentType](./Add-CMWindowsStoreDeploymentType.md).
 
 The **Add-CMDeploymentType** cmdlet adds a deployment type for an application.
 A deployment type is contained within an application and contains the information that Microsoft System Center Configuration Manager requires to install software.
@@ -575,9 +575,9 @@ Accept wildcard characters: False
 Specifies the installation behavior of the deployment type.
 Valid values are: 
 
--- InstallForSystem
--- InstallForSystemIfResourceIsDeviceOtherwiseInstallForUser
--- InstallForUser
+- InstallForSystem
+- InstallForSystemIfResourceIsDeviceOtherwiseInstallForUser
+- InstallForUser
 
 ```yaml
 Type: InstallationBehaviorType
@@ -634,10 +634,10 @@ Accept wildcard characters: False
 Specifies the mode in which the deployment type runs on client devices.
 Valid values are: 
 
--- Normal
--- Minimized
--- Maximized
--- Hidden
+- Normal
+- Minimized
+- Maximized
+- Hidden
 
 ```yaml
 Type: UserInteractionMode
@@ -712,9 +712,9 @@ Accept wildcard characters: False
 Specifies the logon requirement for the deployment type.
 Valid values are: 
 
--- OnlyWhenNoUserLoggedOn
--- OnlyWhenUserLoggedOn
--- WhereOrNotUserLoggedOn
+- OnlyWhenNoUserLoggedOn
+- OnlyWhenUserLoggedOn
+- WhereOrNotUserLoggedOn
 
 ```yaml
 Type: LogonRequirementType
@@ -836,9 +836,9 @@ Accept wildcard characters: False
 Specifies the installation behavior of the deployment type on a slow network.
 Valid values are: 
 
--- DoNothing
--- Download
--- DownloadContentForStreaming
+- DoNothing
+- Download
+- DownloadContentForStreaming
 
 ```yaml
 Type: ContentHandlingMode
@@ -1151,5 +1151,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMDeploymentType](xref:ConfigurationManager/vlatest/Remove-CMDeploymentType.md)
 
 [Set-CMDeploymentType](xref:ConfigurationManager/vlatest/Set-CMDeploymentType.md)
-
-

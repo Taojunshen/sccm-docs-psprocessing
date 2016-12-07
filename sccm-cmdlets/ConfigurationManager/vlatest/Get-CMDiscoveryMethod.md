@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833648
 schema: 2.0.0
 ms.assetid: 7CBBD8FA-3534-46FC-829C-14A7C95BAB47
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDiscoveryMethod.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDiscoveryMethod.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDiscoveryMethod.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -80,14 +80,10 @@ Specifies the type of discovery method that the cmdlet gets.
 The acceptable values for this parameter are:
 
 - ActiveDirectoryForestDiscovery: Discovers security groups, including local, global, and universal groups from specified locations in Active Directory Domain Services.
- 
 - ActiveDirectoryGroupDiscovery: Discovers additional information, including the OU and group membership of the computer, about previously discovered computers from specified locations in Active Directory Domain Services. 
 - ActiveDirectorySystemDiscovery: Discovers computers from specified locations in Active Directory Domain Services.
- 
 - ActiveDirectoryUserDiscovery: Discovers users from specified locations in Active Directory Domain Services.
- 
 - HeartbeatDiscovery: Updates discovery records for Microsoft System Center Configuration Manager clients in the System Center Configuration Manager database without discovering new resources.
- 
 - NetworkForestDiscovery: Searches the network infrastructure for network devices (such as printers, routers, and bridges) that have an IP address.
 
 ```yaml
@@ -130,5 +126,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [About Configuration Manager Discovery](http://go.microsoft.com/fwlink/?linkid=107444)
 
 [Set-CMDiscoveryMethod](xref:ConfigurationManager/vlatest/Set-CMDiscoveryMethod.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834295
 schema: 2.0.0
 ms.assetid: 04AC8F78-1E8D-4FBC-B87E-732B52D09F9E
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDatabaseProperty.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDatabaseProperty.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDatabaseProperty.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -33,7 +33,7 @@ The **Get-CMDatabaseProperty** cmdlet gets an object that represents a Microsoft
 Use the site code for a site to specify a database.
 
 When this cmdlet returns a database object in the console, it displays current settings for data compression, Broker port for the computer that runs Microsoft SQL Server, and the length of time that the database keeps data.
-You can use the Set-CMDatabaseProperty cmdlet to change these values.
+You can use the [Set-CMDatabaseProperty](./Set-CMDatabaseProperty.md) cmdlet to change these values.
 
 ## EXAMPLES
 
@@ -105,5 +105,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Set-CMDatabaseProperty](xref:ConfigurationManager/vlatest/Set-CMDatabaseProperty.md)
-
-

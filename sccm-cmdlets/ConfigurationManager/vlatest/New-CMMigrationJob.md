@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Migration.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833701
 schema: 2.0.0
 ms.assetid: 7A6A863C-460A-4F6A-A241-DBE016C8A5B9
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMMigrationJob.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMMigrationJob.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/New-CMMigrationJob.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -341,7 +341,7 @@ Accept wildcard characters: False
 
 ### -SecurityScope
 Specifies an array of security scope objects.
-To obtain a security scope object, use the Get-CMSecurityScope cmdlet.
+To obtain a security scope object, use the [Get-CMSecurityScope](./Get-CMSecurityScope.md) cmdlet.
 The cmdlet applies the security scopes that you specify to data migrated to the destination hierarchy.
 
 ```yaml

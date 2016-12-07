@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834256
 schema: 2.0.0
 ms.assetid: B4B866B4-15B3-46F0-A742-C892A96B99CD
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUser.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUser.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a Configuration Manager user account object.
-To obtain a Configuration Manager user account object, use the Get-CMUser cmdlet.
+To obtain a Configuration Manager user account object, use the [Get-CMUser](./Get-CMUser.md) cmdlet.
 
 ```yaml
 Type: IResultObject

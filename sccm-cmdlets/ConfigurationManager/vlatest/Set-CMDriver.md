@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833822
 schema: 2.0.0
 ms.assetid: 9D6404C9-30BE-49C9-9F64-2B73C49F26D9
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriver.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriver.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriver.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -70,7 +70,7 @@ PS C:\>$Driver = Get-CMDriver -Name "cdrom.sys"
 PS C:\> Set-CMDriver -InputObject $Driver -NewName "testDriver" -Description "Test configuration" -EnableAndAllowInstall $True -RunOnAnyPlatform $True
 ```
 
-The first command gets a device driver named cdrom.sys by using the Get-CMDriver cmdlet.
+The first command gets a device driver named cdrom.sys by using the [Get-CMDriver](./Get-CMDriver.md) cmdlet.
 The command stores that object in the $Driver variable.
 
 The second command renames the driver and adds a description.
@@ -121,7 +121,7 @@ Accept wildcard characters: False
 ### -AddDriverPackage
 Specifies an array of driver package objects.
 Use this parameter to specify the driver packages that Configuration Manager uses to distribute the device drivers.
-To obtain a driver package object, use the Get-CMDriverPackage cmdlet.
+To obtain a driver package object, use the [Get-CMDriverPackage](./Get-CMDriverPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]

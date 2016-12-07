@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833979
 schema: 2.0.0
 ms.assetid: 6814743B-10B2-4A47-9BCD-7E52B54CC444
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackageDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackageDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackageDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -96,7 +96,7 @@ Set-CMPackageDeployment -Package <IResultObject> -DeviceProgramName <String> -Co
 The **Set-CMPackageDeployment** cmdlet changes values that define how Microsoft System Center Configuration Manager deploys a software package.
 A deployment includes a collection of devices or users, a package to deploy, and either a device program name or a standard program name.
 To specify which deployment to modify, specify the collection name, package, and program name.
-You can specify the package by name or ID, or you can use the Get-CMPackage cmdlet to get a package object.
+You can specify the package by name or ID, or you can use the [Get-CMPackage](./Get-CMPackage.md) cmdlet to get a package object.
 
 ## EXAMPLES
 
@@ -363,7 +363,7 @@ Accept wildcard characters: False
 
 ### -Package
 Specifies a package object.
-To obtain a package object, use the Get-CMPackage cmdlet.
+To obtain a package object, use the [Get-CMPackage](./Get-CMPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject

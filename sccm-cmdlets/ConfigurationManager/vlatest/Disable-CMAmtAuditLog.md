@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Oob.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833939
 schema: 2.0.0
 ms.assetid: 09ADAA08-AF61-48EB-A923-1E931C914A83
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMAmtAuditLog.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMAmtAuditLog.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMAmtAuditLog.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -45,8 +45,8 @@ Disable-CMAmtAuditLog -DeviceId <String> [-Force] [-DisableWildcardHandling] [-F
 The **Disable-CMAmtAuditLog** cmdlet disables audit logging for Intel Active Management Technology (Intel AMT)-based computers.
 The audit log records authorized and authenticated out-of-band management activities performed on Intel AMT computers.
 
-You can specify computers by using the Microsoft System Center Configuration Manager device name or device ID, or you can use the Get-CMDevice cmdlet to get a device object.
-If you want to delete the current log entries, use the Clear-CMAmtAuditLog cmdlet.
+You can specify computers by using the Microsoft System Center Configuration Manager device name or device ID, or you can use the [Get-CMDevice](./Get-CMDevice.md) cmdlet to get a device object.
+If you want to delete the current log entries, use the [Clear-CMAmtAuditLog](./Clear-CMAmtAuditLog.md) cmdlet.
 
 ## EXAMPLES
 

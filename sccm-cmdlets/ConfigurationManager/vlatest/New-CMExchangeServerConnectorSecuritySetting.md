@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833679
 schema: 2.0.0
 ms.assetid: 3B5B71A1-F88F-4699-8D6F-534921DA754D
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorSecuritySetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorSecuritySetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorSecuritySetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -209,9 +209,9 @@ Accept wildcard characters: False
 Specifies whether the user can use Wireless (Wi-Fi) local area networks (LANs) with the device.
 Valid values are: 
 
--- Allow
--- Disable
--- HandsfreeOnly
+- Allow
+- Disable
+- HandsfreeOnly
 
 ```yaml
 Type: Boolean
@@ -242,5 +242,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMExchangeServerConnectorEmailManagementSetting](xref:ConfigurationManager/vlatest/New-CMExchangeServerConnectorEmailManagementSetting.md)
 
 [New-CMExchangeServerConnectorPasswordSetting](xref:ConfigurationManager/vlatest/New-CMExchangeServerConnectorPasswordSetting.md)
-
-

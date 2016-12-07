@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833615
 schema: 2.0.0
 ms.assetid: 7B562CA1-B1D1-49AF-A7C2-1E47BF36BBB7
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceActionState.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceActionState.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceActionState.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -42,7 +42,7 @@ Get-CMDeviceActionState [[-Action] <DeviceActionType>] [-InputObject] <IResultOb
 ```
 
 ## DESCRIPTION
-The **Get-CMDeviceActionState** cmdlet gets the state of an action initiated on a mobile device by using the Invoke-CMDeviceAction cmdlet.
+The **Get-CMDeviceActionState** cmdlet gets the state of an action initiated on a mobile device by using the [Invoke-CMDeviceAction](./Invoke-CMDeviceAction.md) cmdlet.
 
 ## EXAMPLES
 
@@ -145,7 +145,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a device object.
-To obtain a device object, use the Get-CMDevice cmdlet.
+To obtain a device object, use the [Get-CMDevice](./Get-CMDevice.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -188,5 +188,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMDevice](xref:ConfigurationManager/vlatest/Get-CMDevice.md)
 
 [Invoke-CMDeviceAction](xref:ConfigurationManager/vlatest/Invoke-CMDeviceAction.md)
-
-

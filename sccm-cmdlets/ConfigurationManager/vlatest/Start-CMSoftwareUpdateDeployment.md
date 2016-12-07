@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834227
 schema: 2.0.0
 ms.assetid: ABE2C372-76D4-46F7-B817-A963A5AA3145
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMSoftwareUpdateDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMSoftwareUpdateDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMSoftwareUpdateDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -258,7 +258,7 @@ Specifies a deployment type in Configuration Manager.
 ```yaml
 Type: DeploymentType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Required, Available
 Required: False
 Position: Named
@@ -441,7 +441,7 @@ Specifies a protected type.
 ```yaml
 Type: ProtectedType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: NoInstall, RemoteDistributionPoint
 Required: False
 Position: Named
@@ -577,7 +577,7 @@ UTC time makes the software update available at the same time for all computers.
 ```yaml
 Type: TimeType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: LocalTime, Utc
 Required: False
 Position: Named
@@ -588,17 +588,17 @@ Accept wildcard characters: False
 
 ### -TimeUnit
 Specifies the time unit in Configuration Manager.
-Valid values are: 
+Valid values are:
 
--- Days 
+-- Days
 -- Hours
--- Months 
+-- Months
 -- Weeks
 
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 Required: False
 Position: Named
@@ -627,7 +627,7 @@ Specifies an unprotected type.
 ```yaml
 Type: UnprotectedType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: NoInstall, UnprotectedDistributionPoint
 Required: False
 Position: Named
@@ -656,7 +656,7 @@ Specifies a user notification type.
 ```yaml
 Type: UserNotificationType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DisplayAll, DisplaySoftwareCenterOnly, HideAll
 Required: False
 Position: Named
@@ -667,7 +667,7 @@ Accept wildcard characters: False
 
 ### -VerbosityLevel
 Specifies verbosity level.
-Valid values are: 
+Valid values are:
 
 -- AllMessages
 -- OnlyErrorMessages
@@ -676,7 +676,7 @@ Valid values are:
 ```yaml
 Type: VerbosityLevelType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: AllMessages, OnlySuccessAndErrorMessages, OnlyErrorMessages
 Required: False
 Position: Named
@@ -716,5 +716,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMSoftwareUpdateGroup](xref:ConfigurationManager/vlatest/Get-CMSoftwareUpdateGroup.md)
 
 [Set-CMSoftwareUpdateDeployment](xref:ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeployment.md)
-
-

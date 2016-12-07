@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834150
 schema: 2.0.0
 ms.assetid: B3E5550C-8A64-46FA-8D31-1E89FE83BC71
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBoundary.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBoundary.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBoundary.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -60,7 +60,7 @@ A boundary can be an IP subnet, Active Directory site name, IPv6 prefix, or an I
 
 ## EXAMPLES
 
-### Example 1: Get a boundary that is specified by its identifier.
+### Example 1: Get a boundary that is specified by its identifier
 ```
 PS C:\>Get-Boundary -Id "67777217"
 BoundaryFlags:      0
@@ -218,5 +218,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMBoundary](xref:ConfigurationManager/vlatest/Set-CMBoundary.md)
 
 [Get-CMBoundaryGroup](xref:ConfigurationManager/vlatest/Get-CMBoundaryGroup.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833668
 schema: 2.0.0
 ms.assetid: FFDDED71-D9A4-4974-A61E-F4325BCEADC4
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 5:47 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDriverPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDriverPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDriverPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -38,7 +38,7 @@ The **Get-CMDriverPackage** cmdlet gets a driver package.
 
 ## EXAMPLES
 
-### Example 1: Get a driver package that is specified by its identifier.
+### Example 1: Get a driver package that is specified by its identifier
 ```
 PS C:\>Get-CMDriverPackage -Id "CM100042"
 ```
@@ -123,5 +123,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMDriverPackage](xref:ConfigurationManager/vlatest/Remove-CMDriverPackage.md)
 
 [Set-CMDriverPackage](xref:ConfigurationManager/vlatest/Set-CMDriverPackage.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833957
 schema: 2.0.0
 ms.assetid: A1766572-846D-47B8-A9C9-01745BB7E114
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,9 +49,9 @@ System Center Configuration Manager uses rules to manage automatic deployment of
 When a rule runs, System Center Configuration Manager adds updates that qualify for the rule to a software update group.
 The System Center Configuration Manager server downloads content files and copies them to distribution points, and then updates client computers.
 
-You can specify rules to disable by ID or by name, or specify a rule object by using the Get-CMSoftwareUpdateAutoDeploymentRule cmdlet.
-You can use the Enable-CMSoftwareUpdateAutoDeploymentRule cmdlet to enable a rule.
-To remove a rule permanently, use the Remove-CMSoftwareUpdateAutoDeploymentRule cmdlet.
+You can specify rules to disable by ID or by name, or specify a rule object by using the [Get-CMSoftwareUpdateAutoDeploymentRule](./Get-CMSoftwareUpdateAutoDeploymentRule.md) cmdlet.
+You can use the [Enable-CMSoftwareUpdateAutoDeploymentRule](./Enable-CMSoftwareUpdateAutoDeploymentRule.md) cmdlet to enable a rule.
+To remove a rule permanently, use the [Remove-CMSoftwareUpdateAutoDeploymentRule](./Remove-CMSoftwareUpdateAutoDeploymentRule.md) cmdlet.
 
 ## EXAMPLES
 

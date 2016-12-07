@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833642
 schema: 2.0.0
 ms.assetid: CEB87494-F554-4B05-A44B-978B1B418583
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDeviceCollectionDirectMembershipRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDeviceCollectionDirectMembershipRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDeviceCollectionDirectMembershipRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -77,7 +77,7 @@ This command adds a device collection direct membership rule to the collection w
 PS C:\>Get-CMCollection -Name "testCollection" | Add-CMDeviceCollectionDirectMembershipRule -ResourceId 2097152004
 ```
 
-This command gets the collection object named testCollection and uses the pipeline operator to pass the object to **Add-CMDeviceCollectionDirectMembershipRule**, which adds the direct membership rule to the collection object, and the resource with the ID of 2097152004 to the collection.This command gets the collection named Collection07 by using the Get-CMCollection cmdlet.
+This command gets the collection object named testCollection and uses the pipeline operator to pass the object to **Add-CMDeviceCollectionDirectMembershipRule**, which adds the direct membership rule to the collection object, and the resource with the ID of 2097152004 to the collection.This command gets the collection named Collection07 by using the [Get-CMCollection](./Get-CMCollection.md) cmdlet.
 The command passes the collection to the current cmdlet by using the pipeline operator.
 The cmdlet adds the direction membership rule that has the ID 2097152004 to that collection.
 
@@ -155,7 +155,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a device collection object.
-To obtain a device collection object, use the Get-CMCollection cmdlet.
+To obtain a device collection object, use the [Get-CMCollection](./Get-CMCollection.md) cmdlet.
 
 ```yaml
 Type: IResultObject

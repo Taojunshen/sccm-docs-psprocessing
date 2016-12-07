@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833761
 schema: 2.0.0
 ms.assetid: 86BEA428-375A-470C-8F80-36DA8B5626A9
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSoftwareUpdateToGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSoftwareUpdateToGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSoftwareUpdateToGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -79,8 +79,8 @@ Add-CMSoftwareUpdateToGroup -SoftwareUpdate <IResultObject[]> -SoftwareUpdateGro
 
 ## DESCRIPTION
 The **Add-CMSoftwareUpdateToGroup** cmdlet adds a software update to a software update group in Microsoft System Center Configuration Manager.
-You can specify a software update by name or by ID or use the Get-CMSoftwareUpdate cmdlet to obtain an update.
-Likewise, you can specify a software update group by name or by ID or use the Get-CMSoftwareUpdateGroup cmdlet to obtain one.
+You can specify a software update by name or by ID or use the [Get-CMSoftwareUpdate](./Get-CMSoftwareUpdate.md) cmdlet to obtain an update.
+Likewise, you can specify a software update group by name or by ID or use the [Get-CMSoftwareUpdateGroup](./Get-CMSoftwareUpdateGroup.md) cmdlet to obtain one.
 
 ## EXAMPLES
 

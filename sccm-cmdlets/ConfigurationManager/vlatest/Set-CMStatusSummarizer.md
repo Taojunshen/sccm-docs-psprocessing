@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834119
 schema: 2.0.0
 ms.assetid: BC02FCFC-70B2-4DAD-BF1E-F6D11EA68D4B
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusSummarizer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusSummarizer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusSummarizer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationStatisticSummarizer
-
+Indicates that the summarizer is an application statistic status summarizer.
 
 ```yaml
 Type: SwitchParameter
@@ -224,7 +224,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -261,7 +262,7 @@ Specify this parameter if you specify $True for the *ReplicateToParentSite* para
 ```yaml
 Type: ReplicationPriorityType
 Parameter Sets: SetComponentStatusSummarizer, SetSiteSystemStatusSummarizer
-Aliases: 
+Aliases:
 Accepted values: Low, Normal, High
 Required: False
 Position: Named
@@ -272,7 +273,7 @@ Accept wildcard characters: False
 
 ### -Schedule
 Specifies a schedule object that determines how often to summarize site system status.
-To obtain a schedule object, use the New-CMSchedule cmdlet.
+To obtain a schedule object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -372,5 +373,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMSchedule](xref:ConfigurationManager/vlatest/New-CMSchedule.md)
 
 [Get-CMStatusSummarizer](xref:ConfigurationManager/vlatest/Get-CMStatusSummarizer.md)
-
-

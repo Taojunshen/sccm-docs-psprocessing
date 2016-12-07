@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833578
 schema: 2.0.0
 ms.assetid: 4307DB22-0478-43D2-BA84-8CCE3B86A9BA
-updated_at: 12/6/2016 7:33 PM
+updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Resume-CMApplication.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Resume-CMApplication.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Resume-CMApplication.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -121,7 +121,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an application object.
-To get an application object, use the Get-CMApplication cmdlet.
+To get an application object, use the [Get-CMApplication](./Get-CMApplication.md) cmdlet.
 
 ```yaml
 Type: IResultObject
