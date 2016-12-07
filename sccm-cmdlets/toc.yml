@@ -1,2 +1,2 @@
-- name: sccm-cmdlets
+- name: Configuration Manager PowerShell
   tocHref: sccm-cmdlets/toc.yml
