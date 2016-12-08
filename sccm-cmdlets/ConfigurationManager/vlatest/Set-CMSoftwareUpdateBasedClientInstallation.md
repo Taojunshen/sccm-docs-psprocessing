@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834071
 schema: 2.0.0
 ms.assetid: DF5B9C76-DB24-42A5-AC3D-7AFEF65CE214
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateBasedClientInstallation.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateBasedClientInstallation.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateBasedClientInstallation.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -42,7 +42,7 @@ The **Set-CMSoftwareUpdateBasedClientInstallation** cmdlet modifies a client ins
 
 ### Example 1: Modify a client installation to enable WSUS
 ```
-PS C:\>Set-CMSoftwareUpdateBasedClientInstallation -EnableWSUS $True -SiteCode "CM1"
+PS C:\> Set-CMSoftwareUpdateBasedClientInstallation -EnableWSUS $True -SiteCode "CM1"
 ```
 
 This command enables WSUS for a client installation.

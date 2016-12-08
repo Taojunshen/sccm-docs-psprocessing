@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834049
 schema: 2.0.0
 ms.assetid: FA67EA36-5834-4957-BF85-08B2C9E61193
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAccessAccount.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAccessAccount.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAccessAccount.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -124,7 +124,7 @@ You can get an access account to change the network access permissions for clien
 
 ### Example 1: Get an access account for a package by using the package ID
 ```
-PS C:\>$ID = Get-CMPackage -PackageName "Configuration Manager Client Package" 
+PS C:\> $ID = Get-CMPackage -PackageName "Configuration Manager Client Package" 
 PS C:\> Get-CMAccessAcccount -PackageId $ID
 Name:          Administrator
 Type:          Administrator
@@ -146,7 +146,7 @@ The command output describes all users and groups that can access this package.
 
 ### Example 2: Get an access account for a boot image by using the boot image name
 ```
-PS C:\>Get-CMAccessAccount -BootImageName "System Image (x64)"
+PS C:\> Get-CMAccessAccount -BootImageName "System Image (x64)"
 Name:          CONTOSO\EDaugherty
 Type:          WindowsUser
 Access:        Read

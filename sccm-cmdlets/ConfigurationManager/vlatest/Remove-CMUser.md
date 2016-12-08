@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834256
 schema: 2.0.0
 ms.assetid: B4B866B4-15B3-46F0-A742-C892A96B99CD
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUser.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUser.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Remove-CMUser** cmdlet removes user accounts from Microsoft System Center 
 
 ### Example 1: Remove a user
 ```
-PS C:\>$User = Get-CMUser -CollectionName "All Users" -Name "Contoso\user01"
+PS C:\> $User = Get-CMUser -CollectionName "All Users" -Name "Contoso\user01"
 PS C:\> Remove-CMUser -InputObject $User -Force
 ```
 
@@ -59,7 +59,7 @@ Specifying the *Force* parameter indicates that the user is not prompted before 
 
 ### Example 2: Remove a user by using the pipeline
 ```
-PS C:\>Get-CMUser -CollectionName "All Users" -Name "Contoso\user02" | Remove-CMUser -Force
+PS C:\> Get-CMUser -CollectionName "All Users" -Name "Contoso\user02" | Remove-CMUser -Force
 ```
 
 This command gets the user object named user02 from the All Users collection and uses the pipeline operator to pass the object to **Remove-CMUser**, which removes the user account.

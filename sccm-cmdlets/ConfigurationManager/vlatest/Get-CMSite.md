@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833856
 schema: 2.0.0
 ms.assetid: 3F9D178E-7C8B-4C41-BC6C-3A2092A95B71
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSite.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSite.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSite.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,7 +37,7 @@ You can get a Configuration Manager site by using either a site name or a site c
 
 ### Example 1: Get a site by using a site name
 ```
-PS C:\>Get-CMSite -SiteName "CMSiteSystem"
+PS C:\> Get-CMSite -SiteName "CMSiteSystem"
 ```
 
 This command gets a System Center Configuration Manager site by using the site name CMSiteSystem.

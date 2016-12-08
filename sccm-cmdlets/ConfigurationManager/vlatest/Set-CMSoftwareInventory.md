@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834050
 schema: 2.0.0
 ms.assetid: 8210D2F5-9101-47D0-81E7-5F837F5F4F60
-updated_at: 12/7/2016 7:27 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareInventory.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareInventory.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareInventory.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -51,7 +51,7 @@ The **Set-CMSoftwareInventory** cmdlet modifies an object that collects informat
 
 ### Example 1: Set a software inventory object
 ```
-PS C:\>Set-CMSoftwareInventory -Name "MSXML 6.0 Parser"
+PS C:\> Set-CMSoftwareInventory -Name "MSXML 6.0 Parser"
 ```
 
 This command starts collecting software inventory data on the file named MSXML 6.0 Parser.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833587
 schema: 2.0.0
 ms.assetid: 762F1090-8DA6-46BC-A4E7-876E1A7A5511
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Save-CMEndpointProtectionDefinition.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Save-CMEndpointProtectionDefinition.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Save-CMEndpointProtectionDefinition.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -54,7 +54,7 @@ For more information about Endpoint Protection, see [Endpoint Protection in Conf
 
 ### Example 1: Save an Endpoint Protection epshort definition by using a device collection nameepshortEndpoint Protection
 ```
-PS C:\>Save-CMEndpointProtectionDefinition -DeviceCollectionName "NA-Client-Devices"
+PS C:\> Save-CMEndpointProtectionDefinition -DeviceCollectionName "NA-Client-Devices"
 ```
 
 This command saves the Endpoint Protection definition to the devices in the device collection named NA-Client-Devices.

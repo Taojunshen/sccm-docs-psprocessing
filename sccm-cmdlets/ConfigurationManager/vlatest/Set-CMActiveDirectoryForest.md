@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833609
 schema: 2.0.0
 ms.assetid: 4AE8D747-EDC2-486B-ADB3-0CF426C047F1
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMActiveDirectoryForest.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMActiveDirectoryForest.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMActiveDirectoryForest.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -55,7 +55,7 @@ Active Directory Forest Discovery requires a global account to discover or publi
 
 ### Example 1: Change the description of an Active Directory forest
 ```
-PS C:\>Set-CMActiveDirectoryForest -Id "16777217" -Description "AD Forest 01"
+PS C:\> Set-CMActiveDirectoryForest -Id "16777217" -Description "AD Forest 01"
 ```
 
 This command changes the description of an Active Directory forest that has the ID 16777217 to AD Forest 01.

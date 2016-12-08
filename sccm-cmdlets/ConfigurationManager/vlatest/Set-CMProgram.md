@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833989
 schema: 2.0.0
 ms.assetid: 814A673E-A28D-4123-9A6C-A173188FE26B
-updated_at: 12/7/2016 10:10 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMProgram.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c6cfa731ff189c106139e3ba3d2fc0fa45711e29/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMProgram.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMProgram.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -123,14 +123,14 @@ You can associate multiple programs with the same package.
 
 ### Example 1: Modify a standard program
 ```
-PS C:\>Set-CMProgram -Name "Test" -StandardProgramName SPM -Comment "Standard Upgrades" -CommandLine "RunThisNow" -RunType Maximized -AfterRunningType ProgramControlsRestart -Category "Laptops" -DiskSpaceRequirement 50 -DiskSpaceUnit MB -Duration 150 -Requirement 4 -Reconnect $False -SuppressProgramNotifications $False -DisableProgram $True -EnableTaskSequence $True -DisableMomAlertOnRun $True -GenerateMomAlertOnFail $True
+PS C:\> Set-CMProgram -Name "Test" -StandardProgramName SPM -Comment "Standard Upgrades" -CommandLine "RunThisNow" -RunType Maximized -AfterRunningType ProgramControlsRestart -Category "Laptops" -DiskSpaceRequirement 50 -DiskSpaceUnit MB -Duration 150 -Requirement 4 -Reconnect $False -SuppressProgramNotifications $False -DisableProgram $True -EnableTaskSequence $True -DisableMomAlertOnRun $True -GenerateMomAlertOnFail $True
 ```
 
 This command modifies a standard program.
 
 ### Example 2: Modify a device program
 ```
-PS C:\>Set-CMProgram -Name "Test" -DeviceProgramName DPM -Comment "Upgrades for December" -CommandLine "RunMe" -WorkingDirectory "\TempWork" -CommandLineFolder "C:\Windows" -DiskSpaceRequirement 30 -DiskSpaceUnit MB -DownloadProgramType AsSoonAsPossible -Requirement "All previous device updates"
+PS C:\> Set-CMProgram -Name "Test" -DeviceProgramName DPM -Comment "Upgrades for December" -CommandLine "RunMe" -WorkingDirectory "\TempWork" -CommandLineFolder "C:\Windows" -DiskSpaceRequirement 30 -DiskSpaceUnit MB -DownloadProgramType AsSoonAsPossible -Requirement "All previous device updates"
 ```
 
 This command modifies a device program.

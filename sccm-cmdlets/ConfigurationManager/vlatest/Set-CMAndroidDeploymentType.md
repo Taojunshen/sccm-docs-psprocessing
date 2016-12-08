@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833620
 schema: 2.0.0
 ms.assetid: 93B12651-7C2B-4387-902D-5046CDD71D00
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAndroidDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAndroidDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAndroidDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,14 +62,14 @@ The **Set-CMAndriodDeploymentType** cmdlet changes the settings for an Android d
 
 ### Example 1: Change the name of the deployment type
 ```
-PS C:\>Set-CMAndroidDeploymentType -ApplicationName "ExpensesApp" -DeploymentTypeName "Expenses" -NewName "NewExpenses"
+PS C:\> Set-CMAndroidDeploymentType -ApplicationName "ExpensesApp" -DeploymentTypeName "Expenses" -NewName "NewExpenses"
 ```
 
 This command changes the deployment type name for the application named ExpensesApp from Expenses to NewExpenses.
 
 ### Example 2: Change the name of the deployment type by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -DeploymentTypeName "Expenses" -ApplicationName "ExpensesApp2" | Set-CMAndroidDeploymentType -NewName "NewExpenses2"
+PS C:\> Get-CMDeploymentType -DeploymentTypeName "Expenses" -ApplicationName "ExpensesApp2" | Set-CMAndroidDeploymentType -NewName "NewExpenses2"
 ```
 
 This command gets the deployment type object named Expenses for the application named ExpensesApp2 and uses the pipeline operator to pass the object to **Set-CMAndroidDeploymentType**.

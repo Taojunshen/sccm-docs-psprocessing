@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Oob.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833663
 schema: 2.0.0
 ms.assetid: 6141C593-89DD-4BEB-80B2-DD9B391EB045
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAssignedSite.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAssignedSite.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAssignedSite.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,7 +50,7 @@ This cmdlet assigns a client to a different primary site.
 
 ### Example 1: Reassign a client to a site
 ```
-PS C:\>Set-CMAssignedSite -DeviceId "2097152000" -SiteCode "CM7"
+PS C:\> Set-CMAssignedSite -DeviceId "2097152000" -SiteCode "CM7"
 ```
 
 This command reassigns the client that has the device ID 2097152000 to the site that has the site code CM7.

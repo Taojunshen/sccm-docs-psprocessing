@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833672
 schema: 2.0.0
 ms.assetid: B1E83113-4742-40EC-A78F-EC46C8C50A5E
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMEmailNotificationComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMEmailNotificationComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMEmailNotificationComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -35,14 +35,14 @@ The **Get-CMEmailNotificationComponent** cmdlet gets one or more email notificat
 
 ### Example 1: Get an email notification component by using a site code
 ```
-PS C:\>Get-CMEmailNotificationComponent -SiteCode "CM2"
+PS C:\> Get-CMEmailNotificationComponent -SiteCode "CM2"
 ```
 
 This command gets a notification component for the site that has the site code CM2.
 
 ### Example 2: Get an email notification component by using a site system server name
 ```
-PS C:\>Get-CMEmailNotificationComponent -SiteSystemServerName "CMCEN-DIST02.TSQA.CORP.CONTOSCO.COM"
+PS C:\> Get-CMEmailNotificationComponent -SiteSystemServerName "CMCEN-DIST02.TSQA.CORP.CONTOSCO.COM"
 ```
 
 This command gets a notification component for the site that has the server that has the specified name.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Migration.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833754
 schema: 2.0.0
 ms.assetid: ED0B8420-DCA5-43D7-A48B-45A539486580
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationCollection.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationCollection.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationCollection.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ A migration collection is the set of resources chosen from a hierarchy for migra
 
 ### Example 1: Get a migration collection by name
 ```
-PS C:\>Get-CMMigrationCollection -Name "PhoneCollection5"
+PS C:\> Get-CMMigrationCollection -Name "PhoneCollection5"
 ```
 
 This command gets the migration collection.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834234
 schema: 2.0.0
 ms.assetid: EC6C701B-2D78-40E5-9EF4-025F4132F26B
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMStateMigrationPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMStateMigrationPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMStateMigrationPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -46,7 +46,7 @@ Each state migration point can be a member of only one System Center Configurati
 
 ### Example 1: Remove a specified migration point
 ```
-PS C:\>Remove-CMStateMigrationPoint -SiteCode "CM1" -SiteSystemServerName "SMP01.Western.Contoso.com"
+PS C:\> Remove-CMStateMigrationPoint -SiteCode "CM1" -SiteSystemServerName "SMP01.Western.Contoso.com"
 ```
 
 This command removes a state migration point that belongs to the site that has the site code CM1.
@@ -54,7 +54,7 @@ The command specifies the name of computer that hosts the site system role.
 
 ### Example 2: Remove a migration point using a variable
 ```
-PS C:\>$CMSMP = Get-CMStateMigrationPoint -SiteCode "CM1" -SiteSystemServerName "SMP01.TSQA.Contoso.com"
+PS C:\> $CMSMP = Get-CMStateMigrationPoint -SiteCode "CM1" -SiteSystemServerName "SMP01.TSQA.Contoso.com"
 PS C:\> Remove-CMStateMigrationPoint -InputObject $CMSMP
 ```
 

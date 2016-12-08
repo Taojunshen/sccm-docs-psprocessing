@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833893
 schema: 2.0.0
 ms.assetid: FCD17E0C-355E-4AE5-87E4-2ADA5754A7C3
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplication.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplication.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplication.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -55,7 +55,7 @@ This cmdlet does not remove any existing client installations.
 
 ### Example 1: Get an application and remove it
 ```
-PS C:\>Get-CMApplication -Name "Application1" | Remove-CMApplication -Force
+PS C:\> Get-CMApplication -Name "Application1" | Remove-CMApplication -Force
 ```
 
 The first command gets the application object named Application1 and uses the pipeline operator to pass the object to **Remove-CMApplication**, which removes the application.
@@ -63,7 +63,7 @@ Specifying the *Force* parameter indicates that the user is not prompted before 
 
 ### Example 2: Remove an application by model name
 ```
-PS C:\>Remove-CMApplication -ModelName "ScopeId_5E88BBB4-B1D1-4B74-8A4F-9E8B03BC1EB0/Application_7aa0ed27-6240-4070-a098-3edc9281dd96" -Force
+PS C:\> Remove-CMApplication -ModelName "ScopeId_5E88BBB4-B1D1-4B74-8A4F-9E8B03BC1EB0/Application_7aa0ed27-6240-4070-a098-3edc9281dd96" -Force
 ```
 
 This command removes the application object with the specified model name.

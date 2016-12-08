@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833811
 schema: 2.0.0
 ms.assetid: 628F6856-2636-4C39-AEF8-BA670101D08C
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserDataAndProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -57,7 +57,7 @@ You can modify settings for an existing configuration item by using the Set-CMUs
 
 ### Example 1: Specify folder redirection
 ```
-PS C:\>New-CMUserDataAndProfileConfigurationItem -ConfigureFolderRedirection $True -ConfigureOffineFile $True -ConfigureRoamingUserProfile $True -Name "CMUserDataProfileCI07" -FolderRedirectionUserConfigurationForDesktop RedirectToRemote -SpecifiedLocation "\\Server017\Shared" -UseSpecifiedLocation $True
+PS C:\> New-CMUserDataAndProfileConfigurationItem -ConfigureFolderRedirection $True -ConfigureOffineFile $True -ConfigureRoamingUserProfile $True -Name "CMUserDataProfileCI07" -FolderRedirectionUserConfigurationForDesktop RedirectToRemote -SpecifiedLocation "\\Server017\Shared" -UseSpecifiedLocation $True
 ```
 
 This command creates a configuration item named CMUserDataProfileCI07.
@@ -67,7 +67,7 @@ The command includes a specified location and includes the *UseSpecifiedLocation
 
 ### Example 2: Specify settings for a configuration item
 ```
-PS C:\>New-CMUserDataAndProfileConfigurationItem -ConfigureFolderRedirection $True -ConfigureOffineFile $True -ConfigureRoamingUserProfile $True -Name "CMUserDataProfileCI27" -AccessPolicy $True -AddAdminGroupToRUPEnabled $True -AllowAllDevice $False -AllowCrossForestUserPolicy $True -BackgroundSynchronization NotConfigured -ConnectionTransferRate 300 -DeleteProfileOlderDays 300 -DeleteRoamingCacheEnabled $True -Description "Configuration item for off-site staff." -DetectSlowLinkDisabled $False -DeviceType OnlyOnPrimaryDevices -DisableMakeOffline $True -DisableWorkOffline $True -EnableOfflineFile $True -EnableSlowLink $True -ErrorDays 200 -ExcludeList "MiscFolder" -FileSynchronization Enabled -FolderRedirectionUserConfigurationForAppDataRoaming RedirectToLocal -FolderRedirectionUserConfigurationForContacts RedirectToRemote -FolderRedirectionUserConfigurationForDesktop RedirectToRemote -FolderRedirectionUserConfigurationForDocuments RedirectToRemote -FolderRedirectionUserConfigurationForDownloads RedirectToLocal -FolderRedirectionUserConfigurationForFavorites RedirectToLocal -FolderRedirectionUserConfigurationForLinks RedirectToRemote -FolderRedirectionUserConfigurationForMusic RedirectToLocal -FolderRedirectionUserConfigurationForPictures RedirectToRemote -FolderRedirectionUserConfigurationForSavedGames RedirectToRemote -FolderRedirectionUserConfigurationForSearches RedirectToLocal -FolderRedirectionUserConfigurationForStartMenu RedirectToLocal -FolderRedirectionUserConfigurationForVideos RedirectToRemote -ForceUnloadDisabled $True -GrantExclusiveRight $False -LeaveFolderNewLocation $True -LimitDisk 1024  -ManageAdvancedSetting $True -ManageSlowLink $True -MoveCachedFolder $True -MoveContent $False -OfflineFile "\\Server78\MiscShared" -OnlyAllowLocalProfiles $True -OwnerCheckDisabled $True -ProfileUploadDisabled $True -SlowLink 350 -SlowLinkUIEnabled $True -SpecifiedLocation "\\Server221\Part17" -SpecifyTimeInterval 120  -SynchronizationInterval 1200 -SynchronizationList "\\Server221\Part17" -SynchronizationPolicy $True -TempProfileLogonBlocked $True -TimeOut 130 -UseCommonAlert $True -UseSpecifiedLocation $True -WaitForNetworkInSeconds 300 -WarningDays 100
+PS C:\> New-CMUserDataAndProfileConfigurationItem -ConfigureFolderRedirection $True -ConfigureOffineFile $True -ConfigureRoamingUserProfile $True -Name "CMUserDataProfileCI27" -AccessPolicy $True -AddAdminGroupToRUPEnabled $True -AllowAllDevice $False -AllowCrossForestUserPolicy $True -BackgroundSynchronization NotConfigured -ConnectionTransferRate 300 -DeleteProfileOlderDays 300 -DeleteRoamingCacheEnabled $True -Description "Configuration item for off-site staff." -DetectSlowLinkDisabled $False -DeviceType OnlyOnPrimaryDevices -DisableMakeOffline $True -DisableWorkOffline $True -EnableOfflineFile $True -EnableSlowLink $True -ErrorDays 200 -ExcludeList "MiscFolder" -FileSynchronization Enabled -FolderRedirectionUserConfigurationForAppDataRoaming RedirectToLocal -FolderRedirectionUserConfigurationForContacts RedirectToRemote -FolderRedirectionUserConfigurationForDesktop RedirectToRemote -FolderRedirectionUserConfigurationForDocuments RedirectToRemote -FolderRedirectionUserConfigurationForDownloads RedirectToLocal -FolderRedirectionUserConfigurationForFavorites RedirectToLocal -FolderRedirectionUserConfigurationForLinks RedirectToRemote -FolderRedirectionUserConfigurationForMusic RedirectToLocal -FolderRedirectionUserConfigurationForPictures RedirectToRemote -FolderRedirectionUserConfigurationForSavedGames RedirectToRemote -FolderRedirectionUserConfigurationForSearches RedirectToLocal -FolderRedirectionUserConfigurationForStartMenu RedirectToLocal -FolderRedirectionUserConfigurationForVideos RedirectToRemote -ForceUnloadDisabled $True -GrantExclusiveRight $False -LeaveFolderNewLocation $True -LimitDisk 1024  -ManageAdvancedSetting $True -ManageSlowLink $True -MoveCachedFolder $True -MoveContent $False -OfflineFile "\\Server78\MiscShared" -OnlyAllowLocalProfiles $True -OwnerCheckDisabled $True -ProfileUploadDisabled $True -SlowLink 350 -SlowLinkUIEnabled $True -SpecifiedLocation "\\Server221\Part17" -SpecifyTimeInterval 120  -SynchronizationInterval 1200 -SynchronizationList "\\Server221\Part17" -SynchronizationPolicy $True -TempProfileLogonBlocked $True -TimeOut 130 -UseCommonAlert $True -UseSpecifiedLocation $True -WaitForNetworkInSeconds 300 -WarningDays 100
 ```
 
 This command creates a configuration item named CMUserDataProfileCI27.

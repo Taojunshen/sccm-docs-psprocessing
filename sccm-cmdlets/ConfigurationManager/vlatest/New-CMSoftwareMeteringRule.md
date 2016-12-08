@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833755
 schema: 2.0.0
 ms.assetid: 13FECF2C-1A82-4A61-B717-F91AE4C9F94D
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareMeteringRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareMeteringRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareMeteringRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,7 +50,7 @@ For more information about software metering in System Center Configuration Mana
 
 ### Example 1: Create a software metering rule
 ```
-PS C:\>New-CMSoftwareMeteringRule -Path "Notepad.exe" -SiteCode "CM1" -FileVersion "6.1.7600.16385" -OriginalFileName "NOTEPAD.EXE" -ProductName "Microsoft Windows Operating System" 
+PS C:\> New-CMSoftwareMeteringRule -Path "Notepad.exe" -SiteCode "CM1" -FileVersion "6.1.7600.16385" -OriginalFileName "NOTEPAD.EXE" -ProductName "Microsoft Windows Operating System" 
 ApplyToChildSites : True
 Comment           : 
 Enabled           : True

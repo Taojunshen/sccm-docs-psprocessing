@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834119
 schema: 2.0.0
 ms.assetid: BC02FCFC-70B2-4DAD-BF1E-F6D11EA68D4B
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusSummarizer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusSummarizer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMStatusSummarizer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -60,7 +60,7 @@ The Microsoft System Center Configuration Manager status summarizers apply to th
 
 ### Example 1: Modify a status summarizer
 ```
-PS C:\>Set-CMStatusSummarizer -ApplicationDeploymentSummarizer -SiteCode "ContosoSite"
+PS C:\> Set-CMStatusSummarizer -ApplicationDeploymentSummarizer -SiteCode "ContosoSite"
 ```
 
 This command configures the status summarizer for the Contoso site to return application deployment statistics.

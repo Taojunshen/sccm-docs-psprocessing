@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833627
 schema: 2.0.0
 ms.assetid: 0FC57289-D6EF-48C3-A352-F1A3CE60687C
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionExcludeMembershipRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionExcludeMembershipRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionExcludeMembershipRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -89,7 +89,7 @@ For more information about membership rules, see [Introduction to Collections in
 
 ### Example 1: Get the exclude membership rules from a device collection
 ```
-PS C:\>Get-CMDeviceCollectionExcludeMembershipRule -CollectionId "9990000D" -ExcludeCollectionId "SMSDM001"
+PS C:\> Get-CMDeviceCollectionExcludeMembershipRule -CollectionId "9990000D" -ExcludeCollectionId "SMSDM001"
 ```
 
 This command gets the rules that exclude the members of the collection that has the ID SMSDM001 from the device collection that has the ID 9990000D.

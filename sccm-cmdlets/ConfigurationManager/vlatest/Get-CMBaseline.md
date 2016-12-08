@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834130
 schema: 2.0.0
 ms.assetid: C01E6314-2F4A-4D25-B420-F73CA7F48CBD
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBaseline.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBaseline.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBaseline.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -58,14 +58,14 @@ The **Get-CMBaseline** cmdlet gets one or more configuration baselines.
 
 ### Example 1: Get configuration baselines by using a parent baseline name
 ```
-PS C:\>Get-CMBaseline -ParentBaselineName "ParentBaselineContoso01"
+PS C:\> Get-CMBaseline -ParentBaselineName "ParentBaselineContoso01"
 ```
 
 This command gets the child configuration baselines in the parent baseline configuration item named ParentBaselineContoso01.
 
 ### Example 2: Get configuration baselines by using a parent baseline ID
 ```
-PS C:\>Get-CMBaseline -ParentBaselineId "16777357"
+PS C:\> Get-CMBaseline -ParentBaselineId "16777357"
 ```
 
 This command gets the child configuration baselines in the parent baseline configuration item that has the identity 16777357.

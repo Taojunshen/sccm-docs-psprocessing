@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834155
 schema: 2.0.0
 ms.assetid: 43E4F726-D027-4828-B0AC-49FEBDF53DC0
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOutOfBandServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOutOfBandServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOutOfBandServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -45,14 +45,14 @@ After you remove an out of band service point, administrative users cannot provi
 
 ### Example 1: Remove an out of band service point
 ```
-PS C:\>Remove-CMOutOfBandServicePoint -SiteSystemServerName "cmcen-dist02.tsqa.contoso.com" -SiteCode "CM1"
+PS C:\> Remove-CMOutOfBandServicePoint -SiteSystemServerName "cmcen-dist02.tsqa.contoso.com" -SiteCode "CM1"
 ```
 
 This command removes the out of band service point from the Configuration Manager site that has the site code CM1 on the site system server named cmcen-dist02.tsqa.contoso.com.
 
 ### Example 2: Remove an out of band service point by using an object variable
 ```
-PS C:\>$Osp = Get-CMOutOfBandServicePoint -SiteSystemServerName "cmcen-dist02.tsqa.contoso.com" -SiteCode "CM1"
+PS C:\> $Osp = Get-CMOutOfBandServicePoint -SiteSystemServerName "cmcen-dist02.tsqa.contoso.com" -SiteCode "CM1"
 PS C:\> Remove-CMOutOfBandServicePoint -InputObject $Osp
 ```
 

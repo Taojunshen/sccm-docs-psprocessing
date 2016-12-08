@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833671
 schema: 2.0.0
 ms.assetid: 2DFC0BFA-2097-4838-949D-94AB419A2BD7
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaseline.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaseline.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaseline.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -57,14 +57,14 @@ The **Set-CMBaseline** cmdlet changes the settings of one or more configuration 
 
 ### Example 1: Add a membership to a security scope of a configuration baseline
 ```
-PS C:\>Set-CMBaseline -SecurityScopeAction AddMembership -SecurityScopeName "SecScope02" -Name "BLineContoso01"
+PS C:\> Set-CMBaseline -SecurityScopeAction AddMembership -SecurityScopeName "SecScope02" -Name "BLineContoso01"
 ```
 
 This command adds membership to the security scope named SecScope02 for the configuration baseline named BLineContoso01.
 
 ### Example 2: Remove membership from a security scope of a configuration baseline
 ```
-PS C:\>Set-CMBaseline -SecurityScopeAction RemoveMembership -SecurityScopeName "SecScope02" -Name "BLineContoso01"
+PS C:\> Set-CMBaseline -SecurityScopeAction RemoveMembership -SecurityScopeName "SecScope02" -Name "BLineContoso01"
 ```
 
 This command removes membership to the security scope named SecScope02 for the configuration baseline named BLineContoso01.

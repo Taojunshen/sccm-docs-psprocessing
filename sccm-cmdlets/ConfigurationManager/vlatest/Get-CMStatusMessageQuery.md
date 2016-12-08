@@ -3,10 +3,10 @@ external help file: AdminUI.PS.SystemStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833940
 schema: 2.0.0
 ms.assetid: B7974D6F-DB94-41EC-87CA-8DB50C2F18D8
-updated_at: 12/7/2016 9:59 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStatusMessageQuery.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStatusMessageQuery.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStatusMessageQuery.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -46,14 +46,14 @@ You can use this cmdlet to get queries to use with the [Set-CMStatusMessageQuery
 
 ### Example 1: Get a query that has a specified name
 ```
-PS C:\>Get-CMStatusMessageQuery -Name "Clients That Received a Specific Deployed Program"
+PS C:\> Get-CMStatusMessageQuery -Name "Clients That Received a Specific Deployed Program"
 ```
 
 This command gets a query that has a specified name.
 
 ### Example 2: Show messages for a query
 ```
-PS C:\>Get-CMStatusMessageQuery -Id "SMS551" -ShowMessages
+PS C:\> Get-CMStatusMessageQuery -Id "SMS551" -ShowMessages
 ```
 
 This command shows messages found by a query that has an ID of SMS551.

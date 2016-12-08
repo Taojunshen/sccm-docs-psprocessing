@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834258
 schema: 2.0.0
 ms.assetid: 858C2F49-80B8-4B63-B45D-B3B3324A9371
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAssetIntelligenceCatalogItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAssetIntelligenceCatalogItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAssetIntelligenceCatalogItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -41,21 +41,21 @@ You can also create custom software labels.
 
 ### Example 1: Create category label item in the catalog
 ```
-PS C:\>New-CMAssetIntelligenceCatalogItem -CategoryName "Databases" -LanguageId 1033 -Type TypeTag
+PS C:\> New-CMAssetIntelligenceCatalogItem -CategoryName "Databases" -LanguageId 1033 -Type TypeTag
 ```
 
 This command creates a category label in the Asset Intelligence catalog named Databases that has a language ID of 1033 and a type of TypeTag.
 
 ### Example 2: Create a category item in the catalog
 ```
-PS C:\>New-CMAssetIntelligenceCatalogItem -CategoryName "Database Tools" -Type TypeCategory
+PS C:\> New-CMAssetIntelligenceCatalogItem -CategoryName "Database Tools" -Type TypeCategory
 ```
 
 This command creates a category in the Asset Intelligence catalog named Database Tools that has a type of TypeCategory.
 
 ### Example 3: Create a category family in the catalog
 ```
-PS C:\>New-CMAssetIntelligenceCatalogItem -CategoryName "Database Software" -Type TypeFamily
+PS C:\> New-CMAssetIntelligenceCatalogItem -CategoryName "Database Software" -Type TypeFamily
 ```
 
 This command creates a category family item in the Asset Intelligence catalog family named Database Software that has a type of TypeFamily.

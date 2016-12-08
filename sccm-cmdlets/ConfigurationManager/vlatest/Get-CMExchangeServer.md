@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833698
 schema: 2.0.0
 ms.assetid: A5D0AF1A-BDAF-419D-9020-A1D34AB3A5FC
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMExchangeServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMExchangeServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMExchangeServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,21 +37,21 @@ Configuration Manager works with Exchange Server to manage mobile devices that c
 
 ### Example 1: Get all Exchange Server systems
 ```
-PS C:\>Get-CMExchangeServer
+PS C:\> Get-CMExchangeServer
 ```
 
 This command gets all the Exchange Server items for a Configuration Manager server.
 
 ### Example 2: Get an Exchange Server for a site
 ```
-PS C:\>Get-CMExchangeServer -SiteCode "PE1"
+PS C:\> Get-CMExchangeServer -SiteCode "PE1"
 ```
 
 This command gets an Exchange Server for the site identified by the site code PE1.
 
 ### Example 3: Get a specified nextref_exchange
 ```
-PS C:\>Get-CMExchangeServer -Address "http://localhost/PowerShell"
+PS C:\> Get-CMExchangeServer -Address "http://localhost/PowerShell"
 ```
 
 This command gets the Exchange Server with the specified address.

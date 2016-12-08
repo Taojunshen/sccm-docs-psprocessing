@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834147
 schema: 2.0.0
 ms.assetid: DC6BA132-9F40-4A6B-87D7-D800729DD11A
-updated_at: 12/7/2016 11:00 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOperatingSystemImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOperatingSystemImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOperatingSystemImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -51,7 +51,7 @@ After you remove an operating system image, you cannot distribute the operating 
 
 ### Example 1: Remove an operating system image
 ```
-PS C:\>Remove-CMOperatingSystemImage -Name "STANDARD_WIN7"
+PS C:\> Remove-CMOperatingSystemImage -Name "STANDARD_WIN7"
 ```
 
 This command removes the operating system image named STANDARD_WIN7.

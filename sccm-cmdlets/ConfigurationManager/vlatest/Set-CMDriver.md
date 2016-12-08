@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833822
 schema: 2.0.0
 ms.assetid: 9D6404C9-30BE-49C9-9F64-2B73C49F26D9
-updated_at: 12/7/2016 11:04 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriver.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e11ec5b4e987399b238313f2c0a5b9dbe113f1f9/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriver.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriver.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -66,7 +66,7 @@ The **Set-CMDriver** cmdlet changes settings of a device driver in the driver ca
 
 ### Example 1: Modify a driver
 ```
-PS C:\>$Driver = Get-CMDriver -Name "cdrom.sys"
+PS C:\> $Driver = Get-CMDriver -Name "cdrom.sys"
 PS C:\> Set-CMDriver -InputObject $Driver -NewName "testDriver" -Description "Test configuration" -EnableAndAllowInstall $True -RunOnAnyPlatform $True
 ```
 
@@ -78,7 +78,7 @@ The command specifies values for the *EnableAndAllowInstall* and *RunOnAnyPlatfo
 
 ### Example 2: Modify a driver by using the pipeline
 ```
-PS C:\>Get-CMDriver -Name "cdrom.sys" | Set-CMDriver -NewName testDriver -Description description -EnableAndAllowInstall $True -RunOnAnyPlatform $True
+PS C:\> Get-CMDriver -Name "cdrom.sys" | Set-CMDriver -NewName testDriver -Description description -EnableAndAllowInstall $True -RunOnAnyPlatform $True
 ```
 
 This command gets a driver named cdrom.sys, and then passes it to the current cmdlet by using the pipeline operator.

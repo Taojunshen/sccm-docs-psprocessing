@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833871
 schema: 2.0.0
 ms.assetid: EBE1B874-1B5D-458D-9BBF-FDC66BA81FBA
-updated_at: 12/7/2016 10:43 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHardwareRequirement.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHardwareRequirement.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHardwareRequirement.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,14 +50,14 @@ You can specify a product by name or obtain a product by using the **Get-CMHardw
 
 ### Example 1: Change minimum RAM value
 ```
-PS C:\>Set-CMHardwareRequirement -Product "Accounts Program" -MinRam 161072
+PS C:\> Set-CMHardwareRequirement -Product "Accounts Program" -MinRam 161072
 ```
 
 This command sets the minimum RAM value for a specified product.
 
 ### Example 2: Change minimum disk size value for a hardware requirements object
 ```
-PS C:\>$CMHR = Get-CMHardwareRequirement -Product "Accounts Program"
+PS C:\> $CMHR = Get-CMHardwareRequirement -Product "Accounts Program"
 PS C:\> Set-CMHardwareRequirement -InputObject $CMHR -MinDiskSize 1600000
 ```
 

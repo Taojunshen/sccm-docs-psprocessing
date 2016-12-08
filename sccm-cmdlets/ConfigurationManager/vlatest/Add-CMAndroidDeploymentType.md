@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833579
 schema: 2.0.0
 ms.assetid: 654933B9-A75A-449B-8653-966A60DEFAA1
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAndroidDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAndroidDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAndroidDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -61,7 +61,7 @@ This command adds an Android deployment type to the application named testApp.
 
 ### Example 2: Add an Android deployment type by using the pipeline
 ```
-PS C:\>Get-CMApplication -Name "testApp" | Add-CMAndroidDeploymentType -ContentLocation "\\Server1\Applications\Apk\Expenses\expenses.apk" -DeploymentTypeName "AndroidDeploymentType"
+PS C:\> Get-CMApplication -Name "testApp" | Add-CMAndroidDeploymentType -ContentLocation "\\Server1\Applications\Apk\Expenses\expenses.apk" -DeploymentTypeName "AndroidDeploymentType"
 ```
 
 This command gets the application object named testApp and uses the pipeline operator to pass the object to **Add-CMAndroidDeploymentType**, which adds an Android deployment type to the application.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833979
 schema: 2.0.0
 ms.assetid: 6814743B-10B2-4A47-9BCD-7E52B54CC444
-updated_at: 12/8/2016 4:01 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackageDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackageDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackageDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -102,7 +102,7 @@ You can specify the package by name or ID, or you can use the [Get-CMPackage](./
 
 ### Example 1: Set recurrence properties
 ```
-PS C:\>Set-CMPackageDeployment -CollectionName "All Systems" -DeviceProgramName "DPM" -PackageName "User State Migration Tool for Windows 8" -RecurUnit Hours -RecurValue 7 -UseRecurrencePattern $True
+PS C:\> Set-CMPackageDeployment -CollectionName "All Systems" -DeviceProgramName "DPM" -PackageName "User State Migration Tool for Windows 8" -RecurUnit Hours -RecurValue 7 -UseRecurrencePattern $True
 ```
 
 This command makes changes to the deployment specified by the collection named All Systems, the device program named DPM, and the package named User State Migration Tool for Windows 8.
@@ -112,7 +112,7 @@ Therefore, the deployment recurs every seven hours.
 
 ### Example 2: Set availability day and time
 ```
-PS C:\>Set-CMPackageDeployment -CollectionName "All Systems" -PackageName "User State Migration Tool for Windows 8" -StandardProgramName "SPM" -DeploymentAvailableDay 2012/10/18 -DeploymentAvailableTime 15:41 -UseUtcForAvailableSchedule $False
+PS C:\> Set-CMPackageDeployment -CollectionName "All Systems" -PackageName "User State Migration Tool for Windows 8" -StandardProgramName "SPM" -DeploymentAvailableDay 2012/10/18 -DeploymentAvailableTime 15:41 -UseUtcForAvailableSchedule $False
 ```
 
 This command makes changes to the deployment specified by the collection named All Systems, the package named User State Migration Tool for Windows 8, and the standard program named SPM.

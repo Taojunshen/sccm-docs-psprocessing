@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833725
 schema: 2.0.0
 ms.assetid: 5BC25D39-D4A1-4878-94AA-B82919AB7854
-updated_at: 12/7/2016 11:21 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPrestagedMedia.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4bb0549ab9452d0d1c9cdf57cfbc8185eefd798c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPrestagedMedia.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPrestagedMedia.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -41,7 +41,7 @@ The **New-CMPrestagedMedia** cmdlet creates a file to prestage on a new hard dri
 
 ### Example 1: Create prestaged media
 ```
-PS C:\>$ManagementPoint = Get-CMManagementPoint -SiteSystemServerName "dist01.contoso.com" -SiteCode "CM1"
+PS C:\> $ManagementPoint = Get-CMManagementPoint -SiteSystemServerName "dist01.contoso.com" -SiteCode "CM1"
 PS C:\> $BootImage = Get-CMBootImage -Name "BootImage01"
 PS C:\> $DistributionPoint = Get-CMDistributionPoint -SiteSystemServerName "dist01.contoso.com" -SiteCode "CM1"
 PS C:\> $OSImage = Get-CMOperatingSystemImage -Name "OSImagePkg01"

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833775
 schema: 2.0.0
 ms.assetid: 5291A714-9843-41D3-9C74-2BAC7CED0E75
-updated_at: 12/8/2016 3:33 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDatabaseProperty.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDatabaseProperty.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDatabaseProperty.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -40,7 +40,7 @@ You can use the [Get-CMDatabaseProperty](./Get-CMDatabaseProperty.md) cmdlet to 
 
 ### Example 1: Change settings for a database
 ```
-PS C:\>Set-CMDatabaseProperty -SiteCode "CM2" -DataRetentionPeriodDays 10 -EnableDataCompression $False -SqlServerServiceBrokerPort 80
+PS C:\> Set-CMDatabaseProperty -SiteCode "CM2" -DataRetentionPeriodDays 10 -EnableDataCompression $False -SqlServerServiceBrokerPort 80
 ```
 
 This command makes changes to the database for the site that has the site code CM2.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833826
 schema: 2.0.0
 ms.assetid: 634952FD-0028-44EB-A3E8-D6907CDA26DD
-updated_at: 12/7/2016 11:03 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverBootImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverBootImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverBootImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -95,14 +95,14 @@ You should add only mass storage device drivers and network adapter device drive
 
 ### Example 1: Add a driver to a boot image
 ```
-PS C:\>Set-CMDriverBootImage -SetDriveBootImageAction AddDriverToBootImage -DriverName "Adaptec Embedded SCSI HostRAID Controller" -BootImageName "Boot image (x64)"
+PS C:\> Set-CMDriverBootImage -SetDriveBootImageAction AddDriverToBootImage -DriverName "Adaptec Embedded SCSI HostRAID Controller" -BootImageName "Boot image (x64)"
 ```
 
 This command adds the driver named Adaptec Embedded SCSI HostRAID Controller to the boot image named Boot image (x64).
 
 ### Example 2: Remove a driver from a boot image
 ```
-PS C:\>Set-CMDriverBootImage -SetDriveBootImageAction RemoveDriverFromBootImage -DriverName "Adaptec SCSI HostRAID Management Processor Device" -BootImageName "Boot image (x64)"
+PS C:\> Set-CMDriverBootImage -SetDriveBootImageAction RemoveDriverFromBootImage -DriverName "Adaptec SCSI HostRAID Management Processor Device" -BootImageName "Boot image (x64)"
 ```
 
 This command removes the driver named Adaptec SCSI HostRAID Management Processor Device from the boot image named Boot image (x64).

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833652
 schema: 2.0.0
 ms.assetid: 590C1763-C913-4295-89D3-453ED1E32837
-updated_at: 12/7/2016 6:57 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/276d57dd1123c39482a5ab8556d7039498b71785/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -60,14 +60,14 @@ The **Get-CMDistributionPoint** cmdlet gets a distribution point.
 
 ### Example 1: Get a distribution point
 ```
-PS C:\>Get-CMDistributionPoint -SiteSystemServerName "MySiteSys_11310.contoso.com"
+PS C:\> Get-CMDistributionPoint -SiteSystemServerName "MySiteSys_11310.contoso.com"
 ```
 
 This command gets the distribution point for the site system server named MySiteSys_11310.contoso.com.
 
 ### Example 2: Get a distribution point by using the pipeline
 ```
-PS C:\>Get-CMDistributionPointGroup -Name "DPGroup" | Get-CMDistributionPoint
+PS C:\> Get-CMDistributionPointGroup -Name "DPGroup" | Get-CMDistributionPoint
 ```
 
 This command gets the distribution point group object named DPGroup and uses the pipeline operator to pass the object to **Get-CMDistributionPoint**, which gets all of the distribution points for the distribution point group object.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834126
 schema: 2.0.0
 ms.assetid: 64883A65-5691-40B6-B8DE-C2DE4EDEEB23
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMMaintenanceWindow.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMMaintenanceWindow.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMMaintenanceWindow.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,7 +49,7 @@ If you remove a maintenance window during that window, the maintenance updates f
 
 ### Example 1: Remove a maintenance window
 ```
-PS C:\>Remove-CMMaintenanceWindow -Name "Distribution Point Maintenance" -CollectionId "AAA0004D"
+PS C:\> Remove-CMMaintenanceWindow -Name "Distribution Point Maintenance" -CollectionId "AAA0004D"
 ```
 
 This command removes the maintenance window Distribution Point Maintenance.

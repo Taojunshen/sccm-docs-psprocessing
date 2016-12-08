@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833636
 schema: 2.0.0
 ms.assetid: B77A46FA-BA17-4E39-AC41-267AB0D3A353
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMApplicationDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMApplicationDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMApplicationDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -77,7 +77,7 @@ You can specify an application by name or ID, or you can use the [Get-CMApplicat
 
 ### Example 1: Modify availability and deadline for an application deployment
 ```
-PS C:\>Set-CMApplicationDeployment -ApplicationName "Track System 2011" -CollectionName "All Users" -AvaliableDate 2012/10/21 -AvaliableTime 17:25 -DeadlineDate 2013/01/01 -DeadlineTime 13:10
+PS C:\> Set-CMApplicationDeployment -ApplicationName "Track System 2011" -CollectionName "All Users" -AvaliableDate 2012/10/21 -AvaliableTime 17:25 -DeadlineDate 2013/01/01 -DeadlineTime 13:10
 ```
 
 This command modifies an application deployment for an application named Track System 2011 for a collection named All Users.

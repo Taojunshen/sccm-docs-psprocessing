@@ -3,10 +3,10 @@ external help file: AdminUI.PS.SystemStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834241
 schema: 2.0.0
 ms.assetid: DCBDB391-1D9C-4BEB-B118-DE09D44A812C
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMStatusMessageQuery.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMStatusMessageQuery.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMStatusMessageQuery.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,7 +49,7 @@ Status message queries return status messages from the System Center Configurati
 
 ### Example 1: Remove a named query
 ```
-PS C:\>Remove-CMStatusMessageQuery -Name "All Audit Status Messages from a Specific Site"
+PS C:\> Remove-CMStatusMessageQuery -Name "All Audit Status Messages from a Specific Site"
 Remove
 Are you sure you wish to remove StatusMessageQuery: Name="All Audit Status Messages from a Specific Site"?
 [Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"):
@@ -60,7 +60,7 @@ The command does not include the *Force* parameter, so the cmdlet prompts you be
 
 ### Example 2: Remove a query that has a specified ID
 ```
-PS C:\>Remove-CMStatusMessageQuery -Id "CM100008" -Force
+PS C:\> Remove-CMStatusMessageQuery -Id "CM100008" -Force
 ```
 
 This command removes the query that has an ID of CM100008.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833674
 schema: 2.0.0
 ms.assetid: E9EBE502-8433-4600-8D69-2240C7699282
-updated_at: 12/8/2016 4:01 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,7 +62,7 @@ You can use the **Start-CMBaselineDeployment** cmdlet to begin a deployment.
 
 ### Example 1: Change whether a deployment generates alerts
 ```
-PS C:\>Set-CMBaselineDeployment -BaselineName "Baseline 2012" -CollectionName "All Computers" -GenerateAlert $False
+PS C:\> Set-CMBaselineDeployment -BaselineName "Baseline 2012" -CollectionName "All Computers" -GenerateAlert $False
 ```
 
 This command changes a deployment for the baseline named Baseline 2012 for a collection named All Computers.
@@ -70,7 +70,7 @@ This command sets the *GenerateAlert* parameter to $False.
 
 ### Example 2: Change deployment settings
 ```
-PS C:\>Set-CMBaselineDeployment -BaselineName "Baseline A3" -CollectionName "TSQA Computers" -GenerateAlert $True -MonitoredByScom $True -ParameterValue 60 -PostponeDate 2013/02/12 -PostponeTime 12:34
+PS C:\> Set-CMBaselineDeployment -BaselineName "Baseline A3" -CollectionName "TSQA Computers" -GenerateAlert $True -MonitoredByScom $True -ParameterValue 60 -PostponeDate 2013/02/12 -PostponeTime 12:34
 ```
 
 This command changes a deployment for the baseline named Baseline A3 for a collection named TSQA Computers.

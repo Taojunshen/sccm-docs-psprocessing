@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834244
 schema: 2.0.0
 ms.assetid: 5698669F-6E97-49CB-9F0E-561CED6FE3E0
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSystemHealthValidatorPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSystemHealthValidatorPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSystemHealthValidatorPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -46,7 +46,7 @@ Before you remove a system health validator point, make sure that there is anoth
 
 ### Example 1: Remove a validator point
 ```
-PS C:\>Remove-CMSystemHealthValidatorPoint -SiteCode "CM1" -SiteSystemServerName "Test01.TSQA.Contoso.com"
+PS C:\> Remove-CMSystemHealthValidatorPoint -SiteCode "CM1" -SiteSystemServerName "Test01.TSQA.Contoso.com"
 ```
 
 This command removes a system health validator point.
@@ -54,7 +54,7 @@ The command specifies the site code and the name of the server that hosts that s
 
 ### Example 2: Remove a validator point by using a variable
 ```
-PS C:\>$CMSHVP = Get-CMSystemHealthValidatorPoint -SiteCode "CM1" -SiteSystemServerName "Test01.TSQA.Contoso.com" 
+PS C:\> $CMSHVP = Get-CMSystemHealthValidatorPoint -SiteCode "CM1" -SiteSystemServerName "Test01.TSQA.Contoso.com" 
 PS C:\> Remove-CMSystemHealthValidatorPoint -InputObject $CMSHVP
 ```
 

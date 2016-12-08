@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833911
 schema: 2.0.0
 ms.assetid: EF0E00B2-B4C1-4DDB-A6D2-FC52E0A642F8
-updated_at: 12/7/2016 10:43 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMacDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMacDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMacDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,7 +62,7 @@ The **Set-CMMacDeploymentType** cmdlet changes the settings for a Mac deployment
 
 ### Example 1: Rename a deployment type and add a description
 ```
-PS C:\>Set-CMMacDeploymentType -ApplicationName "testMac" -DeploymentTypeName "DTMac_updated" -NewName "DTMac" -ContentLocation "\\Server01\Resources\Applications\Mac\Bean.app\Bean.app.cmmac" -PassThru -Comment "test-set-CMMacDeploymentType"
+PS C:\> Set-CMMacDeploymentType -ApplicationName "testMac" -DeploymentTypeName "DTMac_updated" -NewName "DTMac" -ContentLocation "\\Server01\Resources\Applications\Mac\Bean.app\Bean.app.cmmac" -PassThru -Comment "test-set-CMMacDeploymentType"
 ```
 
 This command changes the name of the deployment type named DTMac_Updated for the application named testMac to DTMac, and adds a description.
@@ -70,7 +70,7 @@ The *PassThru* parameter indicates that an object will be returned from this com
 
 ### Example 2: Rename a deployment type and add a description by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "testMac" -DeploymentTypeName "DTMac" | Set-CMMacDeploymentType -NewName "DTMac_updated" -ContentLocation "\\Server01\Resources\Applications\Mac\Skype.app\Skype.app.cmmac" -PassThru -Comment "test-set-CMMacDeploymentType"
+PS C:\> Get-CMDeploymentType -ApplicationName "testMac" -DeploymentTypeName "DTMac" | Set-CMMacDeploymentType -NewName "DTMac_updated" -ContentLocation "\\Server01\Resources\Applications\Mac\Skype.app\Skype.app.cmmac" -PassThru -Comment "test-set-CMMacDeploymentType"
 ```
 
 This command gets the deployment type object named DTMac for the application named testMac and uses the pipeline operator to pass the object to **Set-CMMacDeploymentType**.

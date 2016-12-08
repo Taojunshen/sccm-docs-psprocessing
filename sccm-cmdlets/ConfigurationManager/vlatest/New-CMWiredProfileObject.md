@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833840
 schema: 2.0.0
 ms.assetid: 5887137C-3DB1-4DBC-BD1D-9A751813E992
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMWiredProfileObject.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMWiredProfileObject.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMWiredProfileObject.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -39,7 +39,7 @@ System Center Configuration Manager cannot validate that these settings with you
 
 ### Example 1: Create a profile for AMT-based computers on a wired network
 ```
-PS C:\>New-CMWiredProfileObject -ClientAuthenticationMethod EapTtlsMschapv2 -ClientCertificateTemplate "Contoso Wired User" -ClientCertificationAuthorityName "Contoso CA 1" -ClientIssuingCertificationAuthority "ContosoCA.Contoso.com" -TrustedRootCertificate "Contoso Root"
+PS C:\> New-CMWiredProfileObject -ClientAuthenticationMethod EapTtlsMschapv2 -ClientCertificateTemplate "Contoso Wired User" -ClientCertificationAuthorityName "Contoso CA 1" -ClientIssuingCertificationAuthority "ContosoCA.Contoso.com" -TrustedRootCertificate "Contoso Root"
 ```
 
 This command creates a profile for Intel Active Management Technology (AMT)-based computers on a wired network.

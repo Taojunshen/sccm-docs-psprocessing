@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833808
 schema: 2.0.0
 ms.assetid: F1FE1043-7043-4C8A-A5C6-E09BC8F80D49
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,7 +65,7 @@ The command includes a comment.
 
 ### Example 3: Approve a request by using a variable
 ```
-PS C:\>$Approval = Get-CMApprovalRequest -Id "ScopeId_2A11048C-917A-4C11-9E77-7DCC402F30EC/Application_d047e945-d6af-46f4-910f-ed36c880ae06/1"
+PS C:\> $Approval = Get-CMApprovalRequest -Id "ScopeId_2A11048C-917A-4C11-9E77-7DCC402F30EC/Application_d047e945-d6af-46f4-910f-ed36c880ae06/1"
 PS C:\> Approve-CMApprovalRequest -InputObject $Approval -Comment "Request approved."
 ```
 

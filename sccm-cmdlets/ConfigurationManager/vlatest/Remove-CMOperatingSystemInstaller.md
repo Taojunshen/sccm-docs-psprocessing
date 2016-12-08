@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834151
 schema: 2.0.0
 ms.assetid: 3AA12DC1-E0BD-40C1-B5D3-3CB1C394045B
-updated_at: 12/7/2016 11:00 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOperatingSystemInstaller.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOperatingSystemInstaller.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOperatingSystemInstaller.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -51,7 +51,7 @@ After you remove an operating system installer, you cannot distribute the instal
 
 ### Example 1: Remove an operating system installer
 ```
-PS C:\>Remove-CMOperatingSystemInstaller -Name "INSTALL01"
+PS C:\> Remove-CMOperatingSystemInstaller -Name "INSTALL01"
 ```
 
 This command removes the operating system installer named INSTALL01.

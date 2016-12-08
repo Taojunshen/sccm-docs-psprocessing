@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834211
 schema: 2.0.0
 ms.assetid: BAAFB5BA-EC7B-48DE-B029-4AA132BD9AEE
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAccessAccount.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAccessAccount.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAccessAccount.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -138,7 +138,7 @@ For example, members in the Software Update Point Connection access account can 
 
 ### Example 1: Modify access to an application by using the application ID
 ```
-PS C:\>$ID = Get-CMAccessAccount -ApplicationID "12994680"
+PS C:\> $ID = Get-CMAccessAccount -ApplicationID "12994680"
 PS C:\> New-CMAccessAccount -ApplicationID $ID -Type WindowsUser Username "CONTOSO\EDaugherty" -Access "FullControl"
 ```
 

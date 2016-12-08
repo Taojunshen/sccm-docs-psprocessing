@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833907
 schema: 2.0.0
 ms.assetid: E10123F3-F925-4D6C-90C2-045CDB620B91
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIosDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIosDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIosDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,7 +62,7 @@ The **Set-CMIosDeploymentType** cmdlet changes the settings for an iOS deploymen
 
 ### Example 1: Rename a deployment type
 ```
-PS C:\>Set-CMIOSDeploymentType -ApplicationName "testIOS" -DeploymentTypeName "DTIOS01" -NewName "TIOS01_updated" -ContentLocation "\\server01\Resources\Applications\Ipa\iOSTestApp\iOSTestApp.ipa" -PassThru -Comment "test-set-CMMacDeploymentType"
+PS C:\> Set-CMIOSDeploymentType -ApplicationName "testIOS" -DeploymentTypeName "DTIOS01" -NewName "TIOS01_updated" -ContentLocation "\\server01\Resources\Applications\Ipa\iOSTestApp\iOSTestApp.ipa" -PassThru -Comment "test-set-CMMacDeploymentType"
 ```
 
 This command changes the name of the deployment type named DTIOS01 for the application named testIOS to TIOS01_updated, and adds a description.
@@ -70,7 +70,7 @@ The *PassThru* parameter indicates that an object is returned from this command.
 
 ### Example 2: Change the display name of a deployment type by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "testIOS" -DeploymentTypeName "DTIOS" | Set-CMIOSDeploymentType -NewName "DTIOS_updated" -ContentLocation "\\server01\Resources\Applications\Ipa\iOSTestAppV2\iOSTestAppV2.ipa" -PassThru -Comment "test-set-CMIOSDeploymentType"
+PS C:\> Get-CMDeploymentType -ApplicationName "testIOS" -DeploymentTypeName "DTIOS" | Set-CMIOSDeploymentType -NewName "DTIOS_updated" -ContentLocation "\\server01\Resources\Applications\Ipa\iOSTestAppV2\iOSTestAppV2.ipa" -PassThru -Comment "test-set-CMIOSDeploymentType"
 ```
 
 This command gets the deployment type object named testIOS for the application named testIOS and uses the pipeline operator to pass the object to **Set-CMIosDeploymentType**.

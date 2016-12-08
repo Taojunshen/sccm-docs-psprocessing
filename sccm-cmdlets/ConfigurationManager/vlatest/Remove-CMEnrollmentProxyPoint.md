@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834098
 schema: 2.0.0
 ms.assetid: 101E23A6-5318-4AA7-81EF-59AA9CE44B67
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMEnrollmentProxyPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMEnrollmentProxyPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMEnrollmentProxyPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ After you remove an enrollment proxy point, mobile devices must use a different 
 
 ### Example 1: Remove an enrollment proxy point
 ```
-PS C:\>Remove-CMEnrollmentProxyPoint -SiteCode "CM1" -SiteSystemServerName "SiteServer01.Contoso.com"
+PS C:\> Remove-CMEnrollmentProxyPoint -SiteCode "CM1" -SiteSystemServerName "SiteServer01.Contoso.com"
 ```
 
 This command removes an enrollment proxy point.

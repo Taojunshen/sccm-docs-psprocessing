@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833750
 schema: 2.0.0
 ms.assetid: EE34D675-431A-4CE6-A3C0-3114CF29C023
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMdmEnrollmentManager.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMdmEnrollmentManager.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMdmEnrollmentManager.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,7 +49,7 @@ This command gets the device enrollment manager named User01.
 
 ### Example 2: Get a device enrollment manager by ID
 ```
-PS C:\>Get-CMMdmEnrollmentManager -ID "1234567890"
+PS C:\> Get-CMMdmEnrollmentManager -ID "1234567890"
 ```
 
 This command gets the device enrollment manager named 1234567890.

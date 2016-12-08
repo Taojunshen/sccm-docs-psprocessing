@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Migration.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833766
 schema: 2.0.0
 ms.assetid: E9057BB2-EFBE-45F9-AF07-71933FF4BB4E
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationEntityDependency.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationEntityDependency.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationEntityDependency.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,14 +43,14 @@ A migration entity dependency is an object upon which another object to be migra
 
 ### Example 1: Get information about all migration entity dependencies
 ```
-PS C:\>Get-CMMigrationEntityDependency
+PS C:\> Get-CMMigrationEntityDependency
 ```
 
 This command returns information about all your migration entity dependencies.
 
 ### Example 2: Get information about a specific migration entity dependency
 ```
-PS C:\>Get-CMMigrationEntityDependency -Id "121989"
+PS C:\> Get-CMMigrationEntityDependency -Id "121989"
 ```
 
 This command returns information about the migration entity dependency that has the ID 121989.

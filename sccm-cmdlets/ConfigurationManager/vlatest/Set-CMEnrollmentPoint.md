@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833849
 schema: 2.0.0
 ms.assetid: A52F6FB6-F290-40F9-AE6C-2026EF88AF06
-updated_at: 12/7/2016 11:03 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEnrollmentPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEnrollmentPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEnrollmentPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,21 +44,21 @@ An enrollment point is a site system role that uses public key infrastructure (P
 
 ### Example 1: Set an enrollment point
 ```
-PS C:\>Set-CMEnrollmentPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" -UserName "Contoso\ElisaDaugherty"
+PS C:\> Set-CMEnrollmentPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" -UserName "Contoso\ElisaDaugherty"
 ```
 
 The command sets an enrollment point, and specifies an account name to use to connect to the Configuration Manager database.
 
 ### Example 2: Set an enrollment point with the computer account
 ```
-PS C:\>Set-CMEnrollmentPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" -UseComputerAccount
+PS C:\> Set-CMEnrollmentPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" -UseComputerAccount
 ```
 
 The command sets an enrollment point by specifying the site system server and site code, and uses the computer account to connect to the Configuration Manager database.
 
 ### Example 3: Set an enrollment point by using an input object
 ```
-PS C:\>$Ep = Get-CMEnrollmentPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" 
+PS C:\> $Ep = Get-CMEnrollmentPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" 
 PS C:\> Set-CMEnrollmentPoint -InputObject $Ep -UserName "Contoso\ElisaDaugherty"
 ```
 

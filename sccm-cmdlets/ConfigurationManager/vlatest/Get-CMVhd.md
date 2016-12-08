@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834008
 schema: 2.0.0
 ms.assetid: 19F2832A-607E-4626-B0BC-A8970D87E46C
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMVhd.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMVhd.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMVhd.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -40,7 +40,7 @@ The **Get-CMVhd** cmdlet gets one or more virtual hard disk (VHD) images that we
 
 ### Example 1: Get a VHD image by using its name
 ```
-PS C:\>Get-CMVhd -Name "VHDAccounting08"
+PS C:\> Get-CMVhd -Name "VHDAccounting08"
 ```
 
 This command gets the virtual hard disk (VHD) image named VHDAccounting08.

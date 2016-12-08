@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833655
 schema: 2.0.0
 ms.assetid: 1617E8AD-4023-423D-9A90-1616CD32E75E
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAssetIntelligenceClass.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAssetIntelligenceClass.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAssetIntelligenceClass.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -47,14 +47,14 @@ After you modify the categorization information for predefined software, the val
 
 ### Example 1: Change the Asset Intelligence hardware inventory reporting classes
 ```
-PS C:\>Set-CMAssetIntelligenceClass -EnableReportingClassName SMS_InstalledExecutable -DisableReportingClassName MS_InstalledSoftware
+PS C:\> Set-CMAssetIntelligenceClass -EnableReportingClassName SMS_InstalledExecutable -DisableReportingClassName MS_InstalledSoftware
 ```
 
 This command enables the reporting class named SMS_InstalledExecutable and disables the reporting class named MS_InstalledSoftware.
 
 ### Example 2: Enable all Asset Intelligence hardware inventory reporting classes
 ```
-PS C:\>Set-CMAssetIntelligenceClass -EnableAllReportingClass
+PS C:\> Set-CMAssetIntelligenceClass -EnableAllReportingClass
 ```
 
 This command enables all the Asset Intelligence hardware inventory reporting classes.

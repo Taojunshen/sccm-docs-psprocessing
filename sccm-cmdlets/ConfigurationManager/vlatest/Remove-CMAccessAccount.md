@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833861
 schema: 2.0.0
 ms.assetid: D9439146-832E-49E5-A105-B06F9B5B1296
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAccessAccount.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAccessAccount.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAccessAccount.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -128,7 +128,7 @@ For example, members in the Software Update Point Connection Access Account can 
 
 ### Example 1: Remove a user from an access account for an application by using its name
 ```
-PS C:\>Remove-CMAccessAccount -ApplicationName "SharePoint 2010" -Type WindowsUser -UserName "CONTOSO\ENarvaez" -Confirm
+PS C:\> Remove-CMAccessAccount -ApplicationName "SharePoint 2010" -Type WindowsUser -UserName "CONTOSO\ENarvaez" -Confirm
 ```
 
 This command removes a Windows user from the access account for an application that is specified by using its name.
@@ -136,7 +136,7 @@ You must confirm the action before the command performs it.
 
 ### Example 2: Remove a group from an access account for a package by using its ID
 ```
-PS C:\>$ID = Get-CMAccessAccount -PackageId "CM1100002" 
+PS C:\> $ID = Get-CMAccessAccount -PackageId "CM1100002" 
 PS C:\> Remove-CMAccessAccount -PackageId $ID -Type WindowsGroup -UserName "CONTOSO\Guest"
 ```
 

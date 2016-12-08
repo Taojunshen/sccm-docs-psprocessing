@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833601
 schema: 2.0.0
 ms.assetid: BB88D28C-3AA8-4F03-B0CF-07DE6769B4A9
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccessAccount.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccessAccount.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccessAccount.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -139,7 +139,7 @@ For example, members in the Software Update Point Connection Access Account can 
 
 ### Example 1: Change access to a package by using the package name
 ```
-PS C:\>$Name = Get-CMAccessAccount -PackageName "Configuration Manager Client Package" 
+PS C:\> $Name = Get-CMAccessAccount -PackageName "Configuration Manager Client Package" 
 PS C:\> Set-CMAccessAccount -PackageName $Name -Type User -UserName "CONTOSO\PFuller" -Access Read -Confirm
 ```
 

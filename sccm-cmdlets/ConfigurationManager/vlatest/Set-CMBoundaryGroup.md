@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833690
 schema: 2.0.0
 ms.assetid: 51F673B9-5558-4865-8AF8-B0B67296F729
-updated_at: 12/8/2016 12:03 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/df25317d1d5737b1e71a2bef3a993bb95cd1bbf5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -56,14 +56,14 @@ For more information about boundaries, see [Planning for Boundaries and Boundary
 
 ### Example 1: Rename a boundary group
 ```
-PS C:\>Set-CMBoundaryGroup -Name "BGroup01" -NewName "BGroup00"
+PS C:\> Set-CMBoundaryGroup -Name "BGroup01" -NewName "BGroup00"
 ```
 
 This command renames a boundary group.
 
 ### Example 2: Add a security scope to a boundary group
 ```
-PS C:\>Set-CMBoundaryGroup -SecurityScopeAction AddMembership -SecurityScopeName "OSDeploymentScope" -Name "BGroup02"
+PS C:\> Set-CMBoundaryGroup -SecurityScopeAction AddMembership -SecurityScopeName "OSDeploymentScope" -Name "BGroup02"
 ```
 
 This command adds the security scope OSDeploymentScope to the boundary group BGroup02.

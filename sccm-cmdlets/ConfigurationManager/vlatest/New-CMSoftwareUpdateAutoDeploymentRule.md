@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833759
 schema: 2.0.0
 ms.assetid: 1860D065-B2D0-4CDE-A75F-56F44FE40FD6
-updated_at: 12/8/2016 12:03 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/df25317d1d5737b1e71a2bef3a993bb95cd1bbf5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -106,7 +106,7 @@ The System Center Configuration Manager server downloads content files and copie
 
 ### Example 1: Create an automatic deployment rule
 ```
-PS C:\>New-CMSoftwareUpdateAutoDeploymentRule -CollectionName "Desktops" -DeploymentPackageName "Updates123" -Name "DeploymentRule07" -ArticleId "117"
+PS C:\> New-CMSoftwareUpdateAutoDeploymentRule -CollectionName "Desktops" -DeploymentPackageName "Updates123" -Name "DeploymentRule07" -ArticleId "117"
 ```
 
 This command creates a deployment rule named DeploymentRule07 for the collection named Desktops and the deployment package named Updates123.
@@ -114,7 +114,7 @@ The rule deploys updates that have an article ID that contains 117.
 
 ### Example 2: Create an automatic deployment rule that uses a schedule
 ```
-PS C:\>$Schedule = New-CMSchedule -DayOfWeek Wednesday
+PS C:\> $Schedule = New-CMSchedule -DayOfWeek Wednesday
 PS C:\> New-CMSoftwareUpdateAutoDeploymentRule -CollectionName "Laptops" -DeploymentPackageName "Updates235" -Name "DeploymentRule22" -AddToExistingSoftwareUpdateGroup $False -AlertTime 4 -AlertTimeUnit Weeks -AllowRestart $True -AllowSoftwareInstallationOutsideMaintenanceWindow $True -AllowUseMeteredNetwork $True -ArticleId "test" -AvailableImmediately $False -AvailableTime 5 -AvailableTimeUnit Months -CustomSeverity Critical -DateReleasedOrRevised Last1day -DeadlineImmediately $False -DeadlineTime $True -DeadlineTimeUnit Hours -DeployWithoutLicense $True -Description "Standard updates for our laptop systems." -DisableOperationManager $True -DownloadFromInternet $False -DownloadFromMicrosoftUpdate $True -EnabledAfterCreate $False -GenerateOperationManagerAlert $True -GenerateSuccessAlert $True -Language "Catalan" -LanguageSelection "English" -Location "\\k\aS_O15_Client_Dev_1" -MicrosoftAsVendor $True -NoInstallOnRemote $False -NoInstallOnUnprotected $True -RunType RunTheRuleOnSchedule -Schedule $Schedule -SendWakeUpPacket $True -SuccessPercent 99 -Superseded $True -SuppressRestartServer $True -SuppressRestartWorkstation $True -UpdateClassification "Critical Updates" -UseBranchCache $False -UserNotification DisplayAll -UseUtc $True -VerboseLevel AllMessages -WriteFilterHandling $True
 ```
 

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834100
 schema: 2.0.0
 ms.assetid: 3A9B5B87-2CE5-432B-BB63-D4CA96E35350
-updated_at: 12/7/2016 11:12 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,14 +37,14 @@ You can use the [Invoke-CMSoftwareUpdateSummarization](./Invoke-CMSoftwareUpdate
 
 ### Example 1: Schedule summarization interval and unit
 ```
-PS C:\>Set-CMSoftwareUpdateSummarizationSchedule -Interval 5 -Unit Days
+PS C:\> Set-CMSoftwareUpdateSummarizationSchedule -Interval 5 -Unit Days
 ```
 
 This command sets the update summarization schedule to run every five days.
 
 ### Example 2: Change schedule interval
 ```
-PS C:\>Set-CMSoftwareUpdateSummarizationSchedule -Interval 7
+PS C:\> Set-CMSoftwareUpdateSummarizationSchedule -Interval 7
 ```
 
 This command changes the interval for the update summarization schedule to seven.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833902
 schema: 2.0.0
 ms.assetid: 80157719-BA02-42AD-9ACE-03D9112E3956
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplicationRevisionHistory.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplicationRevisionHistory.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplicationRevisionHistory.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -55,7 +55,7 @@ The revision history contains a list of revisions to an application or a develop
 
 ### Example 1: Remove a revision history
 ```
-PS C:\>Remove-CMApplicationRevisionHistory -Name "MSXML 6.0 Parser"
+PS C:\> Remove-CMApplicationRevisionHistory -Name "MSXML 6.0 Parser"
 ```
 
 This command removes the revision history named MSXML 6.0 Parser.

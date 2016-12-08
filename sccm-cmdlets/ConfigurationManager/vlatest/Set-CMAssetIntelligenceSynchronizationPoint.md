@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833659
 schema: 2.0.0
 ms.assetid: A6085846-7C0C-49CE-B542-65E240999450
-updated_at: 12/8/2016 4:01 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAssetIntelligenceSynchronizationPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAssetIntelligenceSynchronizationPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAssetIntelligenceSynchronizationPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,7 +37,7 @@ You must enable the Asset Intelligence synchronization point to perform schedule
 
 ### Example 1: Enable an Asset Intelligence synchronization point
 ```
-PS C:\>Set-CMAssetIntelligenceSynchronizationPoint -SiteSystemServerName "CMDIV-WEST04.CORP.CONTOSO.COM" -Enabled $True
+PS C:\> Set-CMAssetIntelligenceSynchronizationPoint -SiteSystemServerName "CMDIV-WEST04.CORP.CONTOSO.COM" -Enabled $True
 ```
 
 This command enables the Asset Intelligence synchronization point on the site server named CMDIV-WEST04.CORP.CONTOSO.COM.

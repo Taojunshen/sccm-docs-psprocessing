@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834249
 schema: 2.0.0
 ms.assetid: E7E7069A-5044-431D-8906-91031BCBB6F3
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMTaskSequence.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMTaskSequence.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMTaskSequence.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,7 +50,7 @@ NOTE:  All related deployments are automatically removed.
 
 ### Example 1: Remove a task sequence by using a variable
 ```
-PS C:\>$TaskSequence = Get-CMTaskSequence -Name "TaskSequence01"
+PS C:\> $TaskSequence = Get-CMTaskSequence -Name "TaskSequence01"
 PS C:\> Remove-CMTaskSequence -InputObject $TaskSequence -Force
 Remove
 Are you sure you wish to remove TaskSequence: Name="General Sequence 11"?
@@ -64,7 +64,7 @@ Specifying the *Force* parameter indicates that the user is not prompted before 
 
 ### Example 2: Remove a task sequence by using the pipeline
 ```
-PS C:\>Get-CMTaskSequence -Name "TaskSequence02" | Remove-CMTaskSequence -Force
+PS C:\> Get-CMTaskSequence -Name "TaskSequence02" | Remove-CMTaskSequence -Force
 ```
 
 This command gets the task sequence object named TaskSequence02 and uses the pipeline operator to pass the object to **Remove-CMTaskSequence**, which removes the task sequence object.

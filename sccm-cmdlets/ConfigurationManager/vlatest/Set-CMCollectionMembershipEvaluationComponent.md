@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833744
 schema: 2.0.0
 ms.assetid: DC548AD7-17F7-4455-8857-6342043439FA
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -38,14 +38,14 @@ You can specify which site to change by site server name or site code.
 
 ### Example 1: Set an evaluation period for a site code
 ```
-PS C:\>Set-CMCollectionMembershipEvaluationComponent -MinutesInterval 5 -SiteCode "CM4"
+PS C:\> Set-CMCollectionMembershipEvaluationComponent -MinutesInterval 5 -SiteCode "CM4"
 ```
 
 This command sets the evaluation frequency to five minutes for the specified site code.
 
 ### Example 2: Set an evaluation period for a system
 ```
-PS C:\>Set-CMCollectionMembershipEvaluationComponent -MinutesInterval 6 -SiteSystemName "CM01.West01.Contoso.com"
+PS C:\> Set-CMCollectionMembershipEvaluationComponent -MinutesInterval 6 -SiteSystemName "CM01.West01.Contoso.com"
 ```
 
 This command sets the evaluation frequency to six minutes for the server named CM01.West01.Contoso.com.

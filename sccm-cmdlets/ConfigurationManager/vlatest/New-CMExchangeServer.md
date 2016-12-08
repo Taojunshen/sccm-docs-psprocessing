@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833658
 schema: 2.0.0
 ms.assetid: 6A49F9E5-ECD8-438F-9A2D-D0D2615941B3
-updated_at: 12/7/2016 5:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -56,8 +56,8 @@ For more information, see [Configuration Manager 2012 Exchange Connector Impleme
 
 ### Example 1: Create an Exchange Server
 ```
-PS C:\>$schedule = New-CMSchedule -Start "03/01/2016 11:59 PM" -RecurInterval Days -RecurCount 1
-New-CMExchangeServer -ServerAddress "http://exchange.contoso.com" -DeltaSyncInterval 120 -FullSyncSchedule $schedule -IsHosted -SiteCode "ContosoSite"
+PS C:\> $schedule = New-CMSchedule -Start "03/01/2016 11:59 PM" -RecurInterval Days -RecurCount 1
+PS C:\> New-CMExchangeServer -ServerAddress "http://exchange.contoso.com" -DeltaSyncInterval 120 -FullSyncSchedule $schedule -IsHosted -SiteCode "ContosoSite"
 ```
 
 These commands create an Exchange Server with the server address http://exchange,contoso.com.

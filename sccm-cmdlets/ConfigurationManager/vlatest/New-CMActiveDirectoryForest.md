@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834219
 schema: 2.0.0
 ms.assetid: 196CA882-2AC7-42C3-9E79-1CCE583C8079
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMActiveDirectoryForest.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMActiveDirectoryForest.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMActiveDirectoryForest.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -41,7 +41,7 @@ Active Directory Forest Discovery requires a global account to discover or publi
 
 ### Example 1: Create an Active Directory forest object that has discovery enabled
 ```
-PS C:\>New-CMActiveDirectoryForest -ForestFqdn "tsqa.contoso.com" -EnableDiscovery $True
+PS C:\> New-CMActiveDirectoryForest -ForestFqdn "tsqa.contoso.com" -EnableDiscovery $True
 ```
 
 This command creates an Active Directory forest object that has the FQDN tsqa.contoso.com and that has discovery enabled.

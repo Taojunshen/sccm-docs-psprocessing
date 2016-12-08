@@ -3,10 +3,10 @@ external help file: AdminUI.PS.CalTracking.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834053
 schema: 2.0.0
 ms.assetid: F4A560C6-BF3A-423B-B6FB-F779E2863F4F
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAccessLicense.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAccessLicense.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAccessLicense.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,14 +48,14 @@ This cmdlet returns a list of features able to be licensed and a list of unique 
 
 ### Example 1: Get all licensable features for all servers and clients
 ```
-PS C:\>Get-CMAccessLicense -License
+PS C:\> Get-CMAccessLicense -License
 ```
 
 This command gets all licensable features for all servers and clients within the scope of System Center Configuration Manager.
 
 ### Example 2: Get the unique users, devices, and license-specific unique ID for a specified license
 ```
-PS C:\>Get-CMAccessLicense -LicenseName ConfigMgr_2012_EndPointClient
+PS C:\> Get-CMAccessLicense -LicenseName ConfigMgr_2012_EndPointClient
 ```
 
 This command gets the unique users, devices, and license-specific IDs for the license named ConfigMgr_2012_EndPointClient.

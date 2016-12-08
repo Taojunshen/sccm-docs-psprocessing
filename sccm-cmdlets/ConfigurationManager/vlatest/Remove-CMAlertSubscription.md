@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Alerts.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833882
 schema: 2.0.0
 ms.assetid: AE138881-AB53-4272-B017-A936FD3DBF4C
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAlertSubscription.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAlertSubscription.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAlertSubscription.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,21 +48,21 @@ The **Remove-CMAlertSubscription** cmdlet removes an alert subscription from Mic
 
 ### Example 1: Remove an alert subscription by ID
 ```
-PS C:\>Remove-CMAlertSubscription -Id "16777310"
+PS C:\> Remove-CMAlertSubscription -Id "16777310"
 ```
 
 This command removes an alert subscription by using its ID.
 
 ### Example 2: Remove an alert subscription by name
 ```
-PS C:\>Remove-CMAlertSubscription -Name "Subscription01"
+PS C:\> Remove-CMAlertSubscription -Name "Subscription01"
 ```
 
 This command removes an alert subscription named Subscription01.
 
 ### Example 3: Remove an alert subscription by using the output from another cmdlet
 ```
-PS C:\>$SubObj = Get-CMAlertSubscription -Id "16777310"
+PS C:\> $SubObj = Get-CMAlertSubscription -Id "16777310"
 PS C:\> Remove-CMAlertSubscription -AlertSubscription $SubObj
 ```
 

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833945
 schema: 2.0.0
 ms.assetid: DC4B2713-2B9D-45B0-A595-00407274F314
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMDriver.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMDriver.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMDriver.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,7 +49,7 @@ To enable the driver, use the [Enable-CMDriver](./EnableCMDriver.md) cmdlet.
 
 ### Example 1: Disable a device driver
 ```
-PS C:\>$Driver = Get-CMDriver -Name "Driver01"
+PS C:\> $Driver = Get-CMDriver -Name "Driver01"
 PS C:\> Disable-CMDriver -InputObject $Driver
 ```
 
@@ -59,7 +59,7 @@ The second command disables the driver stored in $Driver.
 
 ### Example 2: Disable a device driver by using the pipeline
 ```
-PS C:\>Get-CMDriver -Name "Driver02" | Disable-CMDriver
+PS C:\> Get-CMDriver -Name "Driver02" | Disable-CMDriver
 ```
 
 This command gets the driver object named Driver02 and uses the pipeline operator to pass the object to **Disable-CMDriver**, which disables the driver object.

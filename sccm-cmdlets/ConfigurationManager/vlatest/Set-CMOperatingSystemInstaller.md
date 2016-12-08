@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833963
 schema: 2.0.0
 ms.assetid: B08C17F1-A997-4352-A9C2-6757E0D19C3A
-updated_at: 12/7/2016 11:01 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemInstaller.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/04be5541437962ec7ae2374b103732138a5ed8b2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemInstaller.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemInstaller.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -70,7 +70,7 @@ An operating system installer is an installation package that contains all the f
 
 ### Example 1: Change settings for an operating system installer by using a name
 ```
-PS C:\>Set-CMOperatingSystemInstaller -Name "Win8x64" -NewName "OsiWin8x64" -Version "I20B" -Description "Dept02 Sys Install" -Path "\\Win2k3X64contoso\Public\OSD\win8x64"
+PS C:\> Set-CMOperatingSystemInstaller -Name "Win8x64" -NewName "OsiWin8x64" -Version "I20B" -Description "Dept02 Sys Install" -Path "\\Win2k3X64contoso\Public\OSD\win8x64"
 ```
 
 This command changes configuration settings of the operating system installer named Win8x64.
@@ -78,14 +78,14 @@ The command renames the operating system installer, adds a version and descripti
 
 ### Example 2: Add an operating system installer to a security scope by using a name
 ```
-PS C:\>Set-CMOperatingSystemInstaller -SecurityScopeAction AddMembership -SecurityScopeName "SecScope02" -Name "InstPkg01"
+PS C:\> Set-CMOperatingSystemInstaller -SecurityScopeAction AddMembership -SecurityScopeName "SecScope02" -Name "InstPkg01"
 ```
 
 This command adds membership to the security scope named SecScope02 for the operating system installer named InstPkg01.
 
 ### Example 3: Remove an operating system installer from a security scope
 ```
-PS C:\>Set-CMOperatingSystemInstaller -SecurityScopeAction RemoveMembership -SecurityScopeName "SecScope02" -Name "InstPkg01"
+PS C:\> Set-CMOperatingSystemInstaller -SecurityScopeAction RemoveMembership -SecurityScopeName "SecScope02" -Name "InstPkg01"
 ```
 
 This command removes membership to the security scope named SecScope02 for the operating system installer named InstPkg01.

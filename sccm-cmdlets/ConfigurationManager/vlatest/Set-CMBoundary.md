@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833686
 schema: 2.0.0
 ms.assetid: 3BEAE3AE-C1A4-430B-B3F7-22B5F3A00C09
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundary.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundary.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundary.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -51,14 +51,14 @@ A boundary can be an IP subnet, Active Directory site name, IPv6 prefix, or an I
 
 ### Example 1: Rename a boundary
 ```
-PS C:\>Set-CMBoundary -Name "Default-ADSite" -NewName "ADSiteBoundary01"
+PS C:\> Set-CMBoundary -Name "Default-ADSite" -NewName "ADSiteBoundary01"
 ```
 
 This command changes a boundary name from Default-ADSite to ADSiteBoundary01.
 
 ### Example 2: Modify the value of a boundary by using an InputObject
 ```
-PS C:\>$BoundaryObj = Get-CMBoundary -Id "16777217"
+PS C:\> $BoundaryObj = Get-CMBoundary -Id "16777217"
 PS C:\> Set-CMBoundary -InputObject $BoundaryObj -Value "IPSubnet17"
 ```
 

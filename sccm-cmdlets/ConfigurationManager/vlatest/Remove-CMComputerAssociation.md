@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833998
 schema: 2.0.0
 ms.assetid: AC599011-1C6E-4A45-8BF3-C1E1A2F1F4E0
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMComputerAssociation.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMComputerAssociation.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMComputerAssociation.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,14 +49,14 @@ You can specify the association to remove by specifying both computers in the as
 
 ### Example 1: Remove an association by using computer names
 ```
-PS C:\>Remove-CMComputerAssociation -DestinationComputer "West155" -SourceComputer "West073"
+PS C:\> Remove-CMComputerAssociation -DestinationComputer "West155" -SourceComputer "West073"
 ```
 
 This command removes the computer association between the computers named West155 and West073.
 
 ### Example 2: Remove an association by using an ID
 ```
-PS C:\>Remove-CMComputerAssociation -MigrationId "MID1207" -Force
+PS C:\> Remove-CMComputerAssociation -MigrationId "MID1207" -Force
 ```
 
 This command removes the computer association that has the ID MID1207.
@@ -64,7 +64,7 @@ This command uses the *Force* parameter, so the cmdlet does not prompt you for c
 
 ### Example 3: Remove an association by using a variable
 ```
-PS C:\>$CMCA = Get-CMComputerAssociation -MigrationId "MID1207"
+PS C:\> $CMCA = Get-CMComputerAssociation -MigrationId "MID1207"
 PS C:\> Remove-CMComputerAssociation -InputObject $CMCA -Force
 ```
 

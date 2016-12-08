@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834252
 schema: 2.0.0
 ms.assetid: 5FB30D79-F7FE-45AD-B888-2B3D5AC7C74E
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAppVVirtualEnvironment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAppVVirtualEnvironment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAppVVirtualEnvironment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,7 +37,7 @@ App-V virtual environments in System Center Configuration Manager enable deploye
 
 ### Example 1: Create an App-V virtual environment
 ```
-PS C:\>$Dti = Get-CMAppV5XDeploymentTypeItem -ApplicationName "App01d2012" -DeploymentTypeName "7Zip - Microsoft Application Virtualization 5"
+PS C:\> $Dti = Get-CMAppV5XDeploymentTypeItem -ApplicationName "App01d2012" -DeploymentTypeName "7Zip - Microsoft Application Virtualization 5"
 PS C:\> $Veg = New-CMVirtualEnvironmentGroup -Name "Venvgroup01" -DeploymentType $Dti
 PS C:\> New-CMAppVVirtualEnvironment -Name "CMAppVenv01" -Description "App-V virtual environment" -ApplicationGroup $Veg
 ```

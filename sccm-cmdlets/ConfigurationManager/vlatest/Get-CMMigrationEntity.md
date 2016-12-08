@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Migration.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833758
 schema: 2.0.0
 ms.assetid: D02E7E60-2F2E-4EBE-9EB3-CA8CA9914289
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationEntity.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationEntity.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMigrationEntity.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -47,21 +47,21 @@ A migration entity is an object to be migrated that is of any type that is suppo
 
 ### Example 1: Get information about all your migration entities
 ```
-PS C:\>Get-CMMigrationEntity
+PS C:\> Get-CMMigrationEntity
 ```
 
 This command returns information about all of your migration entities.
 
 ### Example 2: Get information about a specific migration entity
 ```
-PS C:\>Get-CMMigrationEntity -Name "MigrationTest"
+PS C:\> Get-CMMigrationEntity -Name "MigrationTest"
 ```
 
 This command returns information about the migration entity with the name MigrationTest.
 
 ### Example 3: Get information about active migration entities
 ```
-PS C:\>Get-CMMigrationEntity -IsActive
+PS C:\> Get-CMMigrationEntity -IsActive
 ```
 
 This command returns information about all of your active migration entities.

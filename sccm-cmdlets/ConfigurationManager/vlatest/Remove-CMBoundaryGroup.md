@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833937
 schema: 2.0.0
 ms.assetid: A9AADC86-58CF-4144-A6A5-7E854BD8DA5B
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBoundaryGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBoundaryGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBoundaryGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Remove-CMBoundaryGroup** cmdlet removes a boundary group from Microsoft Sy
 
 ### Example 1: Remove a boundary group that is specified by its ID
 ```
-PS C:\>Remove-CMBoundaryGroup -Id "16777219"
+PS C:\> Remove-CMBoundaryGroup -Id "16777219"
 ```
 
 This command removes a boundary group that is specified by its identifier.
@@ -56,7 +56,7 @@ Because the *Force* parameter is not specified, you must confirm the action befo
 
 ### Example 2: Remove multiple boundary groups by using an InputObject
 ```
-PS C:\>$BoundaryObj = Get-CMBoundary -Name "BGroup01", "BGroup02", "BGroup03"
+PS C:\> $BoundaryObj = Get-CMBoundary -Name "BGroup01", "BGroup02", "BGroup03"
 PS C:\> Remove-CMBoundary -InputObject $BoundaryObj
 ```
 

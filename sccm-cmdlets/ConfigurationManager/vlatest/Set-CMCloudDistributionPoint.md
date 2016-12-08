@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833730
 schema: 2.0.0
 ms.assetid: F2F9DBD4-F429-4913-82E7-E3E160D4A926
-updated_at: 12/8/2016 4:01 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -60,7 +60,7 @@ You can provide a name and description for the cloud distribution point.
 
 ### Example 1: Set values for a distribution point
 ```
-PS C:\>Set-CMCloudDistributionPoint -Id 16777237 -Description "Western distribution point" -Name "West01" -StorageQuotaInGB 50 -TrafficOutInGB 50
+PS C:\> Set-CMCloudDistributionPoint -Id 16777237 -Description "Western distribution point" -Name "West01" -StorageQuotaInGB 50 -TrafficOutInGB 50
 ```
 
 This command sets the description and name for a distribution point to the provided strings.

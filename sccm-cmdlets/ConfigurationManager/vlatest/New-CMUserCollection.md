@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833807
 schema: 2.0.0
 ms.assetid: 1543ACE3-2915-4522-9A1D-04902FB557DF
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserCollection.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserCollection.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMUserCollection.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,7 +65,7 @@ For more information about Configuration Manager collections, see [Introduction 
 
 ### Example 1: Create a user collection
 ```
-PS C:\>New-CMUserCollection -Name "Sales" -LimitingCollectionName "All Users"
+PS C:\> New-CMUserCollection -Name "Sales" -LimitingCollectionName "All Users"
 ```
 
 This command creates a collection for all users in the Sales department.

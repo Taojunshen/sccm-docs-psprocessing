@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834264
 schema: 2.0.0
 ms.assetid: AB985DAA-B7DE-4FC1-8429-20398128AA1E
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUserCollectionDirectMembershipRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUserCollectionDirectMembershipRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUserCollectionDirectMembershipRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -87,7 +87,7 @@ For more information about collection rules in Microsoft System Center Configura
 
 ### Example 1: Remove all direct membership rules from a user collection
 ```
-PS C:\>Remove-CMUserCollectionDirectMembershipRule -CollectionID "CM0001A" -ResourceId "12733"
+PS C:\> Remove-CMUserCollectionDirectMembershipRule -CollectionID "CM0001A" -ResourceId "12733"
 ```
 
 This command removes all the direct membership rules of the user collection that has the ID CM0001A.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834011
 schema: 2.0.0
 ms.assetid: 1851328A-D7D3-40E2-B3D5-7EA9454B5D02
-updated_at: 12/7/2016 11:00 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMContentDistribution.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMContentDistribution.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMContentDistribution.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -201,7 +201,7 @@ The **Remove-CMContentDistribution** cmdlet removes one or more packages from a 
 
 ### Example 1: Remove a driver package from a distribution point
 ```
-PS C:\>Remove-CMContentDistribution -DriverPackageID "PCP00019" -DistributionPointName "distribution-server.contoso.com"
+PS C:\> Remove-CMContentDistribution -DriverPackageID "PCP00019" -DistributionPointName "distribution-server.contoso.com"
 ```
 
 This command removes the driver package PCO00019 from the distribution point distribution-server.contoso.com.

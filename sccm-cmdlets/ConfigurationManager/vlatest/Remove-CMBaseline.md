@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833920
 schema: 2.0.0
 ms.assetid: D7D57FDA-A9BC-40D4-B55B-4190280B2E5F
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBaseline.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBaseline.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBaseline.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,14 +50,14 @@ After you remove a configuration baseline, System Center Configuration Manager r
 
 ### Example 1: Remove a baseline configuration by using a name
 ```
-PS C:\>Remove-CMBaseline -Name "BLConfigContoso02"
+PS C:\> Remove-CMBaseline -Name "BLConfigContoso02"
 ```
 
 This command removes the configuration baseline named BLConfigContoso02.
 
 ### Example 2: Remove a baseline configuration by using an ID
 ```
-PS C:\>Remove-CMBaseline -Id "16777366"
+PS C:\> Remove-CMBaseline -Id "16777366"
 ```
 
 This command removes the configuration baseline that has the ID 16777366.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834051
 schema: 2.0.0
 ms.assetid: D0AB3D9A-6F2D-4373-9FC7-60990D9D8CCD
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceCollectionIncludeMembershipRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceCollectionIncludeMembershipRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceCollectionIncludeMembershipRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -84,7 +84,7 @@ The **Remove-CMDeviceCollectionIncludeMembershipRule** cmdlet removes an Include
 
 ### Example 1: Remove an Include Collections membership rule
 ```
-PS C:\>Remove-CMDeviceCollectionIncludeMembershipRule -CollectionName "Device" -IncludeCollectionName "All Systems" -Force
+PS C:\> Remove-CMDeviceCollectionIncludeMembershipRule -CollectionName "Device" -IncludeCollectionName "All Systems" -Force
 ```
 
 This command removes the Include Collections membership rule named All Systems from the device collection named Device.
@@ -92,7 +92,7 @@ Specifying the *Force* parameter indicates that the membership rule is removed w
 
 ### Example 2: Remove an include membership rule by using the pipeline
 ```
-PS C:\>Get-CMCollection -Name "Device" | Remove-CMDeviceCollectionIncludeMembershipRule -IncludeCollectionName "All Systems" -Force
+PS C:\> Get-CMCollection -Name "Device" | Remove-CMDeviceCollectionIncludeMembershipRule -IncludeCollectionName "All Systems" -Force
 ```
 
 This command gets the device collection object named Device and uses the pipeline operator to pass the object to **Remove-CMDeviceCollectionIncludeMembershipRule**.

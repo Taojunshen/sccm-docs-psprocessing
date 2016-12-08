@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Alerts.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834073
 schema: 2.0.0
 ms.assetid: AB20D6C3-3817-400F-B098-371536B4513C
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAlert.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAlert.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAlert.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -42,14 +42,14 @@ You can get a specific alert by specifying the name or ID of the alert.
 
 ### Example 1: Get all alerts
 ```
-PS C:\>Get-CMAlert
+PS C:\> Get-CMAlert
 ```
 
 This command gets all alerts that System Center Configuration Manager manages.
 
 ### Example 2: Get alerts by using name
 ```
-PS C:\>Get-CMAlert -Name "D*"
+PS C:\> Get-CMAlert -Name "D*"
 ```
 
 This command gets all alerts that have a name that begins with the letter D.

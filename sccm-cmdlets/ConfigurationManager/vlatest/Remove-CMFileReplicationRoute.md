@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834112
 schema: 2.0.0
 ms.assetid: 23EA2D57-BC59-4443-BF7B-817A956149A7
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMFileReplicationRoute.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMFileReplicationRoute.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMFileReplicationRoute.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -40,7 +40,7 @@ The functionality of file replication routes is the same as that of addresses in
 
 ### Example 1: Remove a file replication route
 ```
-PS C:\>Remove-CMFileReplicationRoute -DestinationSiteCode "IM5" -SourceSiteCode "IM1"
+PS C:\> Remove-CMFileReplicationRoute -DestinationSiteCode "IM5" -SourceSiteCode "IM1"
 ```
 
 This command removes a file replication route from the site that has the site code IM1 to the site that has the site code IM5.

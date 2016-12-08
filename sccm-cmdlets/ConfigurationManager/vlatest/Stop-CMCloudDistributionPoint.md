@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834235
 schema: 2.0.0
 ms.assetid: 4C9E537F-007B-45FE-B82F-CE17CB39B29B
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -54,21 +54,21 @@ For example, you might want to stop a cloud service when usage reaches a data th
 
 ### Example 1: Stop the cloud distribution point service using an ID
 ```
-PS C:\>Stop-CMCloudDistributionPoint -Id "16777242"
+PS C:\> Stop-CMCloudDistributionPoint -Id "16777242"
 ```
 
 This command stops the cloud distribution point service for the cloud distribution point that has the specified identifier.
 
 ### Example 2: Stop the cloud distribution point service using a name
 ```
-PS C:\>Stop-CMCloudDistributionPoint -Name "West01"
+PS C:\> Stop-CMCloudDistributionPoint -Name "West01"
 ```
 
 This command stops the cloud distribution point service for the cloud distribution point named West01.
 
 ### Example 3: Stop the cloud distribution point service using an object
 ```
-PS C:\>$DistPnt = Get-CMCloudDistributionPoint -Id "16777242"
+PS C:\> $DistPnt = Get-CMCloudDistributionPoint -Id "16777242"
 PS C:\> Stop-CMCloudDistributionPoint -InputObject $DistPnt
 ```
 

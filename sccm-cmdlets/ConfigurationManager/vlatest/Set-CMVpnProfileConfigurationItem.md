@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834148
 schema: 2.0.0
 ms.assetid: 599AAF88-A6E1-45C7-A1A2-A28F5B085F26
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMVpnProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMVpnProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMVpnProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -52,7 +52,7 @@ Client computers use VPN profiles to remotely connect to a company network over 
 
 ### Example 1: Modify a VPN profile configuration item
 ```
-PS C:\>Set-CMVpnProfileConfigurationItem -ID "AAA0004D" -DesiredConfigurationDigestPath "C:\Digests\Vpn2.xml"
+PS C:\> Set-CMVpnProfileConfigurationItem -ID "AAA0004D" -DesiredConfigurationDigestPath "C:\Digests\Vpn2.xml"
 ```
 
 This command modifies the VPN profile configuration item with the ID AAA0004D.

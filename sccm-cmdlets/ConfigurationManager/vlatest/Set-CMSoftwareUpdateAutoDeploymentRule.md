@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834066
 schema: 2.0.0
 ms.assetid: 9156F844-66C1-4144-9716-8F5E549923CD
-updated_at: 12/7/2016 7:27 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -104,7 +104,7 @@ The System Center Configuration Manager server downloads content files and copie
 
 ### Example 1: Modify the language selection and name of a rule
 ```
-PS C:\>Set-CMSoftwareUpdateAutoDeploymentRule -Name "DeploymentRule07" -NewName "DeploymentRule07Revised" -Description "Update rule to use Portuguese (Brazil)." -LanguageSelection "Portuguese (Brazil)"
+PS C:\> Set-CMSoftwareUpdateAutoDeploymentRule -Name "DeploymentRule07" -NewName "DeploymentRule07Revised" -Description "Update rule to use Portuguese (Brazil)." -LanguageSelection "Portuguese (Brazil)"
 ```
 
 This command modifies the automatic deployment rule named DeploymentRule07.

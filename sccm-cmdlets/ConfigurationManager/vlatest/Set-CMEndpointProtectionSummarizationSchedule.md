@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833845
 schema: 2.0.0
 ms.assetid: A911E2C8-2C32-430B-95E0-C9003B9402A4
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEndpointProtectionSummarizationSchedule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEndpointProtectionSummarizationSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEndpointProtectionSummarizationSchedule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -36,7 +36,7 @@ For more information about Endpoint Protection summarization schedules, see [How
 
 ### Example 1: Modify an Endpoint Protection summarization schedules
 ```
-PS C:\>Set-CMEndpointProtectionSummarizationSchedule -Interval 10 -UnitType "Days"
+PS C:\> Set-CMEndpointProtectionSummarizationSchedule -Interval 10 -UnitType "Days"
 ```
 
 This command modifies the interval and unit values to specify that 10 days pass before the Endpoint Protection Summarization Schedule runs again.

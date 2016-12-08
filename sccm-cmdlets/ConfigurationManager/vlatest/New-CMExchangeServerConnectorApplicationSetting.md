@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833666
 schema: 2.0.0
 ms.assetid: 7B26C797-B537-4CDE-A4FF-C9C58D05C29F
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorApplicationSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorApplicationSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMExchangeServerConnectorApplicationSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -35,7 +35,7 @@ The **New-CMExchangeServerConnectorApplicationSetting** cmdlet creates applicati
 
 ### Example 1: Set application options for an Exchange Server connector
 ```
-PS C:\>New-CMExchangeServerConnectorApplicationSetting -UnsignedApplication $False -UnsignedInstall $True -BlockedApplication "a1","a2"
+PS C:\> New-CMExchangeServerConnectorApplicationSetting -UnsignedApplication $False -UnsignedInstall $True -BlockedApplication "a1","a2"
 ```
 
 This command sets these application options for an Exchange Server connector: 

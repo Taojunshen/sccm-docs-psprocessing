@@ -3,10 +3,10 @@ external help file: AdminUI.PS.ClientSettings.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834203
 schema: 2.0.0
 ms.assetid: 6272F088-F019-471D-A1EC-D4B3383D6931
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMClientSettingDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMClientSettingDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMClientSettingDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -88,14 +88,14 @@ For more information about client settings, see [About Client Settings in Config
 
 ### Example 1: Deploy a client setting object by using its ID to a named collection
 ```
-PS C:\>Start-CMClientSettingDeployment -ClientSettingId "CSI1023" -CollectionName "General Computer Collection"
+PS C:\> Start-CMClientSettingDeployment -ClientSettingId "CSI1023" -CollectionName "General Computer Collection"
 ```
 
 This command starts deployment of the client setting object that has the ID CSI1023 for the collection named General Computer Collection.
 
 ### Example 2: Deploy a client setting object by using a variable
 ```
-PS C:\>$CSID = Get-CMClientSetting -Id "CSI1023"
+PS C:\> $CSID = Get-CMClientSetting -Id "CSI1023"
 PS C:\> Start-CMClientSettingDeployment -ClientSetting $CSID -CollectionName "General Computer Collection"
 ```
 

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834156
 schema: 2.0.0
 ms.assetid: AD051C96-0341-486C-A0B0-25C9DEA090C6
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsAppxDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsAppxDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsAppxDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -66,14 +66,14 @@ The **Set-CMWindowsAppxDeploymentType** cmdlet changes the settings for a Window
 
 ### Example 1: Modify an app package deployment type
 ```
-PS C:\>Set-CMWindowsAppxdeploymentType -ApplicationName "Application1" -DeploymentTypeName "DTS" -NewName "DTS_New" -AddLanguage "en-US","zh-CN" -Comment "Deployment Type updated"
+PS C:\> Set-CMWindowsAppxdeploymentType -ApplicationName "Application1" -DeploymentTypeName "DTS" -NewName "DTS_New" -AddLanguage "en-US","zh-CN" -Comment "Deployment Type updated"
 ```
 
 This command changes the name of the Windows app package deployment type named DTS for the application named Application1 to DTS_New, adds English and Chinese as supported languages, and adds a description.
 
 ### Example 2: Modify an app package deployment type by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "Application1" -DeploymentTypeName "DTS" | Set-CMWindowsAppxDeploymentType -NewName "DTS_New" -AddLanguage "en-US","zh-CN" -Comment "Deployment Type updated"
+PS C:\> Get-CMDeploymentType -ApplicationName "Application1" -DeploymentTypeName "DTS" | Set-CMWindowsAppxDeploymentType -NewName "DTS_New" -AddLanguage "en-US","zh-CN" -Comment "Deployment Type updated"
 ```
 
 This command gets the Windows app package deployment type object named DTS for the application named Application1 and uses the pipeline operator to pass the object to **Set-CMWindowsAppxDeploymentType**.

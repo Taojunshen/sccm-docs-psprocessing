@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833771
 schema: 2.0.0
 ms.assetid: F8D992C0-0F8C-40B7-944A-7BA571735859
-updated_at: 12/8/2016 3:33 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -80,7 +80,7 @@ Use the [Start-CMConfigurationPolicyDeployment](./Start-CMConfigurationPolicyDep
 
 ### Example 1: Create a configuration policy deployment
 ```
-PS C:\>Set-CMConfigurationPolicyDeployment -CollectionName "Regional Remote Users" -FirewallPolicyName "Remote Firewall Policy"
+PS C:\> Set-CMConfigurationPolicyDeployment -CollectionName "Regional Remote Users" -FirewallPolicyName "Remote Firewall Policy"
 ```
 
 This command creates a configuration policy deployment named Remote Firewall Policy and deploys it to the collection named Regional Remote Users.

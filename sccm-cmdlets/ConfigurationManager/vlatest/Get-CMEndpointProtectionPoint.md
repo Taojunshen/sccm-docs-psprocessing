@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833681
 schema: 2.0.0
 ms.assetid: 6B74ECA1-5193-46F2-8C2F-976B6E5D6EAD
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMEndpointProtectionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMEndpointProtectionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMEndpointProtectionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,7 +43,7 @@ For more information about Endpoint Protection in Microsoft System Center Config
 
 ### Example 1: Get an Endpoint Protection point
 ```
-PS C:\>Get-CMEndpointProtectionPoint -SiteCode "CM1" -SiteSystemServerName "CMServer01.Contoso.com"
+PS C:\> Get-CMEndpointProtectionPoint -SiteCode "CM1" -SiteSystemServerName "CMServer01.Contoso.com"
 ```
 
 This command gets an Endpoint Protection point.

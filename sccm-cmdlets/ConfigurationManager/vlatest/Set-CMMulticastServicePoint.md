@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833947
 schema: 2.0.0
 ms.assetid: B0A665E8-148A-4848-9923-7F80EAB27A4F
-updated_at: 12/7/2016 10:23 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMulticastServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/7e5b4c3ad3b309b969cc9a0403712b3ad7fae461/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMulticastServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMulticastServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Set-CMMulticastServicePoint** cmdlet updates the configuration of multicas
 
 ### Example 1: Modify a multicast service point by using the pipeline
 ```
-PS C:\>Get-CMMulticastServicePoint -SiteSystemServerName "server01.contoso.com" | Set-CMMulticastServicePoint -UserName $null -StartIPAddress 224.0.1.0 -EndIPAddress 239.255.255.255 -StartUdpPort 64001 -EndUdpPort 65000 -ClientTransferRate Profile100Mbps -MaximumClientCount 100 -EnableScheduledMulticast $true -SessionStartDelayMins 15 -MinimumClientCount 20
+PS C:\> Get-CMMulticastServicePoint -SiteSystemServerName "server01.contoso.com" | Set-CMMulticastServicePoint -UserName $null -StartIPAddress 224.0.1.0 -EndIPAddress 239.255.255.255 -StartUdpPort 64001 -EndUdpPort 65000 -ClientTransferRate Profile100Mbps -MaximumClientCount 100 -EnableScheduledMulticast $true -SessionStartDelayMins 15 -MinimumClientCount 20
 ```
 
 This command gets the multicast service point object with the site system server name server1.contoso.com and uses the pipeline operator to pass the object to **Set-CMMulticastServicePoint**.
@@ -57,7 +57,7 @@ The command also sets the minimum and maximum client count, and sets a start del
 
 ### Example 2: Modify a multicast service point
 ```
-PS C:\>Set-CMMulticastServicePoint -SiteSystemServerName "server02.contoso.com" -UserName "contoso\administrator" -StartIPAddress 224.0.1.0 -EndIPAddress 239.255.255.255 -StartUdpPort 64001 -EndUdpPort 65000 -ClientTransferRate "Profile100Mbps" -MaximumClientCount 100 -EnableScheduledMulticast $true -SessionStartDelayMins 15 -MinimumClientCount 20
+PS C:\> Set-CMMulticastServicePoint -SiteSystemServerName "server02.contoso.com" -UserName "contoso\administrator" -StartIPAddress 224.0.1.0 -EndIPAddress 239.255.255.255 -StartUdpPort 64001 -EndUdpPort 65000 -ClientTransferRate "Profile100Mbps" -MaximumClientCount 100 -EnableScheduledMulticast $true -SessionStartDelayMins 15 -MinimumClientCount 20
 ```
 
 This command updates the multicast service point settings for the site system server named server1.contoso.com using the administrator account.

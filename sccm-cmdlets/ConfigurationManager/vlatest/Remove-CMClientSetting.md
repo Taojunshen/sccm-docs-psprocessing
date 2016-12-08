@@ -3,10 +3,10 @@ external help file: AdminUI.PS.ClientSettings.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833960
 schema: 2.0.0
 ms.assetid: 3909FDAF-A2D9-4959-814C-D9F30E1DC014
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMClientSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMClientSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMClientSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,7 +49,7 @@ For more information, see [About Client Settings in Configuration Manager](http:
 
 ### Example 1: Remove a collection of client settings that is specified by its ID
 ```
-PS C:\>Remove-CMClientSetting -Id "16777255"
+PS C:\> Remove-CMClientSetting -Id "16777255"
 ```
 
 This command removes a collection of client settings that is specified by the ID 16777255.

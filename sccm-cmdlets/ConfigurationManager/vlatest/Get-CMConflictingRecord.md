@@ -3,10 +3,10 @@ external help file: AdminUI.PS.SystemStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834286
 schema: 2.0.0
 ms.assetid: 5B0C478D-55DA-4A57-9176-47B810CEA35B
-updated_at: 12/7/2016 5:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConflictingRecord.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConflictingRecord.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConflictingRecord.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,14 +50,14 @@ You can get all the outstanding conflicts for Configuration Manager or specify a
 
 ### Example 1: Get all conflicting records
 ```
-PS C:\>Get-CMConflictingRecord
+PS C:\> Get-CMConflictingRecord
 ```
 
 This command gets all the unresolved conflicts for Configuration Manager.
 
 ### Example 2: Get a named conflicting record
 ```
-PS C:\>Get-CMConflictingRecord -Name "CR07"
+PS C:\> Get-CMConflictingRecord -Name "CR07"
 ```
 
 This command gets a conflict named CR07.

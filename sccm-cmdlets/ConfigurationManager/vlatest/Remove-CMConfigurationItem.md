@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834004
 schema: 2.0.0
 ms.assetid: C4C29051-65B3-4C9F-BD4D-DBA279593A94
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -53,21 +53,21 @@ For more information about configuration items, see [Introduction to Compliance 
 
 ### Example 1: Remove an item using an ID
 ```
-PS C:\>Remove-CMConfigurationItem -Id "16777568"
+PS C:\> Remove-CMConfigurationItem -Id "16777568"
 ```
 
 This command removes a configuration item with the specified identifier.
 
 ### Example 2: Remove an item using a name
 ```
-PS C:\>Remove-CMConfigurationItem -Name "ConfigItem76"
+PS C:\> Remove-CMConfigurationItem -Name "ConfigItem76"
 ```
 
 This command removes a configuration item named ConfigItem76.
 
 ### Example 3: Remove an item using a variable
 ```
-PS C:\>$CIObj=Get-CMConfigurationItem -Id "16777568"
+PS C:\> $CIObj=Get-CMConfigurationItem -Id "16777568"
 PS C:\> Remove-CMConfigurationItem -InputObject $CIObj
 ```
 

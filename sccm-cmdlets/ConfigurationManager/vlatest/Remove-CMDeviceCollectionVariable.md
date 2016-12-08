@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834060
 schema: 2.0.0
 ms.assetid: 510CD0D6-ECBF-4739-92D5-550921869768
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceCollectionVariable.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceCollectionVariable.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceCollectionVariable.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Remove-CMDeviceCollectionVariable** cmdlet removes a device collection var
 
 ### Example 1: Remove a device collection variable
 ```
-PS C:\>$Collection = Get-CMCollection -Name "Device" 
+PS C:\> $Collection = Get-CMCollection -Name "Device" 
 PS C:\> Remove-CMDeviceCollectionVariable -Collection $Collection -VariableName "testTS" -Force
 ```
 
@@ -59,7 +59,7 @@ Specifying the *Force* parameter indicates that the user is not prompted before 
 
 ### Example 2: Remove a device collection variable by using the pipeline
 ```
-PS C:\>Get-CMCollection -Name "Device" | Remove-CMDeviceCollectionVariable -VariableName "testTS" -Force
+PS C:\> Get-CMCollection -Name "Device" | Remove-CMDeviceCollectionVariable -VariableName "testTS" -Force
 ```
 
 This command gets the device collection object named Device and uses the pipeline operator to pass the object to **Remove-CMDeviceCollectionVariable**, which removes the device collection variable named testTS from the device collection object.

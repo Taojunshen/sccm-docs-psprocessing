@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834131
 schema: 2.0.0
 ms.assetid: 2EC18943-84E5-4291-BCD9-0EB15C9D31FA
-updated_at: 12/7/2016 11:21 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMManagementPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4bb0549ab9452d0d1c9cdf57cfbc8185eefd798c/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMManagementPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMManagementPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -47,14 +47,14 @@ Additionally, System Center Configuration Manager cannot receive inventory data,
 
 ### Example 1: Remove a management point
 ```
-PS C:\>Remove-CMManagementPoint -SiteSystemServerName "cmcen-dist02.tsqa.contoso.com" -SiteCode "CM1"
+PS C:\> Remove-CMManagementPoint -SiteSystemServerName "cmcen-dist02.tsqa.contoso.com" -SiteCode "CM1"
 ```
 
 This command removes the management point from the Configuration Manager site that has the site code CM1 on the site system named cmcen-dist02.tsqa.contoso.com.
 
 ### Example 2: Remove a management point by using an object variable
 ```
-PS C:\>$Mp = Get-CMManagementPoint -SiteSystemServerName "dist02.tsqa.contoso.com" -SiteCode "CM1"
+PS C:\> $Mp = Get-CMManagementPoint -SiteSystemServerName "dist02.tsqa.contoso.com" -SiteCode "CM1"
 PS C:\> Remove-CMManagementPoint -InputObject $Mp
 ```
 

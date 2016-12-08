@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833726
 schema: 2.0.0
 ms.assetid: 6ABB57F2-9CCE-420E-8ECA-01AB5C8B0A50
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientStatusUpdateSchedule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientStatusUpdateSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientStatusUpdateSchedule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -36,7 +36,7 @@ For more information, see [How to Configure Client Status in Configuration Manag
 
 ### Example 1: Modify a client's status update schedule
 ```
-PS C:\>Set-CMClientStatusUpdateSchedule -Interval 23 -UnitType Hours
+PS C:\> Set-CMClientStatusUpdateSchedule -Interval 23 -UnitType Hours
 ```
 
 This command modifies the client status update schedule.

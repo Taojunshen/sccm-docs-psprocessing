@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833905
 schema: 2.0.0
 ms.assetid: AA061A0F-F88B-4C68-AD45-EB6F9503A39D
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAppVVirtualEnvironment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAppVVirtualEnvironment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAppVVirtualEnvironment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,21 +49,21 @@ You can specify App-V virtual environments by name or ID, or you can provide an 
 
 ### Example 1: Remove a virtual environment by name
 ```
-PS C:\>Remove-CMAppVVirtualEnvironment -Name "Test"
+PS C:\> Remove-CMAppVVirtualEnvironment -Name "Test"
 ```
 
 This command removes an App-V virtual environment named Test.
 
 ### Example 2: Remove a virtual environment by ID
 ```
-PS C:\>Remove-CMAppVVirtualEnvironment -Id "16781806"
+PS C:\> Remove-CMAppVVirtualEnvironment -Id "16781806"
 ```
 
 This command removes an App-V virtual environment that has the ID 16781806.
 
 ### Example 3: Remove a virtual environment by name by using a wildcard
 ```
-PS C:\>$AppV = Get-CMAppVVirtualEnvironment -Name "T*"
+PS C:\> $AppV = Get-CMAppVVirtualEnvironment -Name "T*"
 PS C:\> Remove-CMAppVVirtualEnvironment -InputObject $AppV
 ```
 

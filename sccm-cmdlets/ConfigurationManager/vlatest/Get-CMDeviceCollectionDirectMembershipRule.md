@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833623
 schema: 2.0.0
 ms.assetid: 3BDB9041-ADCF-44BA-A393-146E58845094
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionDirectMembershipRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionDirectMembershipRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionDirectMembershipRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -81,14 +81,14 @@ The **Get-CMDeviceCollectionDirectMembershipRule** cmdlet gets one or more direc
 
 ### Example 1: Get a direct membership rule by its name
 ```
-PS C:\>Get-CMDeviceCollectionDirectMembershipRule -CollectionName "Device01"
+PS C:\> Get-CMDeviceCollectionDirectMembershipRule -CollectionName "Device01"
 ```
 
 This command gets the direct membership rules for the device collection named Device01.
 
 ### Example 2: Get a direct membership rule by using the pipeline
 ```
-PS C:\>Get-CMCollection -Name "Device02" | Get-CMDeviceCollectionDirectMembershipRule
+PS C:\> Get-CMCollection -Name "Device02" | Get-CMDeviceCollectionDirectMembershipRule
 ```
 
 This command gets the device collection object named Device02 and uses the pipeline operator to pass the object to Get-CMDeviceCollectionDirectMembershipRule which gets the direct membership rules for the device collection object.

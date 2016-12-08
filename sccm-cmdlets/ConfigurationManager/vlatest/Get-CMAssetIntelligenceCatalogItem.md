@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834110
 schema: 2.0.0
 ms.assetid: C36B760A-9281-44FA-A120-B4D57F9BD142
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAssetIntelligenceCatalogItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAssetIntelligenceCatalogItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAssetIntelligenceCatalogItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,14 +50,14 @@ For more information about the Asset Intelligence catalog, see [Introduction to 
 
 ### Example 1: Get catalog items by category name
 ```
-PS C:\>Get-CMAssetIntelligenceCatalogItem -CategoryName "Browsers"
+PS C:\> Get-CMAssetIntelligenceCatalogItem -CategoryName "Browsers"
 ```
 
 This command gets Asset Intelligence catalog items by category name.
 
 ### Example 2: Get catalog items by category ID
 ```
-PS C:\>Get-CMAssetIntelligenceCatalogItem -Id "1211"
+PS C:\> Get-CMAssetIntelligenceCatalogItem -Id "1211"
 ```
 
 This command gets Asset Intelligence catalog items by category ID.

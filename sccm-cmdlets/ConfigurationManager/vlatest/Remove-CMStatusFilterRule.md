@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834237
 schema: 2.0.0
 ms.assetid: 8B1C6216-49C0-4D0E-A77B-CF7C29E706C9
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMStatusFilterRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMStatusFilterRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMStatusFilterRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,7 +50,7 @@ You can use the [Disable-CMStatusFilterRule](./Disable-CMStatusFilterRule.md) cm
 
 ### Example 1: Remove a rule
 ```
-PS C:\>Remove-CMStatusFilterRule -Name "Status change to critical" -SiteCode "CM1" -Force
+PS C:\> Remove-CMStatusFilterRule -Name "Status change to critical" -SiteCode "CM1" -Force
 ```
 
 This command removes a status filter rule that has the specified name in a site that has the site code CM1.

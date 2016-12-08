@@ -3,10 +3,10 @@ external help file: AdminUI.PS.SystemStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833823
 schema: 2.0.0
 ms.assetid: 28AA7E3C-EC13-4CE4-851D-7F6C765E48F9
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMConflictingRecord.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMConflictingRecord.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMConflictingRecord.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -63,7 +63,7 @@ This command creates a blocked record for the conflict named CR07.
 
 ### Example 2: Create a blocked record by using a variable
 ```
-PS C:\>$CMCR = Get-CMConflictingRecord -Name "CR07"
+PS C:\> $CMCR = Get-CMConflictingRecord -Name "CR07"
 PS C:\> Block-CMConflictingRecord -ConflictingRecord $CMCR
 ```
 

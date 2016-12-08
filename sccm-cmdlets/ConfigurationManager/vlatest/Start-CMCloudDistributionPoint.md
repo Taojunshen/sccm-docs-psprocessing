@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834207
 schema: 2.0.0
 ms.assetid: 0F8788AA-2C2A-4834-9CEA-9390D1E67F52
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMCloudDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMCloudDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMCloudDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,21 +50,21 @@ You can use the [Stop-CMCloudDistributionPoint](./Stop-CMCloudDistributionPoint.
 
 ### Example 1: Start the cloud distribution point service using an ID
 ```
-PS C:\>Start-CMCloudDistributionPoint -Id "16777242"
+PS C:\> Start-CMCloudDistributionPoint -Id "16777242"
 ```
 
 This command starts the cloud distribution point service for the cloud distribution point that has the specified identifier.
 
 ### Example 2: Start the cloud distribution point service using a name
 ```
-PS C:\>Start-CMCloudDistributionPoint -Name "West01"
+PS C:\> Start-CMCloudDistributionPoint -Name "West01"
 ```
 
 This command starts the cloud distribution point service for the cloud distribution point named West01.
 
 ### Example 3: Start the cloud distribution point service using an object
 ```
-PS C:\>$DistPnt = Get-CMCloudDistributionPoint -Id "16777242"
+PS C:\> $DistPnt = Get-CMCloudDistributionPoint -Id "16777242"
 PS C:\> Start-CMCloudDistributionPoint -InputObject $DistPnt
 ```
 

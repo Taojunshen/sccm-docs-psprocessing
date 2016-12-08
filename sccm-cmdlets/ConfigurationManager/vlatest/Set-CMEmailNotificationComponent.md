@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833834
 schema: 2.0.0
 ms.assetid: 492BE510-2A4E-485F-A4BE-ED5BD5303085
-updated_at: 12/7/2016 11:03 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEmailNotificationComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEmailNotificationComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEmailNotificationComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ You can configure the email notification component for each System Center Config
 
 ### Example 1: Enable email notification
 ```
-PS C:\>Set-CMEmailNotificationComponent -SiteSystemServerName "cmcen-dist02.tsqa.corp.contoso.com" -SiteCode "CM2" -EnableEmailNotification $True -MstpServerFqdn "mail.corp.contosco.com" -Port 25 -TypeOfAuthentication DefaultServiceAccount -SendFrom "evan.narvaez@contoso.com"
+PS C:\> Set-CMEmailNotificationComponent -SiteSystemServerName "cmcen-dist02.tsqa.corp.contoso.com" -SiteCode "CM2" -EnableEmailNotification $True -MstpServerFqdn "mail.corp.contosco.com" -Port 25 -TypeOfAuthentication DefaultServiceAccount -SendFrom "evan.narvaez@contoso.com"
 ```
 
 This command enables email notification for System Center Configuration Manager.
@@ -54,14 +54,14 @@ The command specifies that System Center Configuration Manager uses the default 
 
 ### Example 2: Disable email notification
 ```
-PS C:\>Set-CMEmailNotificationComponent -SiteSystemServerName "cmcen-dist02.tsqa.corp.contoso.com" -EnableEmailNotification $False
+PS C:\> Set-CMEmailNotificationComponent -SiteSystemServerName "cmcen-dist02.tsqa.corp.contoso.com" -EnableEmailNotification $False
 ```
 
 This command disables email notification for System Center Configuration Manager on the site server named cmcen-dist02.tsqa.corp.contoso.com.
 
 ### Example 3: Set the outgoing SMTP port for email notification
 ```
-PS C:\>Set-CMEmailNotificationComponent -SiteSystemServerName "cmcen-dist02.tsqa.corp.contoso.com" -Port 27
+PS C:\> Set-CMEmailNotificationComponent -SiteSystemServerName "cmcen-dist02.tsqa.corp.contoso.com" -Port 27
 ```
 
 This command sets the outgoing SMTP port that System Center Configuration Manager uses for sending email alerts on the site server named cmcen-dist02.tsqa.corp.contoso.com to port 27.

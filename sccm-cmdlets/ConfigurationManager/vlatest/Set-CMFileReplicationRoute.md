@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833858
 schema: 2.0.0
 ms.assetid: 93E46F42-95D2-4D3C-9F94-A48982E1629A
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMFileReplicationRoute.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMFileReplicationRoute.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMFileReplicationRoute.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -72,7 +72,7 @@ The functionality of file replication routes is the same as that of addresses in
 
 ### Example 1: Specify a file replication route by using a replication account name
 ```
-PS C:\>Set-CMFileReplicationRoute -SourceSiteCode "CM2" -DestinationSiteCode "SS2" -FileReplicationAccountName "11\12" -Unlimited
+PS C:\> Set-CMFileReplicationRoute -SourceSiteCode "CM2" -DestinationSiteCode "SS2" -FileReplicationAccountName "11\12" -Unlimited
 ```
 
 This command specifies a file replication route between the source site named CM2 and the destination site named SS2.
@@ -80,7 +80,7 @@ It uses the user account name 11\12 for file replication.
 
 ### Example 2: Specify a file replication route by using a source and destination site names
 ```
-PS C:\>Set-CMFileReplicationRoute -SourceSiteCode "CM2" -DestinationSiteCode "SS2" -ControlNetworkLoadSchedule -DaysOfWeek Friday, Sunday -AvailabilityLevel All
+PS C:\> Set-CMFileReplicationRoute -SourceSiteCode "CM2" -DestinationSiteCode "SS2" -ControlNetworkLoadSchedule -DaysOfWeek Friday, Sunday -AvailabilityLevel All
 ```
 
 This command specifies a file replication route between the source site named CM2 and the destination site named SS2.

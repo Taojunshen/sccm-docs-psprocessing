@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834187
 schema: 2.0.0
 ms.assetid: AB26AB4A-E630-4F08-84D9-AA7A36BE9F20
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityRoleFromAdministrativeUser.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityRoleFromAdministrativeUser.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityRoleFromAdministrativeUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -85,7 +85,7 @@ After you remove the association of a security role with an administrative user,
 
 ### Example 1: Remove a security role from an administrative user
 ```
-PS C:\>Remove-CMSecurityRoleFromAdministrativeUser -AdministrativeUserName "Contoso\PattiFuller" -RoleName "Security Update Manager"
+PS C:\> Remove-CMSecurityRoleFromAdministrativeUser -AdministrativeUserName "Contoso\PattiFuller" -RoleName "Security Update Manager"
 ```
 
 This command removes the association between the security role named Security Update Manager and the administrative user named Contoso\PattiFuller.

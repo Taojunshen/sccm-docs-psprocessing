@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833782
 schema: 2.0.0
 ms.assetid: C8F0AA23-CCFA-4D78-AABC-BE8664546C2C
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStatusFilterRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStatusFilterRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStatusFilterRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -41,7 +41,7 @@ The **New-CMStatusFilterRule** cmdlet creates a rule that triggers one or more a
 
 ### Example 1: Create a status filter rule
 ```
-PS C:\>New-CMStatusFilterRule -SiteCode "Contoso2" -Name "11211" -TargetSiteCode "Contoso2" -Source "SMS Provider" -System "Contoso-test" -Component "1111" -MessageType Milestone -SeverityType Informational -MessageId "1234" -PropertyName "403" -PropertyValue "123" -WriteToDatabase $True -AllowDeleteMessagesTimeDays 20 -ReportToEventLog $False -ReplicateToParentSite $False -RunProgram $False -ForwardToStatusSummarizers $True -ProcessLowerPriorityRules $True
+PS C:\> New-CMStatusFilterRule -SiteCode "Contoso2" -Name "11211" -TargetSiteCode "Contoso2" -Source "SMS Provider" -System "Contoso-test" -Component "1111" -MessageType Milestone -SeverityType Informational -MessageId "1234" -PropertyName "403" -PropertyValue "123" -WriteToDatabase $True -AllowDeleteMessagesTimeDays 20 -ReportToEventLog $False -ReplicateToParentSite $False -RunProgram $False -ForwardToStatusSummarizers $True -ProcessLowerPriorityRules $True
 ```
 
 This command creates a status filter rule.

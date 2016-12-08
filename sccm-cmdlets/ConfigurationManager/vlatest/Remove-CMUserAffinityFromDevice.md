@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834260
 schema: 2.0.0
 ms.assetid: 71F2E8B1-1E1C-45EB-82EF-F6B6F71790F1
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUserAffinityFromDevice.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUserAffinityFromDevice.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMUserAffinityFromDevice.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ User device affinity is a method of associating a user with one or more specifie
 
 ### Example 1: Remove a primary user from a device
 ```
-PS C:\>Remove-CMUserAffinityFromDevice -DeviceId "209846738" -UserId "206359374"
+PS C:\> Remove-CMUserAffinityFromDevice -DeviceId "209846738" -UserId "206359374"
 ```
 
 This command removes the association between the user that has the ID 206359374 and the device that has the ID 209846738.

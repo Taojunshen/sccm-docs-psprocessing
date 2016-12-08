@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Alerts.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834077
 schema: 2.0.0
 ms.assetid: 0AC09C2B-42ED-4397-9786-B7B1126AF5DC
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAlertSubscription.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAlertSubscription.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAlertSubscription.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,21 +44,21 @@ If you do not specify anything, the cmdlet returns the properties of all alert s
 
 ### Example 1: Display all alert subscriptions
 ```
-PS C:\>Get-CMAlertSubscription
+PS C:\> Get-CMAlertSubscription
 ```
 
 This command displays all System Center Configuration Manager alert subscriptions.
 
 ### Example 2: Display alert subscriptions by ID by using wildcard characters
 ```
-PS C:\>Get-CMAlertSubscription -Id 16777*
+PS C:\> Get-CMAlertSubscription -Id 16777*
 ```
 
 This command displays all System Center Configuration Manager alert subscriptions that have an ID that starts with the number 16777.
 
 ### Example 3: Display an alert subscription by name
 ```
-PS C:\>Get-CMAlertSubscription -Name "Subscription01"
+PS C:\> Get-CMAlertSubscription -Name "Subscription01"
 ```
 
 This command displays the System Center Configuration Manager alert subscription named Subscription01.

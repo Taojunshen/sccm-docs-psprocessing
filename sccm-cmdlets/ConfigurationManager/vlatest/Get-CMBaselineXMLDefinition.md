@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834142
 schema: 2.0.0
 ms.assetid: 73C221D9-2219-4362-A22C-69D65EA490F5
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBaselineXMLDefinition.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBaselineXMLDefinition.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBaselineXMLDefinition.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Get-CMBaselineXMLDefinition** cmdlet gets and displays the XML definition 
 
 ### Example 1: Get a configuration baseline XML definition
 ```
-PS C:\>$CIObj = Get-CMBaseline -Id "16777568"
+PS C:\> $CIObj = Get-CMBaseline -Id "16777568"
 PS C:\> Get-CMBaselineXMLDefinition -InputObject $CIObj
 ```
 

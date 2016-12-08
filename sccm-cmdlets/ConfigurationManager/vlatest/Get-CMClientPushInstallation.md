@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834188
 schema: 2.0.0
 ms.assetid: 93625B5F-18C6-48F8-9BB2-6CF6BC0E4590
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientPushInstallation.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientPushInstallation.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientPushInstallation.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -40,7 +40,7 @@ For more information about how to install clients, see [How to Install Clients o
 
 ### Example 1: Get a client push installation
 ```
-PS C:\>Get-CMClientPushInstallation -SiteSystemServerName "CMClientPushInstallationPoint.Western.Contoso.com"
+PS C:\> Get-CMClientPushInstallation -SiteSystemServerName "CMClientPushInstallationPoint.Western.Contoso.com"
 ```
 
 This command gets the client push installation for the site system server named CMClientPushInstallationPoint.Western.Contoso.com.

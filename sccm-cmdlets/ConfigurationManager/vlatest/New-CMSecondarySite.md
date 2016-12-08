@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833746
 schema: 2.0.0
 ms.assetid: F94DB807-7FB0-403F-A8D2-318E1A1AC933
-updated_at: 12/8/2016 3:33 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSecondarySite.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSecondarySite.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSecondarySite.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -87,7 +87,7 @@ The **New-CMSecondarySite** cmdlet creates a secondary site in Microsoft System 
 
 ### Example 1: Create a secondary site
 ```
-PS C:\>$CIObj = New-CMSqlServerSetting -CopySqlServerExpressOnSecondarySite
+PS C:\> $CIObj = New-CMSqlServerSetting -CopySqlServerExpressOnSecondarySite
 PS C:\> New-CMSecondarySite -CertificateExpirationTimeUtc "2/1/2020 12:00 AM" -CreateSelfSignedCertificate -Https -InstallationSourceFile "\\ContosoServer1\SourceFiles" -InstallInternetServer $True -ParentSiteCode "CM1" -ServerName "server2.corp.contoso.com" -SiteCode "CM2" -SiteName "Contoso remote site" -SqlServerSetting $CIObj
 ```
 

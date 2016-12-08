@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833640
 schema: 2.0.0
 ms.assetid: 776836A3-581F-4989-8FBD-67C811B4983E
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionVariable.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionVariable.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeviceCollectionVariable.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Get-CMDeviceCollectionVariable** cmdlet gets the task sequence variables f
 
 ### Example 1: Get a device collection variable by name
 ```
-PS C:\>Get-CMDeviceCollectionVariable -CollectionName "DeviceCollection02" -VariableName "testTS"
+PS C:\> Get-CMDeviceCollectionVariable -CollectionName "DeviceCollection02" -VariableName "testTS"
 ```
 
 This command gets the collection variable named testTS for the device collection named Device.
