@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834251
 schema: 2.0.0
 ms.assetid: 3FE27BD4-6193-4593-BCED-ABD609C55AC8
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Sync-CMExchangeServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Sync-CMExchangeServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Sync-CMExchangeServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,7 +37,7 @@ Configuration Manager works with Exchange Server to manage mobile devices that c
 
 ### Example 1: Synchronize with an nextref_exchange
 ```
-PS C:\>Sync-CMExchangeServer -Address "http://localhost/PowerShell" -SiteCode "PE1"
+PS C:\> Sync-CMExchangeServer -Address "http://localhost/PowerShell" -SiteCode "PE1"
 ```
 
 This command synchronizes mobile devices for the site that has the site code PE1 with the specified Exchange Server.

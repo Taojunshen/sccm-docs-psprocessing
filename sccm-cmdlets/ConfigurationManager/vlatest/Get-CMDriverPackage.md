@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833668
 schema: 2.0.0
 ms.assetid: FFDDED71-D9A4-4974-A61E-F4325BCEADC4
-updated_at: 12/7/2016 5:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDriverPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDriverPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDriverPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -40,7 +40,7 @@ The **Get-CMDriverPackage** cmdlet gets a driver package.
 
 ### Example 1: Get a driver package that is specified by its identifier
 ```
-PS C:\>Get-CMDriverPackage -Id "CM100042"
+PS C:\> Get-CMDriverPackage -Id "CM100042"
 ```
 
 This command gets a driver package that is specified by its identifier.

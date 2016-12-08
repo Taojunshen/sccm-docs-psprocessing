@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833862
 schema: 2.0.0
 ms.assetid: 6B31564C-A6FC-4D4D-83D6-12EA9BEFC07A
-updated_at: 12/7/2016 11:03 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGlobalCondition.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGlobalCondition.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGlobalCondition.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -136,14 +136,14 @@ Each global condition must have at least one security scope.
 
 ### Example 1: Add a security scope
 ```
-PS C:\>Set-CMGlobalCondition -Name "CPU speed" -SecurityScopeAction AddMembership -SecurityScopeName "Scope22"
+PS C:\> Set-CMGlobalCondition -Name "CPU speed" -SecurityScopeAction AddMembership -SecurityScopeName "Scope22"
 ```
 
 This command adds the security scope named Scope22 to the global condition named CPU speed.
 
 ### Example 2: Remove a security scope by using a variable
 ```
-PS C:\>$CMGC = Get-CMGlobalCondition -Name "CPU speed"
+PS C:\> $CMGC = Get-CMGlobalCondition -Name "CPU speed"
 PS C:\> Set-CMGlobalCondition -InputObject $CMGC -SecurityScopeAction RemoveMembership -SecurityScopeName "Scope22"
 ```
 

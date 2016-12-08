@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834064
 schema: 2.0.0
 ms.assetid: F42A8C48-A9AF-4FA6-8734-16011E12C611
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceVariable.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceVariable.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeviceVariable.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Remove-CMDeviceVariable** cmdlet removes a variable defined for a device.
 
 ### Example 1: Remove a device variable
 ```
-PS C:\>Remove-CMDeviceVariable -DeviceName "gateway-server.contoso.com" -VariableName "ServerIPAddress"
+PS C:\> Remove-CMDeviceVariable -DeviceName "gateway-server.contoso.com" -VariableName "ServerIPAddress"
 ```
 
 This command removes the device variable ServerIPAddress from the device gateway-server.contoso.com.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833678
 schema: 2.0.0
 ms.assetid: 8104F0AD-BD4E-43FB-9E4B-E347CEE0A70C
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineSummarizationSchedule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineSummarizationSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineSummarizationSchedule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -35,7 +35,7 @@ The **Set-CMBaselineSummarizationSchedule** cmdlet configures the schedule by wh
 
 ### Example 1: Set the configuration baseline update schedule
 ```
-PS C:\>Set-CMBaselineSummarizationSchedule -Interval 6 -Unit "Hours"
+PS C:\> Set-CMBaselineSummarizationSchedule -Interval 6 -Unit "Hours"
 ```
 
 This command schedules Configuration Manager to automatically update the configuration baseline data every six hours.

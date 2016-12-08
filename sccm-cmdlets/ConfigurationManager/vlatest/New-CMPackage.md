@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833718
 schema: 2.0.0
 ms.assetid: 963070B3-F0C7-4B2F-8D4A-3D1250CCCE75
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -64,14 +64,14 @@ A package is a System Center Configuration Manager object that contains the cont
 
 ### Example 1: Create a package
 ```
-PS C:\>New-CMPackage -Name "ScriptsPackage01"
+PS C:\> New-CMPackage -Name "ScriptsPackage01"
 ```
 
 This command creates a Configuration Manager package named ScriptsPackage01.
 
 ### Example 2: Create a package and add a description
 ```
-PS C:\>New-CMPackage -Name "ScriptsPackage02" -Description "This package deploys scripts that run on a recurring schedule."
+PS C:\> New-CMPackage -Name "ScriptsPackage02" -Description "This package deploys scripts that run on a recurring schedule."
 ```
 
 This command creates a Configuration Manager package named ScriptsPackage02 and adds the specified description to the package.

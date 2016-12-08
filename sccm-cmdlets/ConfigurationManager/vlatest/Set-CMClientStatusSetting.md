@@ -3,10 +3,10 @@ external help file: AdminUI.PS.ClientStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833723
 schema: 2.0.0
 ms.assetid: C361CE49-5461-4CC1-8660-9EE840B3F6B8
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientStatusSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientStatusSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientStatusSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -40,14 +40,14 @@ For more information about client settings, see [About Client Settings in Config
 
 ### Example 1: Modify all client status settings
 ```
-PS C:\>Set-CMClientStatusSetting -ClientPolicyDayInterval 2 -HeartbeatDiscoveryDayInterval 3 -HardwareInventoryDayInterval 4 -SoftwareInventoryDayInterval 5 -StatusMessageDayInterval 6 -HistoryCleanupDayInterval 7
+PS C:\> Set-CMClientStatusSetting -ClientPolicyDayInterval 2 -HeartbeatDiscoveryDayInterval 3 -HardwareInventoryDayInterval 4 -SoftwareInventoryDayInterval 5 -StatusMessageDayInterval 6 -HistoryCleanupDayInterval 7
 ```
 
 This command modifies all client status settings.
 
 ### Example 2: Modify the Client Policy setting
 ```
-PS C:\>Set-CMClientStatusSetting -ClientPolicyDayInterval 5
+PS C:\> Set-CMClientStatusSetting -ClientPolicyDayInterval 5
 ```
 
 This command modifies the client policy day setting only.

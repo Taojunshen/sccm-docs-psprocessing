@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834099
 schema: 2.0.0
 ms.assetid: C77E2084-F298-4B89-AA9B-89A8DB91715D
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMApplicationRevisionHistory.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMApplicationRevisionHistory.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMApplicationRevisionHistory.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,7 +50,7 @@ You can use the revision history to display each revision made to an application
 
 ### Example 1: Get the revision history for an application
 ```
-PS C:\>Get-CMApplicationRevisionHistory -Name "MSXML 6.0 Parser"
+PS C:\> Get-CMApplicationRevisionHistory -Name "MSXML 6.0 Parser"
 ```
 
 This command gets the application revision history named MSXML 6.0 Parser.

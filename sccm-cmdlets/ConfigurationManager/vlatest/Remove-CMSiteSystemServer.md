@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834209
 schema: 2.0.0
 ms.assetid: 73480395-F8AB-4F64-84F1-ED4EC157EC02
-updated_at: 12/7/2016 6:57 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSiteSystemServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/276d57dd1123c39482a5ab8556d7039498b71785/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSiteSystemServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSiteSystemServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,14 +43,14 @@ If the site system server has other site system roles besides the site system ro
 
 ### Example 1: Remove a site system server by using the pipeline
 ```
-PS C:\>Get-CMSiteSystemServer -SiteSystemServerName "Server2.contoso.com" -SiteCode "MP5" | Remove-CMSiteSystemServer -Force
+PS C:\> Get-CMSiteSystemServer -SiteSystemServerName "Server2.contoso.com" -SiteCode "MP5" | Remove-CMSiteSystemServer -Force
 ```
 
 This command gets the site system server object named Server2.contoso.com with the site code MP5 and uses the pipeline operator to pass the object to **Remove-CMSiteSystemServer**, which removes the site system server object.
 
 ### Example 2: Remove a site system server
 ```
-PS C:\>Remove-CMSiteSystemServer -SiteSystemServerName "Server2.contoso.com" -SiteCode "MP5" -Force
+PS C:\> Remove-CMSiteSystemServer -SiteSystemServerName "Server2.contoso.com" -SiteCode "MP5" -Force
 ```
 
 This command removes the site system server named Server2.contoso.com with the site code MP5.

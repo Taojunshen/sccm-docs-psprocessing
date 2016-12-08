@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833899
 schema: 2.0.0
 ms.assetid: 5FFC0EF0-B499-4511-B2B0-FF6D69D84E6F
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplicationCatalogWebSitePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplicationCatalogWebSitePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplicationCatalogWebSitePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -45,7 +45,7 @@ You can specify a website point to remove by site code and name of the server th
 
 ### Example 1: Remove an Application Catalog website point
 ```
-PS C:\>Remove-CMApplicationCatalogWebsitePoint -SiteCode "CM2" -SiteSystemServerName "WesternACWP.Contoso.com"
+PS C:\> Remove-CMApplicationCatalogWebsitePoint -SiteCode "CM2" -SiteSystemServerName "WesternACWP.Contoso.com"
 ```
 
 This command removes an Application Catalog website point that belongs to the site that has the site code CM2.
@@ -53,7 +53,7 @@ The computer named WesternACWP.Contoso.com hosts the point that the cmdlet remov
 
 ### Example 2: Remove an Application Catalog website point by variable
 ```
-PS C:\>$CMACWP= Get-CMApplicationCatalogWebsitePoint -SiteCode "CM2" -SiteSystemServerName"WesternACWP.Contoso.com" 
+PS C:\> $CMACWP= Get-CMApplicationCatalogWebsitePoint -SiteCode "CM2" -SiteSystemServerName"WesternACWP.Contoso.com" 
 PS C:\> Remove-CMApplicationCatalogWebsitePoint -InputObject $CMACWP -Force
 ```
 

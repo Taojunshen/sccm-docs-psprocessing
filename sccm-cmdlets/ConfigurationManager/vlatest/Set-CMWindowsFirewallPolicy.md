@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834164
 schema: 2.0.0
 ms.assetid: 4B32EE03-FD8B-4F78-9F32-258A1C20EB0A
-updated_at: 12/7/2016 11:12 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,21 +65,21 @@ The **Set-CMWindowsFirewallPolicy** cmdlet changes settings of one or more Windo
 
 ### Example 1: Decrease the priority of a Windows Firewall policy by using a name
 ```
-PS C:\>Set-CMWindowsFirewallPolicy -Priority Decrease -Name "WFPContoso01"
+PS C:\> Set-CMWindowsFirewallPolicy -Priority Decrease -Name "WFPContoso01"
 ```
 
 This command decreases the priority of the Windows Firewall policy named WFPContoso01.
 
 ### Example 2: Decrease the priority of a Windows Firewall policy by using an ID
 ```
-PS C:\>Set-CMWindowsFirewallPolicy -Priority Decrease -Id "16777568"
+PS C:\> Set-CMWindowsFirewallPolicy -Priority Decrease -Id "16777568"
 ```
 
 This command decreases the priority of the Windows Firewall policy that has the ID 16777568.
 
 ### Example 3: Increase the priority of a Windows Firewall policy by using an object variable
 ```
-PS C:\>$WFPobj=Get-CMWindowsFirewallPolicy -Id "16777568"
+PS C:\> $WFPobj=Get-CMWindowsFirewallPolicy -Id "16777568"
 PS C:\> Set-CMWindowsFirewallPolicy -Priority Increase -InputObject $WFPobj
 ```
 

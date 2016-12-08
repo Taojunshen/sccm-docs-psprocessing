@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834088
 schema: 2.0.0
 ms.assetid: 7880EBFC-D033-4243-BCFC-D9A890971680
-updated_at: 12/7/2016 7:27 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -58,14 +58,14 @@ After you deploy a software update group, you can add new software updates to th
 
 ### Example 1: Add a software update group to a security scope
 ```
-PS C:\>Set-CMSoftwareUpdateGroup -SecurityScopeAction AddMembership -SecurityScopeName "ScopeNameD02" -Name "SUGroup01"
+PS C:\> Set-CMSoftwareUpdateGroup -SecurityScopeAction AddMembership -SecurityScopeName "ScopeNameD02" -Name "SUGroup01"
 ```
 
 This command adds a software update group named SUGroup01 as a member of the security scope named ScopeNameD02.
 
 ### Example 2: Remove a software update group from a security scope
 ```
-PS C:\>Set-CMSoftwareUpdateGroup -SecurityScopeAction RemoveMembership -SecurityScopeName "ScopeNameD17" -Name "SUGroup01"
+PS C:\> Set-CMSoftwareUpdateGroup -SecurityScopeAction RemoveMembership -SecurityScopeName "ScopeNameD17" -Name "SUGroup01"
 ```
 
 This command removes the software update group named SUGroup01 from membership in the security scope named ScopeNameD17.

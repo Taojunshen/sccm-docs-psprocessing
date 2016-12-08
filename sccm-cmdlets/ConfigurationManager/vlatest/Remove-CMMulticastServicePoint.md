@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834139
 schema: 2.0.0
 ms.assetid: 23C2C811-714F-4B4C-A811-8FF6D837AF8B
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMMulticastServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMMulticastServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMMulticastServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -42,7 +42,7 @@ The **Remove-CMMulticastServicePoint** cmdlet removes the multicast service poin
 
 ### Example 1: Remove a multicast service point by using the pipeline
 ```
-PS C:\>Get-CMMulticastServicePoint -SiteSystemServerName "server1.contoso.com" -SiteCode "PS1" | Remove-CMMulticastServicePoint -RemoveWds -Force
+PS C:\> Get-CMMulticastServicePoint -SiteSystemServerName "server1.contoso.com" -SiteCode "PS1" | Remove-CMMulticastServicePoint -RemoveWds -Force
 ```
 
 This command gets the multicast service point object with the site system server name of server1.contoso.com and site code PS1 and uses the pipeline operator to pass the object to **Remove-CMMulticastServicePoint**, which removes the multicast service point and WDS.
@@ -50,7 +50,7 @@ Using the *Force* parameter indicates that the user is not prompted for confirma
 
 ### Example 2: Remove a multicast service point
 ```
-PS C:\>Remove-CMMulticastServicePoint -SiteSystemServerName "server1.contoso.com" -SiteCode "PS1" -RemoveWds -Force
+PS C:\> Remove-CMMulticastServicePoint -SiteSystemServerName "server1.contoso.com" -SiteCode "PS1" -RemoveWds -Force
 ```
 
 This command removes the multicast service point with the site system server name of server1.contoso.com and site code PS1.

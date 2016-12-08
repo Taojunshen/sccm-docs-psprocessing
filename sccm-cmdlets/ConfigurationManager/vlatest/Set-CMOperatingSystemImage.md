@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833958
 schema: 2.0.0
 ms.assetid: B2701AED-9D42-45CE-AFA0-092A54AB1BE5
-updated_at: 12/7/2016 10:23 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/7e5b4c3ad3b309b969cc9a0403712b3ad7fae461/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -70,7 +70,7 @@ Operating system images are .wim format files and represent a compressed collect
 
 ### Example 1: Change settings for an operating system image by using an ID
 ```
-PS C:\>Set-CMOperatingSystemImage -Id "Cm10004f" -NewName "Microsoft Windows 8 (x64)" -Version "I20C" -Description "Dept02 Sys Image" -Path "\\Contoso\Public\OSD\win8x64.wim"
+PS C:\> Set-CMOperatingSystemImage -Id "Cm10004f" -NewName "Microsoft Windows 8 (x64)" -Version "I20C" -Description "Dept02 Sys Image" -Path "\\Contoso\Public\OSD\win8x64.wim"
 ```
 
 This command changes configuration settings of the operating system image that has the ID Cm10004f.
@@ -78,14 +78,14 @@ The command renames the operating system image, adds a version and description, 
 
 ### Example 2: Add an operating system image to a security scope by using a name
 ```
-PS C:\>Set-CMOperatingSystemImage -SecurityScopeAction AddMembership -SecurityScopeName "SecScope02" -Name "ImagePkg01"
+PS C:\> Set-CMOperatingSystemImage -SecurityScopeAction AddMembership -SecurityScopeName "SecScope02" -Name "ImagePkg01"
 ```
 
 This command adds membership to the security scope named SecScope02 for the operating system image named ImagePkg01.
 
 ### Example 3: Remove an operating system image from a security scope
 ```
-PS C:\>Set-CMOperatingSystemImage -SecurityScopeAction RemoveMembership -SecurityScopeName "SecScope02" -Name "ImagePkg01"
+PS C:\> Set-CMOperatingSystemImage -SecurityScopeAction RemoveMembership -SecurityScopeName "SecScope02" -Name "ImagePkg01"
 ```
 
 This command removes membership from the security scope named SecScope02 for the operating system image named ImagePkg01.

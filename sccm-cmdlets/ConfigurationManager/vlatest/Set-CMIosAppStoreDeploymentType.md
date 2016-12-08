@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833903
 schema: 2.0.0
 ms.assetid: 302A6C32-CFCD-4AB4-99BC-481B2E97604E
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIosAppStoreDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIosAppStoreDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIosAppStoreDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,7 +62,7 @@ The **Set-CMIosAppStoreDeploymentType** cmdlet changes the settings for an iOS A
 
 ### Example 1: Remove a language from a deployment type
 ```
-PS C:\>Set-CMIOSAppStoreDeploymentType -ApplicationName "testIOSapp" -DeploymentTypeName "DTIOSapp02" -NewName "DTIOSapp02_updated" -Url "https://itunes.apple.com/us/app/warhammer-40-000-deathwatch/id791134629?mt=8" -PassThru -Comment "test-set-CMIOSAppStoreDeploymentType" -RemoveLanguage "en-US"
+PS C:\> Set-CMIOSAppStoreDeploymentType -ApplicationName "testIOSapp" -DeploymentTypeName "DTIOSapp02" -NewName "DTIOSapp02_updated" -Url "https://itunes.apple.com/us/app/warhammer-40-000-deathwatch/id791134629?mt=8" -PassThru -Comment "test-set-CMIOSAppStoreDeploymentType" -RemoveLanguage "en-US"
 ```
 
 This command removes English from the deployment type named DTIOSapp02 for the application named testIOSapp.
@@ -71,7 +71,7 @@ The *PassThru* parameter indicates that an object is returned from this command.
 
 ### Example 2: Change the display name of a deployment type by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "testIOSapp" -DeploymentTypeName "DTIOSapp01" | Set-CMIOSAppStoreDeploymentType -NewName "DTIOSapp01_Updated"
+PS C:\> Get-CMDeploymentType -ApplicationName "testIOSapp" -DeploymentTypeName "DTIOSapp01" | Set-CMIOSAppStoreDeploymentType -NewName "DTIOSapp01_Updated"
 ```
 
 This command gets the deployment type object named DTIOSapp01 for the application named testIOSapp and uses the pipeline operator to pass the object to **Set-CMIOSAppStoreDeploymentType**.

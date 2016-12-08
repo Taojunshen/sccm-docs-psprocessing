@@ -3,10 +3,10 @@ external help file: AdminUI.PS.ClientSettings.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834191
 schema: 2.0.0
 ms.assetid: 8316BA4A-1758-4255-A911-D5749FC64971
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ For more information about client settings, see [About Client Settings in Config
 
 ### Example 1: Get a collection of customized client settings that is specified by its name
 ```
-PS C:\>Get-CMClientSetting -Name "Windows 8 Client Computers Settings"
+PS C:\> Get-CMClientSetting -Name "Windows 8 Client Computers Settings"
 AgentConfigurations: {}
 AssignmentCount:     0
 CreatedBy:           Contoso\DChew

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833802
 schema: 2.0.0
 ms.assetid: DBE058A7-0428-449A-9EA0-65151A1702A7
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMOutOfBandManagementComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMOutOfBandManagementComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMOutOfBandManagementComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,14 +37,14 @@ Out of band management lets you connect to a computer AMT management controller 
 
 ### Example 1: Get an out of band management component by using a site code
 ```
-PS C:\>Get-CMOutOfBandManagementComponent -SiteCode "CM4"
+PS C:\> Get-CMOutOfBandManagementComponent -SiteCode "CM4"
 ```
 
 This command gets the out of band management component from the client site that has code CM4.
 
 ### Example 2: Get an out of band management component by using a site server name
 ```
-PS C:\>Get-CMOutOfBandManagementComponent -SiteSystemServerName "condev-test04.tsqa.corp.contoso.com"
+PS C:\> Get-CMOutOfBandManagementComponent -SiteSystemServerName "condev-test04.tsqa.corp.contoso.com"
 ```
 
 This command gets the out of band management component from the site server named condev-test04.tsqa.corp.contoso.com in the client site.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833898
 schema: 2.0.0
 ms.assetid: FBAE9153-5CD0-4F4B-9394-7B8EC2093A85
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdate.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdate.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdate.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -66,14 +66,14 @@ Clients receive a software update object when manually or automatically deployin
 
 ### Example 1: Get software updates that have been downloaded
 ```
-PS C:\>Get-CMSoftwareUpdate -IsContentProvisioned $True
+PS C:\> Get-CMSoftwareUpdate -IsContentProvisioned $True
 ```
 
 This command gets all software updates that have been downloaded.
 
 ### Example 2: Get software updates by update group
 ```
-PS C:\>Get-CMSoftwareUpdateGroup -Name "TestSUgroup10" | Get-CMSoftwareUpdate
+PS C:\> Get-CMSoftwareUpdateGroup -Name "TestSUgroup10" | Get-CMSoftwareUpdate
 ```
 
 This command gets the software update group object named TestSUgroup10 and uses the pipeline operator to pass the object to **Get-CMSoftwareUpdate**, which gets all software updates for the software update group object.

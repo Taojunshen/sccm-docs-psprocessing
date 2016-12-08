@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Common.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834143
 schema: 2.0.0
 ms.assetid: 2FB8BE93-96D3-4BF9-B3F7-F1B2C6BEF109
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMObjectSecurityScope.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMObjectSecurityScope.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMObjectSecurityScope.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Remove-CMObjectSecurityScope** cmdlet removes a security scope from a Micr
 
 ### Example 1: Remove a security scope from application objects by using the pipeline
 ```
-PS C:\>$Scope = Get-CMSecurityScope -Name "Scope1"
+PS C:\> $Scope = Get-CMSecurityScope -Name "Scope1"
 PS C:\> Get-CMApplication -Name "Application*" | Remove-CMObjectSecurityScope -Scope $Scope -Force
 ```
 
@@ -60,7 +60,7 @@ The *Force* parameter indicates that the user is not prompted before the securit
 
 ### Example 2: Remove a security scope from application objects
 ```
-PS C:\>Remove-CMObjectSecurityScope -InputObject (Get-CMApplication -Name "Application*") -Name "Scope1" -Force
+PS C:\> Remove-CMObjectSecurityScope -InputObject (Get-CMApplication -Name "Application*") -Name "Scope1" -Force
 ```
 
 This command gets all application objects that have a name beginning with Application and removes the security scope named Scope1 from each application object.

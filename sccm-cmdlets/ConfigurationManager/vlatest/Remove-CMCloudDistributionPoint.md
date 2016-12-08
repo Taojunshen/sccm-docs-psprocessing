@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833964
 schema: 2.0.0
 ms.assetid: 471DC886-634B-4D50-A183-5FCDFE4CED8A
-updated_at: 12/7/2016 5:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMCloudDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMCloudDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMCloudDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -51,7 +51,7 @@ If you want to suspend a distribution point temporarily, use the [Stop-CMCloudDi
 
 ### Example 1: Remove all distribution points
 ```
-PS C:\>Remove-CMCloudDistributionPoint
+PS C:\> Remove-CMCloudDistributionPoint
 ```
 
 This command removes all the cloud distribution points from System Center Configuration Manager.
@@ -59,7 +59,7 @@ Unless you use the *Force* parameter, the cmdlet prompts you for confirmation.
 
 ### Example 2: Remove a distribution point using a name
 ```
-PS C:\>Remove-CMCloudDistributionPoint -Name "West01"
+PS C:\> Remove-CMCloudDistributionPoint -Name "West01"
 ```
 
 This command removes the cloud distribution point named West01.
@@ -67,7 +67,7 @@ Unless you use the *Force* parameter, the cmdlet prompts you for confirmation.
 
 ### Example 3: Remove a distribution point using an ID
 ```
-PS C:\>Remove-CMCloudDistributionPoint -Id "16777236"
+PS C:\> Remove-CMCloudDistributionPoint -Id "16777236"
 ```
 
 This command removes the cloud distribution point that has the specified identifier.

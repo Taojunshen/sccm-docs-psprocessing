@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833776
 schema: 2.0.0
 ms.assetid: 08AC9C99-5F25-4368-A74A-C1D23906A535
-updated_at: 12/7/2016 6:57 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMulticastServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/276d57dd1123c39482a5ab8556d7039498b71785/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMulticastServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMulticastServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -42,7 +42,7 @@ The **Get-CMMulticastServicePoint** cmdlet gets the multicast settings for a dis
 
 ### Example 1: Get a multicast service point
 ```
-PS C:\>Get-CMMulticastServicePoint -SiteSystemServerName "server01.contoso.com" -SiteCode "PS1"
+PS C:\> Get-CMMulticastServicePoint -SiteSystemServerName "server01.contoso.com" -SiteCode "PS1"
 ```
 
 This command gets the multicast service point settings for the distribution point that has the site system server name server01.contoso.com and site code PS1.

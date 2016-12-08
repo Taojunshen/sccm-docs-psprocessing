@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834014
 schema: 2.0.0
 ms.assetid: 449CA735-B682-4AF9-A35C-6FBBD1D0EE09
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMScriptDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMScriptDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMScriptDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -102,7 +102,7 @@ The command also specifies the language of the script used to detect this deploy
 
 ### Example 2: Modify a script installer deployment type by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "application01" -DeploymentTypeName "ScriptDT02" | Set-CMScriptDeploymentType -Comment "Script updated to uninstall" -UninstallCommand 'msiexec /x ""\\Machine01\Resources\Applications\MSI\AdvertMSI\AdvertMSI.msi" /q' -ScriptLanguage PowerShell -ScriptText "update script text"
+PS C:\> Get-CMDeploymentType -ApplicationName "application01" -DeploymentTypeName "ScriptDT02" | Set-CMScriptDeploymentType -Comment "Script updated to uninstall" -UninstallCommand 'msiexec /x ""\\Machine01\Resources\Applications\MSI\AdvertMSI\AdvertMSI.msi" /q' -ScriptLanguage PowerShell -ScriptText "update script text"
 ```
 
 This command gets the script installer deployment type object named ScriptDT02 for the application named application01 and uses the pipeline operator to pass the object to **Set-CMScriptDeploymentType**.

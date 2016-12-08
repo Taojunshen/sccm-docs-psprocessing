@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Alerts.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833935
 schema: 2.0.0
 ms.assetid: 57F5F380-5A44-42B2-8CCE-EC72F4D3E701
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMAlert.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMAlert.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMAlert.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -57,7 +57,7 @@ This command disables an alert that has the ID 16777218.
 
 ### Example 2: Disable an alert by using alert object variable
 ```
-PS C:\>$AlertObj = Get-CMAlert -Id "16777221"
+PS C:\> $AlertObj = Get-CMAlert -Id "16777221"
 PS C:\> Disable-CMAlert -InputObject $AlertObj
 ```
 

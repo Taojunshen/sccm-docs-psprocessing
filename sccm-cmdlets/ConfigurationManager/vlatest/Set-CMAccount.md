@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Accounts.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833605
 schema: 2.0.0
 ms.assetid: 5DA6777B-C1CC-4FC0-A85C-6185F7AB69BE
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccount.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccount.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccount.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -44,7 +44,7 @@ For more information about user accounts, see [Technical Reference for Accounts 
 
 ### Example 1: Set an account by using name and password
 ```
-PS C:\>$Secure = Read-Host -AsSecureString
+PS C:\> $Secure = Read-Host -AsSecureString
 PS C:\> $ConfirmSecure = Read-Host -AsSecureString
 PS C:\> Set-CMAccount -Name " TSQA\PFuller" -Password $Secure -ConfirmPassword $ConfirmSecure -SiteCode "CM2"
 ```

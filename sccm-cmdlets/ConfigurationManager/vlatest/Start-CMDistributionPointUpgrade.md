@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834218
 schema: 2.0.0
 ms.assetid: E30DA485-2D19-497F-92BA-8BD7F7804602
-updated_at: 12/7/2016 11:12 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 7:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e96af22ac9700d4739f43d97cc915f1f0491a231/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -71,7 +71,7 @@ Therefore, when you upgrade a distribution point, you do not have to redistribut
 
 ### Example 1: Upgrade a shared distribution point
 ```
-PS C:\>$CIObj = Get-CMDistributionPoint -DistributionPointGroupId "{6617708D-0F98-4898-8D05-9E882C23DCB2}"
+PS C:\> $CIObj = Get-CMDistributionPoint -DistributionPointGroupId "{6617708D-0F98-4898-8D05-9E882C23DCB2}"
 PS C:\> Start-CMDistributionPointUpgrade -AllowPreStaging $True -CertificatePath "\\Contoso01\CM\Toolbox\BaseCert.txt" -SharedDistributionPoint $CIObj -SiteCode "CM1"
 ```
 
@@ -444,7 +444,7 @@ Accept wildcard characters: False
 
 ### -PrimaryContentLibraryLocation
 Specifies the primary content location.
-Configuration Manager copies content to the primary content location until the amount of free space reaches the value that you specified for the MinFreeSpaceMB parameter.
+Configuration Manager copies content to the primary content location until the amount of free space reaches the value that you specified for the *MinFreeSpaceMB* parameter.
 Valid values are:
 
 - Automatic.
@@ -464,7 +464,7 @@ Accept wildcard characters: False
 
 ### -PrimaryPackageShareLocation
 Specifies the primary package share location.
-Configuration Manager copies content to the primary package share location until the amount of free space reaches the value that you specified for the MinFreeSpaceMB parameter.
+Configuration Manager copies content to the primary package share location until the amount of free space reaches the value that you specified for the *MinFreeSpaceMB* parameter.
 Valid values are:
 
 - Automatic.

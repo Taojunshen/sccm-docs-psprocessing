@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834144
 schema: 2.0.0
 ms.assetid: F354A3B1-3569-4CC5-962B-5050F0A67DDD
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMVhd.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMVhd.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMVhd.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -54,14 +54,14 @@ The **Set-CMVhd** cmdlet modifies one or more virtual hard disk (VHD) images tha
 
 ### Example 1: Change the distribution point server for a VHD
 ```
-PS C:\>Set-CMVhd -Name "Windows 10 Enterprise" -DistributionPointServerNames "distribution-server.contoso.com"
+PS C:\> Set-CMVhd -Name "Windows 10 Enterprise" -DistributionPointServerNames "distribution-server.contoso.com"
 ```
 
 This command changes the distribution point server for the virtual hard disk (VHD) named Windows 10 Enterprise.
 
 ### Example 2: Rename a VHD
 ```
-PS C:\>Set-CMVhd -Name "Windows 10 Enterprise"-NewName "User Desktop Image"
+PS C:\> Set-CMVhd -Name "Windows 10 Enterprise"-NewName "User Desktop Image"
 ```
 
 This command renames the VHD named Windows 10 Enterprise.

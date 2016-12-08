@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833924
 schema: 2.0.0
 ms.assetid: BFB60354-1427-48AB-B27B-86FFABCCA9C5
-updated_at: 12/7/2016 11:00 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBootImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBootImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBootImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -52,7 +52,7 @@ For more information about the SMS provider, see [Planning for the SMS Provider 
 
 ### Example 1: Remove a boot image object that is identified by using its ID
 ```
-PS C:\>Remove-CMBootImage -Id "CM100004" -Confirm
+PS C:\> Remove-CMBootImage -Id "CM100004" -Confirm
 ```
 
 This command removes a boot image object that is identified by using its ID.
@@ -60,7 +60,7 @@ You must confirm the action before the command performs it.
 
 ### Example 2: Remove a boot image object that is identified by using its name
 ```
-PS C:\>Remove-CMBootImage -Name "Boot image (86)" -Confirm
+PS C:\> Remove-CMBootImage -Name "Boot image (86)" -Confirm
 ```
 
 This command removes a boot image object that is identified by using its name.

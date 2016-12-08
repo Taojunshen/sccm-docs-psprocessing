@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834243
 schema: 2.0.0
 ms.assetid: 1E63FED9-D574-44F1-B056-7AB5BACFEA24
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Suspend-CMApplication.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Suspend-CMApplication.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Suspend-CMApplication.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -52,14 +52,14 @@ To resume an application, use the [Resume-CMApplication](./Resume-CMApplication.
 
 ### Example 1: Suspend an application by its name
 ```
-PS C:\>Suspend-CMApplication -Name "Application01"
+PS C:\> Suspend-CMApplication -Name "Application01"
 ```
 
 This command suspends the application named Application01.
 
 ### Example 2: Get an application and suspend it
 ```
-PS C:\>Get-CMApplication -Name "Application01" | Suspend-CMApplication
+PS C:\> Get-CMApplication -Name "Application01" | Suspend-CMApplication
 ```
 
 This command gets the application object named Application01 and uses the pipeline operator to pass the object to **Suspend-CMApplication**, which suspends the application.

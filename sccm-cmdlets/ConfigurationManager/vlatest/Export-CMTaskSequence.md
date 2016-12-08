@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834039
 schema: 2.0.0
 ms.assetid: AAC36C2B-3285-4E2F-AA34-1B25999BB93B
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMTaskSequence.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMTaskSequence.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMTaskSequence.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -51,7 +51,7 @@ The **Export-CMTaskSequence** cmdlet exports a Microsoft System Center Configura
 
 ### Example 1: Get a task sequence and export it
 ```
-PS C:\>$TaskSequence = Get-CMTaskSequence -Name "TaskSequence01"
+PS C:\> $TaskSequence = Get-CMTaskSequence -Name "TaskSequence01"
 PS C:\> Export-CMTaskSequence -InputObject $TaskSequence -ExportFilePath "\\Server1\TS\TaskSequence01.zip"
 ```
 
@@ -61,7 +61,7 @@ The second command exports the task sequence stored in $TaskSequence to the spec
 
 ### Example 2: Get a task sequence and use the pipeline to export it
 ```
-PS C:\>Get-CMTaskSequence -Name "TaskSequence02" | Export-CMTaskSequence -ExportFilePath "\\Server1\TS\TaskSequence02.zip"
+PS C:\> Get-CMTaskSequence -Name "TaskSequence02" | Export-CMTaskSequence -ExportFilePath "\\Server1\TS\TaskSequence02.zip"
 ```
 
 This command gets the task sequence object named TaskSequence02 and uses the pipeline operator to pass the object to **Export-CMTaskSequence**, which exports the task sequence object to the specified location.

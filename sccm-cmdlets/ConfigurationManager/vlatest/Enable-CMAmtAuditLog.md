@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Oob.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833973
 schema: 2.0.0
 ms.assetid: E23E75B8-3F37-4C75-892A-E4FDE3698767
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMAmtAuditLog.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMAmtAuditLog.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMAmtAuditLog.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,7 +65,7 @@ This command enables Intel AMT audit logging for a device named Accn023.Contoso.
 
 ### Example 3: Enable audit logging by using a variable
 ```
-PS C:\>$CMD = Get-CMDevice -Name "Accn023.Contoso.com"
+PS C:\> $CMD = Get-CMDevice -Name "Accn023.Contoso.com"
 PS C:\> Enable-CMAmtAuditLog -Device $CMD -Force
 ```
 

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833975
 schema: 2.0.0
 ms.assetid: 381B444E-D2CA-4351-9EDF-036291F23E7D
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMUser.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMUser.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -58,14 +58,14 @@ The **Get-CMUser** cmdlet gets a Microsoft System Center Configuration Manager u
 
 ### Example 1: Get a user by name
 ```
-PS C:\>Get-CMUser -CollectionName "All Users" -Name "Contoso\username01"
+PS C:\> Get-CMUser -CollectionName "All Users" -Name "Contoso\username01"
 ```
 
 This command gets the user named username01 from the All Users collection.
 
 ### Example 2: Pass a collection and get a user from it
 ```
-PS C:\>Get-CMCollection -Name "All Users" | Get-CMUser -Name "Contoso\testuser01"
+PS C:\> Get-CMCollection -Name "All Users" | Get-CMUser -Name "Contoso\testuser01"
 ```
 
 This command gets the collection object named All Users and uses the pipeline operator to pass the object to **Get-CMUser**, which gets the user named testuser01 from the collection object.

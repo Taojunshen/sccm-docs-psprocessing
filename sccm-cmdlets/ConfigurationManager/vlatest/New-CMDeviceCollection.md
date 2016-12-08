@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections-help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833617
 schema: 2.0.0
 ms.assetid: F460F99B-D44F-4B83-94AB-B84BE510AC37
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 7:16 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceCollection.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceCollection.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8018c111348a4d0a18b75f5c42426133ad8b6c01/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceCollection.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -53,10 +53,10 @@ You specify the limiting collection by providing its name or ID.
 Devices are added to the collection by membership rules.
 To add members to the device collection use one of the following membership rule cmdlets:
 
-- Add-CMDeviceCollectionDirectMembershipRule
--  Add-CMDeviceCollectionExcludeMembershipRule
-- Add-CMDeviceCollectionIncludeMembershipRule
-- Add-CMDeviceCollectionQueryMembershipRule
+- [Add-CMDeviceCollectionDirectMembershipRule](./Add-CMDeviceCollectionDirectMembershipRule.md) 
+- [Add-CMDeviceCollectionExcludeMembershipRule](./Add-CMDeviceCollectionExcludeMembershipRule.md) 
+- [Add-CMDeviceCollectionIncludeMembershipRule](./Add-CMDeviceCollectionIncludeMembershipRule.md) 
+- [Add-CMDeviceCollectionQueryMembershipRule](./Add-CMDeviceCollectionQueryMembershipRule.md)
 
 Collections represent logical groupings of resources, such as users and devices.
 For more information about Configuration Manager collections, see [Introduction to Collections in Configuration Manager](http://go.microsoft.com/fwlink/p/?LinkID=259433) on TechNet.
@@ -65,7 +65,7 @@ For more information about Configuration Manager collections, see [Introduction 
 
 ### Example 1: Create a device collection
 ```
-PS C:\>New-CMDeviceCollection -Name "Windows 7" -LimitingCollectionName "All Systems"
+PS C:\> New-CMDeviceCollection -Name "Windows 7" -LimitingCollectionName "All Systems"
 ```
 
 This command creates a collection for all computers that run Windows® 7.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833748
 schema: 2.0.0
 ms.assetid: 73C8ACBF-E83D-4AC9-AC89-7780D5950FE0
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSecurityScope.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSecurityScope.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSecurityScope.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -36,7 +36,7 @@ Security scopes provide administrative users with access to securable objects.
 
 ### Example 1: Create a security scope
 ```
-PS C:\>New-CMSecurityScope -Name "testSecope" -Description "Security Scope"
+PS C:\> New-CMSecurityScope -Name "testSecope" -Description "Security Scope"
 ```
 
 This command creates a security scope named testScope.

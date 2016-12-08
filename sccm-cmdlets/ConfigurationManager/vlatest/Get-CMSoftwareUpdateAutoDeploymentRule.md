@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833901
 schema: 2.0.0
 ms.assetid: 25E50823-D771-43CD-98E0-B5463B1DB374
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,14 +49,14 @@ You can use this cmdlet to get deployment rules for automatic software updates t
 
 ### Example 1: Get a deployment rule by name
 ```
-PS C:\>Get-CMSoftwareUpdateAutoDeploymentRule -Name "Weekly Driver Updates"
+PS C:\> Get-CMSoftwareUpdateAutoDeploymentRule -Name "Weekly Driver Updates"
 ```
 
 This command gets a deployment rule named Weekly Driver Updates.
 
 ### Example 2: Get a deployment rule by ID
 ```
-PS C:\>Get-CMSoftwareUpdateAutoDeploymentRule -Id "16777217"
+PS C:\> Get-CMSoftwareUpdateAutoDeploymentRule -Id "16777217"
 ```
 
 This command gets a deployment rule that has the ID 16777217.

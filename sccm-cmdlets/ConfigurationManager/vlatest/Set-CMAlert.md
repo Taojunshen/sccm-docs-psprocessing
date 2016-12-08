@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Alerts.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833613
 schema: 2.0.0
 ms.assetid: 2DF24DAB-8C8C-4F9B-9E44-4CA624C522F3
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAlert.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAlert.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAlert.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -51,14 +51,14 @@ The **Set-CMAlert** cmdlet changes the properties of one or more Microsoft Syste
 
 ### Example 1: Set alert properties
 ```
-PS C:\>Set-CMAlert -Id "16777223" -Comments "Editing severity" -Severity 2
+PS C:\> Set-CMAlert -Id "16777223" -Comments "Editing severity" -Severity 2
 ```
 
 This command changes the values of the *Comments* and *Severity* properties for an alert that has the ID 16777223.
 
 ### Example 2: Set alert properties by using alert object variable
 ```
-PS C:\>$AlertObj = Get-CMAlert -Id "16777221"
+PS C:\> $AlertObj = Get-CMAlert -Id "16777221"
 PS C:\> Set-CMAlert -InputObject $AlertObj -Comments "Updating alert"
 ```
 

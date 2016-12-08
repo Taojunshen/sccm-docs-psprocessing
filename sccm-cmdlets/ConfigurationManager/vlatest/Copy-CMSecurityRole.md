@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833922
 schema: 2.0.0
 ms.assetid: ED2B0513-DEEB-472B-B863-3E456B8182CF
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Copy-CMSecurityRole.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Copy-CMSecurityRole.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Copy-CMSecurityRole.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -64,7 +64,7 @@ This command creates a new security role named SecRole02 by copying the security
 
 ### Example 3: Copy a security role
 ```
-PS C:\>$Srole = Get-CMSecurityRole -Name "Software Update Manager"
+PS C:\> $Srole = Get-CMSecurityRole -Name "Software Update Manager"
 PS C:\> Copy-CMSecurityRole -InputObject $Srole -Name "SecRole02"
 ```
 

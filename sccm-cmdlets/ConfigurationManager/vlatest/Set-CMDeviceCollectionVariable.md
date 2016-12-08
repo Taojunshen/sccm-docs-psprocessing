@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833799
 schema: 2.0.0
 ms.assetid: 5FACECF3-56B3-4835-8E13-A786F65BE89D
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeviceCollectionVariable.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeviceCollectionVariable.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeviceCollectionVariable.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -51,7 +51,7 @@ The **Set-CMDeviceCollectionVariable** cmdlet changes the settings of a device c
 
 ### Example 1: Change a variable name
 ```
-PS C:\>$Collection = Get-CMCollection -Name "Device"
+PS C:\> $Collection = Get-CMCollection -Name "Device"
 PS C:\> Set-CMDeviceCollectionVariable -Collection $Collection -VariableName "testTS" -NewVariableName "NewVariable"
 ```
 
@@ -61,7 +61,7 @@ The second command changes the name of the collection variable testTS for the de
 
 ### Example 2: Change a variable name by using the pipeline
 ```
-PS C:\>Get-CMCollection -Name "Device" | Set-CMDeviceCollectionVariable -VariableName "testTS" -NewVariableName "NewVariable"
+PS C:\> Get-CMCollection -Name "Device" | Set-CMDeviceCollectionVariable -VariableName "testTS" -NewVariableName "NewVariable"
 ```
 
 This command gets the device collection object named Device and uses the pipeline operator to pass the object to **Set-CMDeviceCollectionVariable**, which changes the name of the collection variable testTS for the device collection object to NewVariable.

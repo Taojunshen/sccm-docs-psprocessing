@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833932
 schema: 2.0.0
 ms.assetid: 478AB135-42CF-4D2E-9D7B-B6A8C5A1ECCF
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBoundaryFromGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBoundaryFromGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBoundaryFromGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -87,14 +87,14 @@ A boundary group is a collection of boundaries.
 
 ### Example 1: Remove a boundary from a group by using the boundary name
 ```
-PS C:\>Remove-CMBoundaryFromGroup -BoundaryGroupID "16777219" -BoundaryName "CLBound03"
+PS C:\> Remove-CMBoundaryFromGroup -BoundaryGroupID "16777219" -BoundaryName "CLBound03"
 ```
 
 This example removes a boundary named CLBound03 from a boundary group that has the ID 16777219.
 
 ### Example 2: Remove multiple boundary groups by using an InputObject
 ```
-PS C:\>$BoundaryObj = Get-CMBoundary -Name "Bound01", "Bound02", "Bound03"
+PS C:\> $BoundaryObj = Get-CMBoundary -Name "Bound01", "Bound02", "Bound03"
 PS C:\> Remove-CMBoundaryFromGroup -Boundary $BoundaryObj -BoundaryGroupName "BGroup02"
 ```
 

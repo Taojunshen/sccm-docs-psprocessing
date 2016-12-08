@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833643
 schema: 2.0.0
 ms.assetid: 76D3B60C-127D-47B0-960D-C42451DC491D
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAppvDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAppvDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAppvDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -66,14 +66,14 @@ The **Set-CMAppvDeploymentType** cmdlet changes the settings for a Microsoft App
 
 ### Example 1: Change the name of the deployment type
 ```
-PS C:\>Set-CMAppvDeploymentType -ApplicationName "testApp" -DeploymentTypeName "Appv" -NewName "newAppv"
+PS C:\> Set-CMAppvDeploymentType -ApplicationName "testApp" -DeploymentTypeName "Appv" -NewName "newAppv"
 ```
 
 This command changes the display name of the deployment type for the application named testApp from AppV to newAppv.
 
 ### Example 2: Change the name of the deployment type by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -DeploymentTypeName "Appv" -ApplicationName "testApp" | Set-CMAppvDeploymentType -NewName "newAppv"
+PS C:\> Get-CMDeploymentType -DeploymentTypeName "Appv" -ApplicationName "testApp" | Set-CMAppvDeploymentType -NewName "newAppv"
 ```
 
 This command gets the deployment type object named Appv for the applicaton named testApp and uses the pipeline operator to pass the object to **Set-CMAppvDeploymentType**, which changes the name of the deployment type object to newAppv.

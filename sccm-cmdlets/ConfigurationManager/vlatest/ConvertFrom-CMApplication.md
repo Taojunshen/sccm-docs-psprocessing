@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833872
 schema: 2.0.0
 ms.assetid: 29E31091-FF04-446F-82EC-FD3FFF90B526
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/ConvertFrom-CMApplication.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/ConvertFrom-CMApplication.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/ConvertFrom-CMApplication.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -35,7 +35,7 @@ The **ConvertFrom-CMApplication** cmdlet converts an application SDK object to a
 
 ### Example 1: Convert an application object
 ```
-PS C:\>$SdkApp = Get-CMApplication -Name "Application01" | ConvertTo-CMApplication
+PS C:\> $SdkApp = Get-CMApplication -Name "Application01" | ConvertTo-CMApplication
 PS C:\> $SdkApp | ConvertFrom-CMApplication
 ```
 
@@ -46,7 +46,7 @@ The second command converts the application SDK object stored in $SdkApp to an a
 
 ### Example 2: Convert an application object
 ```
-PS C:\>$SdkApp = Get-CMApplication -Name "Application02" | ConvertTo-CMApplication
+PS C:\> $SdkApp = Get-CMApplication -Name "Application02" | ConvertTo-CMApplication
 PS C:\> ConvertFrom-CMApplication -InputObject $SdkApp
 ```
 

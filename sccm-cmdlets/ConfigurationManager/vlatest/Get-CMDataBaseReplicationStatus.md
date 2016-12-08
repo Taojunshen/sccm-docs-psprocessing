@@ -3,10 +3,10 @@ external help file: AdminUI.PS.DatabaseReplication.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834302
 schema: 2.0.0
 ms.assetid: 5BB8ECD0-6FB0-4FCB-8966-8BB7FCC10E5B
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDataBaseReplicationStatus.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDataBaseReplicationStatus.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDataBaseReplicationStatus.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -38,7 +38,7 @@ You can specify just the site code or just the name for a parent or child and ge
 
 ### Example 1: Get status using site codes
 ```
-PS C:\>Get-CMDataBaseReplicationStatus -ChildSiteCode "CCC" -ParentSiteCode "CCA"
+PS C:\> Get-CMDataBaseReplicationStatus -ChildSiteCode "CCC" -ParentSiteCode "CCA"
 ```
 
 This command gets the status of a database replication link for the child with a site code CCC and the parent with a site code CCA.

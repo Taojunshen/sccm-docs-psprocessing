@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833913
 schema: 2.0.0
 ms.assetid: F8EFAEC4-2716-4761-BA06-D4B32F6ECB15
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -45,21 +45,21 @@ After you deploy a software update group, you can add new software updates to th
 
 ### Example 1: Get software update groups
 ```
-PS C:\>Get-CMSoftwareUpdateGroup
+PS C:\> Get-CMSoftwareUpdateGroup
 ```
 
 This command gets all software update groups.
 
 ### Example 2: Get a software update group by using an ID
 ```
-PS C:\>Get-CMSoftwareUpdateGroup -Id "ST10000D"
+PS C:\> Get-CMSoftwareUpdateGroup -Id "ST10000D"
 ```
 
 This command gets a software update group that has the ID ST10000D.
 
 ### Example 3: Get a software update group by using a name
 ```
-PS C:\>Get-CMSoftwareUpdateGroup CMSoftwareUpdateGroup -Name "SUGroupD01"
+PS C:\> Get-CMSoftwareUpdateGroup CMSoftwareUpdateGroup -Name "SUGroupD01"
 ```
 
 This command gets a software update group object named SUGroupD01.

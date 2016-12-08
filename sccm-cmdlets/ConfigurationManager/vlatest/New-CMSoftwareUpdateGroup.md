@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833770
 schema: 2.0.0
 ms.assetid: 1343FB22-DB1A-4CBC-A26B-DFED53CF00A1
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -39,7 +39,7 @@ After you deploy a software update group, you can add new software updates to th
 
 ### Example 1: Create a software update group
 ```
-PS C:\>New-CMSoftwareUpdateGroup -Name "ClientUpdateGroup01" -UpdateID 100027 -Description "Client software update group 01 for Accounts Payable"
+PS C:\> New-CMSoftwareUpdateGroup -Name "ClientUpdateGroup01" -UpdateID 100027 -Description "Client software update group 01 for Accounts Payable"
 ```
 
 This command creates a software update group named ClientUpdateGroup01 that includes the software update that has the update ID 100027.

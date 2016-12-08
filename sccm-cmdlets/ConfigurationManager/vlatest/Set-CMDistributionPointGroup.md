@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833818
 schema: 2.0.0
 ms.assetid: A04B7F84-3E7F-4D68-A046-A6A4DEE09A98
-updated_at: 12/8/2016 3:33 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,14 +48,14 @@ The **Set-CMDistributionPointGroup** cmdlet changes the configuration settings o
 
 ### Example 1: Add a distribution point group to a security scope
 ```
-PS C:\>Set-CMDistributionPointGroup -SecurityScopeAction AddMembership -SecurityScopeName "CScope02" -Name "DpgDept01"
+PS C:\> Set-CMDistributionPointGroup -SecurityScopeAction AddMembership -SecurityScopeName "CScope02" -Name "DpgDept01"
 ```
 
 This command adds the distribution point group as a member of the security scope named CScope02.
 
 ### Example 2: Remove a distribution point group from a security scope
 ```
-PS C:\>Set-CMDistributionPointGroup -SecurityScopeAction RemoveMembership -SecurityScopeName "CScope02" -Name "DpgDept01"
+PS C:\> Set-CMDistributionPointGroup -SecurityScopeAction RemoveMembership -SecurityScopeName "CScope02" -Name "DpgDept01"
 ```
 
 This command removes the distribution point group named DpgDept01 as a member of the security scope named CScope02.

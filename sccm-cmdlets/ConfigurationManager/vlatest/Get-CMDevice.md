@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833611
 schema: 2.0.0
 ms.assetid: F43D2D81-0586-4B25-83CA-041B24C9D1DA
-updated_at: 12/7/2016 10:43 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDevice.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDevice.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDevice.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -76,14 +76,14 @@ The **Get-CMDevice** cmdlet gets a Microsoft System Center Configuration Manager
 
 ### Example 1: Get a device by collection ID
 ```
-PS C:\>Get-CMDevice -CollectionID "SMSDM003"
+PS C:\> Get-CMDevice -CollectionID "SMSDM003"
 ```
 
 This command gets all the device objects in the device collection with the ID of SMSDM003.
 
 ### Example 2: Get a device by name
 ```
-PS C:\>Get-CMDevice -CollectionName "All systems" -Name "Win10-86-33"
+PS C:\> Get-CMDevice -CollectionName "All systems" -Name "Win10-86-33"
 ```
 
 This command gets the device named Win10-86-33 in the device collection named All systems.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833976
 schema: 2.0.0
 ms.assetid: 524F059C-88B7-4675-884C-3F9D75A26A48
-updated_at: 12/7/2016 10:10 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c6cfa731ff189c106139e3ba3d2fc0fa45711e29/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -82,7 +82,7 @@ Any other values indicate application-specific error codes.
 
 ### Example 1: Rename a package and add a description
 ```
-PS C:\>Set-CMPackage -Id "ST120001" -NewName "ScriptsPackage02" -Description "This package deploys scripts that run on a recurring schedule."
+PS C:\> Set-CMPackage -Id "ST120001" -NewName "ScriptsPackage02" -Description "This package deploys scripts that run on a recurring schedule."
 ```
 
 This command renames the package that has the ID ST120001.
@@ -90,7 +90,7 @@ The command changes the name of the package to ScriptsPackage02 and adds a descr
 
 ### Example 2: Rename a package by using an object variable
 ```
-PS C:\>$Pkg = Get-CMPackage -Id ST120001
+PS C:\> $Pkg = Get-CMPackage -Id ST120001
 PS C:\> Set-CMPackage -InputObject $Pkg -Newname "ScriptsPackage02" -Description "This package deploys scripts that run on a recurring schedule."
 ```
 

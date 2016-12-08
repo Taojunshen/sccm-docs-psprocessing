@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833929
 schema: 2.0.0
 ms.assetid: 62D4DFB1-3F7B-49A2-AEA8-8FA5747B743F
-updated_at: 12/7/2016 9:59 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateSummarizationSchedule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateSummarizationSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdateSummarizationSchedule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,7 +37,7 @@ You can use the [Invoke-CMSoftwareUpdateSummarization](./Invoke-CMSoftwareUpdate
 
 ### Example 1: Display the summarization schedule
 ```
-PS C:\>Get-CMSoftwareUpdateSummarizationSchedule
+PS C:\> Get-CMSoftwareUpdateSummarizationSchedule
                                Interval                                    Unit
                                --------                                    ----
                                      12                                   Hours

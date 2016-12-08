@@ -3,10 +3,10 @@ external help file: AdminUI.PS.SystemStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834250
 schema: 2.0.0
 ms.assetid: 3AABF576-B504-4756-A8B8-412E842306C3
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMComponentStatusMessage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMComponentStatusMessage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMComponentStatusMessage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -42,7 +42,7 @@ You must specify a viewing period, as a **TimeSpan** object.
 
 ### Example 1: Get critical messages for a site
 ```
-PS C:\>Get-CMComponentStatusMessage -ViewingPeriod "2/1/2013 12:00 AM" -Severity Warning -SiteCode "CM1"
+PS C:\> Get-CMComponentStatusMessage -ViewingPeriod "2/1/2013 12:00 AM" -Severity Warning -SiteCode "CM1"
 ```
 
 This command gets component status messages for the specified viewing period for the Configuration Manager site that has the site code CM1.

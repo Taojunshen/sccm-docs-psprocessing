@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833720
 schema: 2.0.0
 ms.assetid: D13CE329-6515-4DD1-8D5D-4E9C738EA32B
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMMulticastServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMMulticastServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMMulticastServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -47,7 +47,7 @@ The **Add-CMMulticastServicePoint** cmdlet enables multicast to simultaneously s
 
 ### Example 1: Add a multicast service point by using the pipeline
 ```
-PS C:\>Get-CMDistributionPoint -SiteSystemServerName "server01.contoso.com" | Add-CMMulticastServicePoint -UserName "contoso\administrator" -StartIPAddress "224.0.1.0" -EndIPAddress "239.255.255.255" -StartUdpPort 64001 -EndUdpPort 65000 -ClientTransferRate "Profile100Mbps" -MaximumClientCount 100 -SessionStartDelayMins 15 -MinimumClientCount 20
+PS C:\> Get-CMDistributionPoint -SiteSystemServerName "server01.contoso.com" | Add-CMMulticastServicePoint -UserName "contoso\administrator" -StartIPAddress "224.0.1.0" -EndIPAddress "239.255.255.255" -StartUdpPort 64001 -EndUdpPort 65000 -ClientTransferRate "Profile100Mbps" -MaximumClientCount 100 -SessionStartDelayMins 15 -MinimumClientCount 20
 ```
 
 This command gets the distribution point object with the site system server name server1.contoso.com and uses the pipeline operator to pass the object to **Add-CMMulticastServicePoint**.

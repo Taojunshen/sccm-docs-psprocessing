@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833925
 schema: 2.0.0
 ms.assetid: 5AAD5A9E-3547-47A3-8CB3-0E0DC066AACE
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdatePointComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdatePointComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSoftwareUpdatePointComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -36,14 +36,14 @@ A software update point component interacts with WSUS services to configure upda
 
 ### Example 1: Retrieve a software update point component by name
 ```
-PS C:\>Get-CMSoftwareUpdatePointComponent -SiteSystemServerName "Contoso-SiteSysSrv.Western.Contoso.com"
+PS C:\> Get-CMSoftwareUpdatePointComponent -SiteSystemServerName "Contoso-SiteSysSrv.Western.Contoso.com"
 ```
 
 This command retrieves a software update point component by using the site system server name.
 
 ### Example 2: Retrieve a software update point component by site code
 ```
-PS C:\>Get-CMSoftwareUpdatePointComponent -SiteCode "CM1"
+PS C:\> Get-CMSoftwareUpdatePointComponent -SiteCode "CM1"
 ```
 
 This command retrieves a software update point component by using the site code.

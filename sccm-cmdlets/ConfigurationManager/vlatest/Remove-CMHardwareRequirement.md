@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834118
 schema: 2.0.0
 ms.assetid: C4F9B9A3-3D8E-49EC-9B36-6272EAE7F3C8
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMHardwareRequirement.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMHardwareRequirement.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMHardwareRequirement.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ You can specify a product by name or obtain a requirement by using the **Get-CMH
 
 ### Example 1: Remove a hardware requirement
 ```
-PS C:\>Remove-CMHardwareRequirement -Product "Accounts Program"
+PS C:\> Remove-CMHardwareRequirement -Product "Accounts Program"
 Remove
 Are you sure you wish to remove HardwareRequirement: Product="Accounts Program"?
 [Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"):

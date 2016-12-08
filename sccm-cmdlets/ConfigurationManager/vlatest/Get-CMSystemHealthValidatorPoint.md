@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833955
 schema: 2.0.0
 ms.assetid: 1E4DF063-AE72-4E8D-8DCF-25030C7086D0
-updated_at: 12/7/2016 9:59 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSystemHealthValidatorPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSystemHealthValidatorPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSystemHealthValidatorPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -46,7 +46,7 @@ You can use this cmdlet with the [Remove-CMSystemHealthValidatorPoint](./Remove-
 
 ### Example 1: Get a validator point
 ```
-PS C:\>Get-CMSystemHealthValidatorPoint -SiteCode "CM1" -SiteSystemServerName "Test01.TSQA.Contoso.com"
+PS C:\> Get-CMSystemHealthValidatorPoint -SiteCode "CM1" -SiteSystemServerName "Test01.TSQA.Contoso.com"
 ```
 
 This command gets a system health validator point.

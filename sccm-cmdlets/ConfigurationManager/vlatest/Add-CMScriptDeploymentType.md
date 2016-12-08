@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833740
 schema: 2.0.0
 ms.assetid: 024DC293-D966-4EF2-84A9-9DEEC6B652A1
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMScriptDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMScriptDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMScriptDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -122,7 +122,7 @@ Specifying the *ForceScriptDetection32Bit* indicates that the deployment type wi
 
 ### Example 2: Add a script deployment type to an application by using the pipeline
 ```
-PS C:\>Get-CMApplication -Name "Application01" | Add-CMScriptDeploymentType  -DeploymentTypeName "ScriptDT02" -Comment "Div A script" -InstallCommand 'msiexec /i ""\\Machine01\Resources\Applications\MSI\AdvertMSI\AdvertMSI.msi"' -ScriptLanguage VBScript -ScriptContent "1231231" -ForceScriptDetection32Bit
+PS C:\> Get-CMApplication -Name "Application01" | Add-CMScriptDeploymentType  -DeploymentTypeName "ScriptDT02" -Comment "Div A script" -InstallCommand 'msiexec /i ""\\Machine01\Resources\Applications\MSI\AdvertMSI\AdvertMSI.msi"' -ScriptLanguage VBScript -ScriptContent "1231231" -ForceScriptDetection32Bit
 ```
 
 This command gets the application object named Application 01 and uses the pipeline operator to pass the object to **Add-CMScriptDeploymentType**.

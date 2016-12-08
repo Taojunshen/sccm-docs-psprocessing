@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Common.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833830
 schema: 2.0.0
 ms.assetid: D37F399D-6BD8-4C5F-AAC9-1B5DFB6684EF
-updated_at: 12/7/2016 9:59 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMQueryResultMaximum.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMQueryResultMaximum.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMQueryResultMaximum.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -38,7 +38,7 @@ By default, the maximum number of rows is unbound, which is different from the b
 
 ### Example 1: Get the report query result maximum
 ```
-PS C:\>Get-CMQueryResultMaximum
+PS C:\> Get-CMQueryResultMaximum
 ```
 
 This command gets the maximum number of rows that a Configuration Manager report query can return.

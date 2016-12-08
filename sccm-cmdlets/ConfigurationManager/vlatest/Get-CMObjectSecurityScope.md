@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Common.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833786
 schema: 2.0.0
 ms.assetid: EFE32915-8FDB-4B03-9206-5338A0F0E5A5
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMObjectSecurityScope.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMObjectSecurityScope.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMObjectSecurityScope.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -42,14 +42,14 @@ The **Get-CMObjectSecurityScope** cmdlet gets the security scopes that are assoc
 
 ### Example 1: Get security scopes for an application object
 ```
-PS C:\>Get-CMApplication -Name "Application1" | Get-CMObjectSecurityScope
+PS C:\> Get-CMApplication -Name "Application1" | Get-CMObjectSecurityScope
 ```
 
 This command gets the application object named Application1 and uses the pipeline operator to pass the object to **Get-CMObjectSecurityScope**, which gets all security scopes associated with the application object.
 
 ### Example 2: Get a security scope
 ```
-PS C:\>Get-CMObjectSecurityScope -InputObject (Get-CMApplication -Name "Application1") -Name "Scope1"
+PS C:\> Get-CMObjectSecurityScope -InputObject (Get-CMApplication -Name "Application1") -Name "Scope1"
 ```
 
 This command gets the security scope named Scope1 that is associated with the application object named Application1.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834054
 schema: 2.0.0
 ms.assetid: 9303F7BE-B1E8-482F-8270-1C77249566BF
-updated_at: 12/7/2016 7:27 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareMeteringRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareMeteringRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareMeteringRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -64,14 +64,14 @@ For more information about security scopes, see [Planning for Security in Config
 
 ### Example 1: Change locale for rules for a product
 ```
-PS C:\>Set-CMSoftwareMeteringRule -ProductName "Accounting Package" -LanguageID 1036
+PS C:\> Set-CMSoftwareMeteringRule -ProductName "Accounting Package" -LanguageID 1036
 ```
 
 This command sets the locale ID for rules that include the product name Accounting Package.
 
 ### Example 2: Add a security scope to rules for a product
 ```
-PS C:\>Set-CMSoftwareMeteringRule -ProductName "Accounting Package" -SecurityScopeAction AddMembership -SecurityScopeName "Scope05"
+PS C:\> Set-CMSoftwareMeteringRule -ProductName "Accounting Package" -SecurityScopeAction AddMembership -SecurityScopeName "Scope05"
 ```
 
 This command adds the security scope called Scope05 to rules for the product name Accounting Package.

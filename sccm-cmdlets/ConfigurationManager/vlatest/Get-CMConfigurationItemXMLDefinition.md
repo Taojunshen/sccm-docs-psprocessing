@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834275
 schema: 2.0.0
 ms.assetid: 57EC8E6E-2E33-4198-966D-9A5E6A27D397
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,21 +49,21 @@ You can specify a configuration item with the configuration item ID, the configu
 
 ### Example 1: Get XML formatted item using an ID
 ```
-PS C:\>Get-CMConfigurationItemXMLDefinition -Id "16777568"
+PS C:\> Get-CMConfigurationItemXMLDefinition -Id "16777568"
 ```
 
 This command gets a configuration item formatted in XML for the item that has the specified identifier.
 
 ### Example 2: Get XML formatted item using a name
 ```
-PS C:\>Get-CMConfigurationItemXMLDefinition -Name "ConfigItem76"
+PS C:\> Get-CMConfigurationItemXMLDefinition -Name "ConfigItem76"
 ```
 
 This command gets a configuration item formatted in XML for the item named ConfigItem76.
 
 ### Example 3: Get XML formatted item using a variable
 ```
-PS C:\>$CIObj=Get-CMConfigurationItem -Id "16777568"
+PS C:\> $CIObj=Get-CMConfigurationItem -Id "16777568"
 PS C:\> Get-CMConfigurationItemXMLDefinition -InputObject $CIObj
 ```
 

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833682
 schema: 2.0.0
 ms.assetid: 1FF11796-0904-4BED-91C8-05DCC05CDDA3
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBootImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBootImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBootImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -82,7 +82,7 @@ A modification to the boot image does not change its source package.
 
 ### Example 1: Rename a boot image object that is identified by using its ID
 ```
-PS C:\>Set-CMBootimage -Id "CM100004" -NewName "Windows8 (x64)"
+PS C:\> Set-CMBootimage -Id "CM100004" -NewName "Windows8 (x64)"
 ```
 
 This command retrieves a boot image by using its ID, and then renames the boot image.
@@ -90,7 +90,7 @@ Depending on replication issues, this modification can take a long time to displ
 
 ### Example 2: Rename a boot image object that is identified by using its name
 ```
-PS C:\>Set-CMBootImage -Name "Boot Image (x64)" -NewName "Windows 8 x64" -Version "6.2.8400.1" -Description "Microsoft Windows 8 PE (x64)"
+PS C:\> Set-CMBootImage -Name "Boot Image (x64)" -NewName "Windows 8 x64" -Version "6.2.8400.1" -Description "Microsoft Windows 8 PE (x64)"
 ```
 
 This command retrieves a boot image by using its name, and then renames the boot image.

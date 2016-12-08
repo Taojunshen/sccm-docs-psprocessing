@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833829
 schema: 2.0.0
 ms.assetid: 60B0C10A-9997-40B0-87A3-5E0ABE5D0908
-updated_at: 12/7/2016 11:03 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -66,14 +66,14 @@ The **Set-CMDriverPackage** cmdlet modifies a driver package in Microsoft System
 
 ### Example 1: Add a security scope action to a driver package
 ```
-PS C:\>Set-CMDriverPackage -SecurityScopeAction AddMembership -SecurityScopeName "Scope 001" -Name "Windows 7 Standard Hardware Package"
+PS C:\> Set-CMDriverPackage -SecurityScopeAction AddMembership -SecurityScopeName "Scope 001" -Name "Windows 7 Standard Hardware Package"
 ```
 
 This command adds a security scope action to the driver package that is named Windows 7 Standard Hardware Package.
 
 ### Example 2: Remove a security scope action from a driver package
 ```
-PS C:\>Set-CMDriverPackage -SecurityScopeAction RemoveMembership -SecurityScopeName "Scope 001" -Name "Windows 7 Standard Hardware Package"
+PS C:\> Set-CMDriverPackage -SecurityScopeAction RemoveMembership -SecurityScopeName "Scope 001" -Name "Windows 7 Standard Hardware Package"
 ```
 
 This command removes a security scope action from the driver package that is named Windows 7 Standard Hardware Package.

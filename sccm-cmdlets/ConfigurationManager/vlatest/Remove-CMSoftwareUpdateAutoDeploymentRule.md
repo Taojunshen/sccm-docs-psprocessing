@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834217
 schema: 2.0.0
 ms.assetid: EE878F33-0D30-45F6-A72B-43BEFEFE4E07
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -56,7 +56,7 @@ You can use the [Disable-CMSoftwareUpdateAutoDeploymentRule](./Disable-CMSoftwar
 
 ### Example 1: Remove a deployment rule by name
 ```
-PS C:\>Remove-CMSoftwareUpdateAutoDeploymentRule -Name "Weekly Driver Updates"
+PS C:\> Remove-CMSoftwareUpdateAutoDeploymentRule -Name "Weekly Driver Updates"
 Remove
 Are you sure you wish to remove SoftwareUpdateAutoDeploymentRule: Name="Weekly Driver Updates"?
 [Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"):
@@ -67,7 +67,7 @@ Because the command does not include the *Force* parameter, the cmdlet prompts y
 
 ### Example 2: Remove a deployment rule by ID
 ```
-PS C:\>Remove-CMSoftwareUpdateAutoDeploymentRule -Id "16777217" -Force
+PS C:\> Remove-CMSoftwareUpdateAutoDeploymentRule -Id "16777217" -Force
 ```
 
 This command disables a deployment rule that has the ID 16777217.
@@ -75,7 +75,7 @@ This command includes the *Force* parameter, so the cmdlet does not prompt you b
 
 ### Example 3: Remove a deployment rule by using a variable
 ```
-PS C:\>$CMSUADR = Get-CMSoftwareUpdateAutoDeploymentRule -Name "Weekly Driver Updates"
+PS C:\> $CMSUADR = Get-CMSoftwareUpdateAutoDeploymentRule -Name "Weekly Driver Updates"
 PS C:\> Remove-CMSoftwareUpdateAutoDeploymentRule -InputObject $CMSUADR -Force
 ```
 

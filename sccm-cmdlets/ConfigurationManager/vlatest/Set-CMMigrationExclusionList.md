@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Migration.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833926
 schema: 2.0.0
 ms.assetid: B4AFB52F-322C-446C-BE3D-6CB67373D957
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMigrationExclusionList.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMigrationExclusionList.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMigrationExclusionList.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -39,7 +39,7 @@ Objects on the exclusion list are available for migration, but System Center Con
 
 ### Example 1: Specify a migration exclusion list
 ```
-PS C:\>Set-CMMigrationExclusionList -Name "ContosoUsersWest01"
+PS C:\> Set-CMMigrationExclusionList -Name "ContosoUsersWest01"
 ```
 
 This command adds the objects in the array ContosoUsersWest01 to the migration exclusion list.

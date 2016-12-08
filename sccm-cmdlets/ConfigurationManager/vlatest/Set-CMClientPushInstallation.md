@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833715
 schema: 2.0.0
 ms.assetid: 14F033E4-B272-4B91-AFAA-E8CDF38CB217
-updated_at: 12/8/2016 4:01 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientPushInstallation.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientPushInstallation.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientPushInstallation.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -71,7 +71,7 @@ For more information about how to install clients, see [How to Install Clients o
 
 ### Example 1: Change the settings of a client push installation
 ```
-PS C:\>Set-CMClientPushInstallation -EnableAutomaticClientPushInstallation $True -EnableSystemTypeConfiguationManager $True -ChosenAccount "CENTRAL\00ID$" -InstallationProperty "SMSSITECODE=CM1"
+PS C:\> Set-CMClientPushInstallation -EnableAutomaticClientPushInstallation $True -EnableSystemTypeConfiguationManager $True -ChosenAccount "CENTRAL\00ID$" -InstallationProperty "SMSSITECODE=CM1"
 ```
 
 This command specifies that Configuration Manager automatically uses client push for discovered computers.

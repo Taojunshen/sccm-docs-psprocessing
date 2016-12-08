@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833950
 schema: 2.0.0
 ms.assetid: 5004C134-23B8-4DB9-AC9E-94345E8978D6
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMNokiaDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMNokiaDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMNokiaDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,14 +62,14 @@ The **Set-CMNokiaDeploymentType** cmdlet changes the settings for a Nokia deploy
 
 ### Example 1: Modify a Nokia deployment type
 ```
-PS C:\>Set-CMNokiaDeploymentType -ApplicationName "testNokia" -DeploymentTypeName "DTNokia" -NewName "DTNokia_Updated" -RemoveLanguage "zh-CN"
+PS C:\> Set-CMNokiaDeploymentType -ApplicationName "testNokia" -DeploymentTypeName "DTNokia" -NewName "DTNokia_Updated" -RemoveLanguage "zh-CN"
 ```
 
 This command changes the name of the Nokia deployment type named DTNokia for the application named testNokia to DTNokia_Updated and removes Chinese from the deployment type.
 
 ### Example 2: Modify a Nokia deployment type by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "testNokia" -DeploymentTypeName "DTNokia01" | Set-CMNokiaDeploymentType -NewName "DTNokia01_updated" -RemoveLanguage "en-US" -Comment "Set Nokia deployment type" -Confirm
+PS C:\> Get-CMDeploymentType -ApplicationName "testNokia" -DeploymentTypeName "DTNokia01" | Set-CMNokiaDeploymentType -NewName "DTNokia01_updated" -RemoveLanguage "en-US" -Comment "Set Nokia deployment type" -Confirm
 ```
 
 This command gets the Nokia deployment type object named DTNokia01 for the application named testNokia and uses the pipeline operator to pass the object to **Set-CMNokiaDeploymentType**.

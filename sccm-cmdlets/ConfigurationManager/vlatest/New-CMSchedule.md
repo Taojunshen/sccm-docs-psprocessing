@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Common.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833742
 schema: 2.0.0
 ms.assetid: D74177C5-D6E5-4B71-8864-02CF2E56C2C6
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSchedule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSchedule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -156,7 +156,7 @@ You can then use the interval strings to set schedule properties when you define
 
 ### Example 1: Create a schedule token
 ```
-PS C:\>New-CMSchedule -DayOfMonth 0 -DateTime "20120105185728.303000+000"
+PS C:\> New-CMSchedule -DayOfMonth 0 -DateTime "20120105185728.303000+000"
 ```
 
 This command creates a schedule token that specifies that the event occurs on the last day of the month at the specified date and time.

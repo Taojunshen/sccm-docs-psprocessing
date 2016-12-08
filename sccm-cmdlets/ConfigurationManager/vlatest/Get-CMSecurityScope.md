@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833847
 schema: 2.0.0
 ms.assetid: 0F19406F-06D0-4A41-8B99-7EE68F379737
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSecurityScope.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSecurityScope.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSecurityScope.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -42,14 +42,14 @@ If you don't provide any parameters, all security scopes are returned.
 
 ### Example 1: Get a security scope by name
 ```
-PS C:\>Get-CMSecurityScope -Name "Scope"
+PS C:\> Get-CMSecurityScope -Name "Scope"
 ```
 
 This command gets the security scope named Scope.
 
 ### Example 2: Get a security scope by using a wildcard
 ```
-PS C:\>Get-CMSecurityScope -Name "S*"
+PS C:\> Get-CMSecurityScope -Name "S*"
 ```
 
 This command gets all security scope objects that have a name beginning with "S".

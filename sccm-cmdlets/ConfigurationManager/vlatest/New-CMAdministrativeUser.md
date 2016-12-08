@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834228
 schema: 2.0.0
 ms.assetid: 2DF67D4D-B111-4F6B-956A-EB72BCA1EEDC
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAdministrativeUser.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAdministrativeUser.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAdministrativeUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -38,7 +38,7 @@ You can also define the types of access that the new administrative user has to 
 
 ### Example 1: Add an administrative user
 ```
-PS C:\>New-CMAdministrativeUser -Name "Consoto\AdminUser1" -RoleName "Application Administrator","Software Update Manager" -SecurityScopeName "scope1","scope2" -CollectionName "userCollection1","deviceCollection1"
+PS C:\> New-CMAdministrativeUser -Name "Consoto\AdminUser1" -RoleName "Application Administrator","Software Update Manager" -SecurityScopeName "scope1","scope2" -CollectionName "userCollection1","deviceCollection1"
 ```
 
 This command adds the user named AdminUser1 as an administrative user to the Application Administrator and Software Update Manager security roles.

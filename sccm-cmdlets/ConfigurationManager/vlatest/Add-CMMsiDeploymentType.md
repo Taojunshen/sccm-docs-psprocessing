@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833716
 schema: 2.0.0
 ms.assetid: CF418851-B343-4F4B-993D-6F1250520326
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMMsiDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMMsiDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMMsiDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -118,7 +118,7 @@ This command adds the Windows Installer deployment type named DTMsi from the spe
 
 ### Example 2: Add a deployment type by using the pipeline
 ```
-PS C:\>Get-CMApplication -Name "testMsi" | Add-CMMsiDeploymentType -DeploymentTypeName "DTMsiTest" -ContentLocation "\\Server1\Applications\MSI\32BitSDK\32BitCompat.msi" -AddLanguage "en-US","zh-CN" -Comment "New Deployment Type"
+PS C:\> Get-CMApplication -Name "testMsi" | Add-CMMsiDeploymentType -DeploymentTypeName "DTMsiTest" -ContentLocation "\\Server1\Applications\MSI\32BitSDK\32BitCompat.msi" -AddLanguage "en-US","zh-CN" -Comment "New Deployment Type"
 ```
 
 This command gets the application object named testMsi and uses the pipeline operator to pass the object to **Add-CMMsiDeploymentType**.

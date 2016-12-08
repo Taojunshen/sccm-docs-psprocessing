@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833767
 schema: 2.0.0
 ms.assetid: 51B2F354-3AD4-4A67-B567-E76938D445E5
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -56,21 +56,21 @@ For more information about configuration items, see [Introduction to Compliance 
 
 ### Example 1: Change the name of a configuration item
 ```
-PS C:\>Set-CMConfigurationItem -Name "CITest" -NewName "CITest01"
+PS C:\> Set-CMConfigurationItem -Name "CITest" -NewName "CITest01"
 ```
 
 This command changes the name of the configuration item named CITest to CITest01.
 
 ### Example 2: Set item settings
 ```
-PS C:\>Set-CMConfigurationItem -Name "CITest01" -SecurityScopeAction AddMembership -SecurityScopeName "DefaultScope"
+PS C:\> Set-CMConfigurationItem -Name "CITest01" -SecurityScopeAction AddMembership -SecurityScopeName "DefaultScope"
 ```
 
 This command sets the security scope action to AddMembership and the security scope name to DefaultScope for the item named CITest01.
 
 ### Example 3: Change item settings
 ```
-PS C:\>Set-CMConfigurationItem -Name "CITest01" -SecurityScopeAction RemoveMembership -SecurityScopeName "DefaultScope"
+PS C:\> Set-CMConfigurationItem -Name "CITest01" -SecurityScopeAction RemoveMembership -SecurityScopeName "DefaultScope"
 ```
 
 This command sets the security scope action to RemoveMembership and the security scope name to DefaultScope for the item named CITest01.

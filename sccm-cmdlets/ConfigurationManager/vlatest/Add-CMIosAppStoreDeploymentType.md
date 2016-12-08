@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833692
 schema: 2.0.0
 ms.assetid: 3A7DDA19-DBE2-4656-A00F-1E9C6D219022
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMIosAppStoreDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMIosAppStoreDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMIosAppStoreDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -54,7 +54,7 @@ The **Add-CMIosDeploymentType** cmdlet adds an iOS App Store deployment type to 
 
 ### Example 1: Add an iOS App Store deployment type
 ```
-PS C:\>Get-CMApplication -Name "testIOSapp" | Add-CMIOSAppStoreDeploymentType -DeploymentTypeName "DTIOSapp01" -Url "https://itunes.apple.com/us/app/cut-the-rope-magic/id1044677336?mt=8" -Comment "Create a Mac DT" -AddLanguage "zh-CN" -Confirm
+PS C:\> Get-CMApplication -Name "testIOSapp" | Add-CMIOSAppStoreDeploymentType -DeploymentTypeName "DTIOSapp01" -Url "https://itunes.apple.com/us/app/cut-the-rope-magic/id1044677336?mt=8" -Comment "Create a Mac DT" -AddLanguage "zh-CN" -Confirm
 ```
 
 This command gets the application object named testIOSapp and uses the pipeline operator to pass the object to **Add-CMIOSAppStoreDeploymentType**.

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833966
 schema: 2.0.0
 ms.assetid: 31071321-3393-445D-8345-B2DF8875EB1D
-updated_at: 12/8/2016 12:03 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/df25317d1d5737b1e71a2bef3a993bb95cd1bbf5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -47,7 +47,7 @@ Out of band management lets you connect to a computer AMT management controller 
 
 ### Example 1: Set an out of band management component
 ```
-PS C:\>$Cert = Get-CMTrustedRootCertificate -CertificationAuthorityServerName "CertAuth.Contoso.Com"
+PS C:\> $Cert = Get-CMTrustedRootCertificate -CertificationAuthorityServerName "CertAuth.Contoso.Com"
 PS C:\> $WiredP = New-CMWiredProfileObject -TrustedRootCertificate $Cert -ClientAuthenticationMethod EapTtlsMschapv2 -ClientIssuingCertificationAuthority "ContosoCorpTPM.Contoso.Com" -ClientCertificationAuthorityName "Contoso TPM" -ClientCertificateTemplate "Contoso Certificate Access" - MachineAuth - TPM"
 PS C:\> $WirelessP = New-CMWirelessProfileObject -ProfileName "Test -NetworkName Net1" -SecurityType WPA2Enterprise -EncryptionMethod AES -TrustedRootCertificate $Cert -ClientAuthenticationMethod EapTtlsMschapv2 -ClientIssuingCertificationAuthority "ContosoCorpTPM.Contoso.Com" -ClientCertificationAuthorityName "Contoso TPM" -ClientCertificateTemplate "Contoso Certificate Access" - MachineAuth - TPMv2"
 PS C:\> Set-CMOutOfBandManagementComponent -SiteCode "CM2" -EnableWiredNetworkAccess $True -WiredProfileObject $WiredP -WirelessProfile $WirelessP
@@ -63,7 +63,7 @@ The fourth command sets an out of band management component by using the $WiredP
 
 ### Example 2: Set an out of band management component with an AMT provisioning account
 ```
-PS C:\>$SS= Read-Host -AsSecureString
+PS C:\> $SS= Read-Host -AsSecureString
 PS C:\> $Apa = New-CMAmtProvisioningAccount -UserName "ElisaDaugherty" -Password $SS -Description "New AMT Provisioning Account"
 PS C:\> $Schedule = New-CMSchedule -DayOfWeek Saturday -RecurCount 2 -Start "2012/11/22 12:10:00"
 PS C:\> Set-CMOutOfBandManagementComponent -SiteCode CM2 -AmtProvisioningAccount $Apa -AmtProvisioningSchedule $Schedule -AmtProvisioningRemovalAccount "TSQA\ElisaDaugherty" -AmtProvisioningRemovalPassword $SS
@@ -81,7 +81,7 @@ The command specifies an account for the *AmtProvisioningAccount* parameter.
 
 ### Example 3: Set an out of band management component with an AMT user account
 ```
-PS C:\>$SS = Read-Host -AsSecureString
+PS C:\> $SS = Read-Host -AsSecureString
 PS C:\> $Apa = New-CMAmtProvisioningAccount -UserName "ElisaDaugherty " -Password "$SS" -Description "New AMT Provisioning Account"
 PS C:\> $Schedule= New-CMSchedule -DayOfWeek Saturday -RecurCount 2 -Start "2012/11/22 12:10:00"
 PS C:\> Set-CMOutOfBandManagementComponent -SiteCode "CM2"  -AmtUserAccount "TSQA\ElisaDaugherty " -PowerState HostIsOnS0 -EnableWebInterface $True -EnableIDERedirection $False -AllowPingResponse $True -EnableBypassBiosPassword $False -KerberosClockToleranceMinutes 3 -AuditLogSettingName EndpointAccessControl,CircuitBreakerManager,AgentPresenceManager -AmtProvisioningAccount $Apa -AmtProvisioningSchedule $Schedule -AmtProvisioningRemovalAccount "TSQA\ElisaDaugherty" -AmtProvisioningRemovalPassword $SS
@@ -99,7 +99,7 @@ The command specifies an account name for the *AmtUserAccount* parameter.
 
 ### Example 4: Set an out of band management component with an AMT account OU
 ```
-PS C:\>Set-CMOutOfBandManagementComponent -SiteCode "CM2" -AmtAccountOU "LDAP://OU=Resources,DC=TSQA,DC=Contoso,DC=Com" -UniversalSecurityGroup "Administrators" -IssuingCertificationAuthority "Test.TSQA.Contoso.Com" -CertificationAuthorityName "Contoso Test" -CertificateTemplate "Test - Secure Web Server 2yr" -EnableCrlChecking $False
+PS C:\> Set-CMOutOfBandManagementComponent -SiteCode "CM2" -AmtAccountOU "LDAP://OU=Resources,DC=TSQA,DC=Contoso,DC=Com" -UniversalSecurityGroup "Administrators" -IssuingCertificationAuthority "Test.TSQA.Contoso.Com" -CertificationAuthorityName "Contoso Test" -CertificateTemplate "Test - Secure Web Server 2yr" -EnableCrlChecking $False
 ```
 
 The command sets an out of band management component, and specifies an organizational unit with the *AmtAccountOU* parameter.

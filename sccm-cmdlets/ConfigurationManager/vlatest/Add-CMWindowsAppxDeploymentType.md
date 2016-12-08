@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833788
 schema: 2.0.0
 ms.assetid: 36A1F0DC-7683-4F9C-B711-19CADFA70D0D
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMWindowsAppxDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMWindowsAppxDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMWindowsAppxDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,7 +65,7 @@ Specifying the *TriggerVpn* parameter indicates that a VPN connection is used.
 
 ### Example 2: Add a Windows app package deployment type by using the pipeline
 ```
-PS C:\>Get-CMApplication -Name "Application1" | Add-CMWindowsAppxDeploymentType -DeploymentTypeName "DT1" -ContentLocation "\\Server1\Resources\Applications\appx\sccm_custom.appx" -AddLanguage "en-US","zh-CN" -Comment "New Deployment Type" -SlowNetworkDeploymentMode DoNothing -ContentFallback -TriggerVpn
+PS C:\> Get-CMApplication -Name "Application1" | Add-CMWindowsAppxDeploymentType -DeploymentTypeName "DT1" -ContentLocation "\\Server1\Resources\Applications\appx\sccm_custom.appx" -AddLanguage "en-US","zh-CN" -Comment "New Deployment Type" -SlowNetworkDeploymentMode DoNothing -ContentFallback -TriggerVpn
 ```
 
 This command gets the application object named Application1 and uses the pipeline operator to pass the object to **Add-CMWindowsAppxDeploymentType**.

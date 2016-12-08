@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833944
 schema: 2.0.0
 ms.assetid: D8EA1510-9DA9-4DE1-BCBB-D5AA2D737E58
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStatusReportingComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStatusReportingComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStatusReportingComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -36,7 +36,7 @@ This object provides information about the client configuration and server confi
 
 ### Example 1: Get status reporting components
 ```
-PS C:\>Get-CMStatusReportingComponent -SiteCode "CM1"
+PS C:\> Get-CMStatusReportingComponent -SiteCode "CM1"
 ```
 
 This command gets the status reporting components that Set-CMStatusReportingComponent configures for the site.

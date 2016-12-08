@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833591
 schema: 2.0.0
 ms.assetid: C79E32F6-CBDA-4F7D-A88C-B52EA286CF49
-updated_at: 12/7/2016 8:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,21 +50,21 @@ A deployment type also contains rules that specify if and how the software is de
 
 ### Example 1: Get the deployment type of an application
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "CenterApp"
+PS C:\> Get-CMDeploymentType -ApplicationName "CenterApp"
 ```
 
 This command gets the deployment type for the application named CenterApp.
 
 ### Example 2: Get the deployment type of an application by name
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "CenterApp" -DeploymentTypeName "InterDept - Windows app package (.appx file)"
+PS C:\> Get-CMDeploymentType -ApplicationName "CenterApp" -DeploymentTypeName "InterDept - Windows app package (.appx file)"
 ```
 
 This command gets the deployment type for the application named CenterApp that has a deployment type named InterDept - Windows app package (.appx file).
 
 ### Example 3: Get the deployment type of an application by ID
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "CenterApp" -DeploymentTypeID "16777457"
+PS C:\> Get-CMDeploymentType -ApplicationName "CenterApp" -DeploymentTypeID "16777457"
 ```
 
 This command gets the deployment type for the application named CenterApp that has a deployment type that has the ID 16777457.

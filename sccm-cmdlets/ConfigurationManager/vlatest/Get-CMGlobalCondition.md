@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833710
 schema: 2.0.0
 ms.assetid: FFCE8AD9-01ED-42FC-9638-D74CA31F453A
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMGlobalCondition.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMGlobalCondition.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMGlobalCondition.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,14 +50,14 @@ For instance, you might specify an array of global condition names and specify a
 
 ### Example 1: Get a global condition by name
 ```
-PS C:\>Get-CMGlobalCondition -Name "CPU speed"
+PS C:\> Get-CMGlobalCondition -Name "CPU speed"
 ```
 
 This command gets the global condition named CPU speed.
 
 ### Example 2: Get a global condition by name and security scope
 ```
-PS C:\>Get-CMGlobalCondition -Name "CPU speed" -SecuredScopeNames "Scope22"
+PS C:\> Get-CMGlobalCondition -Name "CPU speed" -SecuredScopeNames "Scope22"
 ```
 
 This command gets the global condition named CPU speed that has a security scope named Scope22.

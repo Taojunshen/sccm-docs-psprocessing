@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834123
 schema: 2.0.0
 ms.assetid: 27842BB3-EBB9-41C0-9713-53C515D27E2B
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 7:46 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c84cd4d87cbe10cc83f2242c62b21c37df57e0db/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -56,7 +56,7 @@ To specify a system health validator point to modify, specify a site code or nam
 
 ### Example 1: Modify settings of a system health validator point by using a name
 ```
-PS C:\>Set-CMSystemHealthValidatorPointComponent -Name "SHVPC02.TSQA.Contoso.com" -QueryInterval 60 -ValidityPeriod 24
+PS C:\> Set-CMSystemHealthValidatorPointComponent -Name "SHVPC02.TSQA.Contoso.com" -QueryInterval 60 -ValidityPeriod 24
 ```
 
 This command modifies settings of a system health validator point named SHVPC02.TSQA.Contoso.com.
@@ -97,7 +97,7 @@ Specifies a date, as a DateTime object.
 To obtain a DateTime object, use the Get-Date cmdlet.
 For more information, type Get-Help Get-Date.
 
-If you specify a value of $True for the UseDateTime parameter, a client must create a statement of health after the date and time specified by using this parameter and the Time parameter.
+If you specify a value of $True for the UseDateTime parameter, a client must create a statement of health after the date and time specified by using this parameter and the *Time* parameter.
 The date and time must be in the past.
 
 ```yaml
@@ -113,8 +113,8 @@ Accept wildcard characters: False
 
 ### -DesignateActiveDirectoryForest
 Indicates whether the site system server and the system health validator points are in different Active Directory forests.
-If the value is $True, specify an Active Directory forest by using the DomainSuffix parameter.
-If no trust relationship exists between the forests, you may need to specify accounts by using the PublishAccount and QueryAccount parameters.
+If the value is $True, specify an Active Directory forest by using the *DomainSuffix* parameter.
+If no trust relationship exists between the forests, you may need to specify accounts by using the *PublishAccount* and *QueryAccount* parameters.
 
 ```yaml
 Type: Boolean
@@ -143,7 +143,7 @@ Accept wildcard characters: False
 
 ### -DomainSuffix
 Specifies a domain suffix for a designated Active Directory forest.
-If no trust relationship exists between this forest and the site system server forest, you may need to specify accounts by using the PublishAccount and QueryAccount parameters.
+If no trust relationship exists between this forest and the site system server forest, you may need to specify accounts by using the *PublishAccount* and *QueryAccount* parameters.
 
 ```yaml
 Type: String
@@ -280,7 +280,7 @@ Accept wildcard characters: False
 Specifies a time, as a DateTime object.
 To obtain a DateTime object, use the Get-Date cmdlet.
 
-If you specify a value of $True for the UseDateTime parameter, a client must create a statement of health after the date and time specified by using this parameter and the Date parameter.
+If you specify a value of $True for the UseDateTime parameter, a client must create a statement of health after the date and time specified by using this parameter and the *Date* parameter.
 The date and time must be in the past.
 
 ```yaml
@@ -296,7 +296,7 @@ Accept wildcard characters: False
 
 ### -UseDateTime
 Indicates whether a client must create a statement of health after a specific date and time.
-If you select a value of $True, specify the date and time by using the Date and Time parameters.
+If you select a value of $True, specify the date and time by using the *Date* and *Time* parameters.
 The date and time must be in the past.
 The default value for this parameter is $False.
 

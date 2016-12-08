@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834076
 schema: 2.0.0
 ms.assetid: FBC76C13-CA04-4B44-BC77-35E93E8A5358
-updated_at: 12/7/2016 5:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDistributionPointGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDistributionPointGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDistributionPointGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,14 +49,14 @@ When you remove a distribution point group, you cannot use the distribution poin
 
 ### Example 1: Remove a distribution point group by using an ID
 ```
-PS C:\>Remove-CMDistributionPointGroup -Id "{03BCD6FE-5604-4725-B650-DD1EA03676DE}"
+PS C:\> Remove-CMDistributionPointGroup -Id "{03BCD6FE-5604-4725-B650-DD1EA03676DE}"
 ```
 
 This command removes the distribution point group that has the ID 03BCD6FE-5604-4725-B650-DD1EA03676DE.
 
 ### Example 2: Remove a distribution point group by using a name
 ```
-PS C:\>Remove-CMDistributionPointGroup -Name "DpgDept01"
+PS C:\> Remove-CMDistributionPointGroup -Name "DpgDept01"
 ```
 
 This command removes the distribution point group named DpgDept01.

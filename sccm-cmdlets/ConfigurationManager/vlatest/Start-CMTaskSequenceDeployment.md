@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834231
 schema: 2.0.0
 ms.assetid: 83C8EA1B-C6A1-4962-BEB9-409EB24305F5
-updated_at: 12/7/2016 7:41 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 7:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e96af22ac9700d4739f43d97cc915f1f0491a231/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -67,14 +67,14 @@ A task sequence deployment assigns a task sequence to a collection of computers.
 
 ### Example 1: Start a task sequence deployment
 ```
-PS C:\>Start-CMTaskSequenceDeployment -Name "Task Sequence 1333" -CollectionName "All Systems"
+PS C:\> Start-CMTaskSequenceDeployment -Name "Task Sequence 1333" -CollectionName "All Systems"
 ```
 
 This command starts a task sequence deployment by using the name of the task sequence deployment and the name of a collection.
 
 ### Example 2: Start a task sequence deployment for devices
 ```
-PS C:\>Start-CMTaskSequenceDeployment -Name "Task Sequence 1333" -CollectionName "All Mobile Devices" -Comment "Task sequence test" -DeployPurpose Required -SendWakeUpPacket $True -UseMeteredNetwork $True -ScheduleEvent AsSoonAsPossible -RerunBehavior NeverRerunDeployedProgram -AllowUsersRunIndependently $True -ShowTaskSequenceProgress $False -SoftwareInstallation $True -SystemRestart $True -PersistOnWriteFilterDevice $False -AllowFallback $True -CreatAlertBaseOnPercentSuccess $True -CreatAlertBaseOnPercentFailure $True -DeploymentOption DownloadAllContentLocallyBeforeStartingTaskSequence -AllowSharedContent $True -InternetOption $True
+PS C:\> Start-CMTaskSequenceDeployment -Name "Task Sequence 1333" -CollectionName "All Mobile Devices" -Comment "Task sequence test" -DeployPurpose Required -SendWakeUpPacket $True -UseMeteredNetwork $True -ScheduleEvent AsSoonAsPossible -RerunBehavior NeverRerunDeployedProgram -AllowUsersRunIndependently $True -ShowTaskSequenceProgress $False -SoftwareInstallation $True -SystemRestart $True -PersistOnWriteFilterDevice $False -AllowFallback $True -CreatAlertBaseOnPercentSuccess $True -CreatAlertBaseOnPercentFailure $True -DeploymentOption DownloadAllContentLocallyBeforeStartingTaskSequence -AllowSharedContent $True -InternetOption $True
 ```
 
 This command starts a task sequence deployment for mobile devices.
@@ -584,7 +584,7 @@ Indicates whether to send a wake up packet to computers before the deployment be
 If this value is $True, Configuration Manager wakes a computer from sleep.
 If this value is $False, it does not wake computers from sleep.
 For computers to wake, you must first configure Wake On LAN.
-The Purpose parameter must be set to Required.
+The *Purpose* parameter must be set to Required.
 
 ```yaml
 Type: Boolean

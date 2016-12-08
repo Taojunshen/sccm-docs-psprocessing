@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834152
 schema: 2.0.0
 ms.assetid: C9BEBDB3-7AAA-4098-B779-E10C113714CD
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWebApplicationDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWebApplicationDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWebApplicationDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,14 +62,14 @@ The **Set-CMWebApplicationDeploymentType** cmdlet changes the settings for a web
 
 ### Example 1: Modify a web application deployment type
 ```
-PS C:\>Set-CMWebApplicationdeploymentType -ApplicationName "testweb" -DeploymentTypeName "DT1" -NewName "DT1_Updated" -RemoveLanguage "zh-CN" -Comment "Deployment Type updated"
+PS C:\> Set-CMWebApplicationdeploymentType -ApplicationName "testweb" -DeploymentTypeName "DT1" -NewName "DT1_Updated" -RemoveLanguage "zh-CN" -Comment "Deployment Type updated"
 ```
 
 This command changes the name of the web application deployment type named DT1 for the application named testweb to DT1_Updated, and removes Chinese from the array of supported languages.
 
 ### Example 2: Modify a web application deployment type by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "testweb" -DeploymentTypeName "DT1" | Set-CMWebApplicationdeploymentType -NewName "DT1_Updated" -RemoveLanguage "zh-CN" -Comment "Deployment Type updated"
+PS C:\> Get-CMDeploymentType -ApplicationName "testweb" -DeploymentTypeName "DT1" | Set-CMWebApplicationdeploymentType -NewName "DT1_Updated" -RemoveLanguage "zh-CN" -Comment "Deployment Type updated"
 ```
 
 This command gets the web application deployment type object named DT1 for the application named testweb and uses the pipeline operator to pass the object to **Set-CMWebApplicationDeploymentType**.

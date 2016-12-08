@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833604
 schema: 2.0.0
 ms.assetid: 3F7587DE-C592-49E8-8B14-8A9AA4DF93DC
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,7 +49,7 @@ You cannot create child configuration items for mobile devices.
 
 ### Example 1: Create a configuration item
 ```
-PS C:\>New-CMConfigurationItem -CreationType MobileDevice -Name "MD_Config88"
+PS C:\> New-CMConfigurationItem -CreationType MobileDevice -Name "MD_Config88"
 ```
 
 This command creates a configuration item for mobile devices named MD_Config88.

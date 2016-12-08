@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834192
 schema: 2.0.0
 ms.assetid: 5A75BC8C-977B-4AAF-BA2E-9A5164628A62
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityScope.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityScope.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityScope.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Remove-CMSecurityScope** cmdlet removes a security scope from Microsoft Sy
 
 ### Example 1: Remove a security scope in a variable
 ```
-PS C:\>$Scope = Get-CMSecurityScope -Name "Scope"
+PS C:\> $Scope = Get-CMSecurityScope -Name "Scope"
 PS C:\> Remove-CMSecurityScope -InputObject $Scope -Force
 ```
 
@@ -59,7 +59,7 @@ By specifying the *Force* parameter, the user is not prompted for confirmation p
 
 ### Example 2: Remove a security scope using the pipeline
 ```
-PS C:\>Get-CMSecurityScope -Name "Scope" | Remove-CMSecurityScope -Force
+PS C:\> Get-CMSecurityScope -Name "Scope" | Remove-CMSecurityScope -Force
 ```
 
 This command gets the security scope object named Scope and uses the pipeline operator to pass the object to **Remove-CMSecurityScope**, which removes the security scope.

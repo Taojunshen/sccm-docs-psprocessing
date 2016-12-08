@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833841
 schema: 2.0.0
 ms.assetid: 7BEF1089-8E5C-4719-96E0-57443F90E8AA
-updated_at: 12/7/2016 11:03 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEndpointProtectionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEndpointProtectionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEndpointProtectionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -47,14 +47,14 @@ For more information about Endpoint Protection in System Center Configuration Ma
 
 ### Example 1: Set an endpoint protection point
 ```
-PS C:\>Set-CMEndpointProtectionPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" -ProtectionService AdvancedMembership
+PS C:\> Set-CMEndpointProtectionPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" -ProtectionService AdvancedMembership
 ```
 
 The command sets the endpoint protection point for the server, and specifies the membership type for the *ProtectionService* parameter.
 
 ### Example 2: Set an endpoint protection point by using an input object
 ```
-PS C:\>$Epp = Get-CMEndpointProtectionPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" 
+PS C:\> $Epp = Get-CMEndpointProtectionPoint -SiteSystemServerName "CM-Contoso.Contoso.Com" -SiteCode "CM2" 
 PS C:\> Set-CMEndpointProtectionPoint -InputObject $Epp -ProtectionService BasicMembership
 ```
 

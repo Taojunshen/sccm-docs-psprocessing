@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834034
 schema: 2.0.0
 ms.assetid: CED257A6-E5DE-4D3D-97FA-861AEA295DE3
-updated_at: 12/7/2016 7:27 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSite.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSite.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSite.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -123,14 +123,14 @@ You can specify a site for which you change security scope settings by using a s
 
 ### Example 1: Add a site to a security scope by using a site name
 ```
-PS C:\>Set-CMSite -SecurityScopeAction AddMembership -SecurityScopeName "Scope22" -SiteName "CMSiteSystem"
+PS C:\> Set-CMSite -SecurityScopeAction AddMembership -SecurityScopeName "Scope22" -SiteName "CMSiteSystem"
 ```
 
 This command assigns a custom security scope named Scope22 to a System Center Configuration Manager site named CMSiteSystem.
 
 ### Example 2: Remove a security scope for a site by using the site name
 ```
-PS C:\>Set-CMSite -SecurityScopeAction RemoveMembership -SecurityScopeName "Scope22" -SiteName "CMSiteSystem"
+PS C:\> Set-CMSite -SecurityScopeAction RemoveMembership -SecurityScopeName "Scope22" -SiteName "CMSiteSystem"
 ```
 
 This command removes the custom security scope in the previous example from a System Center Configuration Manager site named CMSiteSystem.

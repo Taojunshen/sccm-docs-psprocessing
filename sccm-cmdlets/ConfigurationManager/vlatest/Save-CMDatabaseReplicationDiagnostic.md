@@ -3,10 +3,10 @@ external help file: AdminUI.PS.DatabaseReplication.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833582
 schema: 2.0.0
 ms.assetid: F80FD38D-B120-4F6B-9F6E-0DEC8A90A565
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Save-CMDatabaseReplicationDiagnostic.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Save-CMDatabaseReplicationDiagnostic.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Save-CMDatabaseReplicationDiagnostic.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -41,7 +41,7 @@ Diagnostics identify problems in database replication.
 
 ### Example 1: Save database replication diagnostic
 ```
-PS C:\>Save-CMDatabaseReplicationDiagnostic -ChildSiteCode "CC2" -FileName "D:\Diagnostics\CCB_CC2_Diagnostics.csv" -ParentSiteCode "CCB"
+PS C:\> Save-CMDatabaseReplicationDiagnostic -ChildSiteCode "CC2" -FileName "D:\Diagnostics\CCB_CC2_Diagnostics.csv" -ParentSiteCode "CCB"
 ```
 
 This command saves database replication diagnostics in a file named CCB_CC2_Diagnostics.csv.

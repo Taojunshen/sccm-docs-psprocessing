@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833866
 schema: 2.0.0
 ms.assetid: 7B3F75FB-24E0-47DD-A58A-34C028DC76B4
-updated_at: 12/7/2016 11:03 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGooglePlayDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGooglePlayDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGooglePlayDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -62,7 +62,7 @@ The **Set-CMGooglePlayDeploymentType** changes the settings for a Google Play de
 
 ### Example 1: Change the name and remove a language of the deployment type
 ```
-PS C:\>Set-CMGooglePlayDeploymentType -ApplicationName "TestGooglePlay02" -DeploymentTypeName "DTGooglePlay02" -Url "https://play.google.com/store/apps/details?id=com.microsoft.office.word" -NewName "DTGooglePlay_Updated" -RemoveLanguage "zh-CN" -PassThru -Confirm
+PS C:\> Set-CMGooglePlayDeploymentType -ApplicationName "TestGooglePlay02" -DeploymentTypeName "DTGooglePlay02" -Url "https://play.google.com/store/apps/details?id=com.microsoft.office.word" -NewName "DTGooglePlay_Updated" -RemoveLanguage "zh-CN" -PassThru -Confirm
 ```
 
 This command removes Chinese from the deployment type named DTGooglePlay02 for the application named TestGooglePlay02.
@@ -71,7 +71,7 @@ The *PassThru* parameter indicates that an object is returned from this command.
 
 ### Example 2: Change the name and remove a language of the deployment type by using the pipeline
 ```
-PS C:\>Get-CMDeploymentType -ApplicationName "TestGooglePlay01" -DeploymentTypeName "DTGooglePlay01" | Set-CMGooglePlayDeploymentType -Url "https://play.google.com/store/apps/details?id=com.microsoft.office.word" -NewName "DTGooglePlay" -RemoveLanguage "zh-CN" -PassThru -Confirm
+PS C:\> Get-CMDeploymentType -ApplicationName "TestGooglePlay01" -DeploymentTypeName "DTGooglePlay01" | Set-CMGooglePlayDeploymentType -Url "https://play.google.com/store/apps/details?id=com.microsoft.office.word" -NewName "DTGooglePlay" -RemoveLanguage "zh-CN" -PassThru -Confirm
 ```
 
 This command gets the deployment type object named DTGooglePlay01 for the application named TestGooglePlay01 and uses the pipeline operator to pass the object to **Set-CMGooglePlayDeploymentType**.

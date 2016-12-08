@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834128
 schema: 2.0.0
 ms.assetid: DC01ACF9-2683-428D-8DC1-CCD42AAC2581
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequence.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequence.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMTaskSequence.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -66,7 +66,7 @@ The **Set-CMTaskSequence** cmdlet modifies a Microsoft System Center Configurati
 
 ### Example 1: Get a task sequence and change its name
 ```
-PS C:\>$TaskSequence = Get-CMTaskSequence -Name "TaskSequence01"
+PS C:\> $TaskSequence = Get-CMTaskSequence -Name "TaskSequence01"
 PS C:\> Set-CMTaskSequence -InputObject $TaskSequence -NewName "NewTS01"
 ```
 
@@ -76,7 +76,7 @@ The second command changes the name of the task sequence stored in $TaskSequence
 
 ### Example 2: Pass a task sequence and change its name
 ```
-PS C:\>Get-CMTaskSequence -Name "TaskSequence02" | Set-CMTaskSequence -NewName "NewTS02"
+PS C:\> Get-CMTaskSequence -Name "TaskSequence02" | Set-CMTaskSequence -NewName "NewTS02"
 ```
 
 This command gets the task sequence object named TaskSequence02 and uses the pipeline operator to pass the object to **Set-CMTaskSequence**, which changes the name of the task sequence object to NewTS02.

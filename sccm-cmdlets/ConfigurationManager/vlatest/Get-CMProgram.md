@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833821
 schema: 2.0.0
 ms.assetid: 28331CBC-88B0-42DE-B4E6-5109D2A03D7F
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMProgram.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMProgram.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMProgram.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -51,14 +51,14 @@ You can associate multiple programs with the same package.
 
 ### Example 1: Get all programs
 ```
-PS C:\>Get-CMProgram
+PS C:\> Get-CMProgram
 ```
 
 This command gets all programs in System Center Configuration Manager.
 
 ### Example 2: Get a program by using a name and an ID
 ```
-PS C:\>Get-CMProgram -PackageId "ST10000F" -ProgramName "ProgramD02"
+PS C:\> Get-CMProgram -PackageId "ST10000F" -ProgramName "ProgramD02"
 ```
 
 This command gets the program named ProgramD02 in the package that has the ID ST10000F.

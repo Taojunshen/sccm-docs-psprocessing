@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Oob.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833983
 schema: 2.0.0
 ms.assetid: C62ED04A-8E72-4A18-A7B0-DFBB57F5EC97
-updated_at: 12/7/2016 10:10 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPowerControl.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c6cfa731ff189c106139e3ba3d2fc0fa45711e29/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPowerControl.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPowerControl.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,7 +48,7 @@ The **Set-CMPowerControl** cmdlet changes the power state for one or more Intel 
 
 ### Example 1: Change the power control setting for a client device
 ```
-PS C:\>Set-CMPowerControl -DeviceId "209224563" -PowerControl Restart
+PS C:\> Set-CMPowerControl -DeviceId "209224563" -PowerControl Restart
 ```
 
 This command changes the power control setting to Restart for the client device that has the ID 209224563.

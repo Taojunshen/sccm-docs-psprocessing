@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Oob.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833801
 schema: 2.0.0
 ms.assetid: A42E8F2E-F74F-4D26-9A13-761446253F83
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeviceOwnership.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeviceOwnership.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeviceOwnership.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,7 +50,7 @@ For a company-owned device, additional information can be gathered and deleted d
 
 ### Example 1: Identify a device as a company asset
 ```
-PS C:\>Set-CMDeviceOwnership -DeviceId "209846738" -OwnershipType Company
+PS C:\> Set-CMDeviceOwnership -DeviceId "209846738" -OwnershipType Company
 ```
 
 This command identifies the specified device as a company asset.

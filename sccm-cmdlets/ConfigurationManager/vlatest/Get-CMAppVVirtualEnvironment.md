@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834106
 schema: 2.0.0
 ms.assetid: 0249609D-987D-4F8C-85AD-B4BFD4970484
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAppVVirtualEnvironment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAppVVirtualEnvironment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAppVVirtualEnvironment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -43,21 +43,21 @@ You can specify App-V environments by name or ID.
 
 ### Example 1: Get all virtual environments
 ```
-PS C:\>Get-CMAppVVirtualEnvironment
+PS C:\> Get-CMAppVVirtualEnvironment
 ```
 
 This command gets all App-V virtual environments.
 
 ### Example 2: Get virtual environments by using a wildcard
 ```
-PS C:\>Get-CMAppVVirtualEnvironment -Name "T*"
+PS C:\> Get-CMAppVVirtualEnvironment -Name "T*"
 ```
 
 This command gets all App-V virtual environments that have names that begin with the letter T.
 
 ### Example 3: Get virtual environment by an ID
 ```
-PS C:\>Get-CMAppVVirtualEnvironment -Id "16781806"
+PS C:\> Get-CMAppVVirtualEnvironment -Id "16781806"
 ```
 
 This command gets an App-V virtual environment that has the ID 16781806.

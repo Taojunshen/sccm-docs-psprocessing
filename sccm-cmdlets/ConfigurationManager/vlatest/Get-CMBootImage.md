@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834146
 schema: 2.0.0
 ms.assetid: 22CEE6D5-3BCC-43A5-9778-06779C7E5BE0
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBootImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBootImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMBootImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -48,14 +48,14 @@ For more information about the SMS provider, see [Planning for the SMS Provider 
 
 ### Example 1: Get a boot image by using its ID
 ```
-PS C:\>Get-CMBootImage -Id "c0eb2912-0de8-4a2a-9c77-603b35bcf7e4"
+PS C:\> Get-CMBootImage -Id "c0eb2912-0de8-4a2a-9c77-603b35bcf7e4"
 ```
 
 This command gets a boot image by using its ID.
 
 ### Example 2: Get a boot image by using its name
 ```
-PS C:\>Get-CMBootImage -Name "SMS_BootImagePackage"
+PS C:\> Get-CMBootImage -Name "SMS_BootImagePackage"
 ```
 
 This command gets a boot image by using its name.

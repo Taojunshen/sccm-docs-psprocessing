@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833657
 schema: 2.0.0
 ms.assetid: C01B52A1-0E55-4A7E-90C6-F071D8F76CF2
-updated_at: 12/8/2016 12:03 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/df25317d1d5737b1e71a2bef3a993bb95cd1bbf5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -106,7 +106,7 @@ You can add the distribution point site role to a new site system server or add 
 
 ### Example 1: Add a site by using a site system server object
 ```
-PS C:\>$Date = [DateTime]::Now.AddYears(30)
+PS C:\> $Date = [DateTime]::Now.AddYears(30)
 PS C:\> $SystemServer = Get-CMSiteSystemServer -SiteSystemServerName "MySiteSys_11310.Contoso.com"
 PS C:\> Add-CMDistributionPoint -InputObject $SystemServer -CertificateExpirationTimeUtc $Date
 ```
@@ -119,7 +119,7 @@ The third command adds a distribution point to the site system server stored in 
 
 ### Example 2: Add a site by using the pipeline
 ```
-PS C:\>$Date = [DateTime]::Now.AddYears(30)
+PS C:\> $Date = [DateTime]::Now.AddYears(30)
 PS C:\> Get-CMSiteSystemServer -SiteSystemServerName "MySiteSys_11310.Contoso.com" | Add-CMDistributionPoint -CertificateExpirationTimeUtc $Date
 ```
 

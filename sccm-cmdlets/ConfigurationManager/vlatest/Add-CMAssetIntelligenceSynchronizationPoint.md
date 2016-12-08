@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833598
 schema: 2.0.0
 ms.assetid: B2B9CF97-719D-4F30-87C9-9ED6F3A5A798
-updated_at: 12/8/2016 4:01 AM
+updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -54,7 +54,7 @@ This command installs an Asset Intelligence synchronization point on the site sy
 
 ### Example 2: Install a scheduled Asset Intelligence synchronization point
 ```
-PS C:\>$Sc = New-CMSchedule -DayOfWeek Friday -RecurCount 2
+PS C:\> $Sc = New-CMSchedule -DayOfWeek Friday -RecurCount 2
 PS C:\> Add-CMAssetIntelligenceSynchronizationPoint -SiteSystemServerName "CMDIV-TSQA04.CORP.CONTOSO.COM" -CertificateFile "\\Contoso01\CM\ACDataFile\AIpfx.pfx" -EnableSynchronization -ScheduleToken $Sc
 ```
 

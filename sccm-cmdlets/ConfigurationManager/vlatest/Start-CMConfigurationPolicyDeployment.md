@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834210
 schema: 2.0.0
 ms.assetid: 9F810236-8954-43EB-BE04-B119088905B9
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMConfigurationPolicyDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMConfigurationPolicyDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMConfigurationPolicyDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -110,7 +110,7 @@ You can specify System Center 2016 - Operations Manager monitoring criteria.
 
 ### Example 1: Start deployment of a firewall policy
 ```
-PS C:\>Start-CMConfigurationPolicyDeployment -CollectionName "Desktop systems" -FirewallPolicyName "General firewall policy"
+PS C:\> Start-CMConfigurationPolicyDeployment -CollectionName "Desktop systems" -FirewallPolicyName "General firewall policy"
 ```
 
 This command starts the configuration policy deployment for a collection named Desktop systems.

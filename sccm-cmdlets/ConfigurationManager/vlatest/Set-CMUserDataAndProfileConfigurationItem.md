@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834140
 schema: 2.0.0
 ms.assetid: FF47986C-F314-4A29-AD87-24010BF2C92F
-updated_at: 12/7/2016 11:12 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -114,7 +114,7 @@ You can create a configuration item by using the [New-CMUserDataAndProfileConfig
 
 ### Example 1: Modify a configuration item
 ```
-PS C:\>Set-CMUserDataAndProfileConfigurationItem -Name "CMUDaPCI001" -NewName "CMUDaPCI0073" -ConfigureFolderRedirection $False -ConfigureOffineFile $False -ConfigureRoamingUserProfile $False -Description "User data and profile configuration information"
+PS C:\> Set-CMUserDataAndProfileConfigurationItem -Name "CMUDaPCI001" -NewName "CMUDaPCI0073" -ConfigureFolderRedirection $False -ConfigureOffineFile $False -ConfigureRoamingUserProfile $False -Description "User data and profile configuration information"
 ```
 
 This command modifies the configuration item named CMUDaPCI001, changing its name to CMUDaPCI0073.

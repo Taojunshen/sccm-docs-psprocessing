@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834072
 schema: 2.0.0
 ms.assetid: 6633EFD1-D89B-4115-B23E-0A0A71BF5C02
-updated_at: 12/7/2016 11:21 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDistributionPointFromGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4bb0549ab9452d0d1c9cdf57cfbc8185eefd798c/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDistributionPointFromGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDistributionPointFromGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -94,14 +94,14 @@ You can specify these values by ID or name, or you can use the [Get-CMDistributi
 
 ### Example 1: Remove a distribution point by using an ID
 ```
-PS C:\>Remove-CMDistributionPointFromGroup -DistributionPointGroupId "SMS000067" -DistributionPointId "SMS000022"
+PS C:\> Remove-CMDistributionPointFromGroup -DistributionPointGroupId "SMS000067" -DistributionPointId "SMS000022"
 ```
 
 This command removes a distribution point that has an ID of SMS000022 from a distribution point group that has the ID SMS000067.
 
 ### Example 2: Remove a distribution point by using a name
 ```
-PS C:\>Remove-CMDistributionPointFromGroup -DistributionPointGroupId "SMS000067" -DistributionPointName "Western office distribution point" -Force
+PS C:\> Remove-CMDistributionPointFromGroup -DistributionPointGroupId "SMS000067" -DistributionPointName "Western office distribution point" -Force
 ```
 
 This command removes a distribution point, specified by its name, from a distribution point group that has the ID SMS000067.

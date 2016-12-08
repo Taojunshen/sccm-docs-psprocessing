@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833784
 schema: 2.0.0
 ms.assetid: 76C8AF2C-65AA-485C-8905-66A1B624C36D
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMWebApplicationDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMWebApplicationDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMWebApplicationDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -61,7 +61,7 @@ This command adds the web application deployment type named DT1 from the specifi
 
 ### Example 2: Add a web application deployment type by using the pipeline
 ```
-PS C:\>Get-CMApplication -Name "testweb" | Add-CMWebApplicationDeploymentType -Url "http://www.contoso.com" -DeploymentTypeName "DT1" -AddLanguage "en-US","zh-CN" -Comment "New Deployment Type"
+PS C:\> Get-CMApplication -Name "testweb" | Add-CMWebApplicationDeploymentType -Url "http://www.contoso.com" -DeploymentTypeName "DT1" -AddLanguage "en-US","zh-CN" -Comment "New Deployment Type"
 ```
 
 This command gets the application object named testweb and uses the pipeline operator to pass the object to **Add-CMWebApplicationDeploymentType**.

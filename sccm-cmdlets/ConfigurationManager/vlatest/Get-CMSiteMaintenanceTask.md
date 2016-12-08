@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833870
 schema: 2.0.0
 ms.assetid: 3F2EAC38-7AA8-4DC7-BB4B-4F5C3D3A87BE
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSiteMaintenanceTask.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSiteMaintenanceTask.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMSiteMaintenanceTask.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -36,7 +36,7 @@ A maintenance task is a task in System Center Configuration Manager that perform
 
 ### Example 1: Get a maintenance task
 ```
-PS C:\>Get-CMSiteMaintenanceTask -SiteCode "CM1" -MaintenanceTaskName "Backup"
+PS C:\> Get-CMSiteMaintenanceTask -SiteCode "CM1" -MaintenanceTaskName "Backup"
 ```
 
 This command gets the maintenance task named Backup for the Configuration Manager site that has the site code CM1.

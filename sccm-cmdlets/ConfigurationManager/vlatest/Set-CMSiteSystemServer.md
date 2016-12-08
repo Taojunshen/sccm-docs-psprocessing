@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834042
 schema: 2.0.0
 ms.assetid: 20AEB24C-2706-4103-B3D1-808D355C696C
-updated_at: 12/7/2016 7:27 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -46,7 +46,7 @@ The **Set-CMSiteSystemServer** cmdlet modifies a site system server in Microsoft
 
 ### Example 1: Modify a site system server by using the pipeline operator
 ```
-PS C:\>Get-CMSiteSystemServer -Name "Server2.contoso.com" -SiteCode MP5 | Set-CMSiteSystemServer -SiteCode MP5 -PublicFqdn "Internetsrv2New.contoso.com" -FdmOperation $False -AccountName "contoso\administrator" -EnableProxy $True -ProxyServerName "ProxyServer1" -ProxyServerPort 80 -ProxyAccessAccount (Get-CMAccount "contoso\administrator") -PassThru
+PS C:\> Get-CMSiteSystemServer -Name "Server2.contoso.com" -SiteCode MP5 | Set-CMSiteSystemServer -SiteCode MP5 -PublicFqdn "Internetsrv2New.contoso.com" -FdmOperation $False -AccountName "contoso\administrator" -EnableProxy $True -ProxyServerName "ProxyServer1" -ProxyServerPort 80 -ProxyAccessAccount (Get-CMAccount "contoso\administrator") -PassThru
 ```
 
 This command gets the site system server object named Server2.contoso.com with the site code MP5 and uses the pipeline operator to pass the object to **Set-CMSiteSystemServer**.
@@ -54,7 +54,7 @@ This command gets the site system server object named Server2.contoso.com with t
 
 ### Example 2: Modify a site system server
 ```
-PS C:\>Set-CMSiteSystemServer -SiteSystemServerName "Server2.contoso.com" -SiteCode "MP5" -PublicFqdn "Internetsrv2New.contoso.com" -FdmOperation $False -AccountName "contoso\administrator" -EnableProxy $True -ProxyServerName "ProxyServer1" -ProxyServerPort 80 -ProxyAccessAccount (Get-CMAccount "contoso\administrator") -PassThru
+PS C:\> Set-CMSiteSystemServer -SiteSystemServerName "Server2.contoso.com" -SiteCode "MP5" -PublicFqdn "Internetsrv2New.contoso.com" -FdmOperation $False -AccountName "contoso\administrator" -EnableProxy $True -ProxyServerName "ProxyServer1" -ProxyServerPort 80 -ProxyAccessAccount (Get-CMAccount "contoso\administrator") -PassThru
 ```
 
 This command gets the site system server object named Server2.contoso.com with the site code MP5, adds an FQDN to the site system server to use on the Internet, and enables a proxy server named ProxyServer1 to connect to the Internet using port 80.

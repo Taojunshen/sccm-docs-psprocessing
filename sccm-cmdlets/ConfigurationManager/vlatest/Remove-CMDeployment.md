@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834015
 schema: 2.0.0
 ms.assetid: FA9052DA-213F-4295-8DA7-07214859D824
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -52,7 +52,7 @@ If you delete an application deployment, or remove a resource from the collectio
 
 ### Example 1: Remove an application deployment
 ```
-PS C:\>Remove-CMDeployment -ApplicationName "CMappD01" -CollectionName "All Users"
+PS C:\> Remove-CMDeployment -ApplicationName "CMappD01" -CollectionName "All Users"
 ```
 
 This command removes the Configuration Manager deployment that is associated with the application named CMappD01 and that is applied to the collection named All Users.
@@ -67,7 +67,7 @@ Because the *Force* parameter is specified, the user is not prompted before the 
 
 ### Example 3: Remove a deployment by its ID
 ```
-PS C:\>Remove-CMDeployment -DeploymentId "{890082B6-7C16-4600-8807-7E0003BC9D99}" -ApplicationName "application01" -Force
+PS C:\> Remove-CMDeployment -DeploymentId "{890082B6-7C16-4600-8807-7E0003BC9D99}" -ApplicationName "application01" -Force
 ```
 
 This command removes the deployment named application01 with the specified ID.

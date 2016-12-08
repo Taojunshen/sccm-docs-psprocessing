@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833794
 schema: 2.0.0
 ms.assetid: 2F55B5DB-DAE2-4049-9231-3B2313E6B30F
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMTaskSequence.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMTaskSequence.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMTaskSequence.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -89,35 +89,35 @@ A task sequence performs multiple steps or tasks on a Microsoft System Center Co
 
 ### Example 1: Create a custom task sequence
 ```
-PS C:\>New-CMTaskSequence -CustomTaskSequence -Name "TaskSequence01"
+PS C:\> New-CMTaskSequence -CustomTaskSequence -Name "TaskSequence01"
 ```
 
 This command creates a task sequence with the name TaskSequence01.
 
 ### Example 2: Create a task sequence to install an operating system image
 ```
-PS C:\>New-CMTaskSequence -InstallOperatingSystemImage -Name "TaskSequence02" -BootImagePackageId SC100002 -OperatingSystemImagePackageId SC10000D -OperatingSystemImageIndex 1 -JoinDomain WorkgroupType -WorkgroupName "WorkGroup01" -ApplyAll $True -Description "Task sequence description"
+PS C:\> New-CMTaskSequence -InstallOperatingSystemImage -Name "TaskSequence02" -BootImagePackageId SC100002 -OperatingSystemImagePackageId SC10000D -OperatingSystemImageIndex 1 -JoinDomain WorkgroupType -WorkgroupName "WorkGroup01" -ApplyAll $True -Description "Task sequence description"
 ```
 
 This command creates a task sequence named TaskSequence02 that installs an operating system image and joins a workgroup.
 
 ### Example 3: Create a task sequence to build an operating system and join a workgroup
 ```
-PS C:\>New-CMTaskSequence -BuildOperatingSystemImage -Name "TaskSequence03" -BootImagePackageId SC100002 -OperatingSystemImagePackageId SC10000D -OperatingSystemImageIndex 1 -JoinDomain WorkgroupType -WorkgroupName "WorkGroup01" -OperatingSystemFilePath "\\Server1\image\OSImage.wim" -OperatingSystemFileAccount "domain\account"
+PS C:\> New-CMTaskSequence -BuildOperatingSystemImage -Name "TaskSequence03" -BootImagePackageId SC100002 -OperatingSystemImagePackageId SC10000D -OperatingSystemImageIndex 1 -JoinDomain WorkgroupType -WorkgroupName "WorkGroup01" -OperatingSystemFilePath "\\Server1\image\OSImage.wim" -OperatingSystemFileAccount "domain\account"
 ```
 
 This command creates a task sequence named TaskSequence03 that builds an operating system using the supplied location and account, and joins a workgroup.
 
 ### Example 4: Create a task sequence to install an operating system to a virtual hard disk
 ```
-PS C:\>New-CMTaskSequence -InstallOperatingSystemImageVhd -Name "TaskSequence04" -BootImagePackageId SC100002 -OperatingSystemImagePackageId SC10000D -OperatingSystemImageIndex 1 -JoinDomain WorkgroupType -WorkgroupName "WorkGroup01"
+PS C:\> New-CMTaskSequence -InstallOperatingSystemImageVhd -Name "TaskSequence04" -BootImagePackageId SC100002 -OperatingSystemImagePackageId SC10000D -OperatingSystemImageIndex 1 -JoinDomain WorkgroupType -WorkgroupName "WorkGroup01"
 ```
 
 This command creates a task sequence named TaskSequence04 that installs an operating system to a vhd and joins a workgroup.
 
 ### Example 5: Create a task sequence to upgrade an operating system
 ```
-PS C:\>New-CMTaskSequence -UpgradeOperatingSystem -Name "TaskSequence05" -UpgradePackageId SC102EBA
+PS C:\> New-CMTaskSequence -UpgradeOperatingSystem -Name "TaskSequence05" -UpgradePackageId SC102EBA
 ```
 
 This command creates the task sequence named TaskSequence05 and specifies that the task sequence will upgrade the operating system using the upgrade package with the ID SC102EBA.

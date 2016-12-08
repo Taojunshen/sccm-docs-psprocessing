@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834001
 schema: 2.0.0
 ms.assetid: 465E33E8-26CF-4981-A815-0ADD2BFA15F9
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMUserDeviceAffinity.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMUserDeviceAffinity.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMUserDeviceAffinity.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -55,28 +55,28 @@ User device affinity in Microsoft System Center Configuration Manager is a metho
 
 ### Example 1: Get a user device affinity by using a user name
 ```
-PS C:\>Get-CMUserDeviceAffinity -UserName "CENTRAL\001D$"
+PS C:\> Get-CMUserDeviceAffinity -UserName "CENTRAL\001D$"
 ```
 
 This command gets the user device affinity for the user named CENTRAL\001D$.
 
 ### Example 2: Get a user device affinity by using a user ID
 ```
-PS C:\>Get-CMUserDeviceAffinity -UserID "2063597981"
+PS C:\> Get-CMUserDeviceAffinity -UserID "2063597981"
 ```
 
 This command gets the user device affinity for the user that has the ID named 2063597981.
 
 ### Example 3: Get a user device affinity by using a device name
 ```
-PS C:\>Get-CMUserDeviceAffinity -DeviceName "CMCEN-DIST02"
+PS C:\> Get-CMUserDeviceAffinity -DeviceName "CMCEN-DIST02"
 ```
 
 This command gets the user device affinity for the device named CMCEN-DIST02.
 
 ### Example 4: Get a user device affinity by using a device ID
 ```
-PS C:\>Get-CMUserDeviceAffinity -DeviceID "2097152000"
+PS C:\> Get-CMUserDeviceAffinity -DeviceID "2097152000"
 ```
 
 This command gets the user device affinity for the device that has the ID 2097152000.

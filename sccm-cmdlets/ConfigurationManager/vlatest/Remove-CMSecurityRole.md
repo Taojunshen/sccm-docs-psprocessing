@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834183
 schema: 2.0.0
 ms.assetid: 2382F219-2290-45C8-905B-E9C2D3BD6CB6
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 6:40 PM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityRole.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityRole.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMSecurityRole.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -59,7 +59,7 @@ Before you remove a security role, make sure every user has a role in addition t
 
 ### Example 1: Remove a security role by using a name
 ```
-PS C:\>Remove-CMSecurityRole -Name "MainSecurityRole" -Force
+PS C:\> Remove-CMSecurityRole -Name "MainSecurityRole" -Force
 ```
 
 This command removes a security role named MainSecurityRole from Configuration Manager.
@@ -67,7 +67,7 @@ The command uses the *Force* parameter, so it does not prompt you for confirmati
 
 ### Example 2: Remove security roles by using a variable
 ```
-PS C:\>$Roles = Get-CMSecurityRole -Name *Role 
+PS C:\> $Roles = Get-CMSecurityRole -Name *Role 
 PS C:\> Remove-CMSecurityRole -SecurityRole $Roles
 ```
 
