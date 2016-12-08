@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834199
 schema: 2.0.0
 ms.assetid: 4EA07297-564A-4DA0-957D-5ADE49683D74
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 4:01 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMBaselineDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMBaselineDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMBaselineDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -274,8 +274,8 @@ Accept wildcard characters: False
 ```
 
 ### -Schedule
-Specifies a schedule object.
-This is the schedule for evaluating the baseline.
+Specifies a **CMSchedule** object.
+To create a **CMSchedule** object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject

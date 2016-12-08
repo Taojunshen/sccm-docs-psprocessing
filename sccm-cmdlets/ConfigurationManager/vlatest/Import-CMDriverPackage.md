@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834062
 schema: 2.0.0
 ms.assetid: 2E251111-93BB-4D25-AD73-C7C1C316E253
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 9:59 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriverPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriverPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriverPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -30,7 +30,7 @@ Import-CMDriverPackage -ImportFilePath <String> [-DisableWildcardHandling] [-For
 
 ## DESCRIPTION
 The **Import-CMDriverPackage** cmdlet imports a driver packages to Microsoft System Center Configuration Manager.
-You can use the Export-CMDriverPackage cmdlet to export a driver package to a .zip file.
+You can use the [Export-CMDriverPackage](./Export-CMDriverPackage.md) cmdlet to export a driver package to a .zip file.
 
 ## EXAMPLES
 

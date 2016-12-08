@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833657
 schema: 2.0.0
 ms.assetid: C01B52A1-0E55-4A7E-90C6-F071D8F76CF2
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 12:03 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/df25317d1d5737b1e71a2bef3a993bb95cd1bbf5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -271,7 +271,7 @@ Accept wildcard characters: False
 
 ### -ContentValidationSchedule
 Specifies a schedule token object that the distribution point uses to validate content on a scheduled basis.
-To create a schedule token object, use the New-CMSchedule cmdlet.
+To create a schedule token object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -487,7 +487,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a site system server object.
-To obtain a site system server object, use the Get-CMSiteSystemServer cmdlet.
+To obtain a site system server object, use the [Get-CMSiteSystemServer](./Get-CMSiteSystemServer.md) cmdlet.
 
 ```yaml
 Type: IResultObject

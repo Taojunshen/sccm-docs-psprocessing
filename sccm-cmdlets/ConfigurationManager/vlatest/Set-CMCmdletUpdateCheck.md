@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Common.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833734
 schema: 2.0.0
 ms.assetid: 13E4E149-5691-4B97-BEB0-313B8025F9B2
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 4:01 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -157,7 +157,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a cmdlet update configuration object.
-To obtain a cmdlet update configuration object, use the Get-CMCmdletUpdateCheck cmdlet.
+To obtain a cmdlet update configuration object, use the [Get-CMCmdletUpdateCheck](./Get-CMCmdletUpdateCheck.md) cmdlet.
 
 ```yaml
 Type: CMCmdletUpdateConfiguration
@@ -270,5 +270,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMCmdletUpdateCheck](xref:ConfigurationManager/vlatest/Get-CMCmdletUpdateCheck.md)
 
 [Send-CMCmdletUpdateCheck](xref:ConfigurationManager/vlatest/Send-CMCmdletUpdateCheck.md)
-
-

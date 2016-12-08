@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833661
 schema: 2.0.0
 ms.assetid: DEDB28D8-E0D3-43B5-9EC7-B0F81B36652D
-updated_at: 12/7/2016 5:47 PM
+updated_at: 12/7/2016 11:21 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPointToGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPointToGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4bb0549ab9452d0d1c9cdf57cfbc8185eefd798c/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMDistributionPointToGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 
 ### -DistributionPoint
 Specifies a distribution point object.
-To obtain a **CMDistributionPoint** object, use the Get-CMDistributionPoint cmdlet.
+To obtain a **CMDistributionPoint** object, use the [Get-CMDistributionPoint](./Get-CMDistributionPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject

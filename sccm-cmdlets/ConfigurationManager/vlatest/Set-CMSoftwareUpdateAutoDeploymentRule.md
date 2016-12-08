@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834066
 schema: 2.0.0
 ms.assetid: 9156F844-66C1-4144-9716-8F5E549923CD
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:27 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -158,7 +158,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 Required: False
 Position: Named
@@ -273,7 +273,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 Required: False
 Position: Named
@@ -339,7 +339,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: SeverityType[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: None, Low, Moderate, Important, Critical
 Required: False
 Position: Named
@@ -387,7 +387,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: DateReleasedOrRevisedType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Any, Last1Hour, LastHour, Last2Hours, Last3Hours, Last4Hours, Last8Hours, Last12Hours, Last16Hours, Last20Hours, Last1Day, LastDay, Last2Days, Last3Days, Last4Days, Last5Days, Last6Days, Last7Days, Last14Days, Last21Days, Last28Days, LastMonth, Last1Month, Last2Months, Last3Months, Last4Months, Last5Months, Last6Months, Last7Months, Last8Months, Last9Months, Last10Months, Last11Months, Last1Year, LastYear, Last12Months
 Required: False
 Position: Named
@@ -440,7 +440,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 Required: False
 Position: Named
@@ -471,7 +471,7 @@ Accept wildcard characters: False
 ```yaml
 Type: DeploymentRing
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: CB, Release, BusinessMainstream, Cbb, Ltsb
 Required: False
 Position: Named
@@ -523,7 +523,8 @@ Accept wildcard characters: False
 ```
 
 ### -DownloadFromInternet
-
+Indicates whether computers download software updates from the Internet.
+If you specify a value of $False, specify an alternative location where computers can download updates by using the Location parameter.
 
 ```yaml
 Type: Boolean
@@ -651,7 +652,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an object representing an automatic deployment rule for software updates.
-To obtain an object representing a rule, use **Get-CMSoftwareUpdateAutoDeploymentRule**.
+To obtain an object representing a rule, use [Get-CMSoftwareUpdateAutoDeploymentRule](./Get-CMSoftwareUpdateAutoDeploymentRule.md).
 
 ```yaml
 Type: IResultObject
@@ -695,7 +696,8 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-
+Specifies a location in your network where computers can download software updates.
+In order to use this location, specify a value of $False for the *DownloadFromInternet* parameter.
 
 ```yaml
 Type: String
@@ -783,7 +785,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -839,7 +842,7 @@ If you specify RunTheRuleOnSchedule, specify a schedule by using the *Schedule* 
 ```yaml
 Type: RunType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DoNotRunThisRuleAutomatically, RunTheRuleAfterAnySoftwareUpdatePointSynchronization, RunTheRuleOnSchedule
 Required: False
 Position: Named
@@ -850,7 +853,7 @@ Accept wildcard characters: False
 
 ### -Schedule
 Specifies a schedule object for the deployment.
-To obtain a schedule object, use the New-CMSchedule cmdlet.
+To obtain a schedule object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 Specify a schedule for this parameter if you specify a value of RunTheRuleOnSchedule for the *RunType* parameter.
 
 ```yaml
@@ -1067,7 +1070,7 @@ Hide in Software Center and all notifications.
 ```yaml
 Type: UserNotificationType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DisplayAll, DisplaySoftwareCenterOnly, HideAll
 Required: False
 Position: Named
@@ -1087,7 +1090,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: VerboseLevelType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: OnlyErrorMessages, OnlySuccessAndErrorMessages, AllMessages
 Required: False
 Position: Named
@@ -1150,5 +1153,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMSoftwareUpdateAutoDeploymentRule](xref:ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md)
 
 [Remove-CMSoftwareUpdateAutoDeploymentRule](xref:ConfigurationManager/vlatest/Remove-CMSoftwareUpdateAutoDeploymentRule.md)
-
-

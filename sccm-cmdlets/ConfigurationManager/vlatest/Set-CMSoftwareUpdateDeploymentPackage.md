@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834084
 schema: 2.0.0
 ms.assetid: EA722095-C1A2-4454-9936-19EFB7088C47
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:27 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeploymentPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeploymentPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeploymentPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -144,8 +144,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-Specifies a CMSoftwareUpdateDeploymentPackage object.
-To obtain an CMSoftwareUpdateDeploymentPackage object, use the Get-CMSoftwareUpdateDeploymentPackage cmdlet.
+Specifies a **CMSoftwareUpdateDeploymentPackage** object.
+To obtain an **CMSoftwareUpdateDeploymentPackage** object, use the [Get-CMSoftwareUpdateDeploymentPackage](./Get-CMSoftwareUpdateDeploymentPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -187,7 +187,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -220,7 +221,7 @@ Specifies a distribution priority for the deployment package.
 ```yaml
 Type: Priorities
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: High, Normal, Low
 Required: False
 Position: Named
@@ -300,5 +301,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMSoftwareUpdateDeploymentPackage](xref:ConfigurationManager/vlatest/Get-CMSoftwareUpdateDeploymentPackage.md)
 
 [Remove-CMSoftwareUpdateDeploymentPackage](xref:ConfigurationManager/vlatest/Remove-CMSoftwareUpdateDeploymentPackage.md)
-
-

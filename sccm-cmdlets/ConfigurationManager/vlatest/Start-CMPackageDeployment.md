@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834222
 schema: 2.0.0
 ms.assetid: 97AD7791-97A7-492A-BD08-274EDAED0F2B
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:12 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMPackageDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMPackageDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMPackageDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -478,7 +478,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -592,14 +593,14 @@ Accept wildcard characters: False
 Specifies how a deployment reruns on a client.
 The acceptable values for this parameter are:
 
--- AlwaysRerunProgram.
+- AlwaysRerunProgram.
 Rerun as scheduled, even if the deployment succeeded.
 You can use this value for recurring deployments.
--- NeverRerunDeployedProgram.
+- NeverRerunDeployedProgram.
 Does not rerun, even if the deployment failed or files changed.
--- RerunIfFailedPreviousAttempt.
+- RerunIfFailedPreviousAttempt.
 Rerun, as scheduled, if the deployment failed on the previous attempt.
--- RerunIfSucceededOnpreviousAttempt.
+- RerunIfSucceededOnpreviousAttempt.
 Rerun only if the previous attempt succeeded.
 You can use this value for updates that depend on the previous update.
 

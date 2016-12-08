@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833818
 schema: 2.0.0
 ms.assetid: A04B7F84-3E7F-4D68-A046-A6A4DEE09A98
-updated_at: 12/7/2016 5:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 3:33 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPointGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -133,8 +133,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-Specifies a CMDistributionPointGroup object.
-To obtain a CMDistributionPointGroup object, use the [Get-CMDistributionPointGroup](./Get-CMDistributionPointGroup.md) cmdlet.
+Specifies a **CMDistributionPointGroup** object.
+To obtain a **CMDistributionPointGroup** object, use the [Get-CMDistributionPointGroup](./Get-CMDistributionPointGroup.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -206,5 +206,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMDistributionPointGroup](xref:ConfigurationManager/vlatest/New-CMDistributionPointGroup.md)
 
 [Remove-CMDistributionPointGroup](xref:ConfigurationManager/vlatest/Remove-CMDistributionPointGroup.md)
-
-

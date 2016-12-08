@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834088
 schema: 2.0.0
 ms.assetid: 7880EBFC-D033-4243-BCFC-D9A890971680
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:27 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -243,7 +243,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -301,5 +302,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMSoftwareUpdateGroup](xref:ConfigurationManager/vlatest/New-CMSoftwareUpdateGroup.md)
 
 [Remove-CMSoftwareUpdateGroup](xref:ConfigurationManager/vlatest/Remove-CMSoftwareUpdateGroup.md)
-
-

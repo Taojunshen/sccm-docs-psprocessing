@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833849
 schema: 2.0.0
 ms.assetid: A52F6FB6-F290-40F9-AE6C-2026EF88AF06
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:03 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEnrollmentPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEnrollmentPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMEnrollmentPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an input object.
-To get an input object, use the Get-CMEnrollmentPoint cmdlet.
+To get an input object, use the [Get-CMEnrollmentPoint](./Get-CMEnrollmentPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -126,7 +126,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -226,5 +227,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMEnrollmentPoint](xref:ConfigurationManager/vlatest/Get-CMEnrollmentPoint.md)
 
 [Remove-CMEnrollmentPoint](xref:ConfigurationManager/vlatest/Remove-CMEnrollmentPoint.md)
-
-

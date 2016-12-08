@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834050
 schema: 2.0.0
 ms.assetid: 8210D2F5-9101-47D0-81E7-5F837F5F4F60
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:27 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareInventory.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareInventory.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareInventory.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -130,7 +130,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a **CMSoftwareInventory** object.
-To obtain a **CMSoftwareInventory** object, use the Get-CMSoftwareInventory cmdlet.
+To obtain a **CMSoftwareInventory** object, use the [Get-CMSoftwareInventory](./Get-CMSoftwareInventory.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -256,5 +256,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMSoftwareInventory](xref:ConfigurationManager/vlatest/Get-CMSoftwareInventory.md)
 
 [Undo-CMSoftwareInventory](xref:ConfigurationManager/vlatest/Undo-CMSoftwareInventory.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833947
 schema: 2.0.0
 ms.assetid: B0A665E8-148A-4848-9923-7F80EAB27A4F
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:23 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMulticastServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMulticastServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/7e5b4c3ad3b309b969cc9a0403712b3ad7fae461/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMulticastServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -177,7 +177,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a multicast service point object.
-To obtain a multicast service point object, use the Get-CMMulticastServicePoint cmdlet.
+To obtain a multicast service point object, use the [Get-CMMulticastServicePoint](./Get-CMMulticastServicePoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -305,7 +305,7 @@ Accept wildcard characters: False
 
 ### -UserName
 Specifies the name of the user that the distribution site system components use to connect to the primary site database.
-If UserName is not specified, the cmdlet uses the computer account of the distribution point to the primary site database.
+If the *UserName* parameter is not specified, the cmdlet uses the computer account of the distribution point to the primary site database.
 
 ```yaml
 Type: String
@@ -349,5 +349,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMMulticastServicePoint](xref:ConfigurationManager/vlatest/Get-CMMulticastServicePoint.md)
 
 [Remove-CMMulticastServicePoint](xref:ConfigurationManager/vlatest/Remove-CMMulticastServicePoint.md)
-
-

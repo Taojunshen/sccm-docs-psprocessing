@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833826
 schema: 2.0.0
 ms.assetid: 634952FD-0028-44EB-A3E8-D6907CDA26DD
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:03 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverBootImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverBootImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriverBootImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -111,7 +111,7 @@ This command removes the driver named Adaptec SCSI HostRAID Management Processor
 
 ### -BootImage
 Specifies a **CMBootImage** object.
-To obtain a **CMBootImage** object, use the Get-CMBootImage cmdlet.
+To obtain a **CMBootImage** object, use the [Get-CMBootImage](./Get-CMBootImage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -300,5 +300,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMBootImage](xref:ConfigurationManager/vlatest/Get-CMBootImage.md)
 
 [Get-CMDriver](xref:ConfigurationManager/vlatest/Get-CMDriver.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833963
 schema: 2.0.0
 ms.assetid: B08C17F1-A997-4352-A9C2-6757E0D19C3A
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:01 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemInstaller.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemInstaller.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/04be5541437962ec7ae2374b103732138a5ed8b2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemInstaller.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -262,7 +262,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a CMOperatingSystemInstaller object.
-To obtain a CMOperatingSystemInstaller object, use the Get-CMOperatingSystemInstaller cmdlet.
+To obtain a CMOperatingSystemInstaller object, use the [Get-CMOperatingSystemInstaller](./Get-CMOperatingSystemInstaller.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -346,7 +346,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -403,7 +404,8 @@ Accept wildcard characters: False
 ```
 
 ### -Priority
-
+Specifies a change for the priority of the deployment type.
+Valid values are: Increase and Decrease.
 
 ```yaml
 Type: Priority
@@ -476,5 +478,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMOperatingSystemInstaller](xref:ConfigurationManager/vlatest/New-CMOperatingSystemInstaller.md)
 
 [Remove-CMOperatingSystemInstaller](xref:ConfigurationManager/vlatest/Remove-CMOperatingSystemInstaller.md)
-
-

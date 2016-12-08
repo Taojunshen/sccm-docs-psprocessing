@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834063
 schema: 2.0.0
 ms.assetid: EB3C88E9-0845-4092-928B-79AA6948A073
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:27 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdate.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdate.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdate.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -83,16 +83,16 @@ Accept wildcard characters: False
 Specifies the severity for the software update.
 Valid values are:
 
-- Critical 
-- Important 
-- Low 
+- Critical
+- Important
+- Low
 - Moderate
 - None
 
 ```yaml
 Type: CustomSeverityType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: None, Low, Moderate, Important, Critical
 Required: False
 Position: Named
@@ -217,5 +217,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Save-CMSoftwareUpdate](xref:ConfigurationManager/vlatest/Save-CMSoftwareUpdate.md)
 
 [Sync-CMSoftwareUpdate](xref:ConfigurationManager/vlatest/Sync-CMSoftwareUpdate.md)
-
-

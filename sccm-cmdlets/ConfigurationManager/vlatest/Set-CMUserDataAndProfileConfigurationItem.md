@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834140
 schema: 2.0.0
 ms.assetid: FF47986C-F314-4A29-AD87-24010BF2C92F
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:12 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMUserDataAndProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -199,9 +199,9 @@ Specifies a background synchronization type for file in offline mode.
 
 The acceptable values for this parameter are:
 
--- Disabled
--- Enabled
--- NotConfigured
+- Disabled
+- Enabled
+- NotConfigured
 
 ```yaml
 Type: SynchronizationType
@@ -600,9 +600,9 @@ Accept wildcard characters: False
 Specifies a file synchronization type for metered networks for work in offline mode.
 The acceptable values for this parameter are:
 
--- Disabled
--- Enabled
--- NotConfigured
+- Disabled
+- Enabled
+- NotConfigured
 
 ```yaml
 Type: SynchronizationType

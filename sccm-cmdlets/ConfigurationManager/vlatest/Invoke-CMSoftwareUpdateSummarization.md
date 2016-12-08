@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834173
 schema: 2.0.0
 ms.assetid: C6C21CFF-2DF9-4D17-BC99-6367B2E90120
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 9:59 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateSummarization.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateSummarization.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateSummarization.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -33,7 +33,7 @@ The **Invoke-CMSoftwareUpdateSummarization** cmdlet runs the software update sum
 System Center Configuration Manager summarizes software update status on a regular schedule.
 This cmdlet does not reset the time for the next automatic summarization.
 
-You can use the Get-CMSoftwareUpdateSummarizationSchedule cmdlet to view the current schedule and the Set-CMSoftwareUpdateSummarizationSchedule cmdlet to change the schedule.
+You can use the Get-CMSoftwareUpdateSummarizationSchedule cmdlet to view the current schedule and the [Set-CMSoftwareUpdateSummarizationSchedule](./Set-CMSoftwareUpdateSummarizationSchedule.md) cmdlet to change the schedule.
 
 ## EXAMPLES
 

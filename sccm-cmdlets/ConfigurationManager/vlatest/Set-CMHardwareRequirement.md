@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833871
 schema: 2.0.0
 ms.assetid: EBE1B874-1B5D-458D-9BBF-FDC66BA81FBA
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:43 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHardwareRequirement.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHardwareRequirement.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHardwareRequirement.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -111,7 +111,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a hardware requirement object.
-To obtain a hardware requirement object, use the **Get-CMHardwareRequirement** cmdlet.
+To obtain a hardware requirement object, use the [Get-CMHardwareRequirement](./Get-CMHardwareRequirement.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -225,5 +225,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMHardwareRequirement](xref:ConfigurationManager/vlatest/New-CMHardwareRequirement.md)
 
 [Remove-CMHardwareRequirement](xref:ConfigurationManager/vlatest/Remove-CMHardwareRequirement.md)
-
-

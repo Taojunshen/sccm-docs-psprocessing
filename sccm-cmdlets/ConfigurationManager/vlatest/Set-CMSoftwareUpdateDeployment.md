@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834074
 schema: 2.0.0
 ms.assetid: B274271A-FA5D-4272-A981-049DE05A419C
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:27 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -319,7 +319,7 @@ Specifies a deployment type in Configuration Manager.
 ```yaml
 Type: DeploymentType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Required, Available
 Required: False
 Position: Named
@@ -385,7 +385,7 @@ Accept wildcard characters: False
 ```
 
 ### -Enable
-
+Indicates whether the cmdlet enables software updates in Configuration Manager.
 
 ```yaml
 Type: Boolean
@@ -488,7 +488,7 @@ Specifies a protected type.
 ```yaml
 Type: ProtectedType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: NoInstall, RemoteDistributionPoint
 Required: False
 Position: Named
@@ -650,7 +650,7 @@ UTC time makes the software update available at the same time for all computers.
 ```yaml
 Type: TimeType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: LocalTime, Utc
 Required: False
 Position: Named
@@ -665,7 +665,7 @@ Specifies an unprotected type.
 ```yaml
 Type: UnprotectedType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: NoInstall, UnprotectedDistributionPoint
 Required: False
 Position: Named
@@ -694,7 +694,7 @@ Specifies a user notification type.
 ```yaml
 Type: UserNotificationType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DisplayAll, DisplaySoftwareCenterOnly, HideAll
 Required: False
 Position: Named
@@ -714,7 +714,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: VerbosityLevelType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: AllMessages, OnlySuccessAndErrorMessages, OnlyErrorMessages
 Required: False
 Position: Named
@@ -750,5 +750,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Start-CMSoftwareUpdateDeployment](xref:ConfigurationManager/vlatest/Start-CMSoftwareUpdateDeployment.md)
-
-

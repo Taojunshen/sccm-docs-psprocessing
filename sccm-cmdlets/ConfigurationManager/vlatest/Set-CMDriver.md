@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833822
 schema: 2.0.0
 ms.assetid: 9D6404C9-30BE-49C9-9F64-2B73C49F26D9
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:04 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriver.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriver.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e11ec5b4e987399b238313f2c0a5b9dbe113f1f9/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDriver.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -89,7 +89,7 @@ The command specifies values for *EnableAndAllowInstall* and *RunOnAnyPlatform*.
 
 ### -AddAdministrativeCategory
 Specifies an array of administrative category objects that this cmdlet adds to a driver.
-To obtain an administrative category object, use the Get-CMCategory cmdlet.
+To obtain an administrative category object, use the [Get-CMCategory](./Get-CMCategory.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ### -AddBootImagePackage
 Specifies an array of boot image objects.
 Use this parameter to specify the boot images that can install the device drivers.
-To obtain a boot image object, use the Get-CMBootImage cmdlet.
+To obtain a boot image object, use the [Get-CMBootImage](./Get-CMBootImage.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -138,7 +138,7 @@ Accept wildcard characters: False
 Specifies an array of administrative categories.
 Assign the device drivers to an administrative category for filtering purposes, such as Desktops or Notebooks categories.
 
-To obtain an administrative category object, use **Get-CMCategory**.
+To obtain an administrative category object, use the **Get-CMCategory** cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -340,7 +340,7 @@ Accept wildcard characters: False
 ### -RemoveBootImagePackage
 Specifies an array of boot image objects.
 Use this parameter to remove the boot images that can install the device driver.
-To obtain a boot image object, use the Get-CMBootImage cmdlet.
+To obtain a boot image object, use the [Get-CMBootImage](./Get-CMBootImage.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -398,7 +398,7 @@ Accept wildcard characters: False
 ```
 
 ### -UpdateBootImageDistributionPoint
-
+Indicates whether Configuration Manager updates boot images on their distribution points to add the new drivers.
 
 ```yaml
 Type: Boolean
@@ -466,5 +466,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMBootImage](xref:ConfigurationManager/vlatest/Get-CMBootImage.md)
 
 [Get-CMDriverPackage](xref:ConfigurationManager/vlatest/Get-CMDriverPackage.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834218
 schema: 2.0.0
 ms.assetid: E30DA485-2D19-497F-92BA-8BD7F7804602
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:12 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -185,9 +185,9 @@ Accept wildcard characters: False
 Specifies the client connection type.
 Valid values are:
 
--- Internet
--- InternetAndIntranet
--- Intranet
+- Internet
+- InternetAndIntranet
+- Intranet
 
 ```yaml
 Type: ClientConnectionTypes
@@ -219,11 +219,11 @@ Accept wildcard characters: False
 Specifies the content validation priority.
 Valid values are:
 
--- High
--- Highest
--- Low
--- Lowest
--- Medium
+- High
+- Highest
+- Low
+- Lowest
+- Medium
 
 The default value is Lowest.
 
@@ -447,8 +447,8 @@ Specifies the primary content location.
 Configuration Manager copies content to the primary content location until the amount of free space reaches the value that you specified for the MinFreeSpaceMB parameter.
 Valid values are:
 
--- Automatic.
--- Drive letter from A: through Z:.
+- Automatic.
+- Drive letter from A: through Z:.
 
 ```yaml
 Type: DriveType
@@ -467,8 +467,8 @@ Specifies the primary package share location.
 Configuration Manager copies content to the primary package share location until the amount of free space reaches the value that you specified for the MinFreeSpaceMB parameter.
 Valid values are:
 
--- Automatic.
--- Drive letter from A: through Z:.
+- Automatic.
+- Drive letter from A: through Z:.
 
 ```yaml
 Type: DriveType
@@ -528,8 +528,8 @@ Accept wildcard characters: False
 Specifies the secondary content location.
 Valid values are:
 
--- Automatic.
--- Drive letter from A: through Z:.
+- Automatic.
+- Drive letter from A: through Z:.
 
 ```yaml
 Type: DriveType
@@ -547,8 +547,8 @@ Accept wildcard characters: False
 Specifies the secondary package share location.
 Valid values are:
 
--- Automatic.
--- Drive letter from A: through Z:.
+- Automatic.
+- Drive letter from A: through Z:.
 
 ```yaml
 Type: DriveType
@@ -566,9 +566,9 @@ Accept wildcard characters: False
 Specify how the distribution point associates users with the destination computer for PXE deployments.
 Valid values are:
 
--- AllowWithAutomaticApproval
--- AllowWithManualApproval
--- DoNotUse
+- AllowWithAutomaticApproval
+- AllowWithManualApproval
+- DoNotUse
 
 ```yaml
 Type: UserDeviceAffinityType

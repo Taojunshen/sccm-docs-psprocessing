@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833938
 schema: 2.0.0
 ms.assetid: 1F502C28-64F4-438A-B6C4-5D2FF80756B4
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:43 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMobileMsiDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMobileMsiDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMobileMsiDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -371,5 +371,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMApplication](xref:ConfigurationManager/vlatest/Get-CMApplication.md)
 
 [Get-CMDeploymentType](xref:ConfigurationManager/vlatest/Get-CMDeploymentType.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833915
 schema: 2.0.0
 ms.assetid: CACE0105-30EC-4667-9F58-0BB43A6391B4
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:43 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMaintenanceWindow.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMaintenanceWindow.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMaintenanceWindow.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -131,7 +131,8 @@ Accept wildcard characters: False
 ```
 
 ### -Collection
-
+Specifies a Configuration Manager maintenance window object.
+To obtain a maintenance window object, use the [Get-CMMaintenanceWindow](./Get-CMMaintenanceWindow.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -159,7 +160,7 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionName
-
+Specifies the name of the maintenance window.
 
 ```yaml
 Type: String
@@ -243,7 +244,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaintenanceWindowName
-
+Specifies the name of the maintenance window.
 
 ```yaml
 Type: String
@@ -272,9 +273,9 @@ Accept wildcard characters: False
 ```
 
 ### -Schedule
-Specifies a CMSchedule object.
+Specifies a **CMSchedule** object.
 The schedule specifies when the maintenance window occurs.
-To create a CMSchedule object, use the New-CMSchedule cmdlet.
+To create a **CMSchedule** object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -320,5 +321,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMSchedule](xref:ConfigurationManager/vlatest/New-CMSchedule.md)
 
 [Remove-CMMaintenanceWindow](xref:ConfigurationManager/vlatest/Remove-CMMaintenanceWindow.md)
-
-

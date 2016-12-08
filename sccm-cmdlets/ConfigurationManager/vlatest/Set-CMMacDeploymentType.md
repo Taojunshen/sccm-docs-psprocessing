@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833911
 schema: 2.0.0
 ms.assetid: EF0E00B2-B4C1-4DDB-A6D2-FC52E0A642F8
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:43 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMacDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMacDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMacDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -356,5 +356,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMApplication](xref:ConfigurationManager/vlatest/Get-CMApplication.md)
 
 [Get-CMDeploymentType](xref:ConfigurationManager/vlatest/Get-CMDeploymentType.md)
-
-

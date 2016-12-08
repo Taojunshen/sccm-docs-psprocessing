@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833976
 schema: 2.0.0
 ms.assetid: 524F059C-88B7-4675-884C-3F9D75A26A48
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:10 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c6cfa731ff189c106139e3ba3d2fc0fa45711e29/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPackage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -444,7 +444,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -504,7 +505,10 @@ Accept wildcard characters: False
 ```
 
 ### -Priority
+Specifies the priority of the package. The acceptable values for this parameter are:
 
+- Increase
+- Decrease
 
 ```yaml
 Type: Priorities
@@ -581,5 +585,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMPackage](xref:ConfigurationManager/vlatest/New-CMPackage.md)
 
 [Remove-CMPackage](xref:ConfigurationManager/vlatest/Remove-CMPackage.md)
-
-

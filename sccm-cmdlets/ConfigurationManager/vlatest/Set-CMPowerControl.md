@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Oob.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833983
 schema: 2.0.0
 ms.assetid: C62ED04A-8E72-4A18-A7B0-DFBB57F5EC97
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:10 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPowerControl.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPowerControl.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c6cfa731ff189c106139e3ba3d2fc0fa45711e29/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMPowerControl.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -191,5 +191,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

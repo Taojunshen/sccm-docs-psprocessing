@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833966
 schema: 2.0.0
 ms.assetid: 31071321-3393-445D-8345-B2DF8875EB1D
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 12:03 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/df25317d1d5737b1e71a2bef3a993bb95cd1bbf5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandManagementComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -53,11 +53,11 @@ PS C:\> $WirelessP = New-CMWirelessProfileObject -ProfileName "Test -NetworkName
 PS C:\> Set-CMOutOfBandManagementComponent -SiteCode "CM2" -EnableWiredNetworkAccess $True -WiredProfileObject $WiredP -WirelessProfile $WirelessP
 ```
 
-The first command uses the Get-CMTrustedRootCertificate cmdlet to get a certificate, and stores the certificate in the $Cert variable.
+The first command uses the [Get-CMTrustedRootCertificate](./Get-CMTrustedRootCertificate.md) cmdlet to get a certificate, and stores the certificate in the $Cert variable.
 
-The second command uses the New-CMWiredProfileObject cmdlet to create a profile object, and stores the object in the $WiredP variable.
+The second command uses the [New-CMWiredProfileObject](./New-CMWiredProfileObject/,md) cmdlet to create a profile object, and stores the object in the $WiredP variable.
 
-The third command uses the New-CMWirelessProfileObject cmdlet to create a wireless profile object, and stores the object in the $WirelessP variable.
+The third command uses the [New-CMWirelessProfileObject](./New-CMWirelessProfileObject.md) cmdlet to create a wireless profile object, and stores the object in the $WirelessP variable.
 
 The fourth command sets an out of band management component by using the $WiredP and $WirelessP variables.
 
@@ -72,7 +72,7 @@ PS C:\> Set-CMOutOfBandManagementComponent -SiteCode CM2 -AmtProvisioningAccount
 The first command creates a password string for the AMT provisioning account.
 The command uses a secure string to obscure the password.
 
-The second command uses the New-CMAmtProvisioningAccount cmdlet to create an account, and then stores the result in the $Apa variable.
+The second command uses the [New-CMAmtProvisioningAccount](./New-CMAmtProvisioningAccount.md) cmdlet to create an account, and then stores the result in the $Apa variable.
 
 The third command uses the **New-CMSchedule** cmdlet to create a schedule, and then stores the result in the $Schedule variable.
 
@@ -192,7 +192,7 @@ Accept wildcard characters: False
 
 ### -AmtProvisioningSchedule
 Specifies an input object.
-To obtain an input object, use the New-CMSchedule cmdlet.
+To obtain an input object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -448,7 +448,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -585,5 +586,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMAmtProvisioningAccount](xref:ConfigurationManager/vlatest/New-CMAmtProvisioningAccount.md)
 
 [New-CMWiredProfileObject](xref:ConfigurationManager/vlatest/New-CMWiredProfileObject.md)
-
-

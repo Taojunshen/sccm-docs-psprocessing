@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833933
 schema: 2.0.0
 ms.assetid: 4726F813-5B03-4939-BC9D-C5AC93D795A4
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 9:59 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStateMigrationPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStateMigrationPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStateMigrationPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -40,7 +40,7 @@ The **Get-CMStateMigrationPoint** cmdlet gets a state migration point for a Micr
 This site system role stores user information.
 You can store user information while an operating system deployment proceeds and then restore user information from the state migration point.
 
-You can use this cmdlet to get state migration point objects to use with the Remove-CMStateMigrationPoint cmdlet.
+You can use this cmdlet to get state migration point objects to use with the [Remove-CMStateMigrationPoint](./Remove-CMStateMigrationPoint.md) cmdlet.
 
 Each state migration point site server can be a member of only one System Center Configuration Manager site.
 
@@ -84,7 +84,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies the input to this cmdlet. 
+You can use this parameter, or you can pipe the input to this cmdlet. 
 
 ```yaml
 Type: IResultObject
