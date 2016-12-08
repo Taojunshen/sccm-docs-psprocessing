@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833759
 schema: 2.0.0
 ms.assetid: 1860D065-B2D0-4CDE-A75F-56F44FE40FD6
-updated_at: 12/8/2016 6:40 PM
+updated_at: 12/8/2016 7:46 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c84cd4d87cbe10cc83f2242c62b21c37df57e0db/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -133,7 +133,7 @@ This command specifies values for many parameters.
 Indicates whether the rule adds to an existing update group.
 If this value is $True, each time the rule runs and finds new updates, it adds them to an existing update group.
 If this value is $False, it creates a new update group.
-Specify the existing update group or assign a name for the new update group by using the DeploymentPackageName parameter.
+Specify the existing update group or assign a name for the new update group by using the *DeploymentPackageName* parameter.
 
 ```yaml
 Type: Boolean
@@ -149,7 +149,7 @@ Accept wildcard characters: False
 ### -AlertTime
 Specifies an integer offset from an update deployment deadline.
 The rule uses this value to specify when the rule generates alerts.
-Specify a time unit by using the AlertTimeUnit parameter.
+Specify a time unit by using the *AlertTimeUnit* parameter.
 
 ```yaml
 Type: Int32
@@ -163,7 +163,7 @@ Accept wildcard characters: False
 ```
 
 ### -AlertTimeUnit
-Specifies a unit of time for the AlertTime parameter.
+Specifies a unit of time for the *AlertTime* parameter.
 Valid values are: 
 
 - Days
@@ -248,7 +248,7 @@ Accept wildcard characters: False
 
 ### -AvailableImmediately
 Indicates whether this rule deploys updates as soon as the updates become available.
-If you select a value of $False, use the AvailableTime and AvailableTimeUnit parameters to specify how long after the rule runs to deploy the updates.
+If you select a value of $False, use the *AvailableTime* and *AvailableTimeUnit* parameters to specify how long after the rule runs to deploy the updates.
 
 ```yaml
 Type: Boolean
@@ -264,7 +264,7 @@ Accept wildcard characters: False
 ### -AvailableTime
 Specifies a period of time as an integer.
 Configuration Manager deploys the updates this long after the rule runs.
-Specify a time unit by using the AvailableTimeUnit parameter.
+Specify a time unit by using the *AvailableTimeUnit* parameter.
 
 ```yaml
 Type: Int32
@@ -278,7 +278,7 @@ Accept wildcard characters: False
 ```
 
 ### -AvailableTimeUnit
-Specifies a unit of time for the AvailableTime parameter.
+Specifies a unit of time for the *AvailableTime* parameter.
 Valid values are: 
 
 - Days
@@ -442,7 +442,7 @@ Accept wildcard characters: False
 
 ### -DeadlineImmediately
 Indicates whether to impose the deadline is as soon as the rule runs.
-If you specify a value of $False, use the DeadlineTime and DeadlineTimeUnit parameters to specify how long after the rule runs to set the deadline.
+If you specify a value of $False, use the *DeadlineTime* and *DeadlineTimeUnit* parameters to specify how long after the rule runs to set the deadline.
 After the deadline, Configuration Manager installs required updates.
 
 ```yaml
@@ -459,7 +459,7 @@ Accept wildcard characters: False
 ### -DeadlineTime
 Specifies a period of time as an integer.
 The deadline for updates is this long after the rule runs.
-Specify a time unit by using the DeadlineTimeUnit parameter.
+Specify a time unit by using the *DeadlineTimeUnit* parameter.
 
 ```yaml
 Type: Int32
@@ -473,7 +473,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeadlineTimeUnit
-Specifies a unit of time for the DeadlineTime parameter.
+Specifies a unit of time for the *DeadlineTime* parameter.
 Valid values are: 
 
 - Days
@@ -596,7 +596,7 @@ Accept wildcard characters: False
 
 ### -DownloadFromInternet
 Indicates whether computers download software updates from the Internet.
-If you specify a value of $False, specify an alternative location where computers can download updates by using the Location parameter.
+If you specify a value of $False, specify an alternative location where computers can download updates by using the *Location* parameter.
 
 ```yaml
 Type: Boolean
@@ -740,7 +740,7 @@ Accept wildcard characters: False
 
 ### -Location
 Specifies a location in your network where computers can download software updates.
-In order to use this location, specify a value of $False for the DownloadFromInternet parameter.
+In order to use this location, specify a value of $False for the *DownloadFromInternet* parameter.
 
 ```yaml
 Type: String
@@ -851,7 +851,7 @@ Valid values are:
 - RunTheRuleAfterAnySoftwareUpdatePointSynchronization
 - RunTheRuleOnSchedule
 
-If you specify RunTheRuleOnSchedule, specify a schedule by using the Schedule parameter.
+If you specify RunTheRuleOnSchedule, specify a schedule by using the *Schedule* parameter.
 
 ```yaml
 Type: RunType
@@ -868,7 +868,7 @@ Accept wildcard characters: False
 ### -Schedule
 Specifies a schedule object for the deployment.
 To obtain a schedule object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
-Specify a schedule for this parameter if you specify a value of RunTheRuleOnSchedule for the RunType parameter.
+Specify a schedule for this parameter if you specify a value of RunTheRuleOnSchedule for the *RunType* parameter.
 
 ```yaml
 Type: IResultObject

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833790
 schema: 2.0.0
 ms.assetid: 1B4D2568-7D6A-4DFF-891B-9EDB54B3DFF0
-updated_at: 12/8/2016 6:40 PM
+updated_at: 12/8/2016 7:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStoragefolder.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStoragefolder.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e96af22ac9700d4739f43d97cc915f1f0491a231/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStoragefolder.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -33,7 +33,7 @@ New-CMStorageFolder -StorageFolderName <String> [-MaximumClientNumber <Int32>] [
 The **New-CMStoragefolder** cmdlet creates a new storage folder to store user migration data in Microsoft System Center Configuration Manager.
 
 A storage folder identifies a location on a state migration point site system to store user migration data.
-Use this cmdlet in conjunction with the Add-CMStateMigrationPoint cmdlet to create a new state migration point with storage folders.
+Use this cmdlet in conjunction with the [Add-CMStateMigrationPoint](./Add-CMStateMigrationPoint.md) cmdlet to create a new state migration point with storage folders.
 
 ## EXAMPLES
 
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -SpaceUnit
-Specifies the storage units for the MinimumFreeSpace parameter.
+Specifies the storage units for the *MinimumFreeSpace* parameter.
 
 ```yaml
 Type: MinSpaceType

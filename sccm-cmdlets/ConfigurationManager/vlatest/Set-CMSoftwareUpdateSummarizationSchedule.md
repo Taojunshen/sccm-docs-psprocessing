@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834100
 schema: 2.0.0
 ms.assetid: 3A9B5B87-2CE5-432B-BB63-D4CA96E35350
-updated_at: 12/8/2016 6:40 PM
+updated_at: 12/8/2016 7:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e96af22ac9700d4739f43d97cc915f1f0491a231/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -96,7 +96,7 @@ Accept wildcard characters: False
 
 ### -Interval
 Specifies an amount of time, as an integer.
-This value works with the unit type you specify in the Unit parameter.
+This value works with the unit type you specify in the *Unit* parameter.
 Valid values for this parameter depend on the unit that you select:
 
 - Minutes: 10 through 59.
