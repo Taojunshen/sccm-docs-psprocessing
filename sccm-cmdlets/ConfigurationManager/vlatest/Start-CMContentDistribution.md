@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834214
 schema: 2.0.0
 ms.assetid: CE48C113-8802-4088-AB60-2D9BE09B8EB5
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:00 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMContentDistribution.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMContentDistribution.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMContentDistribution.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -312,7 +312,7 @@ Accept wildcard characters: False
 
 ### -BootImage
 Specifies a boot image object.
-To get a **CMBootImage** object, use the Get-CMBootImage cmdlet.
+To get a **CMBootImage** object, use the [Get-CMBootImage](./Get-CMBootImage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -383,7 +383,7 @@ Accept wildcard characters: False
 
 ### -DeploymentPackage
 Specifies a deployment package object.
-To get a **CMDeploymentPackage** object, use the Get-CMDeploymentPackage cmdlet.
+To get a **CMDeploymentPackage** object, use the [Get-CMDeploymentPackage](./Get-CMDeploymentPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833776
 schema: 2.0.0
 ms.assetid: 08AC9C99-5F25-4368-A74A-C1D23906A535
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 6:57 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMulticastServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMulticastServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/276d57dd1123c39482a5ab8556d7039498b71785/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMMulticastServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a site system server object.
-To obtain a site system server object, use the Get-CMSiteSystemServer cmdlet.
+To obtain a site system server object, use the [Get-CMSiteSystemServer](./Get-CMSiteSystemServer.md) cmdlet.
 
 ```yaml
 Type: IResultObject

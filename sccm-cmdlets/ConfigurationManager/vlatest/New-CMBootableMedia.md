@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834270
 schema: 2.0.0
 ms.assetid: 111C231D-453E-481C-A43D-2109531917A9
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:21 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMBootableMedia.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/New-CMBootableMedia.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4bb0549ab9452d0d1c9cdf57cfbc8185eefd798c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMBootableMedia.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 
 ### -BootImage
 Specifies a boot image object.
-To obtain a boot image object, use the Get-CMBootImage cmdlet.
+To obtain a boot image object, use the [Get-CMBootImage](./Get-CMBootImage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -204,7 +204,7 @@ Accept wildcard characters: False
 
 ### -DistributionPoint
 Specifies an array of distribution point objects.
-To obtain a distribution point object, use the Get-CMDistributionPoint cmdlet.
+To obtain a distribution point object, use the [Get-CMDistributionPoint](./Get-CMDistributionPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -261,7 +261,7 @@ Accept wildcard characters: False
 
 ### -ManagementPoint
 Specifies an array of management point objects.
-To obtain a management point object, use the Get-CMManagementPoint cmdlet.
+To obtain a management point object, use the [Get-CMManagementPoint](./Get-CMManagementPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]

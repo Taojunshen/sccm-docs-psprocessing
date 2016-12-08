@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Content.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833730
 schema: 2.0.0
 ms.assetid: F2F9DBD4-F429-4913-82E7-E3E160D4A926
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 4:01 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCloudDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -52,7 +52,7 @@ In Microsoft System Center Configuration Manager, you can use a cloud service in
 You can send packages and apps to and host packages and apps in cloud distribution points. 
 For more information about cloud distribution points, see [Planning for Content Management in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=266223) on TechNet.
 
-You can use the Set-CMCloudDistributionPoint cmdlet to specify storage alert thresholds and warning levels for content that you deploy to a cloud distribution point.
+You can use the **Set-CMCloudDistributionPoint** cmdlet to specify storage alert thresholds and warning levels for content that you deploy to a cloud distribution point.
 You can also use the cmdlet to configure settings that enable users and devices to access the content.
 You can provide a name and description for the cloud distribution point.
 
@@ -141,7 +141,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a cloud distribution point object.
-To obtain a cloud distribution point object, you can use the Get-CMCloudDistributionPoint cmdlet.
+To obtain a cloud distribution point object, you can use the [Get-CMCloudDistributionPoint](./Get-CMCloudDistributionPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -198,7 +198,7 @@ Accept wildcard characters: False
 
 ### -StorageQuotaGrow
 Specifies whether the storage quota can grow.
-By default, the amount of stored data cannot exceed the value of the StorageQuotaInGB parameter.
+By default, the amount of stored data cannot exceed the value of the *StorageQuotaInGB* parameter.
 The default value for this parameter is $False.
 
 ```yaml
@@ -227,7 +227,7 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficOutStopService
-Specifies whether Configuration Manager stops data transfers after the distribution point reaches the quota specified in the TrafficOutInGB parameter.
+Specifies whether Configuration Manager stops data transfers after the distribution point reaches the quota specified in the *TrafficOutInGB* parameter.
 The default value for this parameter is $False.
 
 ```yaml
@@ -276,5 +276,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-CMCloudDistributionPoint](xref:ConfigurationManager/vlatest/Start-CMCloudDistributionPoint.md)
 
 [Stop-CMCloudDistributionPoint](xref:ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md)
-
-

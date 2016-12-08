@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833919
 schema: 2.0.0
 ms.assetid: 5687A04C-C8E3-4902-A157-FC5807D7BFF9
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:43 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMManagementPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMManagementPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMManagementPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -197,7 +197,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies the management point for which you change values by using a management point object.
-To obtain a management point object, use the Get-CMManagementPoint cmdlet.
+To obtain a management point object, use the [Get-CMManagementPoint](./Get-CMManagementPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -355,5 +355,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMManagementPoint](xref:ConfigurationManager/vlatest/Get-CMManagementPoint.md)
 
 [Remove-CMManagementPoint](xref:ConfigurationManager/vlatest/Remove-CMManagementPoint.md)
-
-

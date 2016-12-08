@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833924
 schema: 2.0.0
 ms.assetid: BFB60354-1427-48AB-B27B-86FFABCCA9C5
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:00 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBootImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBootImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMBootImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -126,7 +126,7 @@ Accept wildcard characters: False
 
 ### -Id
 Specifies an array of boot images identifiers.
-You can get a boot image object by using the Get-CMBootImage cmdlet.
+You can get a boot image object by using the [Get-CMBootImage](./Get-CMBootImage.md) cmdlet.
 
 ```yaml
 Type: String

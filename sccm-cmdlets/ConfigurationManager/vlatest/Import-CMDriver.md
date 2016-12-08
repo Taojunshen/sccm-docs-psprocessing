@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834059
 schema: 2.0.0
 ms.assetid: 3E3C8B28-7093-4BCC-8576-0DB94EEF4367
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:00 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriver.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriver.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriver.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 
 ### -BootImagePackage
 Specifies an array of boot image objects.
-To obtain a boot image object, use the Get-CMBootImage cmdlet.
+To obtain a boot image object, use the [Get-CMBootImage](./Get-CMBootImage.md) cmdlet.
 
 Use this parameter to specify the boot images that can install the imported device drivers.
 

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833711
 schema: 2.0.0
 ms.assetid: 3C7268CF-AC72-41FF-9B8C-D313A21730C4
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:21 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientAuthCertificateProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientAuthCertificateProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4bb0549ab9452d0d1c9cdf57cfbc8185eefd798c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientAuthCertificateProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,10 +50,6 @@ Client computers use certificate profiles to authenticate when they use services
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -213,7 +209,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -253,5 +250,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [New-CMClientAuthCertificateProfileConfigurationItem](xref:ConfigurationManager/vlatest/New-CMClientAuthCertificateProfileConfigurationItem.md)
-
-

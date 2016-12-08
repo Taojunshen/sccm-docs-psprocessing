@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833767
 schema: 2.0.0
 ms.assetid: 51B2F354-3AD4-4A67-B567-E76938D445E5
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:41 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -248,7 +248,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -316,5 +317,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMConfigurationItem](xref:ConfigurationManager/vlatest/Remove-CMConfigurationItem.md)
 
 [Get-CMConfigurationItemHistory](xref:ConfigurationManager/vlatest/Get-CMConfigurationItemHistory.md)
-
-

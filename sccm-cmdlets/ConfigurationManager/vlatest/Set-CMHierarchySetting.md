@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833875
 schema: 2.0.0
 ms.assetid: 9502FE38-91CD-49ED-A267-7F8E74695968
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:12 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHierarchySetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHierarchySetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMHierarchySetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -64,9 +64,9 @@ Accept wildcard characters: False
 Specifies an approval method.
 Valid values are:  
 
--- AutomaticallyApproveAllComputers
--- AutomaticallyApproveComputersInTrustedDomains
--- ManuallyApproveEachComputer
+- AutomaticallyApproveAllComputers
+- AutomaticallyApproveComputersInTrustedDomains
+- ManuallyApproveEachComputer
 
 ```yaml
 Type: ApprovalMethodType
@@ -151,7 +151,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExcludeServer
-
+Indicates whether the cmdlet excludes the server.
 
 ```yaml
 Type: Boolean
@@ -260,5 +260,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833611
 schema: 2.0.0
 ms.assetid: F43D2D81-0586-4B25-83CA-041B24C9D1DA
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:43 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDevice.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDevice.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDevice.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -91,7 +91,7 @@ This command gets the device named Win10-86-33 in the device collection named Al
 ## PARAMETERS
 
 ### -Collection
-Specifies a device collection object.To obtain a device collection object, use the [Get-CMDeviceCollection](./Get-CMDeviceCollection.md) cmdlet.
+Specifies a device collection object. To obtain a device collection object, use the [Get-CMDeviceCollection](./Get-CMDeviceCollection.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -261,5 +261,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMDevice](xref:ConfigurationManager/vlatest/Remove-CMDevice.md)
 
 [Unblock-CMDevice](xref:ConfigurationManager/vlatest/Unblock-CMDevice.md)
-
-

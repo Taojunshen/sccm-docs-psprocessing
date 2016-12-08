@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833757
 schema: 2.0.0
 ms.assetid: 1175C860-DAC9-40FA-BFA0-F035CA8126E9
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 4:01 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMComputerAssociation.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMComputerAssociation.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMComputerAssociation.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -126,7 +126,7 @@ Accept wildcard characters: False
 
 ### -MigrationBehavior
 Specifies how Configuration Manager treats user accounts created on the source computer.
-When you create a computer association, specify user accounts created on the source computer by using the *MigrationUserName* parameter of the New-CMComputerAssociation cmdlet.
+When you create a computer association, specify user accounts created on the source computer by using the *MigrationUserName* parameter of the [New-CMComputerAssociation](./New-CMComputerAssociation.md) cmdlet.
 The computer association can specify that the migration process creates some or all of those accounts on the destination computer.
 
 The acceptable values for this parameter are:
@@ -210,5 +210,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMComputerAssociation](xref:ConfigurationManager/vlatest/New-CMComputerAssociation.md)
 
 [Remove-CMComputerAssociation](xref:ConfigurationManager/vlatest/Remove-CMComputerAssociation.md)
-
-

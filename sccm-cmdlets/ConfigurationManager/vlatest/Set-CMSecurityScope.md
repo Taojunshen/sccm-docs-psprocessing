@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Rba.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834023
 schema: 2.0.0
 ms.assetid: 625C4356-E131-46E4-B0AA-A4E1BB6996A7
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:27 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSecurityScope.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSecurityScope.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSecurityScope.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -211,5 +211,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMSecurityScope](xref:ConfigurationManager/vlatest/Remove-CMSecurityScope.md)
 
 [Remove-CMSecurityScopeFromAdministrativeUser](xref:ConfigurationManager/vlatest/Remove-CMSecurityScopeFromAdministrativeUser.md)
-
-

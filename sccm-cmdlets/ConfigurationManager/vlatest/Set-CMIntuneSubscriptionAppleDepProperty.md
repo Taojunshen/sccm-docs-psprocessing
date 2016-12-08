@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833885
 schema: 2.0.0
 ms.assetid: 7E3BFA62-110D-4451-9135-02D955B057F8
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:43 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -198,5 +198,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMIntuneSubscriptionWindowsPhoneProperty](xref:ConfigurationManager/vlatest/Set-CMIntuneSubscriptionWindowsPhoneProperty.md)
 
 [Set-CMIntuneSubscriptionWindowsProperty](xref:ConfigurationManager/vlatest/Set-CMIntuneSubscriptionWindowsProperty.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833674
 schema: 2.0.0
 ms.assetid: E9EBE502-8433-4600-8D69-2240C7699282
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 4:01 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBaselineDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -286,8 +286,9 @@ Accept wildcard characters: False
 ```
 
 ### -Schedule
-Specifies a schedule object.
-This is the schedule for deploying a baseline.
+Specifies a **CMSchedule** object.
+The schedule specifies when the maintenance window occurs.
+To create a **CMSchedule** object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -329,5 +330,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Start-CMBaselineDeployment](xref:ConfigurationManager/vlatest/Start-CMBaselineDeployment.md)
 
 [Get-CMBaseline](xref:ConfigurationManager/vlatest/Get-CMBaseline.md)
-
-

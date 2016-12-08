@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834137
 schema: 2.0.0
 ms.assetid: 106F4D21-3C52-432C-B2CE-C925FF402DB3
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:18 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMEndpointProtectionScan.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMEndpointProtectionScan.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/460800e591f6d789ede2d022a11d9433943b77c1/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMEndpointProtectionScan.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -206,7 +206,7 @@ Accept wildcard characters: False
 Specifies a full or a quick scan.
 A full scan looks at every location on the device.
 A quick scan looks at only those locations where malware is most likely to appear.
-The acceptable values for this parameter are:: Full or Quick.
+The acceptable values for this parameter are: Full and Quick.
 
 ```yaml
 Type: ScanType

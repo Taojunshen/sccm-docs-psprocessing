@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833775
 schema: 2.0.0
 ms.assetid: 5291A714-9843-41D3-9C74-2BAC7CED0E75
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 3:33 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDatabaseProperty.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDatabaseProperty.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDatabaseProperty.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -34,7 +34,7 @@ The **Set-CMDatabaseProperty** cmdlet changes database settings for a Microsoft 
 Specify the Configuration Manager site code for the database that you want to modify.
 
 You can modify whether the database uses data compression, the Service Broker port for the computer that runs Microsoft SQL Server, and the length of time that the database keeps data.
-You can use the Get-CMDatabaseProperty cmdlet to see current values for these properties.
+You can use the [Get-CMDatabaseProperty](./Get-CMDatabaseProperty.md) cmdlet to see current values for these properties.
 
 ## EXAMPLES
 
@@ -173,5 +173,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-CMDatabaseProperty](xref:ConfigurationManager/vlatest/Get-CMDatabaseProperty.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833633
 schema: 2.0.0
 ms.assetid: B6F92E41-4D32-44A1-9C3C-9748B30602B9
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:41 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMApplicationCatalogWebsitePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMApplicationCatalogWebsitePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMApplicationCatalogWebsitePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -273,7 +273,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -347,5 +348,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMApplicationCatalogWebsitePoint](xref:ConfigurationManager/vlatest/Get-CMApplicationCatalogWebsitePoint.md)
 
 [Remove-CMApplicationCatalogWebSitePoint](xref:ConfigurationManager/vlatest/Remove-CMApplicationCatalogWebSitePoint.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833759
 schema: 2.0.0
 ms.assetid: 1860D065-B2D0-4CDE-A75F-56F44FE40FD6
-updated_at: 12/7/2016 5:47 PM
-ms.date: 12/7/2016
+updated_at: 12/8/2016 12:03 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f3e8fe7234dce2881d15465fb1eb6990d1f03567/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/df25317d1d5737b1e71a2bef3a993bb95cd1bbf5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -867,7 +867,7 @@ Accept wildcard characters: False
 
 ### -Schedule
 Specifies a schedule object for the deployment.
-To obtain a schedule object, use the New-CMSchedule cmdlet.
+To obtain a schedule object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 Specify a schedule for this parameter if you specify a value of RunTheRuleOnSchedule for the RunType parameter.
 
 ```yaml

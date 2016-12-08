@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833715
 schema: 2.0.0
 ms.assetid: 14F033E4-B272-4B91-AFAA-E8CDF38CB217
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 4:01 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientPushInstallation.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientPushInstallation.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientPushInstallation.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -195,7 +195,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a client push installation object.
-To obtain a client push installation object, use the Get-CMClientPushInstallation cmdlet.
+To obtain a client push installation object, use the [Get-CMClientPushInstallation](./Get-CMClientPushInstallation.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -304,5 +304,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [How to Install Clients on Windows-Based Computers in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=247203)
 
 [Get-CMClientPushInstallation](xref:ConfigurationManager/vlatest/Get-CMClientPushInstallation.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833690
 schema: 2.0.0
 ms.assetid: 51F673B9-5558-4865-8AF8-B0B67296F729
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 12:03 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/df25317d1d5737b1e71a2bef3a993bb95cd1bbf5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -50,7 +50,7 @@ Set-CMBoundaryGroup -Name <String> [-NewName <String>] [-Description <String>] [
 ## DESCRIPTION
 The **Set-CMBoundaryGroup** cmdlet modifies the properties of a boundary group.
 A boundary group is a collection of boundaries.
-For more information about boundaries, see [Planning for Boundaries and Boundary Groups in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=266225) on TechNet and the New-CMBoundary cmdlet.
+For more information about boundaries, see [Planning for Boundaries and Boundary Groups in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=266225) on TechNet and the [New-CMBoundary](./New-CMBoundary.md) cmdlet.
 
 ## EXAMPLES
 
@@ -226,7 +226,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -304,5 +305,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMSecurityScope](xref:ConfigurationManager/vlatest/Set-CMSecurityScope.md)
 
 [New-CMBoundary](xref:ConfigurationManager/vlatest/New-CMBoundary.md)
-
-

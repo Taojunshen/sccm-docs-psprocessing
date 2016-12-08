@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833810
 schema: 2.0.0
 ms.assetid: 95345283-447D-49C8-BF9A-5C9973CCF2AF
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 3:33 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDiscoveryMethod.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDiscoveryMethod.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDiscoveryMethod.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -485,7 +485,7 @@ Accept wildcard characters: False
 
 ### -PollingSchedule
 Specifies a schedule object.
-To obtain a schedule object, use the New-CMSchedule cmdlet.
+To obtain a schedule object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 The polling schedule determines how often Configuration Manager attempts to discover groups, systems, or user data.
 
 ```yaml
@@ -641,5 +641,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMDiscoveryMethod](xref:ConfigurationManager/vlatest/Get-CMDiscoveryMethod.md)
 
 [New-CMSchedule](xref:ConfigurationManager/vlatest/New-CMSchedule.md)
-
-

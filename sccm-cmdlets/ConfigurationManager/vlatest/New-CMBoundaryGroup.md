@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834281
 schema: 2.0.0
 ms.assetid: 8AF3746E-A031-432B-91E1-C9B579FE7D55
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 12:03 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMBoundaryGroup.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMBoundaryGroup.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/df25317d1d5737b1e71a2bef3a993bb95cd1bbf5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMBoundaryGroup.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -36,7 +36,7 @@ A boundary group is a collection of boundaries.
 You can use boundary groups to manage network locations.
 You must assign boundaries to boundary groups before you can use the boundary group.
 Boundary groups enable client computers to find a primary site for client assignment, which is referred to as automatic site assignment, and a list of available site systems that have content.
-For more information about boundaries, see [Planning for Boundaries and Boundary Groups in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=266225) on TechNet and the New-CMBoundary cmdlet.
+For more information about boundaries, see [Planning for Boundaries and Boundary Groups in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=266225) on TechNet and the [New-CMBoundary](./New-CMBoundary.md) cmdlet.
 
 ## EXAMPLES
 

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Common.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833954
 schema: 2.0.0
 ms.assetid: 0D58EEC5-1105-4C96-9CCB-CC0DDDE2F240
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:23 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMObjectSecurityScope.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMObjectSecurityScope.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/7e5b4c3ad3b309b969cc9a0403712b3ad7fae461/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMObjectSecurityScope.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -32,7 +32,7 @@ Set-CMObjectSecurityScope -InputObject <IResultObject[]> -Action <SecurityScopeA
 The **Set-CMObjectSecurityScope** cmdlet adds and removes security scopes for Microsoft System Center Configuration Manager objects.
 
 This cmdlet has been deprecated and may be removed in a future release.
-Use Add-CMObjectSecurityScope and Remove-CMObjectSecurityScope to add and remove security scopes from Configuration Manager objects.
+Use [Add-CMObjectSecurityScope](./Add-CMObjectSecurityScope.md) and [Remove-CMObjectSecurityScope](./Remove-CMObjectSecurityScope.md) to add and remove security scopes from Configuration Manager objects.
 
 ## EXAMPLES
 
@@ -173,5 +173,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMObjectSecurityScope](xref:ConfigurationManager/vlatest/Get-CMObjectSecurityScope.md)
 
 [Remove-CMObjectSecurityScope](xref:ConfigurationManager/vlatest/Remove-CMObjectSecurityScope.md)
-
-

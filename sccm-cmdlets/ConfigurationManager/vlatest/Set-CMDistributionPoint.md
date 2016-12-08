@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833813
 schema: 2.0.0
 ms.assetid: 568313DB-699D-43DC-AA93-316B5D1142AC
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 3:33 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDistributionPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -314,7 +314,7 @@ Accept wildcard characters: False
 
 ### -ContentValidationSchedule
 Specifies a schedule token object that the distribution point uses to validate content on a scheduled basis.
-To create a schedule token object, use the New-CMSchedule cmdlet.
+To create a schedule token object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -370,7 +370,8 @@ Accept wildcard characters: False
 ```
 
 ### -EnableBranchCache
-Indicates that the cmdlet enables and configures BranchCache for the distribution point.
+Indicates that clients that use Windows BranchCache are allowed to download content from an on-premises distribution point.
+Content downloads from cloud-based distribution points can always be shared by clients that use Windows BranchCache.
 
 ```yaml
 Type: Boolean
@@ -516,7 +517,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a distribution point object.
-To obtain a distribution point object, use the Get-CMDistributionPoint cmdlet.
+To obtain a distribution point object, use the [Get-CMDistributionPoint](./Get-CMDistributionPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -870,5 +871,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMDistributionPoint](xref:ConfigurationManager/vlatest/Remove-CMDistributionPoint.md)
 
 [Update-CMDistributionPoint](xref:ConfigurationManager/vlatest/Update-CMDistributionPoint.md)
-
-

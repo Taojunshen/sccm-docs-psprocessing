@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833783
 schema: 2.0.0
 ms.assetid: AB2468DA-0537-401E-A689-523831E85FBE
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 3:33 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -370,7 +370,7 @@ Accept wildcard characters: False
 ```
 
 ### -ClearRequirements
-
+Indicates that this cmdlet clears the deployment type requirements.
 
 ```yaml
 Type: SwitchParameter
@@ -469,7 +469,8 @@ Accept wildcard characters: False
 ```
 
 ### -EnableBranchCache
-
+Indicates that clients that use Windows BranchCache are allowed to download content from an on-premises distribution point.
+Content downloads from cloud-based distribution points can always be shared by clients that use Windows BranchCache.
 
 ```yaml
 Type: Boolean
@@ -582,7 +583,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a deployment type object for Configuration Manager.
-To obtain a deployment type object, use the **Get-CMDeploymentType** cmdlet.
+To obtain a deployment type object, use the [Get-CMDeploymentType](./Get-CMDeploymentType.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -863,7 +864,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -1022,7 +1024,7 @@ Accept wildcard characters: False
 ```
 
 ### -TriggerVpn
-@{Text=}
+Indicates that a virtual private network (VPN) connection is used automatically.
 
 ```yaml
 Type: Boolean
@@ -1065,7 +1067,7 @@ Accept wildcard characters: False
 ```
 
 ### -WebAppInstaller
-@{Text=}
+Indicates that this cmdlet uses a web application installer for the deployment.
 
 ```yaml
 Type: SwitchParameter
@@ -1165,5 +1167,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMDeploymentType](xref:ConfigurationManager/vlatest/Get-CMDeploymentType.md)
 
 [Remove-CMDeploymentType](xref:ConfigurationManager/vlatest/Remove-CMDeploymentType.md)
-
-

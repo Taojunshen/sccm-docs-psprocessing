@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834151
 schema: 2.0.0
 ms.assetid: 3AA12DC1-E0BD-40C1-B5D3-3CB1C394045B
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:00 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOperatingSystemInstaller.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOperatingSystemInstaller.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMOperatingSystemInstaller.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -130,7 +130,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a **CMOperatingSystemInstaller** object.
-To obtain a **CMOperatingSystemInstaller** object, use the Get-CMOperatingSystemInstaller cmdlet.
+To obtain a **CMOperatingSystemInstaller** object, use the [Get-CMOperatingSystemInstaller](./Get-CMOperatingSystemInstaller.md) cmdlet.
 
 ```yaml
 Type: IResultObject

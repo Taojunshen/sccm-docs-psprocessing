@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834193
 schema: 2.0.0
 ms.assetid: 651B7552-B84A-4097-A162-BE420A5A1DC0
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:12 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMApplicationDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMApplicationDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMApplicationDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -225,10 +225,10 @@ Accept wildcard characters: False
 Specifies an action for a deployment.
 Valid values are:
 
--- Install.
+- Install.
 Install the application.
 
--- Uninstall.
+- Uninstall.
 Uninstall the application.
 
 ```yaml
@@ -248,11 +248,11 @@ Specifies the purpose of the deployment.
 
 Valid values are:
 
--- Available.
+- Available.
 If the target collection is a device collection, the application is available in the software center.
 If the target collection is a user collection, the application is available in the catalog web site.
 
--- Required.
+- Required.
 Installation occurs when the deadline passes.
 
 ```yaml
@@ -570,13 +570,13 @@ Specifies user notification types.
 
 Valid values are:
 
--- DisplayAll.
+- DisplayAll.
 Display in Software Center and show all notifications.
 
--- DisplaySoftwareCenterOnly.
+- DisplaySoftwareCenterOnly.
 Display in Software Center and only show notifications for computer restarts.
 
--- HideAll.
+- HideAll.
 Do not display in Software Center and do not show notifications.
 
 ```yaml

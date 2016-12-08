@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833697
 schema: 2.0.0
 ms.assetid: 0F23554E-0127-4B10-A3B2-3F9AF0D639C5
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 4:01 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMMaintenanceWindow.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/New-CMMaintenanceWindow.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/New-CMMaintenanceWindow.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -177,7 +177,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies the input to this cmdlet. 
+You can use this parameter, or you can pipe the input to this cmdlet. 
 
 ```yaml
 Type: IResultObject
@@ -219,9 +220,9 @@ Accept wildcard characters: False
 ```
 
 ### -Schedule
-Specifies a CMSchedule object.
+Specifies a **CMSchedule** object.
 The schedule specifies when the maintenance window occurs.
-To create a CMSchedule object, use the New-CMSchedule cmdlet.
+To create a **CMSchedule** object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -267,5 +268,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMMaintenanceWindow](xref:ConfigurationManager/vlatest/Remove-CMMaintenanceWindow.md)
 
 [Set-CMMaintenanceWindow](xref:ConfigurationManager/vlatest/Set-CMMaintenanceWindow.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Deployments.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833771
 schema: 2.0.0
 ms.assetid: F8D992C0-0F8C-40B7-944A-7BA571735859
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 3:33 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConfigurationPolicyDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -74,7 +74,7 @@ Set-CMConfigurationPolicyDeployment -FirewallPolicyId <String> -CollectionName <
 ## DESCRIPTION
 The **Set-CMConfigurationPolicyDeployment** cmdlet creates a configuration policy deployment in Microsoft System Center Configuration Manager.
 You can deploy firewall policies or user session management policies.
-Use the Start-CMConfigurationPolicyDeployment cmdlet to deploy specified policies for a System Center Configuration Manager collection.
+Use the [Start-CMConfigurationPolicyDeployment](./Start-CMConfigurationPolicyDeployment.md) cmdlet to deploy specified policies for a System Center Configuration Manager collection.
 
 ## EXAMPLES
 
@@ -147,7 +147,7 @@ Accept wildcard characters: False
 
 ### -FirewallPolicy
 Specifies a Windows Firewall Policy object.
-To obtain a **CMWindowsFirewallPolicy** object, use the Get-CMWindowsFirewallPolicy cmdlet.
+To obtain a **CMWindowsFirewallPolicy** object, use the [Get-CMWindowsFirewallPolicy](./Get-CMWindowsFirewallPolicy.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -261,7 +261,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -276,7 +277,7 @@ Accept wildcard characters: False
 
 ### -PostponeDate
 Specifies a date, as a **DateTime** object, for the deployment if it is postponed.
-To obtain a **DateTime** object, use the Get-Date cmdlet.
+To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 For more information, type `Get-Help Get-Date`.
 
 ```yaml
@@ -308,7 +309,7 @@ Accept wildcard characters: False
 ### -Schedule
 Specifies a schedule object.
 This is the schedule for deploying the configuration policy.
-You can use the New-CMSchedule cmdlet to create a schedule token.
+You can use the [New-CMSchedule](./New-CMSchedule.md) cmdlet to create a schedule token.
 
 ```yaml
 Type: IResultObject
@@ -323,7 +324,7 @@ Accept wildcard characters: False
 
 ### -UserDataAndProfile
 Specifies a user data and profiles configuration item object.
-To obtain a **CMUserDataAndProfileConfigurationItem** object, use the Get-CMUserDataAndProfileConfigurationItem cmdlet.
+To obtain a **CMUserDataAndProfileConfigurationItem** object, use the [Get-CMUserDataAndProfileConfigurationItem](./Get-CMUserDataAndProfileConfigurationItem.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -390,8 +391,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-CMUserDataAndProfileConfigurationItem](xref:ConfigurationManager/vlatest/Get-CMUserDataAndProfileConfigurationItem.md)
+
+[Get-CMWindowsFirewallPolicy](xref:ConfigurationManager/vlatest/Get-CMWindowsFirewallPolicy.md)
+ 
 [New-CMSchedule](xref:ConfigurationManager/vlatest/New-CMSchedule.md)
 
 [Start-CMConfigurationPolicyDeployment](xref:ConfigurationManager/vlatest/Start-CMConfigurationPolicyDeployment.md)
-
-

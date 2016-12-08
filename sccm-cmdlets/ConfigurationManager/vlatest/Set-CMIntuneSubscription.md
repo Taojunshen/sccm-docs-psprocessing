@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833879
 schema: 2.0.0
 ms.assetid: 04653B7F-F691-4FBD-BF8F-6795E7B0D94C
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:43 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscription.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscription.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscription.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -333,7 +333,7 @@ Accept wildcard characters: False
 
 ### -UserCollection
 Specifies a user collection.
-To obtain a user collection object, use the Get-CMUserCollection or Get-CMCollection cmdlet.
+To obtain a user collection object, use the [Get-CMUserCollection](./Get-CMUserCollection.md) or [Get-CMCollection](./Get-CMCollection.md) cmdlet.
 Members of this user collection will be able to enroll their devices for management.
 
 ```yaml
@@ -382,5 +382,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMUserCollection](xref:ConfigurationManager/vlatest/Get-CMUserCollection.md)
 
 [Remove-CMIntuneSubscription](xref:ConfigurationManager/vlatest/Remove-CMIntuneSubscription.md)
-
-

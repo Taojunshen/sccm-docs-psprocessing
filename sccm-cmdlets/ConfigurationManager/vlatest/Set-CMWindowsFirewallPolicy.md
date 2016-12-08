@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834164
 schema: 2.0.0
 ms.assetid: 4B32EE03-FD8B-4F78-9F32-258A1C20EB0A
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:12 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsFirewallPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -177,9 +177,9 @@ Accept wildcard characters: False
 Specifies whether the firewall blocks all incoming traffic for a domain type network location.
 Valid values are:
 
--- No
--- Not Configured
--- Yes
+- No
+- Not Configured
+- Yes
 
 ```yaml
 Type: SettingType
@@ -212,9 +212,9 @@ Accept wildcard characters: False
 Specifies whether to enable Windows Firewall for domain network location.
 Valid values are:
 
--- No
--- Not Configured
--- Yes
+- No
+- Not Configured
+- Yes
 
 ```yaml
 Type: SettingType
@@ -334,9 +334,9 @@ Accept wildcard characters: False
 Specifies whether the firewall blocks all incoming traffic for a private network location.
 Valid values are:
 
--- No
--- Not Configured
--- Yes
+- No
+- Not Configured
+- Yes
 
 ```yaml
 Type: SettingType
@@ -369,9 +369,9 @@ Accept wildcard characters: False
 Specifies whether to enable Windows Firewall for a private network location.
 Valid values are:
 
--- No
--- Not Configured
--- Yes
+- No
+- Not Configured
+- Yes
 
 ```yaml
 Type: SettingType
@@ -389,9 +389,9 @@ Accept wildcard characters: False
 Specifies whether the firewall blocks all incoming traffic for a public network location.
 Valid values are:
 
--- No
--- Not Configured
--- Yes
+- No
+- Not Configured
+- Yes
 
 ```yaml
 Type: SettingType
@@ -424,9 +424,9 @@ Accept wildcard characters: False
 Specifies whether to enable Windows Firewall for a public network location.
 Valid values are:
 
--- No
--- Not Configured
--- Yes
+- No
+- Not Configured
+- Yes
 
 ```yaml
 Type: SettingType

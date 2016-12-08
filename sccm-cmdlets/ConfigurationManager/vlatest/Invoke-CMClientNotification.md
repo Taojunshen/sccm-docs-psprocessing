@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834105
 schema: 2.0.0
 ms.assetid: C8BFF87E-662F-486D-9F4A-27428FD4DC7A
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:00 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMClientNotification.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMClientNotification.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMClientNotification.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,7 +65,7 @@ You can specify one or more client computers, or send a notification to all the 
 
 ## EXAMPLES
 
-### Example: Send a notification to trigger an event
+### Example 1: Send a notification to trigger an event
 ```
 PS C:\>Invoke-CMClientNotification -DeviceName "Computer073" -NotificationType RequestMachinePolicyNow
 ```

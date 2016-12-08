@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833989
 schema: 2.0.0
 ms.assetid: 814A673E-A28D-4123-9A6C-A173188FE26B
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:10 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMProgram.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMProgram.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c6cfa731ff189c106139e3ba3d2fc0fa45711e29/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMProgram.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -431,7 +431,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a **CMProgram** object.
-To obtain a **CMProgram** object, use the Get-CMProgram cmdlet.
+To obtain a **CMProgram** object, use the [Get-CMProgram](./Get-CMProgram.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -445,7 +445,7 @@ Accept wildcard characters: False
 ```
 
 ### -PackageId
-
+Specifies a package ID.
 
 ```yaml
 Type: String
@@ -459,7 +459,7 @@ Accept wildcard characters: False
 ```
 
 ### -PackageName
-
+Specifies a package name.
 
 ```yaml
 Type: String
@@ -473,7 +473,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -504,7 +505,7 @@ Accept wildcard characters: False
 ```
 
 ### -ProgramName
-
+Specifies the name of the program.
 
 ```yaml
 Type: String
@@ -523,7 +524,7 @@ The acceptable values for this parameter are:
 
 - OnlyWhenNoUserIsLoggedOn 
 - OnlyWhenUserIsLoggedOn 
- WhetherOrNotUserIsLoggedOn 
+- WhetherOrNotUserIsLoggedOn 
 
 The default setting is OnlyWhenUserIsLoggedOn.
 
@@ -589,7 +590,7 @@ The acceptable values for this parameter are:
 
 - Hidden 
 - Maximized 
- Minimized 
+- Minimized 
 - Normal 
 
 The default is Normal.
@@ -607,7 +608,7 @@ Accept wildcard characters: False
 ```
 
 ### -StandardProgram
-
+Indicates that the program type in the deployment package is standard program.
 
 ```yaml
 Type: SwitchParameter
@@ -697,5 +698,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMProgram](xref:ConfigurationManager/vlatest/New-CMProgram.md)
 
 [Remove-CMProgram](xref:ConfigurationManager/vlatest/Remove-CMProgram.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Hybrid.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833760
 schema: 2.0.0
 ms.assetid: 433C709E-FBB0-449F-A835-9ED3613D2581
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 3:33 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConditionalAccessPolicy.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConditionalAccessPolicy.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConditionalAccessPolicy.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -243,7 +243,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a conditional access policy object.
-To obtain a conditional access policy object, use the Get-CMConditionalAccessPolicy cmdlet.
+To obtain a conditional access policy object, use the [Get-CMConditionalAccessPolicy](./Get-CMConditionalAccessPolicy.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -416,5 +416,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMConditionalAccessPolicy](xref:ConfigurationManager/vlatest/New-CMConditionalAccessPolicy.md)
 
 [Remove-CMConditionalAccessPolicy](xref:ConfigurationManager/vlatest/Remove-CMConditionalAccessPolicy.md)
-
-

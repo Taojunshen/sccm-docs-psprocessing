@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833725
 schema: 2.0.0
 ms.assetid: 5BC25D39-D4A1-4878-94AA-B82919AB7854
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:21 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPrestagedMedia.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPrestagedMedia.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4bb0549ab9452d0d1c9cdf57cfbc8185eefd798c/sccm-cmdlets/ConfigurationManager/vlatest/New-CMPrestagedMedia.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 
 ### -BootImage
 Specifies the boot image object associated with the task sequence media.
-To obtain a boot image object, use the Get-CMBootImage cmdlet.
+To obtain a boot image object, use the [Get-CMBootImage](./Get-CMBootImage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -248,7 +248,7 @@ Accept wildcard characters: False
 
 ### -DistributionPoint
 Specifies a distribution point object.
-To obtain a distribution point object, use the Get-CMDistributionPoint cmdlet.
+To obtain a distribution point object, use the [Get-CMDistributionPoint](./Get-CMDistributionPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -306,7 +306,7 @@ Accept wildcard characters: False
 
 ### -ManagementPoint
 Specifies an array of management point objects.
-To obtain a management point object, use the Get-CMManagementPoint cmdlet.
+To obtain a management point object, use the [Get-CMManagementPoint](./Get-CMManagementPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -343,7 +343,7 @@ Accept wildcard characters: False
 
 ### -OperatingSystemImage
 Specifies an operating system image object.
-To obtain an operating system image object, use the Get-CMOperatingSystemImage cmdlet.
+To obtain an operating system image object, use the [Get-CMOperatingSystemImage](./Get-CMOperatingSystemImage.md) cmdlet.
 
 ```yaml
 Type: IResultObject

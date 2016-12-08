@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AssetIntelligence.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834054
 schema: 2.0.0
 ms.assetid: 9303F7BE-B1E8-482F-8270-1C77249566BF
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:27 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareMeteringRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareMeteringRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareMeteringRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -55,7 +55,7 @@ Software metering monitors and collects software usage data from System Center C
 You can create software metering rules that specify which software to monitor.
 
 To change rule properties, you can specify rules to change by ID or by product name, or use the [Get-CMSoftwareMeteringRule](./Get-CMSoftwareMeteringRule.md) cmdlet.
-Likewise, you can change security scope for rules for specified ID, product name, or by using Get-CMSoftwareMeteringRule.
+Likewise, you can change security scope for rules for specified ID, product name, or by using **Get-CMSoftwareMeteringRule**.
 
 For more information about software metering in System Center Configuration Manager, see [Introduction to Software Metering in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=268432) on TechNet.
 For more information about security scopes, see [Planning for Security in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=268426).
@@ -121,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -FileName
-
+Specifies the filename of the software that a rule meters.
 
 ```yaml
 Type: String
@@ -178,7 +178,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a software metering rule object.
-To obtain a software metering rule object, use the Get-SoftwareMeteringRule cmdlet.
+To obtain a software metering rule object, use the [Get-SoftwareMeteringRule](./Get-SoftwareMeteringRule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -236,7 +236,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -326,5 +327,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMSoftwareMeteringRule](xref:ConfigurationManager/vlatest/New-CMSoftwareMeteringRule.md)
 
 [Remove-CMSoftwareMeteringRule](xref:ConfigurationManager/vlatest/Remove-CMSoftwareMeteringRule.md)
-
-

@@ -3,10 +3,10 @@ external help file: AdminUI.PS.SystemStatus.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833940
 schema: 2.0.0
 ms.assetid: B7974D6F-DB94-41EC-87CA-8DB50C2F18D8
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 9:59 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStatusMessageQuery.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStatusMessageQuery.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMStatusMessageQuery.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -40,7 +40,7 @@ The **Get-CMStatusMessageQuery** cmdlet gets Microsoft System Center Configurati
 Status message queries return status messages from a System Center Configuration Manager site database.
 You can use this cmdlet with the *ShowMessages* parameter to display messages found by this query.
 
-You can use this cmdlet to get queries to use with the Set-CMStatusMessageQuery cmdlet or the Remove-CMStatusMessageQuery cmdlet.
+You can use this cmdlet to get queries to use with the [Set-CMStatusMessageQuery](./Set-CMStatusMessageQuery.md) cmdlet or the [Remove-CMStatusMessageQuery](./Remove-CMStatusMessageQuery.md) cmdlet.
 
 ## EXAMPLES
 
@@ -117,7 +117,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -160,5 +161,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMStatusMessageQuery](xref:ConfigurationManager/vlatest/Remove-CMStatusMessageQuery.md)
 
 [Set-CMStatusMessageQuery](xref:ConfigurationManager/vlatest/Set-CMStatusMessageQuery.md)
-
-

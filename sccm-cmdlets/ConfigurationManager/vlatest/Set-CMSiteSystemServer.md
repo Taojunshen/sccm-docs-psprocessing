@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834042
 schema: 2.0.0
 ms.assetid: 20AEB24C-2706-4103-B3D1-808D355C696C
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 7:27 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/724d25240ff355c0c23de99e6e9a06c2e342e616/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSiteSystemServer.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -147,7 +147,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a site system server object.
-To obtain a site system server object, use the Get-CMSiteSystemServer cmdlet.
+To obtain a site system server object, use the [Get-CMSiteSystemServer](./Get-CMSiteSystemServer.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -310,5 +310,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMSiteSystemServer](xref:ConfigurationManager/vlatest/New-CMSiteSystemServer.md)
 
 [Remove-CMSiteSystemServer](xref:ConfigurationManager/vlatest/Remove-CMSiteSystemServer.md)
-
-

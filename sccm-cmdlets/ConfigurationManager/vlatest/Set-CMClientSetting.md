@@ -3,10 +3,10 @@ external help file: AdminUI.PS.ClientSettings.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833719
 schema: 2.0.0
 ms.assetid: 0F088B51-F0AF-4A8C-AD75-8FD1665B8CDF
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 4:01 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -307,7 +307,7 @@ This command specifies the type of metered network usage for the client setting 
 Specifies a level of allowed remote control access.
 Valid values are: 
 
--  FullControl
+- FullControl
 - NoAccess
 - None
 - ViewOnly
@@ -617,7 +617,7 @@ Accept wildcard characters: False
 
 ### -DeploymentEvaluationSchedule
 Specifies a deployment evaluation schedule as a schedule object.
-To obtain a schedule object, use the **New-CMSchedule** cmdlet.
+To obtain a schedule object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -688,7 +688,7 @@ Accept wildcard characters: False
 ```
 
 ### -Enable
-
+Indicates whether to enable client settings.
 
 ```yaml
 Type: Boolean
@@ -1262,7 +1262,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -1506,7 +1507,8 @@ Accept wildcard characters: False
 ```
 
 ### -Schedule
-
+Specifies a **CMSchedule** object.
+To create a **CMSchedule** object, use the [New-CMSchedule](./New-CMSchedule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -1607,7 +1609,7 @@ Accept wildcard characters: False
 
 ### -SoftwareInventoryFileInventoriedName
 Specifies an inventoried manufacturer or product name.
-During software inventory, Configuration Manager retrieves inventoried names from header information on client devices.
+During software inventory, Configuration Manager gets inventoried names from header information on client devices.
 
 ```yaml
 Type: String
@@ -1865,5 +1867,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMClientSetting](xref:ConfigurationManager/vlatest/Remove-CMClientSetting.md)
 
 [New-CMSchedule](xref:ConfigurationManager/vlatest/New-CMSchedule.md)
-
-

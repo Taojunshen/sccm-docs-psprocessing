@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppModel.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833862
 schema: 2.0.0
 ms.assetid: 6B31564C-A6FC-4D4D-83D6-12EA9BEFC07A
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:03 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGlobalCondition.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGlobalCondition.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0be8f3cf2157376220d368547d702e97388a8421/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMGlobalCondition.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -312,7 +312,7 @@ Accept wildcard characters: False
 ```
 
 ### -IncludeSubfolder
-
+Indicates whether the cmdlet includes subfolders in the operation.
 
 ```yaml
 Type: Boolean
@@ -415,7 +415,7 @@ Accept wildcard characters: False
 
 ### -Name
 Specifies the name of the global conditions.
-This value corresponds to the LocalizedDisplayName property of a global condition object.
+This value corresponds to the **LocalizedDisplayName** property of a global condition object.
 
 ```yaml
 Type: String
@@ -472,7 +472,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -552,7 +553,11 @@ Accept wildcard characters: False
 
 ### -ScriptLanguage
 Specifies a scripting language to use.
-The acceptable values for this parameter are: PowerShell, VBScript, and JScript.
+The acceptable values for this parameter are: 
+  
+- PowerShell
+- VBScript
+- JScript
 
 ```yaml
 Type: ScriptingLanguage
@@ -568,7 +573,11 @@ Accept wildcard characters: False
 
 ### -SearchScope
 Specifies the search scope in AD DS. 
-The acceptable values for this parameter are: Base, OneLevel, and Subtree.
+The acceptable values for this parameter are: 
+  
+- Base
+- OneLevel
+- Subtree
 
 ```yaml
 Type: SearchScope
@@ -743,5 +752,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMGlobalCondition](xref:ConfigurationManager/vlatest/New-CMGlobalCondition.md)
 
 [Remove-CMGlobalCondition](xref:ConfigurationManager/vlatest/Remove-CMGlobalCondition.md)
-
-

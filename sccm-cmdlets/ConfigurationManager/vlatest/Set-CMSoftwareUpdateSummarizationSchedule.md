@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834100
 schema: 2.0.0
 ms.assetid: 3A9B5B87-2CE5-432B-BB63-D4CA96E35350
-updated_at: 12/6/2016 11:47 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 11:12 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8c11f9050ba13bd1378f2c5ed8e1ee489ebd5363/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSoftwareUpdateSummarizationSchedule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -133,9 +133,9 @@ Accept wildcard characters: False
 Specifies a unit to use to define an interval for the summarization schedule.
 Valid values are:
 
--- Days
--- Hours
--- Minutes
+- Days
+- Hours
+- Minutes
 
 ```yaml
 Type: SummarizationScheduleUnit

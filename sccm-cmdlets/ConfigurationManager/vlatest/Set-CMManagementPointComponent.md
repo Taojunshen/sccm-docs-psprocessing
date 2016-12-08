@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833923
 schema: 2.0.0
 ms.assetid: 03B638BE-FB62-443F-897D-09A4E7555C23
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:43 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMManagementPointComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMManagementPointComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMManagementPointComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an input object.
-To obtain an input object, use the Get-CMManagementPointComponent cmdlet.
+To obtain an input object, use the [Get-CMManagementPointComponent](./Get-CMManagementPointComponent.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -189,5 +189,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-CMManagementPointComponent](xref:ConfigurationManager/vlatest/Get-CMManagementPointComponent.md)
-
-

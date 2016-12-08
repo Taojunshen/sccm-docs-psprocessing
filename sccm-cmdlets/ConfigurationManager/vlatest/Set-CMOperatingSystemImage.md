@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833958
 schema: 2.0.0
 ms.assetid: B2701AED-9D42-45CE-AFA0-092A54AB1BE5
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:23 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemImage.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemImage.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/7e5b4c3ad3b309b969cc9a0403712b3ad7fae461/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOperatingSystemImage.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -262,7 +262,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a CMOperatingSystemImage object.
-To obtain a CMOperatingSystemImage object, use the Get-CMOperatingSystemImage cmdlet.
+To obtain a CMOperatingSystemImage object, use the [Get-CMOperatingSystemImage](./Get-CMOperatingSystemImage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -346,7 +346,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -403,7 +404,8 @@ Accept wildcard characters: False
 ```
 
 ### -Priority
-
+Specifies a change for the priority of the deployment type.
+Valid values are: Increase and Decrease.
 
 ```yaml
 Type: Priority
@@ -478,5 +480,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMOperatingSystemImage](xref:ConfigurationManager/vlatest/Remove-CMOperatingSystemImage.md)
 
 [Get-CMOperatingSystemImageUpdateSchedule](xref:ConfigurationManager/vlatest/Get-CMOperatingSystemImageUpdateSchedule.md)
-
-

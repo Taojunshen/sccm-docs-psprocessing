@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833942
 schema: 2.0.0
 ms.assetid: 8DADA85C-4A7E-4495-8A2F-26F6E7E0D47F
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:23 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMsiDeploymentType.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMsiDeploymentType.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/7e5b4c3ad3b309b969cc9a0403712b3ad7fae461/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMMsiDeploymentType.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -413,7 +413,12 @@ Accept wildcard characters: False
 ```
 
 ### -InstallationBehaviorType
+Specifies the installation behavior of the deployment type.
+Valid values are: 
 
+- InstallForSystem
+- InstallForSystemIfResourceIsDeviceOtherwiseInstallForUser
+- InstallForUser
 
 ```yaml
 Type: InstallationBehaviorType
@@ -697,5 +702,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMApplication](xref:ConfigurationManager/vlatest/Get-CMApplication.md)
 
 [Get-CMDeploymentType](xref:ConfigurationManager/vlatest/Get-CMDeploymentType.md)
-
-

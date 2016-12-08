@@ -3,10 +3,10 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833806
 schema: 2.0.0
 ms.assetid: 7FFB20CC-CC5E-4817-9DE8-CE34A40A8C11
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/8/2016 3:33 AM
+ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeviceVariable.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeviceVariable.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMDeviceVariable.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -119,7 +119,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies the input to this cmdlet. 
+You can use this parameter, or you can pipe the input to this cmdlet. 
 
 ```yaml
 Type: IResultObject
@@ -233,5 +234,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMDeviceVariable](xref:ConfigurationManager/vlatest/New-CMDeviceVariable.md)
 
 [Remove-CMDeviceVariable](xref:ConfigurationManager/vlatest/Remove-CMDeviceVariable.md)
-
-

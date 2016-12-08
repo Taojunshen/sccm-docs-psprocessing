@@ -3,10 +3,10 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834033
 schema: 2.0.0
 ms.assetid: 0CF8ACEA-3D7A-43E6-AA0B-408012386BEE
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 9:59 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -29,7 +29,7 @@ Import-CMApplication -FilePath <String> [-ImportActionType <ImportActionType>] [
 ```
 
 ## DESCRIPTION
-The **Import-CMApplication** cmdlet imports a package created by the Export-CMApplication cmdlet.
+The **Import-CMApplication** cmdlet imports a package created by the [Export-CMApplication](./Export-CMApplication.cm) cmdlet.
 A package contains one or more applications and related objects, such as catalogs.
 If the package contains content, the application package imports the content, or includes a reference to the content.
 

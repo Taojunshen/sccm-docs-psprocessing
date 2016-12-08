@@ -3,10 +3,10 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833972
 schema: 2.0.0
 ms.assetid: 86D6E727-868D-4CAA-9716-7CFEA70AD699
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 12/7/2016 10:10 PM
+ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandServicePoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandServicePoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c6cfa731ff189c106139e3ba3d2fc0fa45711e29/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMOutOfBandServicePoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -151,7 +151,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a **CMOutOfBandServicePoint** object.
-To obtain a **CMOutOfBandServicePoint** object, use the Get-CMOutOfBandServicePoint cmdlet.
+To obtain a **CMOutOfBandServicePoint** object, use the [Get-CMOutOfBandServicePoint](./Get-CMOutOfBandServicePoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -165,7 +165,8 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-
+Returns an object representing the item with which you are working.
+By default, this cmdlet does not generate any output.
 
 ```yaml
 Type: SwitchParameter
@@ -279,5 +280,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-CMOutOfBandServicePoint](xref:ConfigurationManager/vlatest/Add-CMOutOfBandServicePoint.md)
 
 [Remove-CMOutOfBandServicePoint](xref:ConfigurationManager/vlatest/Remove-CMOutOfBandServicePoint.md)
-
-
