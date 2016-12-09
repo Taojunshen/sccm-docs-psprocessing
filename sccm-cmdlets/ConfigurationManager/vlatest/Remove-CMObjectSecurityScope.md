@@ -6,6 +6,7 @@ ms.assetid: 2FB8BE93-96D3-4BF9-B3F7-F1B2C6BEF109
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMObjectSecurityScope.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMObjectSecurityScope.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMObjectSecurityScope.md
 ms.topic: reference
 author: shill-ms

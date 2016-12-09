@@ -6,6 +6,7 @@ ms.assetid: 66E1A4FB-1FF6-4DA5-8710-1A5AC6BEE641
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Unlock-CMObject.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Unlock-CMObject.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Unlock-CMObject.md
 ms.topic: reference
 author: shill-ms

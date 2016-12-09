@@ -6,6 +6,7 @@ ms.assetid: 3F0D9D7A-5FD0-436C-BB6D-A28806F8A4F6
 updated_at: 12/6/2016 7:33 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMUserDeviceAffinity.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMUserDeviceAffinity.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMUserDeviceAffinity.md
 ms.topic: reference
 author: shill-ms

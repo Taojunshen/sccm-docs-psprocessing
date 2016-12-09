@@ -6,6 +6,7 @@ ms.assetid: FD1C8F39-5BCF-43BF-891C-B11C39141EB0
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDistributionPointGroup.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDistributionPointGroup.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDistributionPointGroup.md
 ms.topic: reference
 author: shill-ms

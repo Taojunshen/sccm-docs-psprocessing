@@ -6,6 +6,7 @@ ms.assetid: 3087AF87-3AD6-4205-9740-0373A5C5C7DC
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMActiveDirectorySite.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMActiveDirectorySite.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMActiveDirectorySite.md
 ms.topic: reference
 author: shill-ms

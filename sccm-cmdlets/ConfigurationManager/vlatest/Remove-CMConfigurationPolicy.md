@@ -6,6 +6,7 @@ ms.assetid: C7C14E05-2CB8-4D9E-92A5-81838CF88799
 updated_at: 12/6/2016 7:33 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMConfigurationPolicy.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMConfigurationPolicy.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMConfigurationPolicy.md
 ms.topic: reference
 author: shill-ms

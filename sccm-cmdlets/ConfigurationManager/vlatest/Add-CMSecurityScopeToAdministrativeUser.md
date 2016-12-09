@@ -6,6 +6,7 @@ ms.assetid: CAC293F8-F168-4D53-8C74-E33A077BE0D1
 updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityScopeToAdministrativeUser.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityScopeToAdministrativeUser.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityScopeToAdministrativeUser.md
 ms.topic: reference
 author: shill-ms

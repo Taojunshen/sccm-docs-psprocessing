@@ -6,6 +6,7 @@ ms.assetid: 70F90D3C-9019-4AE8-9CFC-693D9D3AC351
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMFileReplicationRoute.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMFileReplicationRoute.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMFileReplicationRoute.md
 ms.topic: reference
 author: shill-ms

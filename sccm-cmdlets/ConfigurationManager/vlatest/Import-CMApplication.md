@@ -6,6 +6,7 @@ ms.assetid: 0CF8ACEA-3D7A-43E6-AA0B-408012386BEE
 updated_at: 12/7/2016 9:59 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
 ms.topic: reference
 author: shill-ms

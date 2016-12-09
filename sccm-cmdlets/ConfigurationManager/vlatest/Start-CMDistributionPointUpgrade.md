@@ -6,6 +6,7 @@ ms.assetid: E30DA485-2D19-497F-92BA-8BD7F7804602
 updated_at: 12/8/2016 7:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e96af22ac9700d4739f43d97cc915f1f0491a231/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMDistributionPointUpgrade.md
 ms.topic: reference
 author: shill-ms

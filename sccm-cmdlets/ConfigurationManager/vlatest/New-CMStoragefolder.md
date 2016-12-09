@@ -6,6 +6,7 @@ ms.assetid: 1B4D2568-7D6A-4DFF-891B-9EDB54B3DFF0
 updated_at: 12/8/2016 7:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStoragefolder.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStoragefolder.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e96af22ac9700d4739f43d97cc915f1f0491a231/sccm-cmdlets/ConfigurationManager/vlatest/New-CMStoragefolder.md
 ms.topic: reference
 author: shill-ms

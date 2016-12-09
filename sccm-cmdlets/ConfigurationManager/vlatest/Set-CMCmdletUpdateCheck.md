@@ -6,6 +6,7 @@ ms.assetid: 13E4E149-5691-4B97-BEB0-313B8025F9B2
 updated_at: 12/8/2016 4:01 AM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
 ms.topic: reference
 author: shill-ms

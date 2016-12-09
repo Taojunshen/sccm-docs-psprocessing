@@ -6,6 +6,7 @@ ms.assetid: BB56BBF5-A38E-4BDE-B32B-EE42739B4945
 updated_at: 12/7/2016 8:47 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMCertificate.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMCertificate.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMCertificate.md
 ms.topic: reference
 author: shill-ms

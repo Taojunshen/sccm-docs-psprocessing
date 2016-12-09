@@ -6,6 +6,7 @@ ms.assetid: 57DE1031-012E-4267-AA6B-A56450A98AB5
 updated_at: 12/7/2016 7:41 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMReport.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMReport.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0dc5ba184dc14f3d0c46e423b07f9c0c67f49dde/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMReport.md
 ms.topic: reference
 author: shill-ms

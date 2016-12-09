@@ -6,6 +6,7 @@ ms.assetid: F1FE1043-7043-4C8A-A5C6-E09BC8F80D49
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Approve-CMApprovalRequest.md
 ms.topic: reference
 author: shill-ms

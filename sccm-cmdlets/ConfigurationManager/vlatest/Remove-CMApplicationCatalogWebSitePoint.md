@@ -6,6 +6,7 @@ ms.assetid: 5FFC0EF0-B499-4511-B2B0-FF6D69D84E6F
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplicationCatalogWebSitePoint.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplicationCatalogWebSitePoint.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMApplicationCatalogWebSitePoint.md
 ms.topic: reference
 author: shill-ms

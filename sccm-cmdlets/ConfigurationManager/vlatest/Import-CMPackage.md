@@ -6,6 +6,7 @@ ms.assetid: 1AB14130-5DCA-4803-B9ED-2E9105D24872
 updated_at: 12/6/2016 7:33 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMPackage.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMPackage.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMPackage.md
 ms.topic: reference
 author: shill-ms

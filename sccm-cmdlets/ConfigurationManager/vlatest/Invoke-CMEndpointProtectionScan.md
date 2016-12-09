@@ -6,6 +6,7 @@ ms.assetid: 106F4D21-3C52-432C-B2CE-C925FF402DB3
 updated_at: 12/7/2016 10:18 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMEndpointProtectionScan.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMEndpointProtectionScan.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/460800e591f6d789ede2d022a11d9433943b77c1/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMEndpointProtectionScan.md
 ms.topic: reference
 author: shill-ms

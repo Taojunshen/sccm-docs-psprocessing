@@ -6,6 +6,7 @@ ms.assetid: AF1704A4-0EC9-4228-AEF3-BC4D7434B4CD
 updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMStatusFilterRule.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMStatusFilterRule.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMStatusFilterRule.md
 ms.topic: reference
 author: shill-ms

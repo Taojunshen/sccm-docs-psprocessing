@@ -1,14 +1,15 @@
 ---
-Module Name: Configurationmanager
-Module Guid: 
-Download Help Link: Please enter FwLink manually
-Help Version: 1.0.0.0
+Module Name: ConfigurationManager
+Module Guid: 7F590131-5253-4425-8B32-EEAB51A4C393
+Download Help Link: http://go.microsoft.com/fwlink/?LinkId=799206
+Help Version: 5.0.1.0
 Locale: en-US
 ms.assetid: 0ADD6D91-97E0-4F79-ABE3-0174AA0C4750
-updated_at: 12/2/2016 6:06 AM
-ms.date: 12/2/2016
+updated_at: 12/9/2016 10:38 PM
+ms.date: 12/9/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c605faada91be8b5b8b25b6b807a4a30c2f3827e/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/37afa1939f5d5b69004150c8e9c476d04ca1e41b/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
 uid: ConfigurationManager/vlatest/ConfigurationManager.md
 ms.topic: conceptual
 author: shill-ms

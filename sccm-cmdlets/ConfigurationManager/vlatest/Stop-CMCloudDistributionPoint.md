@@ -6,6 +6,7 @@ ms.assetid: 4C9E537F-007B-45FE-B82F-CE17CB39B29B
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Stop-CMCloudDistributionPoint.md
 ms.topic: reference
 author: shill-ms

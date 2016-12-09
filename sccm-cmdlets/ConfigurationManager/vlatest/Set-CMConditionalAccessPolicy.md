@@ -6,6 +6,7 @@ ms.assetid: 433C709E-FBB0-449F-A835-9ED3613D2581
 updated_at: 12/8/2016 3:33 AM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConditionalAccessPolicy.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConditionalAccessPolicy.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/3f2e54f6163618b87e89b0d1fa27e9897f65a1e2/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMConditionalAccessPolicy.md
 ms.topic: reference
 author: shill-ms

@@ -6,6 +6,7 @@ ms.assetid: FECB6577-2499-441A-967F-FE505F41D1F7
 updated_at: 12/6/2016 7:33 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMCertificate.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMCertificate.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMCertificate.md
 ms.topic: reference
 author: shill-ms

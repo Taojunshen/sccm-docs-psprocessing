@@ -6,6 +6,7 @@ ms.assetid: 5336F6B8-3B01-4D9B-8925-9FB913735BBB
 updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Install-CMClient.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Install-CMClient.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Install-CMClient.md
 ms.topic: reference
 author: shill-ms

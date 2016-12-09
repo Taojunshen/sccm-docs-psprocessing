@@ -6,6 +6,7 @@ ms.assetid: CC332293-14EF-4E4A-8F5B-0D16FD9EA33D
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDatabaseReplicationLinkProperty.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDatabaseReplicationLinkProperty.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMDatabaseReplicationLinkProperty.md
 ms.topic: reference
 author: shill-ms

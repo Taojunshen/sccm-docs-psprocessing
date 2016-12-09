@@ -6,6 +6,7 @@ ms.assetid: B63CE9E9-C730-4BAD-A561-4B09B2FEB4D2
 updated_at: 12/6/2016 7:33 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMTaskSequence.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMTaskSequence.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMTaskSequence.md
 ms.topic: reference
 author: shill-ms

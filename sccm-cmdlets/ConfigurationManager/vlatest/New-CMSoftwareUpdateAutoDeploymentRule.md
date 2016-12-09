@@ -6,6 +6,7 @@ ms.assetid: 1860D065-B2D0-4CDE-A75F-56F44FE40FD6
 updated_at: 12/8/2016 7:46 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c84cd4d87cbe10cc83f2242c62b21c37df57e0db/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms

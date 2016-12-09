@@ -6,6 +6,7 @@ ms.assetid: 83C8EA1B-C6A1-4962-BEB9-409EB24305F5
 updated_at: 12/8/2016 7:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e96af22ac9700d4739f43d97cc915f1f0491a231/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
 ms.topic: reference
 author: shill-ms

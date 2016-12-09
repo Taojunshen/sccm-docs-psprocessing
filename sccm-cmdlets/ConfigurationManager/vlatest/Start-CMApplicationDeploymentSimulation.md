@@ -6,6 +6,7 @@ ms.assetid: 10131437-15F6-4126-9E65-82CC58D5503D
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMApplicationDeploymentSimulation.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMApplicationDeploymentSimulation.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMApplicationDeploymentSimulation.md
 ms.topic: reference
 author: shill-ms

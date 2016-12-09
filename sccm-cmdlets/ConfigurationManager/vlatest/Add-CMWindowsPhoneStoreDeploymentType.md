@@ -6,6 +6,7 @@ ms.assetid: 9A874A9F-1A1D-4326-A7AA-5FA3702E0991
 updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMWindowsPhoneStoreDeploymentType.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMWindowsPhoneStoreDeploymentType.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMWindowsPhoneStoreDeploymentType.md
 ms.topic: reference
 author: shill-ms

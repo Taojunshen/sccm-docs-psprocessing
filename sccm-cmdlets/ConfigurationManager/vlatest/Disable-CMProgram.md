@@ -6,6 +6,7 @@ ms.assetid: B4E99D6B-B50F-496B-AFA7-AD795ADA8C8A
 updated_at: 12/7/2016 8:47 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMProgram.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMProgram.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Disable-CMProgram.md
 ms.topic: reference
 author: shill-ms

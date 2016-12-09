@@ -6,6 +6,7 @@ ms.assetid: DC548AD7-17F7-4455-8857-6342043439FA
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
 ms.topic: reference
 author: shill-ms

@@ -2,6 +2,7 @@
 updated_at: 12/6/2016 7:35 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/113f72e2bac58425f5a7233cbdd24a162424b424/sccm-cmdlets/ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
 uid: ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
 ms.topic: conceptual

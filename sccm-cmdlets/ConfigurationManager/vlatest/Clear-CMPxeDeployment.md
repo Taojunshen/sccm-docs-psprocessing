@@ -6,6 +6,7 @@ ms.assetid: A5700EDF-92D7-48DE-B942-F0C3274E2331
 updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMPxeDeployment.md
 ms.topic: reference
 author: shill-ms

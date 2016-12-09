@@ -6,6 +6,7 @@ ms.assetid: 9CD7B8EA-2F75-4AB0-B5FA-5CFD8855C1E9
 updated_at: 12/7/2016 11:21 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMTaskSequence.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMTaskSequence.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4bb0549ab9452d0d1c9cdf57cfbc8185eefd798c/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMTaskSequence.md
 ms.topic: reference
 author: shill-ms

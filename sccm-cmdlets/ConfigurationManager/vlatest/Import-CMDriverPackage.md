@@ -6,6 +6,7 @@ ms.assetid: 2E251111-93BB-4D25-AD73-C7C1C316E253
 updated_at: 12/7/2016 9:59 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriverPackage.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriverPackage.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMDriverPackage.md
 ms.topic: reference
 author: shill-ms

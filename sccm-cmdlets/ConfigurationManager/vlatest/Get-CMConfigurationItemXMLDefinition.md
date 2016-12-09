@@ -6,6 +6,7 @@ ms.assetid: 57EC8E6E-2E33-4198-966D-9A5E6A27D397
 updated_at: 12/8/2016 6:40 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMConfigurationItemXMLDefinition.md
 ms.topic: reference
 author: shill-ms

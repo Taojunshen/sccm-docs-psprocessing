@@ -6,6 +6,7 @@ ms.assetid: F9CCD117-AD06-4CB3-A7BE-92E64ED56B9F
 updated_at: 12/6/2016 11:47 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsPhoneDeploymentType.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsPhoneDeploymentType.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/322e1e3dae6ba53c3384ca0bf1a1079481b8ae30/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMWindowsPhoneDeploymentType.md
 ms.topic: reference
 author: shill-ms

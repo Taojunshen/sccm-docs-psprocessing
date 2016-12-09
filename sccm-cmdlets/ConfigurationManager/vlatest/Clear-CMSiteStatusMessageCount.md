@@ -6,6 +6,7 @@ ms.assetid: 508CC52D-2E8D-4C76-AD7E-FDF8F306983E
 updated_at: 12/6/2016 7:33 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMSiteStatusMessageCount.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMSiteStatusMessageCount.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Clear-CMSiteStatusMessageCount.md
 ms.topic: reference
 author: shill-ms

@@ -6,6 +6,7 @@ ms.assetid: C8BFF87E-662F-486D-9F4A-27428FD4DC7A
 updated_at: 12/7/2016 11:00 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMClientNotification.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMClientNotification.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/efe0a26adf0b58fa303748a1963701a927c26691/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMClientNotification.md
 ms.topic: reference
 author: shill-ms

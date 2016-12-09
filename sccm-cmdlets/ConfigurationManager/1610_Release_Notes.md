@@ -2,6 +2,7 @@
 updated_at: 12/6/2016 9:46 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/391bf7401827e4350097e052db7d917d94518793/sccm-cmdlets/ConfigurationManager/1610_Release_Notes.md
 uid: ConfigurationManager/1610_Release_Notes.md
 ms.topic: conceptual

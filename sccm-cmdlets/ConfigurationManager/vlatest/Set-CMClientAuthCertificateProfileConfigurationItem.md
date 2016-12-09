@@ -6,6 +6,7 @@ ms.assetid: 3C7268CF-AC72-41FF-9B8C-D313A21730C4
 updated_at: 12/7/2016 11:21 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientAuthCertificateProfileConfigurationItem.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientAuthCertificateProfileConfigurationItem.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4bb0549ab9452d0d1c9cdf57cfbc8185eefd798c/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientAuthCertificateProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms

@@ -6,6 +6,7 @@ ms.assetid: BE43AAAD-ABF9-42DD-886C-D3224AAAB175
 updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMSoftwareMeteringRule.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMSoftwareMeteringRule.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Enable-CMSoftwareMeteringRule.md
 ms.topic: reference
 author: shill-ms
