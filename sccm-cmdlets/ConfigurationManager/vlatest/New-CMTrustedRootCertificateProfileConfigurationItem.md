@@ -3,17 +3,17 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833803
 schema: 2.0.0
 ms.assetid: 5FD6BD13-48BB-492C-82AB-8939BFA73526
-updated_at: 12/8/2016 6:40 PM
-ms.date: 12/8/2016
+updated_at: 1/10/2017 9:53 PM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMTrustedRootCertificateProfileConfigurationItem.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/New-CMTrustedRootCertificateProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/New-CMTrustedRootCertificateProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/dac53ab1ce8cf854ed8b560c9cacf316e7fafb24/sccm-cmdlets/ConfigurationManager/vlatest/New-CMTrustedRootCertificateProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 
@@ -64,7 +64,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -78,7 +78,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-
+Specifies the path to an XML digest exported from a previously created configuration item. Note that you can only use the XML once within a hierarchy.
 
 ```yaml
 Type: String
@@ -125,5 +125,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-

@@ -3,17 +3,17 @@ external help file: AdminUI.PS.Accounts.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833605
 schema: 2.0.0
 ms.assetid: 5DA6777B-C1CC-4FC0-A85C-6185F7AB69BE
-updated_at: 12/8/2016 6:40 PM
-ms.date: 12/8/2016
+updated_at: 1/7/2017 2:02 AM
+ms.date: 1/7/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccount.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccount.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccount.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8a6b9ef671600123aa3999d5e8820fa3d2bcf3e3/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAccount.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 
@@ -45,16 +45,13 @@ For more information about user accounts, see [Technical Reference for Accounts 
 
 ### Example 1: Set an account by using name and password
 ```
-PS C:\> $Secure = Read-Host -AsSecureString
-PS C:\> $ConfirmSecure = Read-Host -AsSecureString
-PS C:\> Set-CMAccount -Name " TSQA\PFuller" -Password $Secure -ConfirmPassword $ConfirmSecure -SiteCode "CM2"
+PS C:\> $Secure = ConvertTo-SecureString -String "Pas$W0rd02" -AsPlainText -Force
+PS C:\> Set-CMAccount -Name "TSQA\PFuller" -Password $Secure -SiteCode "CM2"
 ```
 
 The first command creates a variable as a secure string.
 
-The second command creates another variable as a secure string.
-
-The third command sets the password for the account.
+The second command sets the password for the account.
 
 ## PARAMETERS
 
@@ -78,7 +75,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -92,7 +89,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -121,7 +118,7 @@ Specifies a secure string that contains the password for the user account.
 ```yaml
 Type: SecureString
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -135,7 +132,7 @@ Specifies a Configuration Manager site code.
 ```yaml
 Type: String
 Parameter Sets: SetAccountByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -188,5 +185,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMAccount](xref:ConfigurationManager/vlatest/New-CMAccount.md)
 
 [Remove-CMAccount](xref:ConfigurationManager/vlatest/Remove-CMAccount.md)
-
-

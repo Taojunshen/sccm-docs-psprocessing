@@ -3,17 +3,17 @@ external help file: AdminUI.PS.Common.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833597
 schema: 2.0.0
 ms.assetid: 15162B1F-B421-431D-A171-5B38A0FDBC0B
-updated_at: 12/6/2016 7:33 PM
-ms.date: 12/6/2016
+updated_at: 1/10/2017 12:09 AM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Send-CMCmdletUpdateCheck.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Send-CMCmdletUpdateCheck.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/504fd5ae0c4dcc14877d18b3f201f0c5172688ce/sccm-cmdlets/ConfigurationManager/vlatest/Send-CMCmdletUpdateCheck.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/fc724eb955efcd7270886ed969a5ed6250f9ffc5/sccm-cmdlets/ConfigurationManager/vlatest/Send-CMCmdletUpdateCheck.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 
@@ -32,6 +32,8 @@ Send-CMCmdletUpdateCheck [-Timeout <TimeSpan>] [-DisableWildcardHandling] [-Forc
 ## DESCRIPTION
 The **Send-CMCmdletUpdateCheck** cmdlet performs an unscheduled cmdlet update check.
 An unscheduled check does not consider policy settings.
+
+**Note:** This cmdlet is deprecated starting with version 1610, and may be removed in a future release.
 
 ## EXAMPLES
 
@@ -67,7 +69,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -81,7 +83,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -95,7 +97,7 @@ Specifies a time span to wait before timing out while checking for a cmdlet upda
 ```yaml
 Type: TimeSpan
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -132,5 +134,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMCmdletUpdateCheck](xref:ConfigurationManager/vlatest/Get-CMCmdletUpdateCheck.md)
 
 [Set-CMCmdletUpdateCheck](xref:ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md)
-
-

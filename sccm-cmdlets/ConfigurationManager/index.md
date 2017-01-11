@@ -15,7 +15,7 @@ gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c0f1eb2bb1026f
 ms.topic: reference
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ---
 
 # Get started with Microsoft System Center Configuration Manager cmdlets
