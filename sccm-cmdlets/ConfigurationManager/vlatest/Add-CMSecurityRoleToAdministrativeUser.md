@@ -6,13 +6,14 @@ ms.assetid: B521723C-DE6D-4EE3-9742-8BB6F8F44E72
 updated_at: 12/7/2016 8:47 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 

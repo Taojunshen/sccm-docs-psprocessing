@@ -3,16 +3,17 @@ external help file: AdminUI.PS.Common.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833734
 schema: 2.0.0
 ms.assetid: 13E4E149-5691-4B97-BEB0-313B8025F9B2
-updated_at: 12/8/2016 4:01 AM
-ms.date: 12/8/2016
+updated_at: 1/10/2017 12:09 AM
+ms.date: 1/10/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e616811b954df9c1dbf3e7e07a02d1fedfa65f4a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/fc724eb955efcd7270886ed969a5ed6250f9ffc5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCmdletUpdateCheck.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 
@@ -49,6 +50,8 @@ Set-CMCmdletUpdateCheck [-System] [-IsUpdateCheckEnabled <Boolean>] [-IsUpdateCh
 ## DESCRIPTION
 The **Set-CMCmdletUpdateCheck** cmdlet configures update check settings on a per-user or per-system basis.
 You must be running as an administrator to set system settings.
+
+**Note:** This cmdlet is deprecated starting with version 1610, and may be removed in a future release.
 
 ## EXAMPLES
 
@@ -119,7 +122,7 @@ Indicates that the update check for the current user is returned.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: User
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -133,7 +136,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -147,7 +150,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -162,7 +165,7 @@ To obtain a cmdlet update configuration object, use the [Get-CMCmdletUpdateCheck
 ```yaml
 Type: CMCmdletUpdateConfiguration
 Parameter Sets: Value
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -176,7 +179,7 @@ Indicates whether update check is enabled.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -190,7 +193,7 @@ Indicates whether update check is enabled for the Configuration ManagerWindows P
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -204,7 +207,7 @@ Indicates whether update check is enabled for the Configuration Manager provider
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -219,7 +222,7 @@ By default, this cmdlet does not generate any output.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -233,7 +236,7 @@ Indicates that the update check for the system is returned.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: System
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None

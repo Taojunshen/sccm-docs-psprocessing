@@ -6,13 +6,14 @@ ms.assetid: 7E3BFA62-110D-4451-9135-02D955B057F8
 updated_at: 12/7/2016 10:43 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/6c46b650d38e58fa6cdababb43ccf8af1ca3fb38/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMIntuneSubscriptionAppleDepProperty.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 

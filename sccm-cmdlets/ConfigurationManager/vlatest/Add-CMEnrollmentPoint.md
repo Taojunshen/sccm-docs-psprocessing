@@ -6,13 +6,14 @@ ms.assetid: E9F24F2A-DE9D-4482-9C84-47801238F419
 updated_at: 12/7/2016 8:47 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMEnrollmentPoint.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMEnrollmentPoint.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/282d10ca7ed3ddf1432b06182fee46c9e52563a4/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMEnrollmentPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 

@@ -6,13 +6,14 @@ ms.assetid: 63BCD25A-C343-463F-820A-B3668CB7B22E
 updated_at: 12/6/2016 11:13 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMMdmEnrollmentManager.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMMdmEnrollmentManager.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMMdmEnrollmentManager.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 

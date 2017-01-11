@@ -10,11 +10,12 @@ ms.assetid: 63712bbf-0f8a-4cdb-8998-e7d41257981e
 updated_at: 12/7/2016 11:47 PM
 ms.date: 12/7/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/index.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/index.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c0f1eb2bb1026f5b6f8ba8bffbe06a1b693d0754/sccm-cmdlets/ConfigurationManager/index.md
 ms.topic: reference
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ---
 
 # Get started with Microsoft System Center Configuration Manager cmdlets

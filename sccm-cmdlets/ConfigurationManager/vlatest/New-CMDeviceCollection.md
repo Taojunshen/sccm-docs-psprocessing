@@ -6,13 +6,14 @@ ms.assetid: F460F99B-D44F-4B83-94AB-B84BE510AC37
 updated_at: 12/8/2016 7:16 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceCollection.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceCollection.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/8018c111348a4d0a18b75f5c42426133ad8b6c01/sccm-cmdlets/ConfigurationManager/vlatest/New-CMDeviceCollection.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 

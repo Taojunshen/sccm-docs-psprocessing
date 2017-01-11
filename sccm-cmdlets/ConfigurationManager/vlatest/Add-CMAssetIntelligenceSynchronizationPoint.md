@@ -3,16 +3,17 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833598
 schema: 2.0.0
 ms.assetid: B2B9CF97-719D-4F30-87C9-9ED6F3A5A798
-updated_at: 12/8/2016 6:40 PM
-ms.date: 12/8/2016
+updated_at: 1/7/2017 2:59 AM
+ms.date: 1/7/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/b6be78f962cf12618eebc9fedac2bcbb7025d2f4/sccm-cmdlets/ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 
@@ -55,14 +56,14 @@ This command installs an Asset Intelligence synchronization point on the site sy
 ### Example 2: Install a scheduled Asset Intelligence synchronization point
 ```
 PS C:\> $Sc = New-CMSchedule -DayOfWeek Friday -RecurCount 2
-PS C:\> Add-CMAssetIntelligenceSynchronizationPoint -SiteSystemServerName "CMDIV-TSQA04.CORP.CONTOSO.COM" -CertificateFile "\\Contoso01\CM\ACDataFile\AIpfx.pfx" -EnableSynchronization -ScheduleToken $Sc
+PS C:\> Add-CMAssetIntelligenceSynchronizationPoint -SiteSystemServerName "CMDIV-TSQA04.CORP.CONTOSO.COM" -CertificateFile "\\Contoso01\CM\ACDataFile\AIpfx.pfx" -ScheduleToken $Sc
 ```
 
 This first command creates a System Center Configuration Manager schedule token that specifies an event that occurs once a week for three weeks on Fridays.
 The command stores the results in the $Sc variable.
 
 The second command installs an Asset Intelligence synchronization point on the site system server named CMDIV-TSQA04.CORP.CONTOSO.COM, specifying the schedule stored in $Sc.
-The command also specifies the System Center Online authentication certificate (.pfx) file, and enables synchronization.
+The command also specifies the System Center Online authentication certificate (.pfx) file.
 
 ## PARAMETERS
 
@@ -72,7 +73,7 @@ Specifies the path to a System Center Online authentication certificate (.pfx) f
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -100,7 +101,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -114,7 +115,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -123,8 +124,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-Specifies the input to this cmdlet. 
-You can use this parameter, or you can pipe the input to this cmdlet. 
+Specifies the input to this cmdlet.
+You can use this parameter, or you can pipe the input to this cmdlet.
 
 ```yaml
 Type: IResultObject

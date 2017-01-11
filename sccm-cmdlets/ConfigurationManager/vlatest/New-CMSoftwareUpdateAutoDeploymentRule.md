@@ -3,16 +3,17 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833759
 schema: 2.0.0
 ms.assetid: 1860D065-B2D0-4CDE-A75F-56F44FE40FD6
-updated_at: 12/8/2016 7:46 PM
-ms.date: 12/8/2016
+updated_at: 1/9/2017 6:57 PM
+ms.date: 1/9/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c84cd4d87cbe10cc83f2242c62b21c37df57e0db/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c9c30b1a6d9bd4d9945053998fb09d75b2e5c8af/sccm-cmdlets/ConfigurationManager/vlatest/New-CMSoftwareUpdateAutoDeploymentRule.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 
@@ -138,7 +139,7 @@ Specify the existing update group or assign a name for the new update group by u
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -154,7 +155,7 @@ Specify a time unit by using the *AlertTimeUnit* parameter.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -164,7 +165,7 @@ Accept wildcard characters: False
 
 ### -AlertTimeUnit
 Specifies a unit of time for the *AlertTime* parameter.
-Valid values are: 
+Valid values are:
 
 - Days
 - Hours
@@ -174,7 +175,7 @@ Valid values are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 Required: False
 Position: Named
@@ -192,7 +193,7 @@ If this value is $False, Configuration Manager does not restart the computer.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -209,7 +210,7 @@ If this value is $False, Configuration Manager does not deploy the update outsid
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -223,7 +224,7 @@ Indicates whether to allow clients to download content over a metered Internet c
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -238,7 +239,7 @@ The rule adds software updates that have article IDs that meet specified criteri
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -253,7 +254,7 @@ If you select a value of $False, use the *AvailableTime* and *AvailableTimeUnit*
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -269,7 +270,7 @@ Specify a time unit by using the *AvailableTimeUnit* parameter.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -279,7 +280,7 @@ Accept wildcard characters: False
 
 ### -AvailableTimeUnit
 Specifies a unit of time for the *AvailableTime* parameter.
-Valid values are: 
+Valid values are:
 
 - Days
 - Hours
@@ -289,7 +290,7 @@ Valid values are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 Required: False
 Position: Named
@@ -305,7 +306,7 @@ The rule adds software updates that have bulletin IDs that meet specified criter
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -319,7 +320,7 @@ Accept wildcard characters: False
 ```yaml
 Type: IResultObject
 Parameter Sets: NewByCollection
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -333,7 +334,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: NewByCollectionId
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -347,7 +348,7 @@ Specifies the name of device collection or user collection.
 ```yaml
 Type: String
 Parameter Sets: NewByCollectionName
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -372,7 +373,7 @@ Accept wildcard characters: False
 ### -CustomSeverity
 Specifies an array of custom severity types for software updates.
 The rule adds software updates that have custom severity levels that meet specified criteria to the software update group.
-Valid values are: 
+Valid values are:
 
 - Critical
 - Important
@@ -383,7 +384,7 @@ Valid values are:
 ```yaml
 Type: SeverityType[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: None, Low, Moderate, Important, Critical
 Required: False
 Position: Named
@@ -395,7 +396,7 @@ Accept wildcard characters: False
 ### -DateReleasedOrRevised
 Specifies a date released or revised for software updates.
 The rule adds software updates that have a date that meets specified criteria to the software update group.
-Valid values are: 
+Valid values are:
 
 - Last10months
 - Last11months
@@ -431,7 +432,7 @@ Valid values are:
 ```yaml
 Type: DateReleasedOrRevisedType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Any, Last1Hour, LastHour, Last2Hours, Last3Hours, Last4Hours, Last8Hours, Last12Hours, Last16Hours, Last20Hours, Last1Day, LastDay, Last2Days, Last3Days, Last4Days, Last5Days, Last6Days, Last7Days, Last14Days, Last21Days, Last28Days, LastMonth, Last1Month, Last2Months, Last3Months, Last4Months, Last5Months, Last6Months, Last7Months, Last8Months, Last9Months, Last10Months, Last11Months, Last1Year, LastYear, Last12Months
 Required: False
 Position: Named
@@ -448,7 +449,7 @@ After the deadline, Configuration Manager installs required updates.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -464,7 +465,7 @@ Specify a time unit by using the *DeadlineTimeUnit* parameter.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -474,7 +475,7 @@ Accept wildcard characters: False
 
 ### -DeadlineTimeUnit
 Specifies a unit of time for the *DeadlineTime* parameter.
-Valid values are: 
+Valid values are:
 
 - Days
 - Hours
@@ -484,7 +485,7 @@ Valid values are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 Required: False
 Position: Named
@@ -495,13 +496,13 @@ Accept wildcard characters: False
 
 ### -DeployWithoutLicense
 Indicates whether the rule deploys updates without licenses.
-If you specify a value of $True, Configuration Manager deploys all updates for this rule and approves any license agreements.
-If this value is $False, Configuration Manager deploys only updates that do not include a license or for which the license agreement has been approved.
+If you specify a value of $True, Configuration Manager deploys only software updates found by this rule that do not include a license agreement, or for which the agreement has already been approved.
+If this value is $False, Configuration Manager deploys all software updates found by this rule, and approves any license agreements.
 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -529,7 +530,7 @@ Specifies the name of a software update deployment package.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -543,7 +544,7 @@ Accept wildcard characters: False
 ```yaml
 Type: DeploymentRing
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: CB, Release, BusinessMainstream, Cbb, Ltsb
 Required: False
 Position: Named
@@ -558,7 +559,7 @@ Specifies a description for the automatic deployment rule for software updates.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -572,7 +573,7 @@ Indicates whether to disable System Center 2012 - Operations Manager alerts duri
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -586,7 +587,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -601,7 +602,7 @@ If you specify a value of $False, specify an alternative location where computer
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -615,7 +616,7 @@ Indicates whether computers download content from Microsoft Update if that conte
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -658,7 +659,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -672,7 +673,7 @@ Indicates whether to generate Operations Manager alerts during a software update
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -686,7 +687,7 @@ Indicates whether to generate an alert for successful deployment.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -700,7 +701,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -730,7 +731,7 @@ Computers download software updates available in the specified languages, in add
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -745,7 +746,7 @@ In order to use this location, specify a value of $False for the *DownloadFromIn
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -759,7 +760,7 @@ Indicates whether the rule includes only updates that have Microsoft as the vend
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -773,7 +774,7 @@ Specifies a name for the automatic deployment rule for software updates.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -789,7 +790,7 @@ If you specify a value of $False, installation proceeds.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -805,7 +806,7 @@ If you specify a value of $False, installation proceeds.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -820,7 +821,7 @@ The rule adds software updates for products that meet specified criteria to the 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -835,7 +836,7 @@ The rule adds software updates identified by required that meet specified criter
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -845,7 +846,7 @@ Accept wildcard characters: False
 
 ### -RunType
 Specifies the mode in which an update runs on the client computer.
-Valid values are: 
+Valid values are:
 
 - DoNotRunThisRuleAutomatically
 - RunTheRuleAfterAnySoftwareUpdatePointSynchronization
@@ -856,7 +857,7 @@ If you specify RunTheRuleOnSchedule, specify a schedule by using the *Schedule* 
 ```yaml
 Type: RunType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DoNotRunThisRuleAutomatically, RunTheRuleAfterAnySoftwareUpdatePointSynchronization, RunTheRuleOnSchedule
 Required: False
 Position: Named
@@ -873,7 +874,7 @@ Specify a schedule for this parameter if you specify a value of RunTheRuleOnSche
 ```yaml
 Type: IResultObject
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -890,7 +891,7 @@ For computers to wake, you must first configure Wake On LAN.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -901,7 +902,7 @@ Accept wildcard characters: False
 ### -Severity
 Specifies an array of severity levels for software updates.
 The rule adds software updates for specified severity types to the software update group.
-Valid values are: 
+Valid values are:
 
 - Critical
 - Important
@@ -928,7 +929,7 @@ If compliance falls below this percentage, Configuration Manager produces option
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -942,7 +943,7 @@ Indicates whether the rule adds updates superseded by other updates.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -957,7 +958,7 @@ Some software updates require a system restart to complete the installation proc
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -972,7 +973,7 @@ Some software updates require a system restart to complete the installation proc
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1031,7 +1032,7 @@ The rule adds software updates that have update descriptions that meet specified
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1046,7 +1047,7 @@ If you specify a value of $True, clients share content on the same subnet.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1062,7 +1063,7 @@ If this value is $False, Configuration Manager uses local time.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1072,7 +1073,7 @@ Accept wildcard characters: False
 
 ### -UserNotification
 Specifies the type of user notification.
-Valid values are: 
+Valid values are:
 
 - DisplayAll.
 Display in Software Center and show all notifications.
@@ -1084,7 +1085,7 @@ Hide in Software Center and all notifications.
 ```yaml
 Type: UserNotificationType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DisplayAll, DisplaySoftwareCenterOnly, HideAll
 Required: False
 Position: Named
@@ -1095,7 +1096,7 @@ Accept wildcard characters: False
 
 ### -VerboseLevel
 Specifies the level of detail you want clients to report for deployments that this rule creates.
-Valid values are: 
+Valid values are:
 
 - AllMessages
 - OnlyErrorMessages
@@ -1104,7 +1105,7 @@ Valid values are:
 ```yaml
 Type: VerboseLevelType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: OnlyErrorMessages, OnlySuccessAndErrorMessages, AllMessages
 Required: False
 Position: Named
@@ -1137,7 +1138,7 @@ For a value of $False, the device saves changes in an overlay and commits them l
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None

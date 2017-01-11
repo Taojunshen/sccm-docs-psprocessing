@@ -2,6 +2,7 @@
 updated_at: 12/6/2016 7:35 PM
 ms.date: 12/6/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/113f72e2bac58425f5a7233cbdd24a162424b424/sccm-cmdlets/ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
 uid: ConfigurationManager/vlatest/about_ConfigurationManager_Cmdlets.md
 ms.topic: conceptual
@@ -9,7 +10,7 @@ author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 # ConfigurationManager_Cmdlets

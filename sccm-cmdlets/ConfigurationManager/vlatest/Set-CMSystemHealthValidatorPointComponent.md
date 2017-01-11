@@ -6,13 +6,14 @@ ms.assetid: 27842BB3-EBB9-41C0-9713-53C515D27E2B
 updated_at: 12/8/2016 7:46 PM
 ms.date: 12/8/2016
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
+original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
 gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c84cd4d87cbe10cc83f2242c62b21c37df57e0db/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMSystemHealthValidatorPointComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
 keywords: powershell, cmdlet
 manager: mbaldwin
-open_to_public_contributors: true
+open_to_public_contributors: True
 ms.service: configuration-manager
 ---
 
