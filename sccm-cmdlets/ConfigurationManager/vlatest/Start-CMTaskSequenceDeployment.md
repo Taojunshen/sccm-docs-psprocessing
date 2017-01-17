@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834231
 schema: 2.0.0
 ms.assetid: 83C8EA1B-C6A1-4962-BEB9-409EB24305F5
-updated_at: 1/12/2017 10:50 PM
-ms.date: 1/12/2017
+updated_at: 1/17/2017 8:41 PM
+ms.date: 1/17/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/e1033765b480a1780ef4c7158f7ce3bb89336e23/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/da99080f82a93980874f7e0ccab3f13e9ba9465f/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -AlertDay
-Specifies a day, in MM/DD/YYYY format, to notify clients of a new deployment.
+This parameter is deprecated. Use *AlertDateTime*.
 
 ```yaml
 Type: DateTime
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -AlertTime
-Specifies a time, in HH:MM format, to notify clients of a new deployment.
+This parameter is deprecated. Use *AlertDateTime*.
 
 ```yaml
 Type: DateTime
@@ -315,8 +315,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentAvailableDay
-Specifies a day, in MM/DD/YYYY format, when a deployment becomes available to clients.
-By default, the deployment becomes available immediately.
+This parameter is deprecated. Use *DeploymentAvailableDateTime*.
 
 ```yaml
 Type: DateTime
@@ -330,8 +329,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentAvailableTime
-Specifies a time, in HH:MM format, when a deployment becomes available to clients.
-By default, the deployment becomes available immediately.
+This parameter is deprecated. Use *DeploymentAvailableDateTime*.
 
 ```yaml
 Type: DateTime
@@ -360,9 +358,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentExpireDay
-Specifies a day, in MM/DD/YYYY format, when a deployment expires.
-By default, a deployment never expires.
-To have a deployment expire on a certain day, set this parameter.
+This parameter is deprecated. Use *DeploymentExpireDateTime*.
 
 ```yaml
 Type: DateTime
@@ -376,9 +372,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeploymentExpireTime
-Specifies a time, in HH:MM format, when the deployment expires.
-By default, a deployment never expires.
-To have a deployment expire at a certain time, set this parameter.
+This parameter is deprecated. Use *DeploymentExpireDateTime*.
 
 ```yaml
 Type: DateTime
