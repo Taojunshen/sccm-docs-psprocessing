@@ -3,11 +3,11 @@ external help file: AdminUI.PS.ClientSettings.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833719
 schema: 2.0.0
 ms.assetid: 0F088B51-F0AF-4A8C-AD75-8FD1665B8CDF
-updated_at: 12/8/2016 6:40 PM
-ms.date: 12/8/2016
+updated_at: 1/12/2017 7:03 PM
+ms.date: 1/12/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientSetting.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientSetting.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientSetting.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/2e88627dad0143b240adca5acee9f26db9b3a732/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMClientSetting.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -188,7 +188,7 @@ System Center Configuration Manager provides default values for all client setti
 Settings objects determine settings for individual clients.
 For more information about client settings, see [About Client Settings in Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=266226) on TechNet.
 
-Client settings for devices include the following categories: 
+Client settings for devices include the following categories:
 
 - Client Policy
 - Computer Agent
@@ -204,7 +204,7 @@ Client settings for devices include the following categories:
 - Software Updates
 - User and Device Affinity
 
-Client settings for users include the following categories: 
+Client settings for users include the following categories:
 
 - Mobile Devices
 - User and Device Affinity
@@ -306,7 +306,7 @@ This command specifies the type of metered network usage for the client setting 
 
 ### -AccessLevel
 Specifies a level of allowed remote control access.
-Valid values are: 
+Valid values are:
 
 - FullControl
 - NoAccess
@@ -316,7 +316,7 @@ Valid values are:
 ```yaml
 Type: AccessLevelType
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Accepted values: NoAccess, ViewOnly, FullControl
 Required: False
 Position: Named
@@ -331,7 +331,7 @@ Indicates whether to add the default Application Catalog website to the Internet
 ```yaml
 Type: Boolean
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -345,7 +345,7 @@ Indicates whether users can change policy or notification settings in Software C
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -359,7 +359,7 @@ Indicates whether a device or user can access content from a cloud-based distrib
 ```yaml
 Type: Boolean
 Parameter Sets: SetCloudSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -387,7 +387,7 @@ Indicates whether to allow a portal to have elevated trust.
 ```yaml
 Type: Boolean
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -401,7 +401,7 @@ Indicates whether to allow remote control of a computer with no user logged onto
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -410,12 +410,12 @@ Accept wildcard characters: False
 ```
 
 ### -AllowUserAffinity
-Indicates whether the client automatically configures user device affinity from usage data.
+Indicates whether users can define their primary devices.
 
 ```yaml
 Type: Boolean
 Parameter Sets: SetUserDeviceAffinitySettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -429,7 +429,7 @@ Indicates whether to allow users to exclude a device from power management setti
 ```yaml
 Type: Boolean
 Parameter Sets: SetPowerManagementSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -443,7 +443,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -454,7 +454,7 @@ Accept wildcard characters: False
 ### -AudibleSignal
 Specifies what kind of sound a client computer plays while under remote control.
 This setting does not apply to remote assistance.
-Valid values are: 
+Valid values are:
 
 - None
 - PlayNoSound
@@ -464,7 +464,7 @@ Valid values are:
 ```yaml
 Type: AudibleSignalType
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Accepted values: PlayNoSound, PlaySoundAtBeginAndEnd, PlaySoundRepeatedly
 Required: False
 Position: Named
@@ -474,12 +474,12 @@ Accept wildcard characters: False
 ```
 
 ### -AutoApproveAffinity
-Indicates whether users can define their primary devices.
+Indicates whether the client automatically configures user device affinity from usage data.
 
 ```yaml
 Type: Boolean
 Parameter Sets: SetUserDeviceAffinitySettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -495,7 +495,7 @@ When an update deadline passes, Configuration Manager deploys all updates pendin
 ```yaml
 Type: Int32
 Parameter Sets: SetSoftwareUpdatesSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -524,7 +524,7 @@ This branding information helps users identify Configuration Manager as a truste
 ```yaml
 Type: String
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -623,7 +623,7 @@ To obtain a schedule object, use the [New-CMSchedule](./New-CMSchedule.md) cmdle
 ```yaml
 Type: IResultObject
 Parameter Sets: SetSoftwareUpdatesSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -637,7 +637,7 @@ Specifies a description for client settings.
 ```yaml
 Type: String
 Parameter Sets: SetByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -651,7 +651,7 @@ Indicates whether to disable the first signature update on client from a remote 
 ```yaml
 Type: Boolean
 Parameter Sets: SetEndpointProtectionSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -665,7 +665,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -680,7 +680,7 @@ If this parameter has a value of $False, the user sees only restart notification
 ```yaml
 Type: Boolean
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -708,7 +708,7 @@ Specifies whether to enable maximum bandwidth for Background Intelligent Transfe
 ```yaml
 Type: Boolean
 Parameter Sets: SetBackgroundIntelligentTransferSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -722,7 +722,7 @@ Indicates whether to enable compliance evaluation for this client.
 ```yaml
 Type: Boolean
 Parameter Sets: SetComplianceSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -736,7 +736,7 @@ Specifies whether allow BITS downloads outside of a throttling window.
 ```yaml
 Type: Boolean
 Parameter Sets: SetBackgroundIntelligentTransferSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -752,7 +752,7 @@ Valid values are: Yes and No.
 ```yaml
 Type: EnableThirdPartyOrchestrationType
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Accepted values: No, Yes
 Required: False
 Position: Named
@@ -767,7 +767,7 @@ Indicates whether to enable user data and profile settings.
 ```yaml
 Type: Boolean
 Parameter Sets: SetComplianceSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -798,7 +798,7 @@ An Internet-based management point must authenticate the user.
 ```yaml
 Type: Boolean
 Parameter Sets: SetClientPolicySettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -812,7 +812,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Boolean
 Parameter Sets: SetPowerManagementSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -840,7 +840,7 @@ Indicates whether to enforce all mandatory software update deployments that have
 ```yaml
 Type: Boolean
 Parameter Sets: SetSoftwareUpdatesSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -907,7 +907,7 @@ Accept wildcard characters: False
 
 ### -FirewallExceptionProfile
 Specifies a firewall exception profile.
-Valid values are: 
+Valid values are:
 
 - Disabled
 - Domain
@@ -917,7 +917,7 @@ Valid values are:
 ```yaml
 Type: FirewallExceptionProfileType[]
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Accepted values: Disabled, Public, Private, Domain
 Required: False
 Position: Named
@@ -946,7 +946,7 @@ Indicates whether to enable force scan.
 ```yaml
 Type: Boolean
 Parameter Sets: SetNetworkAccessProtectionSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -960,7 +960,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -974,7 +974,7 @@ Indicates whether local administrators on the server initiating a remote control
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1016,7 +1016,7 @@ Indicates whether to install and enable the Endpoint Protection client on this c
 ```yaml
 Type: Boolean
 Parameter Sets: SetEndpointProtectionSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1026,7 +1026,7 @@ Accept wildcard characters: False
 
 ### -InstallRestriction
 Specifies which users can initiate an install.
-Valid values are: 
+Valid values are:
 
 - AllUsers
 - NoUsers
@@ -1036,7 +1036,7 @@ Valid values are:
 ```yaml
 Type: InstallRestrictionType
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Accepted values: AllUsers, OnlyAdministrators, OnlyAdministratorsAndPrimaryUsers, NoUsers
 Required: False
 Position: Named
@@ -1065,7 +1065,7 @@ Specifies an inventory report ID.
 ```yaml
 Type: String
 Parameter Sets: SetHardwareInventorySettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1093,7 +1093,7 @@ Indicates whether to allow Configuration Manager to manage Remote Desktop sessio
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1107,7 +1107,7 @@ Indicates whether to allow Configuration Manager to manage solicited remote assi
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1121,7 +1121,7 @@ Indicates whether to allow Configuration Manager to manage unsolicited remote as
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1163,7 +1163,7 @@ Specifies an integer value for maximum transfer rate off schedule.
 ```yaml
 Type: Int32
 Parameter Sets: SetBackgroundIntelligentTransferSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1177,7 +1177,7 @@ Specifies an integer value for maximum transfer rate on schedule.
 ```yaml
 Type: Int32
 Parameter Sets: SetBackgroundIntelligentTransferSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1201,7 +1201,7 @@ Accept wildcard characters: False
 
 ### -MeteredNetworkUsage
 Specifies a type of metered network usage to allow.
-Valid values are: 
+Valid values are:
 
 - Allow
 - Block
@@ -1211,7 +1211,7 @@ Valid values are:
 ```yaml
 Type: MeteredNetworkUsageType
 Parameter Sets: SetMeteredNetworksSettingsByName
-Aliases: 
+Aliases:
 Accepted values: None, Allow, Limit, Block
 Required: False
 Position: Named
@@ -1226,7 +1226,7 @@ Specifies a name for a client setting.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -1254,7 +1254,7 @@ Specifies a new name for a client setting.
 ```yaml
 Type: String
 Parameter Sets: SetByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1269,7 +1269,7 @@ By default, this cmdlet does not generate any output.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1311,7 +1311,7 @@ Specifies a link, as a URL, for a portal for a client.
 ```yaml
 Type: String
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1348,7 +1348,7 @@ When you select Restricted, the Configuration Manager client uses the current Wi
 ```yaml
 Type: PowerShellExecutionPolicyType
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Accepted values: AllSigned, Bypass, Restricted
 Required: False
 Position: Named
@@ -1364,7 +1364,7 @@ Valid values are: Decrease and Increase.
 ```yaml
 Type: PriorityChangeType
 Parameter Sets: SetByName
-Aliases: 
+Aliases:
 Accepted values: Increase, Decrease
 Required: False
 Position: Named
@@ -1379,7 +1379,7 @@ Indicates whether a client computer displays a message asking for user permissio
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1418,7 +1418,7 @@ Accept wildcard characters: False
 ### -RemoteAssistanceAccessLevel
 Specifies a level of access to assign to remote assistance sessions initiated in Configuration Manager.
 A user at the client computer always grants permission for a remote assistance session to occur.
-Valid values are: 
+Valid values are:
 
 - FullControl
 - None
@@ -1427,7 +1427,7 @@ Valid values are:
 ```yaml
 Type: RemoteAssistanceAccessLevelType
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Accepted values: None, RemoteViewing, FullControl
 Required: False
 Position: Named
@@ -1456,7 +1456,7 @@ Indicates whether to remove third party.
 ```yaml
 Type: Boolean
 Parameter Sets: SetEndpointProtectionSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1484,7 +1484,7 @@ Indicates whether to use network-level authentication to establish Remote Deskto
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1499,7 +1499,7 @@ To obtain a schedule object, use the **New-CMSchedule** cmdlet.
 ```yaml
 Type: IResultObject
 Parameter Sets: SetSoftwareUpdatesSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1528,7 +1528,7 @@ Accept wildcard characters: False
 ```yaml
 Type: ApplicationCatalogWebsitePointType
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Accepted values: Fqdn, AutoDetect, NetBios
 Required: False
 Position: Named
@@ -1543,7 +1543,7 @@ Indicates whether to display an icon on the taskbar of a client computer to indi
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1557,7 +1557,7 @@ Indicates whether to display a high-visibility session connection bar on a clien
 ```yaml
 Type: Boolean
 Parameter Sets: SetRemoteToolsSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1600,7 +1600,7 @@ This parameter allows you to standardize inventory information for software name
 ```yaml
 Type: String
 Parameter Sets: SetSoftwareInventorySettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1615,7 +1615,7 @@ During software inventory, Configuration Manager gets inventoried names from hea
 ```yaml
 Type: String
 Parameter Sets: SetSoftwareInventorySettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1630,7 +1630,7 @@ You can use the wildcard (*) to represent any string of text and the question ma
 ```yaml
 Type: String
 Parameter Sets: SetSoftwareInventorySettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1686,7 +1686,7 @@ Indicates whether to bypass a required computer restart after installing the Sys
 ```yaml
 Type: Boolean
 Parameter Sets: SetEndpointProtectionSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1697,10 +1697,10 @@ Accept wildcard characters: False
 ### -SuspendBitLocker
 Specifies whether to bypass a required BitLocker Drive Encryption PIN entry when a computer restarts after a software installation.
 This setting applies only when Configuration Manager initiates a restart.
-Valid values are: 
+Valid values are:
 
 - Always.
-Configuration Manager temporarily suspends the BitLocker requirement to enter a PIN. 
+Configuration Manager temporarily suspends the BitLocker requirement to enter a PIN.
 - Never.
 Configuration Manager does not suspend the BitLocker requirement to enter a PIN on the next computer startup after it has installed software that requires a restart.
 
@@ -1709,7 +1709,7 @@ If you select Never, the software installation cannot finish until the user ente
 ```yaml
 Type: SuspendBitLockerType
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Accepted values: Never, Always
 Required: False
 Position: Named
@@ -1725,7 +1725,7 @@ Valid values are: Hours and Days.
 ```yaml
 Type: BatchingTimeoutType
 Parameter Sets: SetSoftwareUpdatesSettingsByName
-Aliases: 
+Aliases:
 Accepted values: Days, Hours
 Required: False
 Position: Named
@@ -1754,7 +1754,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Boolean
 Parameter Sets: SetComputerAgentSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1769,7 +1769,7 @@ If you specify $False, Configuration Manager uses local time.
 ```yaml
 Type: Boolean
 Parameter Sets: SetNetworkAccessProtectionSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1797,7 +1797,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Int32
 Parameter Sets: SetPowerManagementSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -1825,7 +1825,7 @@ Accept wildcard characters: False
 ```yaml
 Type: Int32
 Parameter Sets: SetPowerManagementSettingsByName
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
