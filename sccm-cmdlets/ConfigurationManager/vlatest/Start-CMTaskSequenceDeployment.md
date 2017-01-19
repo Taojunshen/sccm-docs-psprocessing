@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834231
 schema: 2.0.0
 ms.assetid: 83C8EA1B-C6A1-4962-BEB9-409EB24305F5
-updated_at: 1/17/2017 8:51 PM
-ms.date: 1/17/2017
+updated_at: 1/19/2017 7:37 PM
+ms.date: 1/19/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/aaca4f931e1ae34e60b988549cc9374f49631b82/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/c633ad0852903143fe2cbf160362fb7f52c14600/sccm-cmdlets/ConfigurationManager/vlatest/Start-CMTaskSequenceDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -392,6 +392,7 @@ The acceptable values for this parameter are:
 
 - DownloadAllContentLocallyBeforeStartingTaskSequence
 - DownloadContentLocallyWhenNeededByRunningTaskSequence
+- RunFromDistributionPoint
 
 If you specify Clients for the *Availability* parameter, the default value for this parameter is DownloadAllContentLocallyBeforeStartingTaskSequence.
 If you specify ClientsMediaAndPxe, MediaAndPxe, or MediaAndPxeHidden for the *Availability* parameter, the default value for this parameter is DownloadContentLocallyWhenNeededByRunningTaskSequence.
