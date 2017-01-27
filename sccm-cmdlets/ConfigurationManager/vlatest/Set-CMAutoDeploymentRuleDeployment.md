@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833667
 schema: 2.0.0
 ms.assetid: 52232AA5-E78B-4C48-84B7-B4BCE58B3875
-updated_at: 1/27/2017 6:21 PM
+updated_at: 1/27/2017 6:42 PM
 ms.date: 1/27/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0d568aaa1e8e67f5e8fbff3a4676788779689ecb/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/44b2a252130a637a5dad6f2a18ef639c565f2479/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -423,7 +423,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an automatic deployment rule object.
-To obtain an automatic deployment rule object, use the Get-CMSoftwareUpdateAutoDeploymentRule cmdlet.
+To obtain an automatic deployment rule object, use the [Get-CMSoftwareUpdateAutoDeploymentRule](./Get-CMSoftwareUpdateAutoDeploymentRule.md) cmdlet.
 
 ```yaml
 Type: IResultObject

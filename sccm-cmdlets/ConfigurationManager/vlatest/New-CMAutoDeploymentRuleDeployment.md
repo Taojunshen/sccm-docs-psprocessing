@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834262
 schema: 2.0.0
 ms.assetid: DF2D6142-9B3F-429B-91F5-61300D7F9D97
-updated_at: 1/27/2017 6:21 PM
+updated_at: 1/27/2017 6:42 PM
 ms.date: 1/27/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0d568aaa1e8e67f5e8fbff3a4676788779689ecb/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/44b2a252130a637a5dad6f2a18ef639c565f2479/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -587,7 +587,8 @@ Accept wildcard characters: False
 Specifies the notification behavior of the user visual experience.
 The acceptable values for this parameter are:
 
-- DisplayAll-- DisplaySoftwareCenterOnly
+- DisplayAll
+- DisplaySoftwareCenterOnly
 - HideAll
 
 ```yaml
