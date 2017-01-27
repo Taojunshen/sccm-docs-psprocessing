@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833667
 schema: 2.0.0
 ms.assetid: 52232AA5-E78B-4C48-84B7-B4BCE58B3875
-updated_at: 1/27/2017 5:25 PM
+updated_at: 1/27/2017 6:21 PM
 ms.date: 1/27/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/342b83622089894f77967bf4f9c2b47fa45b9b8a/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0d568aaa1e8e67f5e8fbff3a4676788779689ecb/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -89,7 +89,7 @@ Specifies the number of time units for the offset from the deadline.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 
 ### -AlertTimeUnit
 Specifies the time unit type for the offset from the deadline.
-Valid values are: 
+Valid values are:
 
 - Hours
 - Days
@@ -110,7 +110,7 @@ Valid values are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 
 Required: False
@@ -126,7 +126,7 @@ Indicates whether a system restart is allowed to be performed outside of any def
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,7 +141,7 @@ Indicates whether software installation is allowed to be performed outside of an
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -156,7 +156,7 @@ Indicates whether software updates are available to install as soon as possible 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -171,7 +171,7 @@ Specifies the number of time units for the software available time.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -182,7 +182,7 @@ Accept wildcard characters: False
 
 ### -AvailableTimeUnit
 Specifies the time unit type for the software available time.
-Valid values are: 
+Valid values are:
 
 - Hours
 - Days
@@ -192,7 +192,7 @@ Valid values are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 
 Required: False
@@ -204,12 +204,12 @@ Accept wildcard characters: False
 
 ### -Collection
 Specifies a target collection object for the software update deployment.
-To obtain a collection object, use the Get-CMCollection cmdlet.
+To obtain a collection object, use the [Get-CMCollection](./Get-CMCollection.md) cmdlet.
 
 ```yaml
 Type: IResultObject
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -224,7 +224,7 @@ Specifies the ID of the target collection for the software update deployment.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -239,7 +239,7 @@ Specifies the name of the target collection for the software update deployment.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -269,7 +269,7 @@ Indicates whether required software updates are installed as soon as possible wh
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -284,7 +284,7 @@ Specifies the number of time units for the deadline.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -295,7 +295,7 @@ Accept wildcard characters: False
 
 ### -DeadlineTimeUnit
 Specifies the time unit type for the deadline.
-Valid values are: 
+Valid values are:
 
 - Hours
 - Days
@@ -305,7 +305,7 @@ Valid values are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 
 Required: False
@@ -336,7 +336,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -367,7 +367,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -397,7 +397,7 @@ Indicates whether an alert is generated when this rule runs successfully.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -443,7 +443,7 @@ Indicates whether to install software updates when the updates are not available
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -458,7 +458,7 @@ Indicates whether to install software updates when the updates are not available
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -474,7 +474,7 @@ By default, this cmdlet does not generate any output.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -505,7 +505,7 @@ When client compliance falls below this percentage, an alert is generated.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -520,7 +520,7 @@ Indicates whether a system restart is suppressed on servers when a software upda
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -535,7 +535,7 @@ Indicates whether a system restart is suppressed on workstations when a software
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -550,7 +550,7 @@ Indicates whether clients are allowed to share content with other clients on the
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -565,7 +565,7 @@ Indicates whether the schedule for this deployment is evaluated based upon Unive
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -576,7 +576,7 @@ Accept wildcard characters: False
 
 ### -UserNotification
 Specifies the notification behavior of the user visual experience.
-Valid values are: 
+Valid values are:
 
 - DisplayAll
 - DisplaySoftwareCenterOnly
@@ -585,7 +585,7 @@ Valid values are:
 ```yaml
 Type: UserNotificationOption
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DisplayAll, DisplaySoftwareCenterOnly, HideAll
 
 Required: False
@@ -597,7 +597,7 @@ Accept wildcard characters: False
 
 ### -VerboseLevel
 Specifies how much state detail the clients report back for deployments created by this rule.
-Valid values are: 
+Valid values are:
 
 - OnlyErrorMessages
 - OnlySuccessAndErrorMessages
@@ -606,7 +606,7 @@ Valid values are:
 ```yaml
 Type: VerboseLevelType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: OnlyErrorMessages, OnlySuccessAndErrorMessages, AllMessages
 
 Required: False
@@ -639,7 +639,7 @@ If set to $False, content is applied on the overlay and committed later.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -670,5 +670,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMAutoDeploymentRuleDeployment](xref:ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md)
 
 [Remove-CMAutoDeploymentRuleDeployment](xref:ConfigurationManager/vlatest/Remove-CMAutoDeploymentRuleDeployment.md)
-
-

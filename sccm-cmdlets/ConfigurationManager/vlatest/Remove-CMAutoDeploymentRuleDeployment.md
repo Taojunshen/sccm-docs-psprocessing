@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833916
 schema: 2.0.0
 ms.assetid: B1D024FB-2D23-40B5-A7F4-C8F4E4EE3273
-updated_at: 1/27/2017 5:25 PM
+updated_at: 1/27/2017 6:21 PM
 ms.date: 1/27/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAutoDeploymentRuleDeployment.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAutoDeploymentRuleDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/342b83622089894f77967bf4f9c2b47fa45b9b8a/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAutoDeploymentRuleDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0d568aaa1e8e67f5e8fbff3a4676788779689ecb/sccm-cmdlets/ConfigurationManager/vlatest/Remove-CMAutoDeploymentRuleDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -67,7 +67,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -82,7 +82,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -97,7 +97,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an automatic deployment rule deployment object.
-To obtain a deployment object, use the Get-CMAutoDeploymentRuleDeployment cmdlet.
+To obtain a deployment object, use the [Get-CMAutoDeploymentRuleDeployment](./Get-CMAutoDeploymentRuleDeployment.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -154,5 +154,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMAutoDeploymentRuleDeployment](xref:ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md)
 
 [Set-CMAutoDeploymentRuleDeployment](xref:ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md)
-
-

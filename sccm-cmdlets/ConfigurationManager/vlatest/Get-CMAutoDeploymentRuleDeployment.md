@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834124
 schema: 2.0.0
 ms.assetid: D3A68B3C-24E1-4F30-9395-C8FDAC2CE30E
-updated_at: 1/27/2017 5:25 PM
+updated_at: 1/27/2017 6:21 PM
 ms.date: 1/27/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAutoDeploymentRuleDeployment.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAutoDeploymentRuleDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/342b83622089894f77967bf4f9c2b47fa45b9b8a/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAutoDeploymentRuleDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0d568aaa1e8e67f5e8fbff3a4676788779689ecb/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMAutoDeploymentRuleDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -64,12 +64,12 @@ This command gets the automatic deployment rule object named TestRule01 and uses
 ## PARAMETERS
 
 ### -DisableWildcardHandling
-Indicates that wildcard handling is dissabled.
+Indicates that wildcard handling is disabled.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -84,7 +84,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies the auto deployment rule object associated with the deployment.
-To obtain an auto deployment rule object, use the Get-CMSoftwareUpdateAutoDeploymentRule cmdlet.
+To obtain an auto deployment rule object, use the [Get-CMSoftwareUpdateAutoDeploymentRule](./Get-CMSoftwareUpdateAutoDeploymentRule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -159,5 +159,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMAutoDeploymentRuleDeployment](xref:ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md)
 
 [Get-CMSoftwareUpdateAutoDeploymentRule](xref:ConfigurationManager/vlatest/Get-CMSoftwareUpdateAutoDeploymentRule.md)
-
-

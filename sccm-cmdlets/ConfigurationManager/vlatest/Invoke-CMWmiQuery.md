@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Common.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834190
 schema: 2.0.0
 ms.assetid: 020CF218-583F-4419-8AFB-09C8CD67D755
-updated_at: 1/27/2017 5:25 PM
+updated_at: 1/27/2017 6:21 PM
 ms.date: 1/27/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMWmiQuery.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMWmiQuery.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/342b83622089894f77967bf4f9c2b47fa45b9b8a/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMWmiQuery.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0d568aaa1e8e67f5e8fbff3a4676788779689ecb/sccm-cmdlets/ConfigurationManager/vlatest/Invoke-CMWmiQuery.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -45,9 +45,9 @@ The **Invoke-CMWmiQuery** cmdlet runs a Windows Management Instrumentation (WMI)
 ### Example 1: Run a WQL query
 ```
 PS C:\> $WQL = @"
-SELECT app.* FROM SMS_ApplicationLatest AS app 
-INNER JOIN SMS_CIContentPackage AS con ON app.CI_ID=con.CI_ID 
-INNER JOIN SMS_DistributionPoint AS srv ON con.PackageID=srv.PackageID 
+SELECT app.* FROM SMS_ApplicationLatest AS app
+INNER JOIN SMS_CIContentPackage AS con ON app.CI_ID=con.CI_ID
+INNER JOIN SMS_DistributionPoint AS srv ON con.PackageID=srv.PackageID
 WHERE app.IsHidden = 0
 "@
 PS C:\> Invoke-CMWmiQuery -Query $WQL -Option Lazy
@@ -124,7 +124,7 @@ Specifies the Configuration Manager WMI class that contains the static method yo
 ```yaml
 Type: String
 Parameter Sets: BySearch
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -155,7 +155,7 @@ This is a list of name/value pairs that are passed to a WMI provider that suppor
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -170,7 +170,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -185,7 +185,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -196,20 +196,20 @@ Accept wildcard characters: False
 
 ### -Option
 Specifies the query option.
-Valid values are: 
+Valid values are:
 
---None
---NoRefresh
---Lazy
---Fast
---ExpectResults
---FastExpectResults
---LazyExpectResults
---Clone
---ExpectResultsSoftFail
---ExpectResultsThrowException
---NoMask
---IgnoreNoResults
+- None
+- NoRefresh
+- Lazy
+- Fast
+- ExpectResults
+- FastExpectResults
+- LazyExpectResults
+- Clone
+- ExpectResultsSoftFail
+- ExpectResultsThrowException
+- NoMask
+- IgnoreNoResults
 
 ```yaml
 Type: QueryOptions
@@ -230,7 +230,7 @@ Specifies a WMI Query Language (WQL) statement.
 ```yaml
 Type: String
 Parameter Sets: ByWql
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -245,7 +245,7 @@ Specifies an **SMSProviderSearch** object.
 ```yaml
 Type: SmsProviderSearch
 Parameter Sets: BySearch
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -284,5 +284,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Invoke-CMWmiMethod](xref:ConfigurationManager/vlatest/Invoke-CMWmiMethod.md)
-
-

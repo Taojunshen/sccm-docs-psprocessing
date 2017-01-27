@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Sum.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834262
 schema: 2.0.0
 ms.assetid: DF2D6142-9B3F-429B-91F5-61300D7F9D97
-updated_at: 1/27/2017 5:25 PM
+updated_at: 1/27/2017 6:21 PM
 ms.date: 1/27/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/342b83622089894f77967bf4f9c2b47fa45b9b8a/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0d568aaa1e8e67f5e8fbff3a4676788779689ecb/sccm-cmdlets/ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -99,7 +99,7 @@ Specifies the number of time units for the offset from the deadline.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -120,7 +120,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 
 Required: False
@@ -136,7 +136,7 @@ Indicates whether a system restart is allowed to be performed outside of any def
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -151,7 +151,7 @@ Indicates whether software installation is allowed to be performed outside of an
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -166,7 +166,7 @@ Indicates whether software updates are available to install as soon as possible 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -181,7 +181,7 @@ Specifies the number of time units for the software available time.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -202,7 +202,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 
 Required: False
@@ -214,12 +214,12 @@ Accept wildcard characters: False
 
 ### -Collection
 Specifies a target collection object for the software update deployment.
-To obtain a collection object, use the Get-CMCollection cmdlet.
+To obtain a collection object, use the [Get-CMCollection](./Get-CMCollection.md) cmdlet.
 
 ```yaml
 Type: IResultObject
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -234,7 +234,7 @@ Specifies the ID of the target collection for the software update deployment.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -249,7 +249,7 @@ Specifies the name of the target collection for the software update deployment.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -279,7 +279,7 @@ Indicates whether required software updates are installed as soon as possible wh
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -294,7 +294,7 @@ Specifies the number of time units for the deadline.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -315,7 +315,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: TimeUnitType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Hours, Days, Weeks, Months
 
 Required: False
@@ -346,7 +346,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -377,7 +377,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -407,7 +407,7 @@ Indicates whether an alert is generated when this rule runs successfully.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -433,7 +433,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an automatic deployment rule object to add this deployment to.
-To obtain an automatic deployment rule object, use the Get-CMSoftwareUpdateAutoDeploymentRule cmdlet.
+To obtain an automatic deployment rule object, use the [Get-CMSoftwareUpdateAutoDeploymentRule](./Get-CMSoftwareUpdateAutoDeploymentRule.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -468,7 +468,7 @@ Indicates whether to install software updates when the updates are not available
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -483,7 +483,7 @@ Indicates whether to install software updates when the updates are not available
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -514,7 +514,7 @@ When client compliance falls below this percentage, an alert is generated.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -529,7 +529,7 @@ Indicates whether a system restart is suppressed on servers when a software upda
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -544,7 +544,7 @@ Indicates whether a system restart is suppressed on workstations when a software
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -559,7 +559,7 @@ Indicates whether clients are allowed to share content with other clients on the
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -574,7 +574,7 @@ Indicates whether the schedule for this deployment is evaluated based upon Unive
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -593,7 +593,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: UserNotificationOption
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: DisplayAll, DisplaySoftwareCenterOnly, HideAll
 
 Required: False
@@ -614,7 +614,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: VerboseLevelType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: OnlyErrorMessages, OnlySuccessAndErrorMessages, AllMessages
 
 Required: False
@@ -647,7 +647,7 @@ If set to $False, content is applied on the overlay and committed later.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -674,5 +674,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMAutoDeploymentRuleDeployment](xref:ConfigurationManager/vlatest/Remove-CMAutoDeploymentRuleDeployment.md)
 
 [Set-CMAutoDeploymentRuleDeployment](xref:ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md)
-
-
