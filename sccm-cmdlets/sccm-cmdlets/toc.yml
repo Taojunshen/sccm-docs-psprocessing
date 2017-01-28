@@ -244,6 +244,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMAssetIntelligenceCatalogItem.md
         - name: Get-CMAssetIntelligenceSynchronizationPoint
           href: ../ConfigurationManager/vlatest/Get-CMAssetIntelligenceSynchronizationPoint.md
+        - name: Get-CMAutoDeploymentRuleDeployment
+          href: ../ConfigurationManager/vlatest/Get-CMAutoDeploymentRuleDeployment.md
         - name: Get-CMAutomaticAmtProvisioningStatus
           href: ../ConfigurationManager/vlatest/Get-CMAutomaticAmtProvisioningStatus.md
         - name: Get-CMBaseline
@@ -474,6 +476,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMUserDeviceAffinityRequest.md
         - name: Get-CMVhd
           href: ../ConfigurationManager/vlatest/Get-CMVhd.md
+        - name: Get-CMWindowsServicingPlan
+          href: ../ConfigurationManager/vlatest/Get-CMWindowsServicingPlan.md
         - name: Import-CMAntimalwarePolicy
           href: ../ConfigurationManager/vlatest/Import-CMAntimalwarePolicy.md
         - name: Import-CMApplication
@@ -538,6 +542,10 @@
           href: ../ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateAutoDeploymentRule.md
         - name: Invoke-CMSoftwareUpdateSummarization
           href: ../ConfigurationManager/vlatest/Invoke-CMSoftwareUpdateSummarization.md
+        - name: Invoke-CMWmiMethod
+          href: ../ConfigurationManager/vlatest/Invoke-CMWmiMethod.md
+        - name: Invoke-CMWmiQuery
+          href: ../ConfigurationManager/vlatest/Invoke-CMWmiQuery.md
         - name: Lock-CMObject
           href: ../ConfigurationManager/vlatest/Lock-CMObject.md
         - name: Merge-CMAntimalwarePolicy
@@ -568,6 +576,8 @@
           href: ../ConfigurationManager/vlatest/New-CMAppVVirtualEnvironment.md
         - name: New-CMAssetIntelligenceCatalogItem
           href: ../ConfigurationManager/vlatest/New-CMAssetIntelligenceCatalogItem.md
+        - name: New-CMAutoDeploymentRuleDeployment
+          href: ../ConfigurationManager/vlatest/New-CMAutoDeploymentRuleDeployment.md
         - name: New-CMBaseline
           href: ../ConfigurationManager/vlatest/New-CMBaseline.md
         - name: New-CMBootableMedia
@@ -688,6 +698,8 @@
           href: ../ConfigurationManager/vlatest/New-CMVpnProfileConfigurationItem.md
         - name: New-CMWindowsFirewallPolicy
           href: ../ConfigurationManager/vlatest/New-CMWindowsFirewallPolicy.md
+        - name: New-CMWindowsServicingPlan
+          href: ../ConfigurationManager/vlatest/New-CMWindowsServicingPlan.md
         - name: New-CMWiredProfileObject
           href: ../ConfigurationManager/vlatest/New-CMWiredProfileObject.md
         - name: New-CMWirelessProfileConfigurationItem
@@ -730,6 +742,8 @@
           href: ../ConfigurationManager/vlatest/Remove-CMAssetIntelligenceCatalogItem.md
         - name: Remove-CMAssetIntelligenceSynchronizationPoint
           href: ../ConfigurationManager/vlatest/Remove-CMAssetIntelligenceSynchronizationPoint.md
+        - name: Remove-CMAutoDeploymentRuleDeployment
+          href: ../ConfigurationManager/vlatest/Remove-CMAutoDeploymentRuleDeployment.md
         - name: Remove-CMBaseline
           href: ../ConfigurationManager/vlatest/Remove-CMBaseline.md
         - name: Remove-CMBootImage
@@ -928,6 +942,8 @@
           href: ../ConfigurationManager/vlatest/Set-CMAssetIntelligenceSynchronizationPoint.md
         - name: Set-CMAssignedSite
           href: ../ConfigurationManager/vlatest/Set-CMAssignedSite.md
+        - name: Set-CMAutoDeploymentRuleDeployment
+          href: ../ConfigurationManager/vlatest/Set-CMAutoDeploymentRuleDeployment.md
         - name: Set-CMBaseline
           href: ../ConfigurationManager/vlatest/Set-CMBaseline.md
         - name: Set-CMBaselineDeployment
