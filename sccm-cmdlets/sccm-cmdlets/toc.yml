@@ -512,6 +512,8 @@
           href: ../ConfigurationManager/vlatest/Import-CMTaskSequence.md
         - name: Import-CMUserDeviceAffinity
           href: ../ConfigurationManager/vlatest/Import-CMUserDeviceAffinity.md
+        - name: Import-CMWirelessProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
         - name: Install-CMClient
           href: ../ConfigurationManager/vlatest/Install-CMClient.md
         - name: Invoke-CMAmtProvisioningDiscovery
