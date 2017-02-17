@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834298
 schema: 2.0.0
 ms.assetid: FF85464C-9235-47F3-8981-D97C793053A8
-updated_at: 2/17/2017 12:26 AM
+updated_at: 2/17/2017 6:27 PM
 ms.date: 2/17/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4e04bc97493f4205ab86f0f52a705ef3d93cb7ea/sccm-cmdlets/ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/2b831a682081b7e75543b17886ab2280bd00c75f/sccm-cmdlets/ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -249,7 +249,7 @@ Accept wildcard characters: False
 ```
 
 ### -HashAlgorithm
-Specifies the hash algorithm.
+Specifies one or more hash algorithm. 
 Valid values are:
 
 - SHA1
@@ -313,7 +313,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyUsage
-Specifies the key usage for the certificate.
+Specifies one or more key usage for the certificate.
 Valid values are:
 
 - KeyEncipherment
@@ -380,7 +380,7 @@ Accept wildcard characters: False
 ```
 
 ### -SanType
-Specifies the subject alternative name.
+Specifies one or more subject alternative name.
 Valid values are:
 
 - SubjectAltRequireSpn
