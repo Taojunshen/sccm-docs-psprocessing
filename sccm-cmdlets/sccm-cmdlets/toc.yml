@@ -22,6 +22,8 @@
           href: ../ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
         - name: Add-CMBoundaryToGroup
           href: ../ConfigurationManager/vlatest/Add-CMBoundaryToGroup.md
+        - name: Add-CMCertificateRegistrationPoint
+          href: ../ConfigurationManager/vlatest/Add-CMCertificateRegistrationPoint.md
         - name: Add-CMDeploymentType
           href: ../ConfigurationManager/vlatest/Add-CMDeploymentType.md
         - name: Add-CMDeviceAffinityToUser
@@ -262,6 +264,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMBoundaryGroup.md
         - name: Get-CMCategory
           href: ../ConfigurationManager/vlatest/Get-CMCategory.md
+        - name: Get-CMClientCertificatePfx
+          href: ../ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
         - name: Get-CMClientPushInstallation
           href: ../ConfigurationManager/vlatest/Get-CMClientPushInstallation.md
         - name: Get-CMClientSetting
@@ -486,6 +490,8 @@
           href: ../ConfigurationManager/vlatest/Import-CMBaseline.md
         - name: Import-CMCertificate
           href: ../ConfigurationManager/vlatest/Import-CMCertificate.md
+        - name: Import-CMClientCertificatePfx
+          href: ../ConfigurationManager/vlatest/Import-CMClientCertificatePfx.md
         - name: Import-CMCollection
           href: ../ConfigurationManager/vlatest/Import-CMCollection.md
         - name: Import-CMComputerInformation
@@ -592,6 +598,12 @@
           href: ../ConfigurationManager/vlatest/New-CMCaptureMedia.md
         - name: New-CMCategory
           href: ../ConfigurationManager/vlatest/New-CMCategory.md
+        - name: New-CMCertificateProfilePfx
+          href: ../ConfigurationManager/vlatest/New-CMCertificateProfilePfx.md
+        - name: New-CMCertificateProfileScep
+          href: ../ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
+        - name: New-CMCertificateProfileTrustedRootCA
+          href: ../ConfigurationManager/vlatest/New-CMCertificateProfileTrustedRootCA.md
         - name: New-CMClientAuthCertificateProfileConfigurationItem
           href: ../ConfigurationManager/vlatest/New-CMClientAuthCertificateProfileConfigurationItem.md
         - name: New-CMClientSetting
@@ -756,6 +768,8 @@
           href: ../ConfigurationManager/vlatest/Remove-CMBoundaryGroup.md
         - name: Remove-CMCategory
           href: ../ConfigurationManager/vlatest/Remove-CMCategory.md
+        - name: Remove-CMClientCertificatePfx
+          href: ../ConfigurationManager/vlatest/Remove-CMClientCertificatePfx.md
         - name: Remove-CMClientOperation
           href: ../ConfigurationManager/vlatest/Remove-CMClientOperation.md
         - name: Remove-CMClientSetting
@@ -956,6 +970,12 @@
           href: ../ConfigurationManager/vlatest/Set-CMBoundary.md
         - name: Set-CMBoundaryGroup
           href: ../ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
+        - name: Set-CMCertificateProfileScep
+          href: ../ConfigurationManager/vlatest/Set-CMCertificateProfileScep.md
+        - name: Set-CMCertificateProfileTrustedRootCA
+          href: ../ConfigurationManager/vlatest/Set-CMCertificateProfileTrustedRootCA.md
+        - name: Set-CMCertificateRegistrationPoint
+          href: ../ConfigurationManager/vlatest/Set-CMCertificateRegistrationPoint.md
         - name: Set-CMClientAuthCertificateProfileConfigurationItem
           href: ../ConfigurationManager/vlatest/Set-CMClientAuthCertificateProfileConfigurationItem.md
         - name: Set-CMClientPushInstallation
