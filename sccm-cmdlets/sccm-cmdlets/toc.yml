@@ -266,6 +266,14 @@
           href: ../ConfigurationManager/vlatest/Get-CMBoundaryGroup.md
         - name: Get-CMCategory
           href: ../ConfigurationManager/vlatest/Get-CMCategory.md
+        - name: Get-CMCertificateProfilePfx
+          href: ../ConfigurationManager/vlatest/Get-CMCertificateProfilePfx.md
+        - name: Get-CMCertificateProfileScep
+          href: ../ConfigurationManager/vlatest/Get-CMCertificateProfileScep.md
+        - name: Get-CMCertificateProfileTrustedRootCA
+          href: ../ConfigurationManager/vlatest/Get-CMCertificateProfileTrustedRootCA.md
+        - name: Get-CMCertificateRegistrationPoint
+          href: ../ConfigurationManager/vlatest/Get-CMCertificateRegistrationPoint.md
         - name: Get-CMClientCertificatePfx
           href: ../ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
         - name: Get-CMClientPushInstallation
@@ -774,6 +782,8 @@
           href: ../ConfigurationManager/vlatest/Remove-CMBoundaryGroup.md
         - name: Remove-CMCategory
           href: ../ConfigurationManager/vlatest/Remove-CMCategory.md
+        - name: Remove-CMCertificateRegistrationPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMCertificateRegistrationPoint.md
         - name: Remove-CMClientCertificatePfx
           href: ../ConfigurationManager/vlatest/Remove-CMClientCertificatePfx.md
         - name: Remove-CMClientOperation
@@ -978,6 +988,8 @@
           href: ../ConfigurationManager/vlatest/Set-CMBoundary.md
         - name: Set-CMBoundaryGroup
           href: ../ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
+        - name: Set-CMCertificateProfilePfx
+          href: ../ConfigurationManager/vlatest/Set-CMCertificateProfilePfx.md
         - name: Set-CMCertificateProfileScep
           href: ../ConfigurationManager/vlatest/Set-CMCertificateProfileScep.md
         - name: Set-CMCertificateProfileTrustedRootCA
