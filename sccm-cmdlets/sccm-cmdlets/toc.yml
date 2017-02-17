@@ -84,6 +84,8 @@
           href: ../ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
         - name: Add-CMSecurityScopeToAdministrativeUser
           href: ../ConfigurationManager/vlatest/Add-CMSecurityScopeToAdministrativeUser.md
+        - name: Add-CMServiceConnectionPoint
+          href: ../ConfigurationManager/vlatest/Add-CMServiceConnectionPoint.md
         - name: Add-CMSoftwareUpdatePoint
           href: ../ConfigurationManager/vlatest/Add-CMSoftwareUpdatePoint.md
         - name: Add-CMSoftwareUpdateToGroup
@@ -408,6 +410,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMSecurityRole.md
         - name: Get-CMSecurityScope
           href: ../ConfigurationManager/vlatest/Get-CMSecurityScope.md
+        - name: Get-CMServiceConnectionPoint
+          href: ../ConfigurationManager/vlatest/Get-CMServiceConnectionPoint.md
         - name: Get-CMSite
           href: ../ConfigurationManager/vlatest/Get-CMSite.md
         - name: Get-CMSiteInstallStatus
@@ -872,6 +876,8 @@
           href: ../ConfigurationManager/vlatest/Remove-CMSecurityScope.md
         - name: Remove-CMSecurityScopeFromAdministrativeUser
           href: ../ConfigurationManager/vlatest/Remove-CMSecurityScopeFromAdministrativeUser.md
+        - name: Remove-CMServiceConnectionPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMServiceConnectionPoint.md
         - name: Remove-CMSiteSystemServer
           href: ../ConfigurationManager/vlatest/Remove-CMSiteSystemServer.md
         - name: Remove-CMSoftwareMeteringRule
@@ -1118,6 +1124,8 @@
           href: ../ConfigurationManager/vlatest/Set-CMSecurityRole.md
         - name: Set-CMSecurityScope
           href: ../ConfigurationManager/vlatest/Set-CMSecurityScope.md
+        - name: Set-CMServiceConnectionPoint
+          href: ../ConfigurationManager/vlatest/Set-CMServiceConnectionPoint.md
         - name: Set-CMSite
           href: ../ConfigurationManager/vlatest/Set-CMSite.md
         - name: Set-CMSiteMaintenanceTask
