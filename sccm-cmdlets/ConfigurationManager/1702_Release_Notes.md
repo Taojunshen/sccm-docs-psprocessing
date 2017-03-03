@@ -1,9 +1,9 @@
 ---
-updated_at: 3/2/2017 11:50 PM
-ms.date: 3/2/2017
+updated_at: 3/3/2017 2:14 AM
+ms.date: 3/3/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/1702_Release_Notes.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/1702_Release_Notes.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/88216b6c8c2189c808b84f5d7c219f41ac88b7a6/sccm-cmdlets/ConfigurationManager/1702_Release_Notes.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/70566ee5220a6b79ba83f1627524265dcbd5cfba/sccm-cmdlets/ConfigurationManager/1702_Release_Notes.md
 uid: ConfigurationManager/1702_Release_Notes.md
 ms.topic: conceptual
 author: shill-ms
@@ -20,7 +20,7 @@ ms.service: configuration-manager
 
 ##Important changes
 ###Documentation library updates
-Up-to-date Cmdlet Library documentation is now available from (https://docs.microsoft.com/en-us/powershell/sccm/configurationmanager/vlatest/configurationmanager).
+Up-to-date Cmdlet Library documentation is now available from https://docs.microsoft.com/en-us/powershell/sccm/configurationmanager/vlatest/configurationmanager.
 
 ###Removed cmdlets
 The following cmdlets are no longer supported and have been removed:
@@ -87,8 +87,7 @@ If the C:\\Program Files (x86)\\Microsoft Configuration Manager\\AdminConsole\\b
 
 Otherwise, the following can be used:
 
-`Import-Module 'C:\\Program Files (x86)\\Microsoft Configuration
-Manager\\AdminConsole\\bin\\ConfigurationManager'`
+`Import-Module 'C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\bin\ConfigurationManager'`
 
 ##How to provide feedback or report issues
 Many of the fixes and improvements described in this document are a result of customer feedback. To leave feedback and bug reports, use
@@ -97,7 +96,7 @@ Many of the fixes and improvements described in this document are a result of cu
 ##Known issues
 These are known issues with the Cmdlet Library that are not resolved in this release.
 
-###Get-CMAadConditionalAccessPolicy/Set-CMAadConditionalAccessPolicy
+###Get-CMAadConditionalAccessPolicy and Set-CMAadConditionalAccessPolicy
 64-bit PowerShell environment is required for these cmdlets.
 
 #### Workaround
@@ -174,7 +173,7 @@ Cmdlets have been created to get the object associated with an actual deployment
 -   Get-CMTaskSequenceDeployment
 
 ####Deployment creation
-Cmdlets have been created for creating new deployments. These cmdlets supersede pre-existing **Start-CM\*Deployment** cmdlets.
+Cmdlets have been created for creating new deployments. These cmdlets supersede pre-existing Start-CM\*Deployment cmdlets.
 
 -   New-CMApplicationDeployment
 
@@ -189,10 +188,10 @@ Cmdlets have been created for creating new deployments. These cmdlets supersede 
 -   New-TaskSequenceDeployment
 
 ####Improved object pipeline support
-**Set-CM\*Deployment**, **Remove-CM\*Deployment**, and **Get-CM\*DeploymentStatus** now fully support the object pipeline.
+Set-CM\*Deployment, Remove-CM\*Deployment, and Get-CM\*DeploymentStatus now fully support the object pipeline.
 
-#### Start-CM<feature>Deployment cmdlets have been deprecated
-The following Start-CM<feature>Deployment cmdlets have been deprecated. The replacement cmdlets may differ in parameter names but should have identical, and in some cases improved, functionality.
+#### Start-CM\<feature\>Deployment cmdlets have been deprecated
+The following Start-CM\<feature\>Deployment cmdlets have been deprecated. The replacement cmdlets may differ in parameter names but should have identical, and in some cases improved, functionality.
 
 -   Start-CMApplicationDeployment (replaced by New-CMApplicationDeployment)
 
@@ -236,7 +235,7 @@ Cmdlets for configuring management points and software update points have added 
 
 ###Site maintenance window configuration
 ####Non-breaking changes
-CMMaintenanceWindow cmdlets now support configuring maintenance windows for sites. The output of **Get-CMSite** can be pipelined into New, Remove, or **Set-CMMaintenanceWindow** to configure the maintenance windows for a site.
+CMMaintenanceWindow cmdlets now support configuring maintenance windows for sites. The output of **Get-CMSite** can be pipelined into **New**, **Remove**, or **Set-CMMaintenanceWindow** to configure the maintenance windows for a site.
 
 ###Add-CMDeploymentType
 ####Breaking changes
@@ -244,7 +243,7 @@ Support for creating Nokia deployment types has been removed.
 
 ###Add-CMDeviceAfinityToUser
 ####Bugs that were fixed
-Cmdlet may fail unexpectedly with an ObjectNotFound error.
+Cmdlet may fail unexpectedly with an **ObjectNotFound** error.
 
 ###Add-CMDistributionPoint
 ####Bugs that were fixed
@@ -256,7 +255,7 @@ Added *AllowProxyTraffic* parameter.
 Previously unused *InstallInternetServer* parameter now changes distribution point configuration.
 
 ####Deprecations
-*UseComputerAccount* parameter has been deprecated. To use a computer account, set *UserName* to \$null.
+*UseComputerAccount* parameter has been deprecated. To use a computer account, set *UserName* to $null.
 
 ###Add-CMEnrollmentPoint
 ####Bugs that were fixed
@@ -326,7 +325,7 @@ Added support for pipelined objects from **Get-CMDevice** and **Get-CMResource**
 
 ###Invoke-CMRemoteControl
 ####Bugs that were fixed
-Cmdlet does not accept pipelined object from **Get-CMSiteSystemServer**.
+Cmdlet does not accept a pipelined object from **Get-CMSiteSystemServer**.
 
 Cannot target a site system server for remote control if it is not also a client machine.
 
@@ -376,7 +375,7 @@ Added *Application*, *DriverPackage*, and *Package* parameters for adding additi
 ####Bugs that were fixed
 Created query may not appear in the expected administrator console location.
 
-###New-CMWindowsEnrollmentPofile
+###New-CMWindowsEnrollmentProfile
 ####Bugs that were fixed
 *EnrollmentProxyPoint* parameter can be set to a null or empty value.
 
@@ -388,17 +387,17 @@ Removal of a resource does not remove state migration associations.
 
 ###Remove-CMWindowsEnrollmentProfilePackage
 ####Bugs that were fixed
-AmbiguousParameterSet error may be raised when running the cmdlet.
+**AmbiguousParameterSet** error may be raised when running the cmdlet.
 
 ###Set-CMActiveDirectoryForest
 ####Non-breaking changes
-Added *UserName* parameter to allow for configuring discovery account.
+Added *UserName* parameter to allow for configuring the discovery account.
 
 Added *AddPublishingSite* and *RemovePublishingSite* parameters.
 
 ###Set-CMAdvancedThreatProtectionPolicy
 ####Bugs that were fixed
-Increasing or decreasing priority may cause an ObjectNotFound error to be returned.
+Increasing or decreasing priority may cause an **ObjectNotFound** error to be returned.
 
 ###Set-CMAntimalwarePolicy
 ####Bugs that were fixed
@@ -426,11 +425,11 @@ Added *ClearRequiredConfigurationItem*, *ClearProhibitedConfigurationItem*, *Cle
 
 ###Set-CMCertificateProfileTrustedRootCA
 ####Bugs that were fixed
-Using object pipeline may cause a ParameterBindingException error.
+Using object pipeline may cause a **ParameterBindingException** error.
 
 ###Set-CMClientPushInstallation
 ####Non-breaking changes
-Added *AddAccount** and *RemoveAccount* parameters to support in-place modifications of client push accounts.
+Added *AddAccount* and *RemoveAccount* parameters to support in-place modifications of client push accounts.
 
 ###Set-CMClientSettingComputerAgent
 ####Bugs that were fixed
@@ -458,7 +457,7 @@ Added *AllowProxyTraffic* parameter.
 Previously unused *InstallInternetServer* parameter now changes distribution point configuration.
 
 ####Deprecations
-*UseComputerAccount* parameter has been deprecated. To use a computer account, set *UserName* to \$null.
+*UseComputerAccount* parameter has been deprecated. To use a computer account, set *UserName* to $null.
 
 ###Set-CMEmailNotificationComponent
 ####Non-breaking changes
@@ -481,7 +480,7 @@ Added *ExclusionCollection*, *ExclusionCollectionId*, *ExclusionCollectionName*,
 
 ###Set-CMIntuneSubscriptionWindowsPhoneProperty
 ####Bugs that were fixed
-Cmdlet may unexpectedly fail with an “AetCleanupFailure” error.
+Cmdlet may unexpectedly fail with an **AetCleanupFailure** error.
 
 ###Set-CMMaintenanceTask
 ####Bugs that were fixed
@@ -539,7 +538,7 @@ Changes to *Priority* parameter value may not apply to the status filter rule.
 
 ###Set-CMTaskSequence
 ####Deprecations
-*UseDefaultText* parameter has been deprecated. To use the default text, set *CustomText* to \$null.
+*UseDefaultText* parameter has been deprecated. To use the default text, set *CustomText* to $null.
 
 ###Set-CMWindowsEnrollmentProfile
 ####Bugs that were fixed
