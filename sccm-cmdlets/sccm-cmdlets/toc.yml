@@ -356,6 +356,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMDriverPackage.md
         - name: Get-CMEmailNotificationComponent
           href: ../ConfigurationManager/vlatest/Get-CMEmailNotificationComponent.md
+        - name: Get-CMEmailProfile
+          href: ../ConfigurationManager/vlatest/Get-CMEmailProfile.md
         - name: Get-CMEndpointProtectionPoint
           href: ../ConfigurationManager/vlatest/Get-CMEndpointProtectionPoint.md
         - name: Get-CMEndpointProtectionSummarizationSchedule
@@ -646,6 +648,8 @@
           href: ../ConfigurationManager/vlatest/New-CMDistributionPointGroup.md
         - name: New-CMDriverPackage
           href: ../ConfigurationManager/vlatest/New-CMDriverPackage.md
+        - name: New-CMEmailProfile
+          href: ../ConfigurationManager/vlatest/New-CMEmailProfile.md
         - name: New-CMExchangeClientAccessServer
           href: ../ConfigurationManager/vlatest/New-CMExchangeClientAccessServer.md
         - name: New-CMExchangeServer
@@ -1050,6 +1054,8 @@
           href: ../ConfigurationManager/vlatest/Set-CMDriverPackage.md
         - name: Set-CMEmailNotificationComponent
           href: ../ConfigurationManager/vlatest/Set-CMEmailNotificationComponent.md
+        - name: Set-CMEmailProfile
+          href: ../ConfigurationManager/vlatest/Set-CMEmailProfile.md
         - name: Set-CMEndpointProtectionPoint
           href: ../ConfigurationManager/vlatest/Set-CMEndpointProtectionPoint.md
         - name: Set-CMEndpointProtectionSummarizationSchedule
