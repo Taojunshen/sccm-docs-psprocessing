@@ -3,6 +3,8 @@
   items:
     - name: 1610_Release_Notes
       href: ../ConfigurationManager/1610_Release_Notes.md
+    - name: 1702_Release_Notes
+      href: ../ConfigurationManager/1702_Release_Notes.md
     - name: vlatest
       href: ../ConfigurationManager/vlatest/ConfigurationManager.md
       items:
@@ -22,6 +24,8 @@
           href: ../ConfigurationManager/vlatest/Add-CMAssetIntelligenceSynchronizationPoint.md
         - name: Add-CMBoundaryToGroup
           href: ../ConfigurationManager/vlatest/Add-CMBoundaryToGroup.md
+        - name: Add-CMCertificateRegistrationPoint
+          href: ../ConfigurationManager/vlatest/Add-CMCertificateRegistrationPoint.md
         - name: Add-CMDeploymentType
           href: ../ConfigurationManager/vlatest/Add-CMDeploymentType.md
         - name: Add-CMDeviceAffinityToUser
@@ -82,6 +86,8 @@
           href: ../ConfigurationManager/vlatest/Add-CMSecurityRoleToAdministrativeUser.md
         - name: Add-CMSecurityScopeToAdministrativeUser
           href: ../ConfigurationManager/vlatest/Add-CMSecurityScopeToAdministrativeUser.md
+        - name: Add-CMServiceConnectionPoint
+          href: ../ConfigurationManager/vlatest/Add-CMServiceConnectionPoint.md
         - name: Add-CMSoftwareUpdatePoint
           href: ../ConfigurationManager/vlatest/Add-CMSoftwareUpdatePoint.md
         - name: Add-CMSoftwareUpdateToGroup
@@ -262,6 +268,16 @@
           href: ../ConfigurationManager/vlatest/Get-CMBoundaryGroup.md
         - name: Get-CMCategory
           href: ../ConfigurationManager/vlatest/Get-CMCategory.md
+        - name: Get-CMCertificateProfilePfx
+          href: ../ConfigurationManager/vlatest/Get-CMCertificateProfilePfx.md
+        - name: Get-CMCertificateProfileScep
+          href: ../ConfigurationManager/vlatest/Get-CMCertificateProfileScep.md
+        - name: Get-CMCertificateProfileTrustedRootCA
+          href: ../ConfigurationManager/vlatest/Get-CMCertificateProfileTrustedRootCA.md
+        - name: Get-CMCertificateRegistrationPoint
+          href: ../ConfigurationManager/vlatest/Get-CMCertificateRegistrationPoint.md
+        - name: Get-CMClientCertificatePfx
+          href: ../ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
         - name: Get-CMClientPushInstallation
           href: ../ConfigurationManager/vlatest/Get-CMClientPushInstallation.md
         - name: Get-CMClientSetting
@@ -340,6 +356,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMDriverPackage.md
         - name: Get-CMEmailNotificationComponent
           href: ../ConfigurationManager/vlatest/Get-CMEmailNotificationComponent.md
+        - name: Get-CMEmailProfile
+          href: ../ConfigurationManager/vlatest/Get-CMEmailProfile.md
         - name: Get-CMEndpointProtectionPoint
           href: ../ConfigurationManager/vlatest/Get-CMEndpointProtectionPoint.md
         - name: Get-CMEndpointProtectionSummarizationSchedule
@@ -404,6 +422,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMSecurityRole.md
         - name: Get-CMSecurityScope
           href: ../ConfigurationManager/vlatest/Get-CMSecurityScope.md
+        - name: Get-CMServiceConnectionPoint
+          href: ../ConfigurationManager/vlatest/Get-CMServiceConnectionPoint.md
         - name: Get-CMSite
           href: ../ConfigurationManager/vlatest/Get-CMSite.md
         - name: Get-CMSiteInstallStatus
@@ -486,6 +506,8 @@
           href: ../ConfigurationManager/vlatest/Import-CMBaseline.md
         - name: Import-CMCertificate
           href: ../ConfigurationManager/vlatest/Import-CMCertificate.md
+        - name: Import-CMClientCertificatePfx
+          href: ../ConfigurationManager/vlatest/Import-CMClientCertificatePfx.md
         - name: Import-CMCollection
           href: ../ConfigurationManager/vlatest/Import-CMCollection.md
         - name: Import-CMComputerInformation
@@ -506,6 +528,8 @@
           href: ../ConfigurationManager/vlatest/Import-CMTaskSequence.md
         - name: Import-CMUserDeviceAffinity
           href: ../ConfigurationManager/vlatest/Import-CMUserDeviceAffinity.md
+        - name: Import-CMWirelessProfileConfigurationItem
+          href: ../ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
         - name: Install-CMClient
           href: ../ConfigurationManager/vlatest/Install-CMClient.md
         - name: Invoke-CMAmtProvisioningDiscovery
@@ -592,6 +616,12 @@
           href: ../ConfigurationManager/vlatest/New-CMCaptureMedia.md
         - name: New-CMCategory
           href: ../ConfigurationManager/vlatest/New-CMCategory.md
+        - name: New-CMCertificateProfilePfx
+          href: ../ConfigurationManager/vlatest/New-CMCertificateProfilePfx.md
+        - name: New-CMCertificateProfileScep
+          href: ../ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
+        - name: New-CMCertificateProfileTrustedRootCA
+          href: ../ConfigurationManager/vlatest/New-CMCertificateProfileTrustedRootCA.md
         - name: New-CMClientAuthCertificateProfileConfigurationItem
           href: ../ConfigurationManager/vlatest/New-CMClientAuthCertificateProfileConfigurationItem.md
         - name: New-CMClientSetting
@@ -618,6 +648,8 @@
           href: ../ConfigurationManager/vlatest/New-CMDistributionPointGroup.md
         - name: New-CMDriverPackage
           href: ../ConfigurationManager/vlatest/New-CMDriverPackage.md
+        - name: New-CMEmailProfile
+          href: ../ConfigurationManager/vlatest/New-CMEmailProfile.md
         - name: New-CMExchangeClientAccessServer
           href: ../ConfigurationManager/vlatest/New-CMExchangeClientAccessServer.md
         - name: New-CMExchangeServer
@@ -756,6 +788,10 @@
           href: ../ConfigurationManager/vlatest/Remove-CMBoundaryGroup.md
         - name: Remove-CMCategory
           href: ../ConfigurationManager/vlatest/Remove-CMCategory.md
+        - name: Remove-CMCertificateRegistrationPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMCertificateRegistrationPoint.md
+        - name: Remove-CMClientCertificatePfx
+          href: ../ConfigurationManager/vlatest/Remove-CMClientCertificatePfx.md
         - name: Remove-CMClientOperation
           href: ../ConfigurationManager/vlatest/Remove-CMClientOperation.md
         - name: Remove-CMClientSetting
@@ -856,6 +892,8 @@
           href: ../ConfigurationManager/vlatest/Remove-CMSecurityScope.md
         - name: Remove-CMSecurityScopeFromAdministrativeUser
           href: ../ConfigurationManager/vlatest/Remove-CMSecurityScopeFromAdministrativeUser.md
+        - name: Remove-CMServiceConnectionPoint
+          href: ../ConfigurationManager/vlatest/Remove-CMServiceConnectionPoint.md
         - name: Remove-CMSiteSystemServer
           href: ../ConfigurationManager/vlatest/Remove-CMSiteSystemServer.md
         - name: Remove-CMSoftwareMeteringRule
@@ -956,6 +994,14 @@
           href: ../ConfigurationManager/vlatest/Set-CMBoundary.md
         - name: Set-CMBoundaryGroup
           href: ../ConfigurationManager/vlatest/Set-CMBoundaryGroup.md
+        - name: Set-CMCertificateProfilePfx
+          href: ../ConfigurationManager/vlatest/Set-CMCertificateProfilePfx.md
+        - name: Set-CMCertificateProfileScep
+          href: ../ConfigurationManager/vlatest/Set-CMCertificateProfileScep.md
+        - name: Set-CMCertificateProfileTrustedRootCA
+          href: ../ConfigurationManager/vlatest/Set-CMCertificateProfileTrustedRootCA.md
+        - name: Set-CMCertificateRegistrationPoint
+          href: ../ConfigurationManager/vlatest/Set-CMCertificateRegistrationPoint.md
         - name: Set-CMClientAuthCertificateProfileConfigurationItem
           href: ../ConfigurationManager/vlatest/Set-CMClientAuthCertificateProfileConfigurationItem.md
         - name: Set-CMClientPushInstallation
@@ -1008,6 +1054,8 @@
           href: ../ConfigurationManager/vlatest/Set-CMDriverPackage.md
         - name: Set-CMEmailNotificationComponent
           href: ../ConfigurationManager/vlatest/Set-CMEmailNotificationComponent.md
+        - name: Set-CMEmailProfile
+          href: ../ConfigurationManager/vlatest/Set-CMEmailProfile.md
         - name: Set-CMEndpointProtectionPoint
           href: ../ConfigurationManager/vlatest/Set-CMEndpointProtectionPoint.md
         - name: Set-CMEndpointProtectionSummarizationSchedule
@@ -1096,6 +1144,8 @@
           href: ../ConfigurationManager/vlatest/Set-CMSecurityRole.md
         - name: Set-CMSecurityScope
           href: ../ConfigurationManager/vlatest/Set-CMSecurityScope.md
+        - name: Set-CMServiceConnectionPoint
+          href: ../ConfigurationManager/vlatest/Set-CMServiceConnectionPoint.md
         - name: Set-CMSite
           href: ../ConfigurationManager/vlatest/Set-CMSite.md
         - name: Set-CMSiteMaintenanceTask
