@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834181
 schema: 2.0.0
 ms.assetid: F27EC489-FE2F-4E0B-A376-2C3DF975E044
-updated_at: 3/8/2017 2:51 AM
+updated_at: 3/8/2017 3:12 AM
 ms.date: 3/8/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/93b506169f7d91439629794ef63e6cfc33263fff/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/084a840c19ff550066f775fa8796b32e3bfaeb1d/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -Thumbprint
-Specifies the thumbprint of the client PFX certificate. If you don not specify this parameter, all certificates for the user are returned.
+Specifies the thumbprint of the client PFX certificate. If you do not specify this parameter, all certificates for the user are returned.
 
 ```yaml
 Type: String
