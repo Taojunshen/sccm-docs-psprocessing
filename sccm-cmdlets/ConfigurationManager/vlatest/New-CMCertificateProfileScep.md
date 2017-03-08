@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834298
 schema: 2.0.0
 ms.assetid: FF85464C-9235-47F3-8981-D97C793053A8
-updated_at: 2/17/2017 6:27 PM
-ms.date: 2/17/2017
+updated_at: 3/8/2017 2:51 AM
+ms.date: 3/8/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/2b831a682081b7e75543b17886ab2280bd00c75f/sccm-cmdlets/ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/93b506169f7d91439629794ef63e6cfc33263fff/sccm-cmdlets/ConfigurationManager/vlatest/New-CMCertificateProfileScep.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -57,7 +57,7 @@ The command then creates a SEP certificate profile using the newly created trust
 PS C:\> New-CMCertificateProfileScep -CertificateTemplateName "TestTemplate02" -CertificateValidityDays 10 -Eku @{ "name1" ="1.2.3.4"; "name2" = "1.2.3.4.5" } -HashAlgorithm ShA1 -KeyUsage Digitalsignature -Name "TestSCEPProf02" -RootCertificate (New-CMCertificateProfileTrustedRootCA -Name testingSecond -Path "\\Server\Sharefolder\RootCA.cer" -SupportedPlatform (Get-CMSupportedPlatform  -Fast -Name "All Windows 10*Client")) -SupportedPlatform (Get-CMSupportedPlatform -Fast -Name "All Windows 10*Client") -CertificateStore User -Description "Test description" -EnrollmentRenewThresholdPct 2 -EnrollmentRetryCount 5 -EnrollmentRetryDelayMins 7 -KeySize 2048 -KeyStorageProvider InstallToTPM_FailIfNotPresent -RequireMultiFactor -SubjectType SubjectRequireEmail -SanType SubjectAltReqiureEmail
 ```
 
-This command creates a trusted root CA certificata, and gets all Windows 10 Client supported platforms.
+This command creates a trusted root CA certificate, and gets all Windows 10 Client supported platforms.
 The command then creates a SCEP certificate using the newly created root CA certificate and setting the certificate store to User.
 
 ## PARAMETERS
@@ -249,7 +249,7 @@ Accept wildcard characters: False
 ```
 
 ### -HashAlgorithm
-Specifies one or more hash algorithm. 
+Specifies one or more hash algorithm.
 Valid values are:
 
 - SHA1

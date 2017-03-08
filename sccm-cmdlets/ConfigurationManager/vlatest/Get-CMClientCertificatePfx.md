@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834181
 schema: 2.0.0
 ms.assetid: F27EC489-FE2F-4E0B-A376-2C3DF975E044
-updated_at: 2/17/2017 12:26 AM
-ms.date: 2/17/2017
+updated_at: 3/8/2017 2:51 AM
+ms.date: 3/8/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4e04bc97493f4205ab86f0f52a705ef3d93cb7ea/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/93b506169f7d91439629794ef63e6cfc33263fff/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMClientCertificatePfx.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -49,7 +49,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -64,7 +64,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -90,12 +90,12 @@ Accept wildcard characters: False
 ```
 
 ### -Thumbprint
-Specifies the thumbprint of the client PFX certificate.
+Specifies the thumbprint of the client PFX certificate. If you don not specify this parameter, all certificates for the user are returned.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ To get a value for this parameter, you can use the following command: `(Get-CMUs
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -140,5 +140,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Import-CMClientCertificatePfx](xref:ConfigurationManager/vlatest/Import-CMClientCertificatePfx.md)
 
 [Remove-CMClientCertificatePfx](xref:ConfigurationManager/vlatest/Remove-CMClientCertificatePfx.md)
-
-
