@@ -3,8 +3,6 @@
   items:
     - name: 1610_Release_Notes
       href: ../ConfigurationManager/1610_Release_Notes.md
-    - name: 1702_Release_Notes
-      href: ../ConfigurationManager/1702_Release_Notes.md
     - name: vlatest
       href: ../ConfigurationManager/vlatest/ConfigurationManager.md
       items:
