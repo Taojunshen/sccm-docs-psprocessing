@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834089
 schema: 2.0.0
 ms.assetid: 4E6D3504-C65F-4EE1-A914-FDC1100584BD
-updated_at: 3/9/2017 7:31 PM
+updated_at: 3/9/2017 7:52 PM
 ms.date: 3/9/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d55be6f3d3c96eb3faa4fd04af4511db87a87456/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/4c160e4a29685cc3c74c5f708c09a3227f517c78/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,8 +37,8 @@ The **Import-CMWirelessProfileConfigurationItem** cmdlet imports an existing wir
 
 ### Example 1: Import a wireless profile configuration item
 ```
-PS C:\> \<?xml version="1.0"?\>
-\<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1"\>
+PS C:\> &lt;?xml version="1.0"?&gt;
+&lt;WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1"&gt;
  <name>Open-WEP</name>
  <SSIDConfig>
   <SSID>
