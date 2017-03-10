@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834089
 schema: 2.0.0
 ms.assetid: 4E6D3504-C65F-4EE1-A914-FDC1100584BD
-updated_at: 3/9/2017 9:34 PM
+updated_at: 3/9/2017 9:35 PM
 ms.date: 3/9/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/190e80d2a2e75304248b97a68488d4c684c71f40/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/9694712bbfac3bcd4e8528613724f7d3a08db500/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,8 +37,8 @@ The **Import-CMWirelessProfileConfigurationItem** cmdlet imports an existing wir
 
 ### Example 1: Import a wireless profile configuration item
 ```
-PS C:\> \<?xml version="1.0"?\>
-\<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1"\>
+PS C:\><?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
  <name>Open-WEP</name>
  <SSIDConfig>
   <SSID>
@@ -94,7 +94,7 @@ Specifies a description for the wireless profile.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -109,7 +109,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -124,7 +124,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -139,7 +139,7 @@ Specifies the name of a wireless profile.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -165,7 +165,7 @@ Accept wildcard characters: False
 
 ### -Severity
 Specifies a non-compliance severity for reports.
-Valid values are:
+Valid values are: 
 
 - None
 - Informational
@@ -176,7 +176,7 @@ Valid values are:
 ```yaml
 Type: NoncomplianceSeverity
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: None, Informational, Warning, Critical, CriticalWithEvent
 
 Required: False
@@ -237,3 +237,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMWirelessProfileConfigurationItem](xref:ConfigurationManager/vlatest/New-CMWirelessProfileConfigurationItem.md)
 
 [Set-CMWirelessProfileConfigurationItem](xref:ConfigurationManager/vlatest/Set-CMWirelessProfileConfigurationItem.md)
+
+
