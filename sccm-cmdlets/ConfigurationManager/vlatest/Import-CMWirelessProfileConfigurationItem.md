@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Dcm.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834089
 schema: 2.0.0
 ms.assetid: 4E6D3504-C65F-4EE1-A914-FDC1100584BD
-updated_at: 3/9/2017 9:06 PM
+updated_at: 3/9/2017 9:33 PM
 ms.date: 3/9/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/ed8f20b58842a87091f0f4e54ea6d789ac660ffb/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/34648f4d9e417aaaa7ad1b8d6c7e02af4365da45/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,8 +37,8 @@ The **Import-CMWirelessProfileConfigurationItem** cmdlet imports an existing wir
 
 ### Example 1: Import a wireless profile configuration item
 
-
-`PS C:\> <?xml version="1.0"?>
+```
+PS C:\> `<?xml version="1.0"?>`
 <WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1>
  <name>Open-WEP</name>
  <SSIDConfig>
@@ -51,7 +51,7 @@ The **Import-CMWirelessProfileConfigurationItem** cmdlet imports an existing wir
  <connectionType>ESS</connectionType>
  <connectionMode>auto</connectionMode>
  <autoSwitch>true</autoSwitch>
-<MSM>
+ <MSM>
   <security>
    <authEncryption>
     <authentication>open</authentication>
@@ -61,10 +61,10 @@ The **Import-CMWirelessProfileConfigurationItem** cmdlet imports an existing wir
    <preAuthThrottle>3</preAuthThrottle>
   </security>
  </MSM>
-</WLANProfile>`
+</WLANProfile>
 
-`PS C:\> Import-CMWirelessProfileConfigurationItem -Name "Wireless2" -Description "Imported wireless profile" -Path "c:\WLanProfile.xml" -SupportedPlatform (Get-CMSupportedPlatform -Name "*Windows*10*" -Fast)`
-
+PS C:\> Import-CMWirelessProfileConfigurationItem -Name "Wireless2" -Description "Imported wireless profile" -Path "c:\WLanProfile.xml" -SupportedPlatform (Get-CMSupportedPlatform -Name "*Windows*10*" -Fast)
+```
 
 The first section provides xml content for the wireless profile.
 Save this content to "C:\WLanProfile.xml".
