@@ -7,7 +7,7 @@ updated_at: 3/9/2017 9:34 PM
 ms.date: 3/9/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/17237df0827ffc9e5254d7fdcd95e4a994a615f5/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/190e80d2a2e75304248b97a68488d4c684c71f40/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMWirelessProfileConfigurationItem.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -37,8 +37,8 @@ The **Import-CMWirelessProfileConfigurationItem** cmdlet imports an existing wir
 
 ### Example 1: Import a wireless profile configuration item
 ```
-PS C:\> &lt;?xml version="1.0"?&gt;
-&lt;WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1"&gt;
+PS C:\> \<?xml version="1.0"?\>
+\<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1"\>
  <name>Open-WEP</name>
  <SSIDConfig>
   <SSID>
