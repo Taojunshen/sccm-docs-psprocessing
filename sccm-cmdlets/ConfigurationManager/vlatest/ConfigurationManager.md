@@ -5,11 +5,11 @@ Download Help Link: http://go.microsoft.com/fwlink/?LinkId=799206
 Help Version: 5.0.1.0
 Locale: en-US
 ms.assetid: 0ADD6D91-97E0-4F79-ABE3-0174AA0C4750
-updated_at: 3/13/2017 8:32 PM
-ms.date: 3/13/2017
+updated_at: 3/14/2017 5:56 PM
+ms.date: 3/14/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/a8a65cf7d7eae4bcedd79e6466fd6acbffe1602c/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/ccf61168e86d4120cdc26f0ffd9b7560e92d36b5/sccm-cmdlets/ConfigurationManager/vlatest/ConfigurationManager.md
 uid: ConfigurationManager/vlatest/ConfigurationManager.md
 ms.topic: conceptual
 author: shill-ms
@@ -448,8 +448,14 @@ Gets a cmdlet update check configuration object.
 ### [Get-CMCollection](Get-CMCollection.md)
 Gets a collection.
 
+### [Get-CMCollectionMember](Get-CMCollectionMember.md)
+Gets a member of a collection.
+
 ### [Get-CMCollectionMembershipEvaluationComponent](Get-CMCollectionMembershipEvaluationComponent.md)
 Gets how often Configuration Manager evaluates collection membership.
+
+###[Get-CMCollectionSetting](Get-CMCollectionSetting.md)
+Gets the settings for a collection.
 
 ### [Get-CMComponentStatusMessage](Get-CMComponentStatusMessage.md)
 Gets component status messages in Configuration Manager.
@@ -820,6 +826,9 @@ Sends a notification to client computers to trigger an immediate client action.
 ### [Invoke-CMClientOperationSummarization](Invoke-CMClientOperationSummarization.md)
 Performs a Configuration Manager client operations summarization.
 
+### [Invoke-CMCollectionUpdate](Invoke-CMCollectionUpdate.md)
+Updates the membership of a collection.
+
 ### [Invoke-CMContentValidation](Invoke-CMContentValidation.md)
 Validates packages on a distribution point.
 
@@ -1032,6 +1041,9 @@ Adds an operating system installer.
 
 ### [New-CMPackage](New-CMPackage.md)
 Creates a Configuration Manager package.
+
+### [New-CMPowerManagementCustomPlan](New-CMPowerManagementCustomPlan.md)
+Creates a custom power management plan.
 
 ### [New-CMPrestagedMedia](New-CMPrestagedMedia.md)
 Creates prestaged media.
@@ -1539,6 +1551,9 @@ Sets a collection.
 
 ### [Set-CMCollectionMembershipEvaluationComponent](Set-CMCollectionMembershipEvaluationComponent.md)
 Sets how often Configuration Manager evaluates collections for membership.
+
+### [Set-CMCollectionPowerManagement](Set-CMCollectionPowerManagement.md)
+Configures power management settings for a device collection.
 
 ### [Set-CMComputerAssociation](Set-CMComputerAssociation.md)
 Changes settings for a computer association in Configuration Manager.
