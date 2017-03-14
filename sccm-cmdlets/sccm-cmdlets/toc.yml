@@ -290,8 +290,12 @@
           href: ../ConfigurationManager/vlatest/Get-CMCmdletUpdateCheck.md
         - name: Get-CMCollection
           href: ../ConfigurationManager/vlatest/Get-CMCollection.md
+        - name: Get-CMCollectionMember
+          href: ../ConfigurationManager/vlatest/Get-CMCollectionMember.md
         - name: Get-CMCollectionMembershipEvaluationComponent
           href: ../ConfigurationManager/vlatest/Get-CMCollectionMembershipEvaluationComponent.md
+        - name: Get-CMCollectionSetting
+          href: ../ConfigurationManager/vlatest/Get-CMCollectionSetting.md
         - name: Get-CMComponentStatusMessage
           href: ../ConfigurationManager/vlatest/Get-CMComponentStatusMessage.md
         - name: Get-CMComponentStatusSetting
@@ -538,6 +542,8 @@
           href: ../ConfigurationManager/vlatest/Invoke-CMClientNotification.md
         - name: Invoke-CMClientOperationSummarization
           href: ../ConfigurationManager/vlatest/Invoke-CMClientOperationSummarization.md
+        - name: Invoke-CMCollectionUpdate
+          href: ../ConfigurationManager/vlatest/Invoke-CMCollectionUpdate.md
         - name: Invoke-CMContentValidation
           href: ../ConfigurationManager/vlatest/Invoke-CMContentValidation.md
         - name: Invoke-CMDeploymentSummarization
@@ -680,6 +686,8 @@
           href: ../ConfigurationManager/vlatest/New-CMOperatingSystemInstaller.md
         - name: New-CMPackage
           href: ../ConfigurationManager/vlatest/New-CMPackage.md
+        - name: New-CMPowerManagementCustomPlan
+          href: ../ConfigurationManager/vlatest/New-CMPowerManagementCustomPlan.md
         - name: New-CMPrestagedMedia
           href: ../ConfigurationManager/vlatest/New-CMPrestagedMedia.md
         - name: New-CMProgram
@@ -1018,6 +1026,8 @@
           href: ../ConfigurationManager/vlatest/Set-CMCollection.md
         - name: Set-CMCollectionMembershipEvaluationComponent
           href: ../ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
+        - name: Set-CMCollectionPowerManagement
+          href: ../ConfigurationManager/vlatest/Set-CMCollectionPowerManagement.md
         - name: Set-CMComputerAssociation
           href: ../ConfigurationManager/vlatest/Set-CMComputerAssociation.md
         - name: Set-CMConditionalAccessPolicy
