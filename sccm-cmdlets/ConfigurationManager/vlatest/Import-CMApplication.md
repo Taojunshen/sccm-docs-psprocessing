@@ -3,11 +3,11 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834033
 schema: 2.0.0
 ms.assetid: 0CF8ACEA-3D7A-43E6-AA0B-408012386BEE
-updated_at: 3/15/2017 12:29 AM
+updated_at: 3/15/2017 5:10 PM
 ms.date: 3/15/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d9f2d13e074e123ab321d322788b43453a59147b/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/2fc18a6f666d5c6ddd9ed47e99ce6772d422a0fb/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -106,18 +106,18 @@ Specifies an import action type for the application.
 If this application already exists in the Software Library, Configuration Manager adds a revision to the existing application unless you modify the action to create a new application.
 Valid values are:
 
+- Skip.
+This option is not supported.
 - NotSet.
 No action is specified.
 The default behavior is:
     - If there is a conflict with the application model ID, a new revision is added to the existing application.
     - If there is a conflict with the application name, a new application is created with a new name.
-- Skip.
-This option is not supported.
 - DirectImport.
 Imports the application objects.
 The default behavior is:
     - If there is a conflict with the application model ID, the error is displayed.
-    - If there is a conflict with the application name, a new application is created with a new name. 
+    - If there is a conflict with the application name, a new application is created with a new name.
 - Rename.
 This option is not supported.
 - Overwrite.
