@@ -3,11 +3,11 @@ external help file: AdminUI.PS.HS.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833744
 schema: 2.0.0
 ms.assetid: DC548AD7-17F7-4455-8857-6342043439FA
-updated_at: 12/8/2016 6:40 PM
-ms.date: 12/8/2016
+updated_at: 3/15/2017 9:36 PM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/cada5695dfea912d5e249f0f0da4d1b9f2169f8d/sccm-cmdlets/ConfigurationManager/vlatest/Set-CMCollectionMembershipEvaluationComponent.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -73,7 +73,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -101,7 +101,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -116,7 +116,7 @@ By default, this cmdlet does not generate any output.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -130,7 +130,7 @@ Specifies an array of a site codes for Configuration Manager sites.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -139,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteSystemServerName
-
+**Note**: This parameter is deprecated starting with version 1610, and may be removed in a future release.
 
 ```yaml
 Type: String

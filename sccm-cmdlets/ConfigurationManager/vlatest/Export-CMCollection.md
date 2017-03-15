@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834017
 schema: 2.0.0
 ms.assetid: CD980A75-6FE0-429E-BCC3-26B98F4C9664
-updated_at: 12/6/2016 11:13 PM
-ms.date: 12/6/2016
+updated_at: 3/15/2017 9:36 PM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMCollection.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMCollection.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d1c6f0eeb340f832b2254d78bbd1bc9245dc24fc/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMCollection.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/cada5695dfea912d5e249f0f0da4d1b9f2169f8d/sccm-cmdlets/ConfigurationManager/vlatest/Export-CMCollection.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -70,7 +70,7 @@ If you do not specify a collection, all collections in the hierarchy are exporte
 ```yaml
 Type: String
 Parameter Sets: SearchByIdMandatory
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -98,7 +98,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -112,7 +112,7 @@ Specifies a comment for the exported collection.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -121,12 +121,12 @@ Accept wildcard characters: False
 ```
 
 ### -ExportFilePath
-Specifies the full path for the export file.
+Specifies the full path for the export file. The file name must end in ".mof".
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -140,7 +140,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -155,7 +155,7 @@ To obtain a collection object, use the [Get-CMCollection](./Get-CMCollection.md)
 ```yaml
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -170,7 +170,7 @@ If you do not specify a collection, all collections in the hierarchy are exporte
 ```yaml
 Type: String
 Parameter Sets: SearchByNameMandatory
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -213,5 +213,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMCollection](xref:ConfigurationManager/vlatest/Remove-CMCollection.md)
 
 [Set-CMCollection](xref:ConfigurationManager/vlatest/Set-CMCollection.md)
-
-
