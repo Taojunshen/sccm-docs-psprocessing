@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Collections.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=833827
 schema: 2.0.0
 ms.assetid: 2F3F29C9-FD9F-4335-8775-BC8D600F527D
-updated_at: 12/8/2016 6:40 PM
-ms.date: 12/8/2016
+updated_at: 3/15/2017 12:29 AM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMDevice.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMDevice.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0205e569abecf1b4e1b2b342947b87a3691b29a5/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMDevice.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/d9f2d13e074e123ab321d322788b43453a59147b/sccm-cmdlets/ConfigurationManager/vlatest/Block-CMDevice.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -115,7 +115,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -129,7 +129,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -144,9 +144,9 @@ To obtain a device object, use the [Get-CMDevice](./Get-CMDevice.md) cmdlet.
 ```yaml
 Type: IResultObject
 Parameter Sets: SearchByValueMandatory
-Aliases: 
+Aliases:
 Required: True
-Position: Named
+Position: 0
 Default value: None
 Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
@@ -185,5 +185,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMDevice](xref:ConfigurationManager/vlatest/Remove-CMDevice.md)
 
 [Unblock-CMDevice](xref:ConfigurationManager/vlatest/Unblock-CMDevice.md)
-
-

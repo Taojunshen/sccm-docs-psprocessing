@@ -3,11 +3,11 @@ external help file: AdminUI.PS.AppMan.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834033
 schema: 2.0.0
 ms.assetid: 0CF8ACEA-3D7A-43E6-AA0B-408012386BEE
-updated_at: 12/7/2016 9:59 PM
-ms.date: 12/7/2016
+updated_at: 3/15/2017 5:10 PM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/f515f556ebbba15d2592786d6aad82ee381435ec/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/2fc18a6f666d5c6ddd9ed47e99ce6772d422a0fb/sccm-cmdlets/ConfigurationManager/vlatest/Import-CMApplication.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -65,7 +65,7 @@ Indicates that wildcard handling is disabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -79,7 +79,7 @@ Specifies a file path for the application.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: True
 Position: Named
 Default value: None
@@ -93,7 +93,7 @@ Indicates that wildcard handling is enabled.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Required: False
 Position: Named
 Default value: None
@@ -104,32 +104,32 @@ Accept wildcard characters: False
 ### -ImportActionType
 Specifies an import action type for the application.
 If this application already exists in the Software Library, Configuration Manager adds a revision to the existing application unless you modify the action to create a new application.
-Valid values are: 
+Valid values are:
 
+- Skip.
+This option is not supported.
 - NotSet.
 No action is specified.
-The default behavior is: 
-      -- If there is a conflict with the application model ID, a new revision is added to the existing application.
-      -- If there is a conflict with the application name, a new application is created with a new name.
-- Skip.
-This option is not supported. 
+The default behavior is:
+    - If there is a conflict with the application model ID, a new revision is added to the existing application.
+    - If there is a conflict with the application name, a new application is created with a new name.
 - DirectImport.
 Imports the application objects.
-The default behavior is: 
-      -- If there is a conflict with the application model ID, the error is displayed. 
-      -- If there is a conflict with the application name, a new application is created with a new name. 
+The default behavior is:
+    - If there is a conflict with the application model ID, the error is displayed.
+    - If there is a conflict with the application name, a new application is created with a new name.
 - Rename.
-This option is not supported. 
+This option is not supported.
 - Overwrite.
 Maps objects despite name or scope duplication.
-If the revision of the application does not match the revision of the application to import, then a new revision is added to the existing application. 
+If the revision of the application does not match the revision of the application to import, then a new revision is added to the existing application.
 - ImportFail.
 This option is not supported.
 
 ```yaml
 Type: ImportActionType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: NotSet, Skip, DirectImport, Rename, Overwrite, ImportFail
 Required: False
 Position: Named
@@ -181,5 +181,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMApplication](xref:ConfigurationManager/vlatest/Set-CMApplication.md)
 
 [Suspend-CMApplication](xref:ConfigurationManager/vlatest/Suspend-CMApplication.md)
-
-
