@@ -266,6 +266,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMBoundaryGroup.md
         - name: Get-CMCategory
           href: ../ConfigurationManager/vlatest/Get-CMCategory.md
+        - name: Get-CMCertificate
+          href: ../ConfigurationManager/vlatest/Get-CMCertificate.md
         - name: Get-CMCertificateProfilePfx
           href: ../ConfigurationManager/vlatest/Get-CMCertificateProfilePfx.md
         - name: Get-CMCertificateProfileScep
