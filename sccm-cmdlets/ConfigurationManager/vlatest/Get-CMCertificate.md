@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Certificates.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834161
 schema: 2.0.0
 ms.assetid: 20865371-37E6-4090-9921-E2051D26D873
-updated_at: 3/16/2017 10:23 PM
-ms.date: 3/16/2017
+updated_at: 3/21/2017 8:04 PM
+ms.date: 3/21/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCertificate.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCertificate.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/878d763dc5aa42ef726c148331bcba954cf6773e/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCertificate.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/a4cd2a05811a8dfc03e4892c21047557462c5133/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCertificate.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -34,14 +34,14 @@ The **Get-CMCertificate** cmdlet gets a certificate.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get all certificates
 ```
 PS ABC:\> Get-CMCertificate
 ```
 
 This command gets all certificates.
 
-### Example 2:
+### Example 2: Get a certificate by ID and thumbprint
 ```
 PS ABC:\> Get-CMCertificate -Id "{4680a1bb-ae51-4bdf-8f27-979eb49e444e}" -Thumbprint e1c2fff14282b61f79f78fbfca6721f0517ab767 -CertificateType DistributionPoint -KeyType SelfSigned
 ```
