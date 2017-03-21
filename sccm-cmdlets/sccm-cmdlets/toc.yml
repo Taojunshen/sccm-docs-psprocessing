@@ -266,6 +266,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMBoundaryGroup.md
         - name: Get-CMCategory
           href: ../ConfigurationManager/vlatest/Get-CMCategory.md
+        - name: Get-CMCertificate
+          href: ../ConfigurationManager/vlatest/Get-CMCertificate.md
         - name: Get-CMCertificateProfilePfx
           href: ../ConfigurationManager/vlatest/Get-CMCertificateProfilePfx.md
         - name: Get-CMCertificateProfileScep
@@ -420,6 +422,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMQueryResultMaximum.md
         - name: Get-CMReportingServicePoint
           href: ../ConfigurationManager/vlatest/Get-CMReportingServicePoint.md
+        - name: Get-CMResource
+          href: ../ConfigurationManager/vlatest/Get-CMResource.md
         - name: Get-CMSecurityRole
           href: ../ConfigurationManager/vlatest/Get-CMSecurityRole.md
         - name: Get-CMSecurityScope
@@ -888,6 +892,8 @@
           href: ../ConfigurationManager/vlatest/Remove-CMProgram.md
         - name: Remove-CMReportingServicePoint
           href: ../ConfigurationManager/vlatest/Remove-CMReportingServicePoint.md
+        - name: Remove-CMResource
+          href: ../ConfigurationManager/vlatest/Remove-CMResource.md
         - name: Remove-CMSecondarySite
           href: ../ConfigurationManager/vlatest/Remove-CMSecondarySite.md
         - name: Remove-CMSecurityRole

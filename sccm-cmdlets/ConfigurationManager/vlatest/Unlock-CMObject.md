@@ -1,13 +1,13 @@
 ---
 external help file: AdminUI.PS.Common.dll-Help.xml
+ms.assetid: 66E1A4FB-1FF6-4DA5-8710-1A5AC6BEE641
 online version: https://go.microsoft.com/fwlink/?linkid=834278
 schema: 2.0.0
-ms.assetid: 66E1A4FB-1FF6-4DA5-8710-1A5AC6BEE641
-updated_at: 1/12/2017 8:44 PM
-ms.date: 1/12/2017
+updated_at: 3/15/2017 9:36 PM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Unlock-CMObject.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Unlock-CMObject.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/0d94594299d7ae0a133941bdb92e38d2e89a91e4/sccm-cmdlets/ConfigurationManager/vlatest/Unlock-CMObject.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/cada5695dfea912d5e249f0f0da4d1b9f2169f8d/sccm-cmdlets/ConfigurationManager/vlatest/Unlock-CMObject.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -25,8 +25,8 @@ Releases locks to global objects in Configuration Manager.
 ## SYNTAX
 
 ```
-Unlock-CMObject [-InputObject] <IResultObject[]> [-DisableWildcardHandling] [-ForceWildcardHandling] [-WhatIf]
- [-Confirm] [<CommonParameters>]
+Unlock-CMObject [-InputObject] <IResultObject[]> [-Force] [-DisableWildcardHandling] [-ForceWildcardHandling]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -51,20 +51,6 @@ The second command releases the lock the object in $CIObj.
 
 ## PARAMETERS
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -DisableWildcardHandling
 Indicates that wildcard handling is disabled.
 
@@ -72,6 +58,22 @@ Indicates that wildcard handling is disabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases:
+
 Required: False
 Position: Named
 Default value: None
@@ -86,6 +88,7 @@ Indicates that wildcard handling is enabled.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
+
 Required: False
 Position: Named
 Default value: None
@@ -100,10 +103,26 @@ Specifies an array of Configuration Manager objects output from another cmdlet.
 Type: IResultObject[]
 Parameter Sets: (All)
 Aliases:
+
 Required: True
 Position: 0
 Default value: None
 Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -115,6 +134,7 @@ The cmdlet is not run.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
+
 Required: False
 Position: Named
 Default value: False

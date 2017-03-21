@@ -1,13 +1,13 @@
 ---
 external help file: AdminUI.PS.Dcm-help.xml
+ms.assetid: E45BED4A-8286-46FF-A3F1-4E54B7D77F90
 online version: https://go.microsoft.com/fwlink/?linkid=834170
 schema: 2.0.0
-ms.assetid: E45BED4A-8286-46FF-A3F1-4E54B7D77F90
-updated_at: 2/17/2017 8:44 PM
-ms.date: 2/17/2017
+updated_at: 3/15/2017 9:36 PM
+ms.date: 3/15/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCertificateProfileScep.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/live/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCertificateProfileScep.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/856ffc1e46b17afe4598fc0b1014e210c0bfa796/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCertificateProfileScep.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/cada5695dfea912d5e249f0f0da4d1b9f2169f8d/sccm-cmdlets/ConfigurationManager/vlatest/Get-CMCertificateProfileScep.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
