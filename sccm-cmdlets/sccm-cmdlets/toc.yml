@@ -504,6 +504,8 @@
           href: ../ConfigurationManager/vlatest/Get-CMVhd.md
         - name: Get-CMWindowsServicingPlan
           href: ../ConfigurationManager/vlatest/Get-CMWindowsServicingPlan.md
+        - name: Get-CMWinPEOptionalComponentInfo
+          href: ../ConfigurationManager/vlatest/Get-CMWinPEOptionalComponentInfo.md
         - name: Import-CMAntimalwarePolicy
           href: ../ConfigurationManager/vlatest/Import-CMAntimalwarePolicy.md
         - name: Import-CMApplication
@@ -686,6 +688,8 @@
           href: ../ConfigurationManager/vlatest/New-CMMigrationJob.md
         - name: New-CMOperatingSystemImage
           href: ../ConfigurationManager/vlatest/New-CMOperatingSystemImage.md
+        - name: New-CMOperatingSystemImageUpdateSchedule
+          href: ../ConfigurationManager/vlatest/New-CMOperatingSystemImageUpdateSchedule.md
         - name: New-CMOperatingSystemInstaller
           href: ../ConfigurationManager/vlatest/New-CMOperatingSystemInstaller.md
         - name: New-CMPackage
@@ -942,6 +946,8 @@
           href: ../ConfigurationManager/vlatest/Remove-CMUserCollectionQueryMembershipRule.md
         - name: Remove-CMVhd
           href: ../ConfigurationManager/vlatest/Remove-CMVhd.md
+        - name: Rename-CMCategory
+          href: ../ConfigurationManager/vlatest/Rename-CMCategory.md
         - name: Resolve-CMInventoriedSoftwareConflict
           href: ../ConfigurationManager/vlatest/Resolve-CMInventoriedSoftwareConflict.md
         - name: Restore-CMApplicationRevisionHistory
