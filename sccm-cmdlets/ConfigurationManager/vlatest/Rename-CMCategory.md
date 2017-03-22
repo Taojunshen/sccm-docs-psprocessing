@@ -3,11 +3,11 @@ external help file: AdminUI.PS.Osd.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=834293
 schema: 2.0.0
 ms.assetid: AC1A56D7-0868-4302-B93D-423F21BFD2E0
-updated_at: 3/21/2017 10:58 PM
-ms.date: 3/21/2017
+updated_at: 3/22/2017 5:56 PM
+ms.date: 3/22/2017
 content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Rename-CMCategory.md
 original_content_git_url: https://github.com/Microsoft/sccm-docs-powershell/blob/master/sccm-cmdlets/ConfigurationManager/vlatest/Rename-CMCategory.md
-gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/19b0a2cde22ac11c02081e258229d03c5d581339/sccm-cmdlets/ConfigurationManager/vlatest/Rename-CMCategory.md
+gitcommit: https://github.com/Microsoft/sccm-docs-powershell/blob/9d9aecc101208d750d3d10b8a876c7b5e01c7efd/sccm-cmdlets/ConfigurationManager/vlatest/Rename-CMCategory.md
 ms.topic: reference
 author: shill-ms
 ms.author: v-suhill
@@ -79,15 +79,16 @@ Valid values are:
 
 ```yaml
 Type: CategoryType
-Parameter Sets: ByName
+Parameter Sets: RenameCategoryByName
 Aliases:
 Accepted values: AppCategories, BaselineCategories, CatalogCategories, DriverCategories, UserCategories
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
+```
 
 ### -Confirm
 Prompts you for confirmation before running the cmdlet.
